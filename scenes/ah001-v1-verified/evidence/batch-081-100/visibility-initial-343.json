@@ -1,0 +1,4749 @@
+{
+  "review": "Report-only geometry; no asset/source edits",
+  "canvasSource": "Each scene actual master size",
+  "referencePicturePoints": [
+    343,
+    428.75
+  ],
+  "formula": "Production shader projected=(source-center)*zoom+center+pointOffset*canvas/picturePoints",
+  "actualFramesMs": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000,
+    1050,
+    1100,
+    1150,
+    1200,
+    1250,
+    1300,
+    1350,
+    1400,
+    1450,
+    1500,
+    1550,
+    1600,
+    1650,
+    1700,
+    1750,
+    1800,
+    1850,
+    1900,
+    1950,
+    2000,
+    2050,
+    2100,
+    2150,
+    2200,
+    2250,
+    2300,
+    2350,
+    2400,
+    2450,
+    2500,
+    2550,
+    2600,
+    2650,
+    2700,
+    2750,
+    2800,
+    2850,
+    2900,
+    2950,
+    3000
+  ],
+  "independentWorstCase": "105%zoom plus maximum declared point movement; peak movement and final zoom do not occur together",
+  "rows": [
+    {
+      "level": 21,
+      "part": 1,
+      "source": "ah001-021-food-drink/part-1.png",
+      "sha256": "d741d07e0c59adb14a61e5df7c5ab57d364d3c7eb9db8317b075b12ef0e31704",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        39,
+        545,
+        140,
+        130
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5881,
+      "firstClippedMs": 2300,
+      "actualCurveWorst": {
+        "elapsedMs": 2300,
+        "count": 11,
+        "alphaWeightPercent": 0.09849,
+        "edges": [
+          "left"
+        ]
+      },
+      "conservative105PlusPeakBounds": [
+        -4.4021,
+        532.775,
+        169.3021,
+        668.225
+      ],
+      "conservativeWorstClearance": -4.4021
+    },
+    {
+      "level": 21,
+      "part": 2,
+      "source": "ah001-021-food-drink/part-2.png",
+      "sha256": "20ff83e91d7bb512f588c60a304e26ac145d8cdceb614a9268c0601a00859565",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1024,
+        226,
+        190,
+        191
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9541,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1029.8479,
+        198.875,
+        1255.0021,
+        396.275
+      ],
+      "conservativeWorstClearance": 24.9979
+    },
+    {
+      "level": 21,
+      "part": 3,
+      "source": "ah001-021-food-drink/part-3.png",
+      "sha256": "62299c3e572863fb75dcad1ab6eb94583aecdde6b40a4220bab5dc03510a4968",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        176,
+        662,
+        130,
+        211
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5554,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        140.4979,
+        656.675,
+        301.6021,
+        874.025
+      ],
+      "conservativeWorstClearance": 140.4979
+    },
+    {
+      "level": 21,
+      "part": 4,
+      "source": "ah001-021-food-drink/part-4.png",
+      "sha256": "19c685e4e44b7c84d194eb4f647443136c7ffce4284ef1f45e3aee3261bec177",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        608,
+        436,
+        93,
+        86
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3806,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        591.9979,
+        418.325,
+        718.4521,
+        507.575
+      ],
+      "conservativeWorstClearance": 418.325
+    },
+    {
+      "level": 21,
+      "part": 5,
+      "source": "ah001-021-food-drink/part-5.png",
+      "sha256": "02e0d4fb2f8a20d693900a85221aab67bc602a198fd3b1d431e02bf9ecbd6254",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        729,
+        966,
+        104,
+        76
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3731,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        719.0479,
+        975.875,
+        856.0021,
+        1052.525
+      ],
+      "conservativeWorstClearance": 423.9979
+    },
+    {
+      "level": 22,
+      "part": 1,
+      "source": "ah001-022-markets-shops/part-1.png",
+      "sha256": "4a5a733f4198e0769d3d6169257a5f54040f0466cdb1b1017d238a7bb671d126",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        273,
+        229,
+        145,
+        150
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8808,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        241.2979,
+        202.025,
+        420.2521,
+        356.375
+      ],
+      "conservativeWorstClearance": 202.025
+    },
+    {
+      "level": 22,
+      "part": 2,
+      "source": "ah001-022-markets-shops/part-2.png",
+      "sha256": "a2de212f446c75fa3ae56d6910b57c1cd9571d34f075ccfeec8571d8cc6392a5",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        920,
+        310,
+        60,
+        107
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2595,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        920.6479,
+        287.075,
+        1011.4021,
+        395.225
+      ],
+      "conservativeWorstClearance": 268.5979
+    },
+    {
+      "level": 22,
+      "part": 3,
+      "source": "ah001-022-markets-shops/part-3.png",
+      "sha256": "64c7c30a2353544c8aabde4132e5c760de41c09087d253a004c5091092760d16",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        966,
+        763,
+        100,
+        122
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3192,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        968.9479,
+        761.675,
+        1100.6521,
+        887.675
+      ],
+      "conservativeWorstClearance": 179.3479
+    },
+    {
+      "level": 22,
+      "part": 4,
+      "source": "ah001-022-markets-shops/part-4.png",
+      "sha256": "da9781074bccc142da4aa1eaefab60d03caf165b8e60299e85362b440b3ce7ec",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        78,
+        484,
+        185,
+        192
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 12301,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        36.5479,
+        469.775,
+        257.5021,
+        668.225
+      ],
+      "conservativeWorstClearance": 36.5479
+    },
+    {
+      "level": 22,
+      "part": 5,
+      "source": "ah001-022-markets-shops/part-5.png",
+      "sha256": "40e28884c229a0fafdafcc09ae4528259c02b6853e21576ba90f0e9f2fa678bd",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        568,
+        802,
+        115,
+        97
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4973,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        551.0479,
+        802.625,
+        699.5521,
+        903.425
+      ],
+      "conservativeWorstClearance": 551.0479
+    },
+    {
+      "level": 23,
+      "part": 1,
+      "source": "ah001-023-nature-gardens/part-1.png",
+      "sha256": "d3c44460b2e1d3b55aa9362b634057a4649638fd9f32da474498b7a846a9232c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        202,
+        201,
+        145,
+        131
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6759,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        165.6979,
+        172.625,
+        345.7021,
+        307.025
+      ],
+      "conservativeWorstClearance": 165.6979
+    },
+    {
+      "level": 23,
+      "part": 2,
+      "source": "ah001-023-nature-gardens/part-2.png",
+      "sha256": "652c89750310fe530dfffe100b4cc2ee2349e2de9ddc746fa4f9edae0ae0006b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1140,
+        353,
+        128,
+        250
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 15987,
+      "firstClippedMs": 500,
+      "actualCurveWorst": {
+        "elapsedMs": 3000,
+        "count": 1484,
+        "alphaWeightPercent": 8.90535,
+        "edges": [
+          "right"
+        ]
+      },
+      "conservative105PlusPeakBounds": [
+        1152.6979,
+        333.275,
+        1311.7021,
+        590.525
+      ],
+      "conservativeWorstClearance": -31.7021
+    },
+    {
+      "level": 23,
+      "part": 3,
+      "source": "ah001-023-nature-gardens/part-3.png",
+      "sha256": "e271a4cb8cd4e8bd8071a74d1655b141b4edabbbb26ccfb9db420230c194b752",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        241,
+        737,
+        171,
+        200
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10624,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        207.6979,
+        735.425,
+        413.9521,
+        942.275
+      ],
+      "conservativeWorstClearance": 207.6979
+    },
+    {
+      "level": 23,
+      "part": 4,
+      "source": "ah001-023-nature-gardens/part-4.png",
+      "sha256": "7794fbc53dad55b495f4acde98f4f63280682e49f292aadc187553605020d436",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1050,
+        1052,
+        203,
+        190
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10919,
+      "firstClippedMs": 3000,
+      "actualCurveWorst": {
+        "elapsedMs": 3000,
+        "count": 12,
+        "alphaWeightPercent": 0.01554,
+        "edges": [
+          "right"
+        ]
+      },
+      "conservative105PlusPeakBounds": [
+        1057.1479,
+        1066.175,
+        1295.9521,
+        1262.525
+      ],
+      "conservativeWorstClearance": -15.9521
+    },
+    {
+      "level": 23,
+      "part": 5,
+      "source": "ah001-023-nature-gardens/part-5.png",
+      "sha256": "41ac24505d760711e31598921e9690fda2f9fca1345e1258d2b0409963e0029e",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        638,
+        204,
+        105,
+        41
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2067,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        624.5479,
+        174.725,
+        760.4521,
+        216.725
+      ],
+      "conservativeWorstClearance": 174.725
+    },
+    {
+      "level": 24,
+      "part": 1,
+      "source": "ah001-024-streets-squares/part-1.png",
+      "sha256": "f6db21dc4db150508e5a61c449943339fd2a278b3adf6a9200f59ebd1915dcbc",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        175,
+        454,
+        130,
+        114
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5929,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        138.3979,
+        438.275,
+        301.6021,
+        554.825
+      ],
+      "conservativeWorstClearance": 138.3979
+    },
+    {
+      "level": 24,
+      "part": 2,
+      "source": "ah001-024-streets-squares/part-2.png",
+      "sha256": "cf6c7ca81acf67eb3d27040be0febc48b28e8a0693f3d0e18d568b9fde24af6a",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        842,
+        429,
+        128,
+        134
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6803,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        838.7479,
+        412.025,
+        999.8521,
+        549.575
+      ],
+      "conservativeWorstClearance": 280.1479
+    },
+    {
+      "level": 24,
+      "part": 3,
+      "source": "ah001-024-streets-squares/part-3.png",
+      "sha256": "cef6080df9bc8539c6cb7497d9bf4816bad92b1fac6dab46052c0f61be50deec",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        830,
+        126,
+        170,
+        65
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4934,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        826.1479,
+        93.875,
+        1030.3021,
+        158.975
+      ],
+      "conservativeWorstClearance": 93.875
+    },
+    {
+      "level": 24,
+      "part": 4,
+      "source": "ah001-024-streets-squares/part-4.png",
+      "sha256": "def4e8a559ef9e6d20f35e7d9257364ebe07714aedbef9808fecccfbf290d188",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        96,
+        1160,
+        170,
+        182
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9708,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        55.4479,
+        1179.575,
+        260.6521,
+        1367.525
+      ],
+      "conservativeWorstClearance": 55.4479
+    },
+    {
+      "level": 24,
+      "part": 5,
+      "source": "ah001-024-streets-squares/part-5.png",
+      "sha256": "ec43a891d3f87e4d7453d9909bda68674300cbfa3eb73cd0eda747a9f7607aed",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        765,
+        1398,
+        176,
+        105
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7335,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        758.9479,
+        1429.475,
+        969.4021,
+        1536.575
+      ],
+      "conservativeWorstClearance": 63.425
+    },
+    {
+      "level": 25,
+      "part": 1,
+      "source": "ah001-025-interiors/part-1.png",
+      "sha256": "04297442fd24eed546577fda59658ee183652b12686fabf65fa082b8ebdc8665",
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        359,
+        820,
+        87,
+        190
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7236,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        347.575,
+        808.6979,
+        434.725,
+        1032.8021
+      ],
+      "conservativeWorstClearance": 347.575
+    },
+    {
+      "level": 25,
+      "part": 2,
+      "source": "ah001-025-interiors/part-2.png",
+      "sha256": "bcd554d2190d797a6a47a3378e6656c05db3b407dfc1078910ad83171e5e0408",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1027,
+        385,
+        160,
+        171
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8490,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1032.9979,
+        365.825,
+        1227.7021,
+        542.225
+      ],
+      "conservativeWorstClearance": 52.2979
+    },
+    {
+      "level": 25,
+      "part": 3,
+      "source": "ah001-025-interiors/part-3.png",
+      "sha256": "927f9b62708e8f50453da91600bd5efa686c8ce65c5ecd1e3cebad8ebdf63909",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        622,
+        621,
+        105,
+        212
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3909,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        608.7979,
+        614.675,
+        742.6021,
+        832.025
+      ],
+      "conservativeWorstClearance": 537.3979
+    },
+    {
+      "level": 25,
+      "part": 4,
+      "source": "ah001-025-interiors/part-4.png",
+      "sha256": "2d83e2dad6e3abc697e648e8e0365f93c5fe0077157e97b571ef82f72e6551b4",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        84,
+        362,
+        70,
+        65
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2387,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        42.8479,
+        340.625,
+        144.1021,
+        407.825
+      ],
+      "conservativeWorstClearance": 42.8479
+    },
+    {
+      "level": 25,
+      "part": 5,
+      "source": "ah001-025-interiors/part-5.png",
+      "sha256": "c51114a6c3d185c9bb613aa6d0842c2ecdabeb2ef30a490a9d3db6af4eca508c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        455,
+        744,
+        100,
+        72
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2244,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        432.3979,
+        741.725,
+        565.1521,
+        816.275
+      ],
+      "conservativeWorstClearance": 432.3979
+    },
+    {
+      "level": 26,
+      "part": 1,
+      "source": "ah001-026-transport/part-1.png",
+      "sha256": "33bddc782723c78d3ba63caf334ae788519c048f720ede96cb7c944957f22005",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        587,
+        105,
+        210,
+        80
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8655,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        572.0479,
+        72.875,
+        816.1021,
+        152.675
+      ],
+      "conservativeWorstClearance": 72.875
+    },
+    {
+      "level": 26,
+      "part": 2,
+      "source": "ah001-026-transport/part-2.png",
+      "sha256": "18daf757ad9579b3ef43d63d43fa4cea43c0cfbb8427ccb05d6785422c6a1b8f",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        508,
+        624,
+        100,
+        91
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2922,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        488.0479,
+        615.725,
+        619.7521,
+        709.175
+      ],
+      "conservativeWorstClearance": 488.0479
+    },
+    {
+      "level": 26,
+      "part": 3,
+      "source": "ah001-026-transport/part-3.png",
+      "sha256": "9de2289a1f48997a693e0b9f0573ca6007b91ba8417c0ec55bc1182c3bd8cf20",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        45,
+        893,
+        170,
+        170
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 14613,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1.8979,
+        899.225,
+        207.1021,
+        1074.575
+      ],
+      "conservativeWorstClearance": 1.8979
+    },
+    {
+      "level": 26,
+      "part": 4,
+      "source": "ah001-026-transport/part-4.png",
+      "sha256": "f3a63750d17db2135226f240f0106ed09269bbacf3c0602a3a6401e76757fe8e",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        379,
+        1324,
+        210,
+        212
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 15801,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        352.5979,
+        1351.775,
+        599.8021,
+        1571.225
+      ],
+      "conservativeWorstClearance": 28.775
+    },
+    {
+      "level": 26,
+      "part": 5,
+      "source": "ah001-026-transport/part-5.png",
+      "sha256": "af08804b4a94c76219a2b3e92db30dc26f18e3175dcf1329f46d5bbf28120b20",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1052,
+        1325,
+        176,
+        100
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8198,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1059.2479,
+        1352.825,
+        1270.7521,
+        1454.675
+      ],
+      "conservativeWorstClearance": 9.2479
+    },
+    {
+      "level": 27,
+      "part": 1,
+      "source": "ah001-027-crafts-objects/part-1.png",
+      "sha256": "0b42ec8bb0f3947f221dd9ce56487c789ed3c7195b75c473625d8975d4fa8ec0",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        284,
+        285,
+        132,
+        110
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5207,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        252.8479,
+        260.825,
+        418.1521,
+        373.175
+      ],
+      "conservativeWorstClearance": 252.8479
+    },
+    {
+      "level": 27,
+      "part": 2,
+      "source": "ah001-027-crafts-objects/part-2.png",
+      "sha256": "8aaccf0b4c3b66ab849bd92f611bba783f98c10e444341fa51268e4d90f4d60f",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        542,
+        146,
+        75,
+        78
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2886,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        522.6979,
+        113.825,
+        629.2021,
+        193.625
+      ],
+      "conservativeWorstClearance": 113.825
+    },
+    {
+      "level": 27,
+      "part": 3,
+      "source": "ah001-027-crafts-objects/part-3.png",
+      "sha256": "50961af676938c2dca9c01d96f3f992a8ef340bd160793eb8d392c707b94f3dc",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        680,
+        1140,
+        100,
+        121
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2682,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        668.6479,
+        1158.575,
+        800.3521,
+        1282.475
+      ],
+      "conservativeWorstClearance": 317.525
+    },
+    {
+      "level": 27,
+      "part": 4,
+      "source": "ah001-027-crafts-objects/part-4.png",
+      "sha256": "a1d85fc32a5b457631319fb110c1df6da1218b0224f885cc7185d379fe7309e4",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1163,
+        411,
+        65,
+        92
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2093,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1174.7479,
+        392.075,
+        1271.8021,
+        487.625
+      ],
+      "conservativeWorstClearance": 8.1979
+    },
+    {
+      "level": 27,
+      "part": 5,
+      "source": "ah001-027-crafts-objects/part-5.png",
+      "sha256": "1c17adfaa3170b35428f07774f90bc147b7e7df4e456e8b3008a1a863a263179",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        112,
+        1357,
+        85,
+        66
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2951,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        72.2479,
+        1386.425,
+        188.2021,
+        1452.575
+      ],
+      "conservativeWorstClearance": 72.2479
+    },
+    {
+      "level": 28,
+      "part": 1,
+      "source": "ah001-028-animals/part-1.png",
+      "sha256": "cff6b0a5dfa359d7541f3009f7cfdb75555659f429ce4aadbe2a677e33e600c0",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        272,
+        395,
+        205,
+        76
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6437,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        240.2479,
+        376.325,
+        482.2021,
+        452.975
+      ],
+      "conservativeWorstClearance": 240.2479
+    },
+    {
+      "level": 28,
+      "part": 2,
+      "source": "ah001-028-animals/part-2.png",
+      "sha256": "33e35406e2158bf35a26ca4283139493ee3b2640104e49971d3cef06be9f5090",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        856,
+        1153,
+        205,
+        94
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9969,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        853.4479,
+        1175.375,
+        1095.4021,
+        1266.725
+      ],
+      "conservativeWorstClearance": 184.5979
+    },
+    {
+      "level": 28,
+      "part": 3,
+      "source": "ah001-028-animals/part-3.png",
+      "sha256": "50a54bcf2a31038bf9fcefa8965fd1a67e1c1be8e263d7396808e75711e2eab1",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        47,
+        1295,
+        160,
+        167
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6713,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        3.9979,
+        1322.375,
+        198.7021,
+        1493.525
+      ],
+      "conservativeWorstClearance": 3.9979
+    },
+    {
+      "level": 28,
+      "part": 4,
+      "source": "ah001-028-animals/part-4.png",
+      "sha256": "9fe50210e8e1dce3d9f04b8628a2c83beaf9fb5ccd729883922e6735de79b4ce",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        958,
+        1418,
+        165,
+        91
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10914,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        960.5479,
+        1450.475,
+        1160.5021,
+        1542.875
+      ],
+      "conservativeWorstClearance": 57.125
+    },
+    {
+      "level": 28,
+      "part": 5,
+      "source": "ah001-028-animals/part-5.png",
+      "sha256": "6802802038baebb0bc0b4bc3c8e5aa8d0d128dbcfb411dc436eed53aaf2d4130",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        271,
+        803,
+        90,
+        94
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2845,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        239.1979,
+        804.725,
+        359.3521,
+        900.275
+      ],
+      "conservativeWorstClearance": 239.1979
+    },
+    {
+      "level": 29,
+      "part": 1,
+      "source": "ah001-029-water-coast/part-1.png",
+      "sha256": "7b5dd1081b29652323a20e387d6724a42d2ee0206fe682d5c5a2d09fba4d99d1",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        290,
+        545,
+        180,
+        70
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7297,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        259.1479,
+        535.925,
+        473.8021,
+        604.175
+      ],
+      "conservativeWorstClearance": 259.1479
+    },
+    {
+      "level": 29,
+      "part": 2,
+      "source": "ah001-029-water-coast/part-2.png",
+      "sha256": "425caceefbf496a395fc85778027cd9434f5462ef6c0c9a4ad1e5617b97514d0",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        615,
+        402,
+        150,
+        56
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4403,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        600.3979,
+        384.725,
+        784.6021,
+        438.275
+      ],
+      "conservativeWorstClearance": 384.725
+    },
+    {
+      "level": 29,
+      "part": 3,
+      "source": "ah001-029-water-coast/part-3.png",
+      "sha256": "bfe5345a7a1dd542d9eff5e114711293cca721ce0dfc94c4a82ab0b66018d494",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        934,
+        968,
+        180,
+        185
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 12605,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        936.3979,
+        977.975,
+        1150.0021,
+        1168.025
+      ],
+      "conservativeWorstClearance": 129.9979
+    },
+    {
+      "level": 29,
+      "part": 4,
+      "source": "ah001-029-water-coast/part-4.png",
+      "sha256": "dbf82555cda46a120325f4c0349aecb09ab3274c76e19da1c16ec52bebe68d74",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        640,
+        51,
+        177,
+        100
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9145,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        626.6479,
+        15.125,
+        839.2021,
+        115.925
+      ],
+      "conservativeWorstClearance": 15.125
+    },
+    {
+      "level": 29,
+      "part": 5,
+      "source": "ah001-029-water-coast/part-5.png",
+      "sha256": "5d793ae10fc9ec19fa72482f1499c654b7e33391351dd7bcb9310359435d4a9c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1015,
+        187,
+        150,
+        46
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3216,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1021.4479,
+        157.925,
+        1204.6021,
+        203.075
+      ],
+      "conservativeWorstClearance": 75.3979
+    },
+    {
+      "level": 30,
+      "part": 1,
+      "source": "ah001-030-festivals-music/part-1.png",
+      "sha256": "f3977700b4fa02c8a3377b5f2e9d272a0e5d7360330a637cd202b55011355255",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        377,
+        284,
+        99,
+        145
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5982,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        350.4979,
+        259.775,
+        481.1521,
+        408.875
+      ],
+      "conservativeWorstClearance": 259.775
+    },
+    {
+      "level": 30,
+      "part": 2,
+      "source": "ah001-030-festivals-music/part-2.png",
+      "sha256": "076248b6ce4cfb37957b8479e2932e24685a4db532ab49ce74ea5c5218c18729",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        765,
+        275,
+        115,
+        149
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 11231,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        758.9479,
+        250.325,
+        905.3521,
+        403.625
+      ],
+      "conservativeWorstClearance": 250.325
+    },
+    {
+      "level": 30,
+      "part": 3,
+      "source": "ah001-030-festivals-music/part-3.png",
+      "sha256": "4acaa73958e4417f504a0576281cb656193a4290dcbaec268d83e8bae1130ea0",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        969,
+        556,
+        144,
+        130
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7681,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        972.0979,
+        545.375,
+        1150.0021,
+        678.725
+      ],
+      "conservativeWorstClearance": 129.9979
+    },
+    {
+      "level": 30,
+      "part": 4,
+      "source": "ah001-030-festivals-music/part-4.png",
+      "sha256": "4628fc4cb6d974851b72da25fced41e1957ad5d60951d4d811899c37bb34ba4c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        229,
+        846,
+        135,
+        156
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7283,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        195.0979,
+        849.875,
+        363.5521,
+        1010.525
+      ],
+      "conservativeWorstClearance": 195.0979
+    },
+    {
+      "level": 30,
+      "part": 5,
+      "source": "ah001-030-festivals-music/part-5.png",
+      "sha256": "a93d2ba7e19a2c94510570efd341fdd1ac4c2e17938a1f77d6d087b6bbdfeb0b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        245,
+        538,
+        100,
+        175
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6077,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        211.8979,
+        527.525,
+        343.6021,
+        706.025
+      ],
+      "conservativeWorstClearance": 211.8979
+    },
+    {
+      "level": 81,
+      "part": 1,
+      "source": "ah001-081-food-drink/part-1.png",
+      "sha256": "8265682d705b3de30e18cb8d86d6065c4aee45d1bc6c54f73869469bc9e781e7",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        382,
+        440,
+        75,
+        75
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2741,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        354.6979,
+        422.525,
+        461.2021,
+        499.175
+      ],
+      "conservativeWorstClearance": 354.6979
+    },
+    {
+      "level": 81,
+      "part": 2,
+      "source": "ah001-081-food-drink/part-2.png",
+      "sha256": "9e7091af67cf7c701d4d2ce43257c81c415cdf0156f544040fb686f5fe5ce83a",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1025,
+        654,
+        66,
+        65
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 1586,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1029.8479,
+        647.225,
+        1127.9521,
+        714.425
+      ],
+      "conservativeWorstClearance": 152.0479
+    },
+    {
+      "level": 81,
+      "part": 3,
+      "source": "ah001-081-food-drink/part-3.png",
+      "sha256": "4f2f4cef40128ee3eb8aa939d152312764a954e39d2b9a14fbca0ff98d03b939",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        102,
+        425,
+        125,
+        190
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7216,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        61.7479,
+        407.825,
+        219.7021,
+        604.175
+      ],
+      "conservativeWorstClearance": 61.7479
+    },
+    {
+      "level": 81,
+      "part": 4,
+      "source": "ah001-081-food-drink/part-4.png",
+      "sha256": "cb5bf802f4190221be35ab53fcb0b0791040e65099d896dfbc32ebb07535b997",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        678,
+        400,
+        83,
+        75
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3321,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        665.4979,
+        380.525,
+        781.4521,
+        458.225
+      ],
+      "conservativeWorstClearance": 380.525
+    },
+    {
+      "level": 81,
+      "part": 5,
+      "source": "ah001-081-food-drink/part-5.png",
+      "sha256": "27ecf0db1c438e52144500ce0cc470ee919b137baf7b78cdf496c211d55489b3",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        62,
+        145,
+        145,
+        127
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5835,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        19.7479,
+        113.825,
+        198.7021,
+        244.025
+      ],
+      "conservativeWorstClearance": 19.7479
+    },
+    {
+      "level": 82,
+      "part": 1,
+      "source": "ah001-082-markets-shops/part-1.png",
+      "sha256": "f0cc5ce8d96346b14132cda4880af04dc33708c7a0c19b0935f008d348c3dfcd",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        530,
+        276,
+        90,
+        119
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3692,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        511.1479,
+        251.375,
+        632.3521,
+        373.175
+      ],
+      "conservativeWorstClearance": 251.375
+    },
+    {
+      "level": 82,
+      "part": 2,
+      "source": "ah001-082-markets-shops/part-2.png",
+      "sha256": "c5b34fe9401ba4cec2b85d778f66ec1c94dd90fbb35aa60c8cd181b9d81defce",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        391,
+        185,
+        135,
+        167
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8409,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        365.1979,
+        155.825,
+        533.6521,
+        328.025
+      ],
+      "conservativeWorstClearance": 155.825
+    },
+    {
+      "level": 82,
+      "part": 3,
+      "source": "ah001-082-markets-shops/part-3.png",
+      "sha256": "1708fe7b54c7047e6ba112d09ca40413be09e3e4d418461ddaa1401d5274eddc",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        950,
+        449,
+        85,
+        182
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3268,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        952.1479,
+        433.025,
+        1068.1021,
+        622.025
+      ],
+      "conservativeWorstClearance": 211.8979
+    },
+    {
+      "level": 82,
+      "part": 4,
+      "source": "ah001-082-markets-shops/part-4.png",
+      "sha256": "8f29cbea10dded7815b2bc005f81ecbfc3306874700c3863ec2881644d8b4476",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        532,
+        628,
+        105,
+        87
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3708,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        513.2479,
+        620.975,
+        650.2021,
+        709.175
+      ],
+      "conservativeWorstClearance": 513.2479
+    },
+    {
+      "level": 82,
+      "part": 5,
+      "source": "ah001-082-markets-shops/part-5.png",
+      "sha256": "3519a90f10fdcc443bf3e061d85e213a98bf043ff45f92c5356647618056e678",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        155,
+        991,
+        135,
+        151
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9021,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        117.3979,
+        1001.075,
+        285.8521,
+        1157.525
+      ],
+      "conservativeWorstClearance": 117.3979
+    },
+    {
+      "level": 83,
+      "part": 1,
+      "source": "ah001-083-nature-gardens/part-1.png",
+      "sha256": "e5ef60a79b30bfc158f509dff8cb3bf831eb7d6cce8c6636dbf4ad66352fc0d3",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        238,
+        1214,
+        160,
+        148
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7163,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        204.5479,
+        1236.275,
+        398.2021,
+        1388.525
+      ],
+      "conservativeWorstClearance": 204.5479
+    },
+    {
+      "level": 83,
+      "part": 2,
+      "source": "ah001-083-nature-gardens/part-2.png",
+      "sha256": "e8e1cc02e0762d40945826d00c367ad5315eba24fc95aec32bd538746aaefd1c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1023,
+        1191,
+        145,
+        189
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 15572,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1028.7979,
+        1213.175,
+        1207.7521,
+        1406.375
+      ],
+      "conservativeWorstClearance": 72.2479
+    },
+    {
+      "level": 83,
+      "part": 3,
+      "source": "ah001-083-nature-gardens/part-3.png",
+      "sha256": "093e68862ae5be45c704d5bccfcad5ab68f16d3feb3141490944fe13e8de886b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        167,
+        194,
+        100,
+        105
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5945,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        129.9979,
+        165.275,
+        261.7021,
+        272.375
+      ],
+      "conservativeWorstClearance": 129.9979
+    },
+    {
+      "level": 83,
+      "part": 4,
+      "source": "ah001-083-nature-gardens/part-4.png",
+      "sha256": "b75e64a31c3668a487fbd0c41d1ad515e55d4b5ec88757c06dbdbf28458393ba",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        586,
+        110,
+        125,
+        80
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5724,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        569.9479,
+        76.025,
+        727.9021,
+        158.975
+      ],
+      "conservativeWorstClearance": 76.025
+    },
+    {
+      "level": 83,
+      "part": 5,
+      "source": "ah001-083-nature-gardens/part-5.png",
+      "sha256": "bb874e92de639ab13d651d9c0872a6c601bc7cfbdd6b80a9107c9be0969e14ee",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        596,
+        1046,
+        85,
+        67
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2131,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        579.3979,
+        1059.875,
+        696.4021,
+        1128.125
+      ],
+      "conservativeWorstClearance": 471.875
+    },
+    {
+      "level": 84,
+      "part": 1,
+      "source": "ah001-084-streets-squares/part-1.png",
+      "sha256": "524677aef965e924c5df9362f1ddaa4bf54812b510c0aef5a34a6dfa246833e5",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        116,
+        1111,
+        145,
+        161
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10341,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        76.4479,
+        1128.125,
+        255.4021,
+        1294.025
+      ],
+      "conservativeWorstClearance": 76.4479
+    },
+    {
+      "level": 84,
+      "part": 2,
+      "source": "ah001-084-streets-squares/part-2.png",
+      "sha256": "3e35977df48f0b400449e1a1d5fc77989cc30ae7886869b6458963ef0f2f1b66",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        100,
+        500,
+        94,
+        210
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5916,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        59.6479,
+        486.575,
+        185.0521,
+        703.925
+      ],
+      "conservativeWorstClearance": 59.6479
+    },
+    {
+      "level": 84,
+      "part": 3,
+      "source": "ah001-084-streets-squares/part-3.png",
+      "sha256": "4d1243be132fdf0e54834e34fd0ebe32d48813dcad5ce910e5fcf8dc60753adc",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        209,
+        819,
+        131,
+        145
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9795,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        174.0979,
+        821.525,
+        338.3521,
+        970.625
+      ],
+      "conservativeWorstClearance": 174.0979
+    },
+    {
+      "level": 84,
+      "part": 4,
+      "source": "ah001-084-streets-squares/part-4.png",
+      "sha256": "ed1846408ea6cbb8494c3a7ca66751c643cf8a19bfd2e177524d47233688a244",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        880,
+        168,
+        145,
+        95
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8575,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        878.6479,
+        137.975,
+        1057.6021,
+        234.575
+      ],
+      "conservativeWorstClearance": 137.975
+    },
+    {
+      "level": 84,
+      "part": 5,
+      "source": "ah001-084-streets-squares/part-5.png",
+      "sha256": "2e09594248c6071c18a5ddb2e931a43ed20b84cd1487087813cc60cebace1569",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1042,
+        292,
+        140,
+        62
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3630,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1050.8479,
+        269.225,
+        1221.4021,
+        329.075
+      ],
+      "conservativeWorstClearance": 58.5979
+    },
+    {
+      "level": 85,
+      "part": 1,
+      "source": "ah001-085-interiors/part-1.png",
+      "sha256": "fa66b53857bb44d00b10649f1a20723d7e24cf084579cc9ed7370e492e7f4f38",
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        278,
+        744,
+        69,
+        190
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3746,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        262.525,
+        728.8979,
+        330.775,
+        949.8521
+      ],
+      "conservativeWorstClearance": 262.525
+    },
+    {
+      "level": 85,
+      "part": 2,
+      "source": "ah001-085-interiors/part-2.png",
+      "sha256": "0974bcdf44b832e1ec0fc6fa77784fa3a4cf4e3a2a4df745d0203cc13c3547f8",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1133,
+        326,
+        115,
+        150
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10006,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1144.2979,
+        303.875,
+        1291.7521,
+        458.225
+      ],
+      "conservativeWorstClearance": -11.7521
+    },
+    {
+      "level": 85,
+      "part": 3,
+      "source": "ah001-085-interiors/part-3.png",
+      "sha256": "793c4a7850c46dcde396147b9d00921733e33ffc66acc1ad5ddba516346e9c0b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        841,
+        665,
+        100,
+        173
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4244,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        837.6979,
+        659.825,
+        969.4021,
+        838.325
+      ],
+      "conservativeWorstClearance": 310.5979
+    },
+    {
+      "level": 85,
+      "part": 4,
+      "source": "ah001-085-interiors/part-4.png",
+      "sha256": "2b58358d11cefdf7ec1e01850a8ff521ff4b2ec1f160b9fce60d15dc49dfc0d8",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1047,
+        718,
+        170,
+        164
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7294,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1053.9979,
+        715.475,
+        1259.2021,
+        884.525
+      ],
+      "conservativeWorstClearance": 20.7979
+    },
+    {
+      "level": 85,
+      "part": 5,
+      "source": "ah001-085-interiors/part-5.png",
+      "sha256": "089a7d67a0c77bb3e75806ecb0b05307100d245796f3444ccf70fca0161158d6",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        606,
+        281,
+        70,
+        70
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2479,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        590.9479,
+        255.575,
+        692.2021,
+        328.025
+      ],
+      "conservativeWorstClearance": 255.575
+    },
+    {
+      "level": 86,
+      "part": 1,
+      "source": "ah001-086-transport/part-1.png",
+      "sha256": "509a0fd4db56e5242ff616cd4282158e9f8021a6e13d644460c0eaf24513516e",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        175,
+        260,
+        190,
+        100
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10169,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        138.3979,
+        234.575,
+        363.5521,
+        336.425
+      ],
+      "conservativeWorstClearance": 138.3979
+    },
+    {
+      "level": 86,
+      "part": 2,
+      "source": "ah001-086-transport/part-2.png",
+      "sha256": "bb30de09f35ec41d5c574397922dbd18e11f846ab1928efe45939565da4a3c37",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        655,
+        230,
+        160,
+        59
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4028,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        643.4479,
+        203.075,
+        837.1021,
+        260.825
+      ],
+      "conservativeWorstClearance": 203.075
+    },
+    {
+      "level": 86,
+      "part": 3,
+      "source": "ah001-086-transport/part-3.png",
+      "sha256": "1feb4a0bb78c0c66f7551b86138ccab63f66cebd2ce3e69fe445e88c6cb0d1ab",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        252,
+        1054,
+        115,
+        148
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6263,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        219.2479,
+        1068.275,
+        366.7021,
+        1220.525
+      ],
+      "conservativeWorstClearance": 219.2479
+    },
+    {
+      "level": 86,
+      "part": 4,
+      "source": "ah001-086-transport/part-4.png",
+      "sha256": "c45503a97e156634406ed3b4f529713378243c85bc6161db127d316d0054f530",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        969,
+        1292,
+        73,
+        200
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3774,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        973.1479,
+        1318.175,
+        1075.4521,
+        1525.025
+      ],
+      "conservativeWorstClearance": 74.975
+    },
+    {
+      "level": 86,
+      "part": 5,
+      "source": "ah001-086-transport/part-5.png",
+      "sha256": "98fc06714c55cf9dbc3ed9c3e3a0b11ea1216ace0e654397b867de9a4eb90037",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        100,
+        870,
+        140,
+        182
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7898,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        59.6479,
+        875.075,
+        234.4021,
+        1063.025
+      ],
+      "conservativeWorstClearance": 59.6479
+    },
+    {
+      "level": 87,
+      "part": 1,
+      "source": "ah001-087-crafts-objects/part-1.png",
+      "sha256": "547966537dd8929c2fc45f7e3d6d7bc426bc49ed49a1f61845234b7b2dcdc1c8",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        662,
+        1165,
+        135,
+        90
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3235,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        649.7479,
+        1184.825,
+        818.2021,
+        1276.175
+      ],
+      "conservativeWorstClearance": 323.825
+    },
+    {
+      "level": 87,
+      "part": 2,
+      "source": "ah001-087-crafts-objects/part-2.png",
+      "sha256": "de75b4d3d5dd79d11b0f202ddb4b68bfad0dec052c6a62f931a53ace51126893",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        144,
+        372,
+        124,
+        135
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5858,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        105.8479,
+        352.175,
+        262.7521,
+        490.775
+      ],
+      "conservativeWorstClearance": 105.8479
+    },
+    {
+      "level": 87,
+      "part": 3,
+      "source": "ah001-087-crafts-objects/part-3.png",
+      "sha256": "aaa0aa1b3be61d82f8baaca9b257a15d2c59e94e3cecfaa6feb0fe9ad3e27969",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        314,
+        112,
+        110,
+        159
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4016,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        285.3979,
+        79.175,
+        426.5521,
+        244.025
+      ],
+      "conservativeWorstClearance": 79.175
+    },
+    {
+      "level": 87,
+      "part": 4,
+      "source": "ah001-087-crafts-objects/part-4.png",
+      "sha256": "daaa20c2124639ae67900b9f6f3be5de5e634d6870e9f58c61ba41fc1d72924b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        90,
+        666,
+        100,
+        79
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2949,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        48.0979,
+        660.875,
+        180.8521,
+        740.675
+      ],
+      "conservativeWorstClearance": 48.0979
+    },
+    {
+      "level": 87,
+      "part": 5,
+      "source": "ah001-087-crafts-objects/part-5.png",
+      "sha256": "5bab7b46fcd7d1495cab54648a9968755808aa89c0d931a396043011dd2ce8ed",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        552,
+        107,
+        75,
+        66
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2613,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        533.1979,
+        72.875,
+        640.7521,
+        141.125
+      ],
+      "conservativeWorstClearance": 72.875
+    },
+    {
+      "level": 88,
+      "part": 1,
+      "source": "ah001-088-animals/part-1.png",
+      "sha256": "5a5d1047b516aaa21bf99ea1e9e95f47d93b9ec067673f63f4809d96197aff0f",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        709,
+        184,
+        190,
+        81
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6513,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        699.0979,
+        155.825,
+        925.3021,
+        234.575
+      ],
+      "conservativeWorstClearance": 155.825
+    },
+    {
+      "level": 88,
+      "part": 2,
+      "source": "ah001-088-animals/part-2.png",
+      "sha256": "ba1a3065486ccf53794462801fadfebfab72287473d4252ea11b049c2fce9a94",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        530,
+        1152,
+        183,
+        95
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6663,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        511.1479,
+        1171.175,
+        730.0021,
+        1266.725
+      ],
+      "conservativeWorstClearance": 333.275
+    },
+    {
+      "level": 88,
+      "part": 3,
+      "source": "ah001-088-animals/part-3.png",
+      "sha256": "56923c6bcc0aa7e24b0368e89253528978e619b3b8bd640302a54151f84143cf",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        107,
+        1038,
+        121,
+        185
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5375,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        66.9979,
+        1051.475,
+        220.7521,
+        1241.525
+      ],
+      "conservativeWorstClearance": 66.9979
+    },
+    {
+      "level": 88,
+      "part": 4,
+      "source": "ah001-088-animals/part-4.png",
+      "sha256": "89492e2a30f41473bd7b2cc2d48627b46839636497b84b8b61794ca695321f25",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1095,
+        928,
+        140,
+        92
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9317,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1104.3979,
+        935.975,
+        1277.0521,
+        1029.425
+      ],
+      "conservativeWorstClearance": 2.9479
+    },
+    {
+      "level": 88,
+      "part": 5,
+      "source": "ah001-088-animals/part-5.png",
+      "sha256": "a000e47af32db37f58feb43d8e5e4f177c3b973c973739ef17d6f115f96eb194",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1042,
+        1158,
+        109,
+        85
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5248,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1048.7479,
+        1176.425,
+        1189.9021,
+        1263.575
+      ],
+      "conservativeWorstClearance": 90.0979
+    },
+    {
+      "level": 89,
+      "part": 1,
+      "source": "ah001-089-water-coast/part-1.png",
+      "sha256": "c426f756c4e0ec346400425e4a44abd03023d663e86940c41cd6615266028d56",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        297,
+        1043,
+        190,
+        94
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7421,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        266.4979,
+        1057.775,
+        492.7021,
+        1150.175
+      ],
+      "conservativeWorstClearance": 266.4979
+    },
+    {
+      "level": 89,
+      "part": 2,
+      "source": "ah001-089-water-coast/part-2.png",
+      "sha256": "f4cf60fc2479553b45f2e3a9791e56bd5d465f05247b7c89a88d53478e5da51a",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        820,
+        682,
+        190,
+        114
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6915,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        815.6479,
+        677.675,
+        1041.8521,
+        792.125
+      ],
+      "conservativeWorstClearance": 238.1479
+    },
+    {
+      "level": 89,
+      "part": 3,
+      "source": "ah001-089-water-coast/part-3.png",
+      "sha256": "9d799e6c26d38679d3f428e33acf0b7afbbf70a7b088d05c6238bbb7c82220f8",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        270,
+        110,
+        110,
+        199
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4691,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        238.1479,
+        77.075,
+        380.3521,
+        282.875
+      ],
+      "conservativeWorstClearance": 77.075
+    },
+    {
+      "level": 89,
+      "part": 4,
+      "source": "ah001-089-water-coast/part-4.png",
+      "sha256": "fd5c9458a9adb5d25bb01615214c8454aad58365a50235a127d56fb39022885b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1071,
+        1072,
+        155,
+        156
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4636,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1079.1979,
+        1087.175,
+        1268.6521,
+        1246.775
+      ],
+      "conservativeWorstClearance": 11.3479
+    },
+    {
+      "level": 89,
+      "part": 5,
+      "source": "ah001-089-water-coast/part-5.png",
+      "sha256": "f15b3fc3f077e24acdfa79f336d93d16da3dd2d48e081093d02bd0182b46e033",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        68,
+        1078,
+        85,
+        144
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2996,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        26.0479,
+        1093.475,
+        142.0021,
+        1241.525
+      ],
+      "conservativeWorstClearance": 26.0479
+    },
+    {
+      "level": 90,
+      "part": 1,
+      "source": "ah001-090-festivals-music/part-1.png",
+      "sha256": "8abab9874daf0dbc985bdbff9bba36f8d627d9ee4bb5592eb19741ef46dbb499",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        200,
+        1000,
+        100,
+        99
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4161,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        163.5979,
+        1011.575,
+        296.3521,
+        1113.425
+      ],
+      "conservativeWorstClearance": 163.5979
+    },
+    {
+      "level": 90,
+      "part": 2,
+      "source": "ah001-090-festivals-music/part-2.png",
+      "sha256": "27b92bdf9fc96c666dc1be08f21994d61829880cbb0502a4cd9d1f9fa3cf74bc",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        245,
+        5,
+        70,
+        96
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2184,
+      "firstClippedMs": 800,
+      "actualCurveWorst": {
+        "elapsedMs": 3000,
+        "count": 463,
+        "alphaWeightPercent": 19.85932,
+        "edges": [
+          "top"
+        ]
+      },
+      "conservative105PlusPeakBounds": [
+        211.8979,
+        -33.175,
+        312.1021,
+        64.475
+      ],
+      "conservativeWorstClearance": -33.175
+    },
+    {
+      "level": 90,
+      "part": 3,
+      "source": "ah001-090-festivals-music/part-3.png",
+      "sha256": "659934c87730d9fb95b2e5523cdf5d223332e9ea17e30fa8636f7d6e53dbb24b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        738,
+        729,
+        100,
+        122
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6028,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        729.5479,
+        727.025,
+        861.2521,
+        853.025
+      ],
+      "conservativeWorstClearance": 418.7479
+    },
+    {
+      "level": 90,
+      "part": 4,
+      "source": "ah001-090-festivals-music/part-4.png",
+      "sha256": "870914b339d3e2ab5999ae9c156fc925dfbd35d30afe4287081a3b5369de69ef",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        102,
+        1200,
+        130,
+        141
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6930,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        61.7479,
+        1221.575,
+        224.9521,
+        1367.525
+      ],
+      "conservativeWorstClearance": 61.7479
+    },
+    {
+      "level": 90,
+      "part": 5,
+      "source": "ah001-090-festivals-music/part-5.png",
+      "sha256": "ce27145bff530cb7094d1fea31f77ed891d89d2b7e59449e4ef47011451489f1",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        895,
+        548,
+        80,
+        76
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3183,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        894.3979,
+        535.925,
+        1006.1521,
+        614.675
+      ],
+      "conservativeWorstClearance": 273.8479
+    },
+    {
+      "level": 91,
+      "part": 1,
+      "source": "ah001-091-food-drink/part-1.png",
+      "sha256": "3f5ee54bad03d8768f2d0f2461a5454245521052a82aa0920270447111674570",
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        957,
+        326,
+        69,
+        175
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4470,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        974.425,
+        289.9979,
+        1043.725,
+        498.3521
+      ],
+      "conservativeWorstClearance": 236.275
+    },
+    {
+      "level": 91,
+      "part": 2,
+      "source": "ah001-091-food-drink/part-2.png",
+      "sha256": "71127d1157bc769b1a2502334a973b4c80235693eb5561e70c4432cb82846473",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        934,
+        722,
+        73,
+        65
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 1926,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        934.2979,
+        718.625,
+        1039.7521,
+        784.775
+      ],
+      "conservativeWorstClearance": 240.2479
+    },
+    {
+      "level": 91,
+      "part": 3,
+      "source": "ah001-091-food-drink/part-3.png",
+      "sha256": "e711417977ce83edd2d0aec8fb101ee29807ca5e089fbe0591a1c0ffc7c0287e",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        164,
+        274,
+        100,
+        181
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5488,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        126.8479,
+        250.325,
+        257.5021,
+        436.175
+      ],
+      "conservativeWorstClearance": 126.8479
+    },
+    {
+      "level": 91,
+      "part": 4,
+      "source": "ah001-091-food-drink/part-4.png",
+      "sha256": "e67e368f4cce16312ae38fc79f9f2ac8df83718e005df69db3296677cfaed059",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        450,
+        1210,
+        89,
+        100
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4047,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        427.1479,
+        1232.075,
+        547.3021,
+        1333.925
+      ],
+      "conservativeWorstClearance": 266.075
+    },
+    {
+      "level": 91,
+      "part": 5,
+      "source": "ah001-091-food-drink/part-5.png",
+      "sha256": "80324ba8ba9a035796221d89a59eb9bd33e66beaeb5d02b5a0f12ca13f9d25ef",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        858,
+        256,
+        75,
+        73
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2650,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        855.5479,
+        230.375,
+        961.0021,
+        304.925
+      ],
+      "conservativeWorstClearance": 230.375
+    },
+    {
+      "level": 92,
+      "part": 1,
+      "source": "ah001-092-markets-shops/part-1.png",
+      "sha256": "ca42f46fdd26af9b45fa309a62db540b974e6267b4de440003d713085a0f0851",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        373,
+        602,
+        120,
+        91
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5284,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        346.2979,
+        593.675,
+        500.0521,
+        686.075
+      ],
+      "conservativeWorstClearance": 346.2979
+    },
+    {
+      "level": 92,
+      "part": 2,
+      "source": "ah001-092-markets-shops/part-2.png",
+      "sha256": "7944dd47a27677d2a34a2789ca3dd09656199d31f6f24d3cec333ae36037272e",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        787,
+        282,
+        75,
+        130
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3708,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        779.9479,
+        257.675,
+        886.4521,
+        391.025
+      ],
+      "conservativeWorstClearance": 257.675
+    },
+    {
+      "level": 92,
+      "part": 3,
+      "source": "ah001-092-markets-shops/part-3.png",
+      "sha256": "09a80b5279361da50674da15d69a8c31474e36377a80e147e756b38c327ded18",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        671,
+        480,
+        130,
+        133
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6940,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        658.1479,
+        465.575,
+        822.4021,
+        602.075
+      ],
+      "conservativeWorstClearance": 457.5979
+    },
+    {
+      "level": 92,
+      "part": 4,
+      "source": "ah001-092-markets-shops/part-4.png",
+      "sha256": "8330d60a5707801eab9c27e85351acb5520c49bc141310c12dceee1108430da3",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        66,
+        365,
+        90,
+        116
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3503,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        23.9479,
+        344.825,
+        146.2021,
+        464.525
+      ],
+      "conservativeWorstClearance": 23.9479
+    },
+    {
+      "level": 92,
+      "part": 5,
+      "source": "ah001-092-markets-shops/part-5.png",
+      "sha256": "8c100b8672a1c86c076fe445804e574ab547cee46e0771740d1e44df7f96c082",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        253,
+        396,
+        80,
+        102
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3263,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        220.2979,
+        377.375,
+        331.0021,
+        481.325
+      ],
+      "conservativeWorstClearance": 220.2979
+    },
+    {
+      "level": 93,
+      "part": 1,
+      "source": "ah001-093-nature-gardens/part-1.png",
+      "sha256": "530d23b69af21fc9c24838923a7164720fc33aff69235d33d019c35bc83eabfb",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        169,
+        1247,
+        125,
+        145
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 10149,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        132.0979,
+        1270.925,
+        290.0521,
+        1420.025
+      ],
+      "conservativeWorstClearance": 132.0979
+    },
+    {
+      "level": 93,
+      "part": 2,
+      "source": "ah001-093-nature-gardens/part-2.png",
+      "sha256": "f1cc915061b089e3e3af815d7c6855b7d4d99f1788bb67fe37db38431fd3c544",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1012,
+        755,
+        90,
+        135
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3299,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1016.1979,
+        753.275,
+        1139.5021,
+        892.925
+      ],
+      "conservativeWorstClearance": 140.4979
+    },
+    {
+      "level": 93,
+      "part": 3,
+      "source": "ah001-093-nature-gardens/part-3.png",
+      "sha256": "9b647ec440a69363fc13433cac18894fb349f346eaa11857d83ceac26b0e819b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1036,
+        157,
+        145,
+        161
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7581,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1042.4479,
+        126.425,
+        1221.4021,
+        292.325
+      ],
+      "conservativeWorstClearance": 58.5979
+    },
+    {
+      "level": 93,
+      "part": 4,
+      "source": "ah001-093-nature-gardens/part-4.png",
+      "sha256": "c6dc9be4260a61da8b98f0a64ffb9564a61a4602574be9ec8f7374a0c463071f",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        514,
+        363,
+        130,
+        72
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4978,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        494.3479,
+        342.725,
+        657.5521,
+        415.175
+      ],
+      "conservativeWorstClearance": 342.725
+    },
+    {
+      "level": 93,
+      "part": 5,
+      "source": "ah001-093-nature-gardens/part-5.png",
+      "sha256": "7400809ef50228280552c2c0fac54089b1778b239d1d3eb1fc5c9b21135dbac0",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        776,
+        1054,
+        75,
+        72
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2485,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        769.4479,
+        1067.225,
+        874.9021,
+        1141.775
+      ],
+      "conservativeWorstClearance": 405.0979
+    },
+    {
+      "level": 94,
+      "part": 1,
+      "source": "ah001-094-streets-squares/part-1.png",
+      "sha256": "84eb3156d50bcbf2375591d5757712555cd65bab39aa6bbceb7df0cae0c96b0a",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1090,
+        814,
+        101,
+        100
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5649,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1099.1479,
+        816.275,
+        1232.9521,
+        919.175
+      ],
+      "conservativeWorstClearance": 47.0479
+    },
+    {
+      "level": 94,
+      "part": 2,
+      "source": "ah001-094-streets-squares/part-2.png",
+      "sha256": "e2da2dfc5c77d8f4e018ec6ad6e9a44b29b9d9e6803080ebe15f0262538535d0",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        803,
+        506,
+        130,
+        116
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5320,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        797.7979,
+        492.875,
+        962.0521,
+        612.575
+      ],
+      "conservativeWorstClearance": 317.9479
+    },
+    {
+      "level": 94,
+      "part": 3,
+      "source": "ah001-094-streets-squares/part-3.png",
+      "sha256": "b96dc81d90d98bd36a18653ee6fda495f232f81ade1b95becfd77d7cb9214303",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        765,
+        909,
+        110,
+        117
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4497,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        756.8479,
+        916.025,
+        900.1021,
+        1036.775
+      ],
+      "conservativeWorstClearance": 379.8979
+    },
+    {
+      "level": 94,
+      "part": 4,
+      "source": "ah001-094-streets-squares/part-4.png",
+      "sha256": "9acc02acfe69c751a96051d377dccdddad2e854f863a5dd60d656c73728ddcb7",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        489,
+        78,
+        120,
+        67
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4448,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        468.0979,
+        43.475,
+        620.8021,
+        110.675
+      ],
+      "conservativeWorstClearance": 43.475
+    },
+    {
+      "level": 94,
+      "part": 5,
+      "source": "ah001-094-streets-squares/part-5.png",
+      "sha256": "2eeabd5d56877ef7434c62849d29921c043f557f1088b28dd760d890912e7d7f",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        582,
+        207,
+        160,
+        60
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3388,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        565.7479,
+        178.925,
+        760.4521,
+        238.775
+      ],
+      "conservativeWorstClearance": 178.925
+    },
+    {
+      "level": 95,
+      "part": 1,
+      "source": "ah001-095-interiors/part-1.png",
+      "sha256": "6940b032e901228528775e78cc7c49f61a925327a7102f4c5226cd7967002305",
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        597,
+        879,
+        70,
+        143
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3811,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        599.575,
+        872.7479,
+        662.575,
+        1045.4021
+      ],
+      "conservativeWorstClearance": 554.5979
+    },
+    {
+      "level": 95,
+      "part": 2,
+      "source": "ah001-095-interiors/part-2.png",
+      "sha256": "453dea1bf87e05a931884d2f4b8bd15445e1b9c5e814af29ec47817abb503575",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        734,
+        530,
+        50,
+        121
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2788,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        727.4479,
+        519.125,
+        803.5021,
+        639.875
+      ],
+      "conservativeWorstClearance": 476.4979
+    },
+    {
+      "level": 95,
+      "part": 3,
+      "source": "ah001-095-interiors/part-3.png",
+      "sha256": "8f24581a5def13f7e21baef0d16f4868ee2024e5d81e2f56f501519cdc539185",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        454,
+        373,
+        100,
+        138
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4139,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        431.3479,
+        353.225,
+        563.0521,
+        494.975
+      ],
+      "conservativeWorstClearance": 353.225
+    },
+    {
+      "level": 95,
+      "part": 4,
+      "source": "ah001-095-interiors/part-4.png",
+      "sha256": "61e133e8f515f6056c53bf670d45e796c116d36c36bfc059ee1349cc278cdb30",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1125,
+        86,
+        115,
+        137
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 8162,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1135.8979,
+        51.875,
+        1283.3521,
+        192.575
+      ],
+      "conservativeWorstClearance": -3.3521
+    },
+    {
+      "level": 95,
+      "part": 5,
+      "source": "ah001-095-interiors/part-5.png",
+      "sha256": "26229951834487425f2189c48c9e95be756ec6a07769c24b46ed86a50d45d2e6",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        540,
+        768,
+        110,
+        139
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3473,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        521.6479,
+        767.975,
+        661.7521,
+        910.775
+      ],
+      "conservativeWorstClearance": 521.6479
+    },
+    {
+      "level": 96,
+      "part": 1,
+      "source": "ah001-096-transport/part-1.png",
+      "sha256": "5debbd900e7e663a91057168559a96a597fbb2d4a7b22786d4b40154af19ef72",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        75,
+        128,
+        160,
+        105
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 9087,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        33.3979,
+        98.075,
+        228.1021,
+        203.075
+      ],
+      "conservativeWorstClearance": 33.3979
+    },
+    {
+      "level": 96,
+      "part": 2,
+      "source": "ah001-096-transport/part-2.png",
+      "sha256": "066682962fa0930d5f960e111bcaab46babf9431b80ae4db3585039393570e9b",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        232,
+        292,
+        165,
+        61
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4781,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        199.2979,
+        269.225,
+        397.1521,
+        329.075
+      ],
+      "conservativeWorstClearance": 199.2979
+    },
+    {
+      "level": 96,
+      "part": 3,
+      "source": "ah001-096-transport/part-3.png",
+      "sha256": "f3cd7bf04c951ddf5dd8b3edaf24a8f74e567035b5620231d72aa2c6268e12c8",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        472,
+        407,
+        110,
+        150
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5928,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        450.2479,
+        388.925,
+        591.4021,
+        543.275
+      ],
+      "conservativeWorstClearance": 388.925
+    },
+    {
+      "level": 96,
+      "part": 4,
+      "source": "ah001-096-transport/part-4.png",
+      "sha256": "615c50e66464e868db7e0bf03f69d8c692d9745d225069a0b8fe1221a1d24367",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1095,
+        1264,
+        125,
+        148
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6540,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1104.3979,
+        1288.775,
+        1262.3521,
+        1441.025
+      ],
+      "conservativeWorstClearance": 17.6479
+    },
+    {
+      "level": 96,
+      "part": 5,
+      "source": "ah001-096-transport/part-5.png",
+      "sha256": "c157955b8955a50f1096ab9b4426eee4623bc3d5bae566f659f7eba831c79445",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        813,
+        718,
+        80,
+        62
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2013,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        808.2979,
+        714.425,
+        920.0521,
+        777.425
+      ],
+      "conservativeWorstClearance": 359.9479
+    },
+    {
+      "level": 97,
+      "part": 1,
+      "source": "ah001-097-crafts-objects/part-1.png",
+      "sha256": "ac2f34be7559571c7e8622d761cbec1aef6062e2a1c8a2e5f6618b14a78b2662",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        518,
+        1243,
+        145,
+        114
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7167,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        498.5479,
+        1266.725,
+        677.5021,
+        1383.275
+      ],
+      "conservativeWorstClearance": 216.725
+    },
+    {
+      "level": 97,
+      "part": 2,
+      "source": "ah001-097-crafts-objects/part-2.png",
+      "sha256": "10e47e0ad4a242924f9ded0231f6ed94863953d0094fc10b28c978439f281faa",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1202,
+        300,
+        55,
+        97
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2204,
+      "firstClippedMs": 2800,
+      "actualCurveWorst": {
+        "elapsedMs": 3000,
+        "count": 65,
+        "alphaWeightPercent": 1.43707,
+        "edges": [
+          "right"
+        ]
+      },
+      "conservative105PlusPeakBounds": [
+        1216.7479,
+        275.525,
+        1302.2521,
+        375.275
+      ],
+      "conservativeWorstClearance": -22.2521
+    },
+    {
+      "level": 97,
+      "part": 3,
+      "source": "ah001-097-crafts-objects/part-3.png",
+      "sha256": "681afbd1aa6d2dc341aa6ae6d5488e696fadd073bcf3e412e58cbcd94f762300",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        351,
+        184,
+        100,
+        143
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 3047,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        322.1479,
+        154.775,
+        454.9021,
+        301.775
+      ],
+      "conservativeWorstClearance": 154.775
+    },
+    {
+      "level": 97,
+      "part": 4,
+      "source": "ah001-097-crafts-objects/part-4.png",
+      "sha256": "0af9cd0abe272337e6d00ff89a20fa163adcbbbb5c606b9865d00840632ba3d8",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        209,
+        203,
+        135,
+        129
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7147,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        174.0979,
+        174.725,
+        342.5521,
+        307.025
+      ],
+      "conservativeWorstClearance": 174.0979
+    },
+    {
+      "level": 97,
+      "part": 5,
+      "source": "ah001-097-crafts-objects/part-5.png",
+      "sha256": "1ac1e734141d099b1bd1a4834786c02db4c1115428f21b71e4995eeb280a354c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        608,
+        152,
+        65,
+        69
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2079,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        593.0479,
+        121.175,
+        689.0521,
+        190.475
+      ],
+      "conservativeWorstClearance": 121.175
+    },
+    {
+      "level": 98,
+      "part": 1,
+      "source": "ah001-098-animals/part-1.png",
+      "sha256": "9ce049e32912ae966aadffe0f6f93c080b03490aceb56d671008681f46e081d5",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        151,
+        1001,
+        105,
+        161
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6654,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        113.1979,
+        1012.625,
+        250.1521,
+        1178.525
+      ],
+      "conservativeWorstClearance": 113.1979
+    },
+    {
+      "level": 98,
+      "part": 2,
+      "source": "ah001-098-animals/part-2.png",
+      "sha256": "abf6b3b9c23693cb08e36ec7a06b54043f8506536f8bb4c43407c12d2708074c",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1075,
+        1047,
+        126,
+        155
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6892,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1083.3979,
+        1060.925,
+        1242.4021,
+        1220.525
+      ],
+      "conservativeWorstClearance": 37.5979
+    },
+    {
+      "level": 98,
+      "part": 3,
+      "source": "ah001-098-animals/part-3.png",
+      "sha256": "f26787908789042771d2ab278bb1369824f79d31245e8584543be61b324b87af",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1068,
+        1097,
+        120,
+        170
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4510,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1076.0479,
+        1113.425,
+        1228.7521,
+        1288.775
+      ],
+      "conservativeWorstClearance": 51.2479
+    },
+    {
+      "level": 98,
+      "part": 4,
+      "source": "ah001-098-animals/part-4.png",
+      "sha256": "172fc442032be9fa001505030cbcfef1d600a4c5158d63e88cc25d60e3f666f3",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        924,
+        100,
+        140,
+        83
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6889,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        924.8479,
+        66.575,
+        1098.5521,
+        150.575
+      ],
+      "conservativeWorstClearance": 66.575
+    },
+    {
+      "level": 98,
+      "part": 5,
+      "source": "ah001-098-animals/part-5.png",
+      "sha256": "315ec8e268024657bbc7ff0c43a28950618f4d4cfe55d1de4beda9fd1a4a2cfd",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1035,
+        666,
+        90,
+        68
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2196,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1040.3479,
+        659.825,
+        1162.6021,
+        729.125
+      ],
+      "conservativeWorstClearance": 117.3979
+    },
+    {
+      "level": 99,
+      "part": 1,
+      "source": "ah001-099-water-coast/part-1.png",
+      "sha256": "07d47e0d071c35e00f40ed4f2ddd51a191a70617b4690e1a241f9ce2e96abf3d",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        572,
+        648,
+        157,
+        105
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6054,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        557.3479,
+        643.025,
+        746.8021,
+        748.025
+      ],
+      "conservativeWorstClearance": 533.1979
+    },
+    {
+      "level": 99,
+      "part": 2,
+      "source": "ah001-099-water-coast/part-2.png",
+      "sha256": "cc66257436dda474315659660bece4061b73bc8e7d7af8bcf43142fc3682ba32",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        812,
+        1058,
+        165,
+        105
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5649,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        808.2979,
+        1073.525,
+        1006.1521,
+        1179.575
+      ],
+      "conservativeWorstClearance": 273.8479
+    },
+    {
+      "level": 99,
+      "part": 3,
+      "source": "ah001-099-water-coast/part-3.png",
+      "sha256": "fcf6b39cfdcfa3f12d2ce25b5a27c2b23192620e0059cbc64abf99408393f15d",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1054,
+        757,
+        143,
+        160
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6259,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1061.3479,
+        756.425,
+        1238.2021,
+        921.275
+      ],
+      "conservativeWorstClearance": 41.7979
+    },
+    {
+      "level": 99,
+      "part": 4,
+      "source": "ah001-099-water-coast/part-4.png",
+      "sha256": "3797622cea4d146733e99d8e8bafe7c1a19365fad4b5e1b24ff5e83a1bc79aa2",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        452,
+        28,
+        156,
+        105
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 7560,
+      "firstClippedMs": 2100,
+      "actualCurveWorst": {
+        "elapsedMs": 3000,
+        "count": 159,
+        "alphaWeightPercent": 1.83515,
+        "edges": [
+          "top"
+        ]
+      },
+      "conservative105PlusPeakBounds": [
+        430.2979,
+        -9.025,
+        618.7021,
+        98.075
+      ],
+      "conservativeWorstClearance": -9.025
+    },
+    {
+      "level": 99,
+      "part": 5,
+      "source": "ah001-099-water-coast/part-5.png",
+      "sha256": "651faa09a717f9bba99946ceb2b7887fb9b84c256d05e701bc75d6d9ac3307af",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        770,
+        85,
+        180,
+        74
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5010,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        764.1979,
+        51.875,
+        977.8021,
+        124.325
+      ],
+      "conservativeWorstClearance": 51.875
+    },
+    {
+      "level": 100,
+      "part": 1,
+      "source": "ah001-100-festivals-music/part-1.png",
+      "sha256": "6332d741ec5efc43013c497065806187ee821fd5bb8c3f610f76282aa11ea987",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        524,
+        613,
+        100,
+        119
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5440,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        504.8479,
+        605.225,
+        636.5521,
+        728.075
+      ],
+      "conservativeWorstClearance": 504.8479
+    },
+    {
+      "level": 100,
+      "part": 2,
+      "source": "ah001-100-festivals-music/part-2.png",
+      "sha256": "15c925d1db82a05fffc7f0698bdf3a80413d0faf3f9dd74c3cbe99c18b60a383",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        214,
+        832,
+        55,
+        121
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 2970,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        178.2979,
+        835.175,
+        264.8521,
+        958.025
+      ],
+      "conservativeWorstClearance": 178.2979
+    },
+    {
+      "level": 100,
+      "part": 3,
+      "source": "ah001-100-festivals-music/part-3.png",
+      "sha256": "97795a627ccb15adc9565f62dcc8da8bd5855396241634262eb57379a5e776f5",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        1063,
+        300,
+        120,
+        142
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 6612,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        1070.7979,
+        276.575,
+        1224.5521,
+        422.525
+      ],
+      "conservativeWorstClearance": 55.4479
+    },
+    {
+      "level": 100,
+      "part": 4,
+      "source": "ah001-100-festivals-music/part-4.png",
+      "sha256": "4bb91068de8d2b5195afd03f1220f979409df14aaa243da7ecd7c7bcf8fd2ed9",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        297,
+        471,
+        120,
+        154
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 4931,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        265.4479,
+        455.075,
+        419.2021,
+        614.675
+      ],
+      "conservativeWorstClearance": 265.4479
+    },
+    {
+      "level": 100,
+      "part": 5,
+      "source": "ah001-100-festivals-music/part-5.png",
+      "sha256": "0ca18cacf9b1b910a75fe679477c981be76f564830492fe10f6cf1a6bfbaa3a5",
+      "axis": [
+        1,
+        0
+      ],
+      "amplitudePoints": 4,
+      "sourceRect": [
+        160,
+        1331,
+        100,
+        130
+      ],
+      "alphaThreshold": 8,
+      "testedPixelCount": 5833,
+      "firstClippedMs": null,
+      "actualCurveWorst": {
+        "count": 0,
+        "alphaWeightPercent": 0
+      },
+      "conservative105PlusPeakBounds": [
+        122.6479,
+        1358.075,
+        254.3521,
+        1493.525
+      ],
+      "conservativeWorstClearance": 106.475
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 98,
+      "sceneId": "ah001-098-animals",
+      "status": "complete",
+      "theme": "animals",
+      "mainColour": "#95793b",
+      "master": {
+        "source": "ah001-098-animals/master.png",
+        "sha256": "991cfffb9b115cf81ae023e0350d88ae98d0da5481df6e44a4d834e54696d385"
+      },
+      "background": {
+        "source": "ah001-098-animals/background.png",
+        "sha256": "5d27a7008750617548369e5e446c70c10dd5ef70ba8f8d85a0e7c146a771d953"
+      },
+      "parts": [
+        {
+          "source": "ah001-098-animals/part-1.png",
+          "sha256": "9ce049e32912ae966aadffe0f6f93c080b03490aceb56d671008681f46e081d5",
+          "rect": [
+            0.11796875,
+            0.625625,
+            0.08203125,
+            0.100625
+          ],
+          "sourcePixelRect": [
+            151,
+            1001,
+            105,
+            161
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "woodland fern",
+          "authoringSource": "woodland-fern",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            111,
+            60,
+            396,
+            497
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              195,
+              1160
+            ]
+          }
+        },
+        {
+          "source": "ah001-098-animals/part-2.png",
+          "sha256": "abf6b3b9c23693cb08e36ec7a06b54043f8506536f8bb4c43407c12d2708074c",
+          "rect": [
+            0.83984375,
+            0.654375,
+            0.0984375,
+            0.096875
+          ],
+          "sourcePixelRect": [
+            1075,
+            1047,
+            126,
+            155
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "beech tip",
+          "authoringSource": "beech-tip",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            82,
+            80,
+            421,
+            498
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1100,
+              1200
+            ]
+          }
+        },
+        {
+          "source": "ah001-098-animals/part-3.png",
+          "sha256": "f26787908789042771d2ab278bb1369824f79d31245e8584543be61b324b87af",
+          "rect": [
+            0.834375,
+            0.685625,
+            0.09375,
+            0.10625
+          ],
+          "sourcePixelRect": [
+            1068,
+            1097,
+            120,
+            170
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "bluebell stalk",
+          "authoringSource": "bluebell-stalk",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            34,
+            19,
+            358,
+            477
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1115,
+              1265
+            ]
+          }
+        },
+        {
+          "source": "ah001-098-animals/part-4.png",
+          "sha256": "172fc442032be9fa001505030cbcfef1d600a4c5158d63e88cc25d60e3f666f3",
+          "rect": [
+            0.721875,
+            0.0625,
+            0.109375,
+            0.051875
+          ],
+          "sourcePixelRect": [
+            924,
+            100,
+            140,
+            83
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "blue lake cloud",
+          "authoringSource": "blue-lake-cloud",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            64,
+            140,
+            496,
+            397
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              994,
+              141
+            ]
+          }
+        },
+        {
+          "source": "ah001-098-animals/part-5.png",
+          "sha256": "315ec8e268024657bbc7ff0c43a28950618f4d4cfe55d1de4beda9fd1a4a2cfd",
+          "rect": [
+            0.80859375,
+            0.41625,
+            0.0703125,
+            0.0425
+          ],
+          "sourcePixelRect": [
+            1035,
+            666,
+            90,
+            68
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "woodland dragonfly",
+          "authoringSource": "woodland-dragonfly",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            64,
+            90,
+            494,
+            416
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              1080,
+              700
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\background-original.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A fox resting at the edge of a fern-filled woodland. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: clear sky blue (#7DBED8), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a fern frond at normalised rect [0.07, 0.09, 0.21, 0.21]; an autumn leaf branch at normalised rect [0.72, 0.12, 0.2, 0.23]; a woodland grass tuft at normalised rect [0.09, 0.69, 0.2, 0.19]; a small forest flower at normalised rect [0.68, 0.72, 0.23, 0.17]; a second fern tip at normalised rect [0.42, 0.25, 0.18, 0.16]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting, alpha255 at every pixel, no transparency. Actual scene refinement: A single healthy red fox resting curled comfortably at the edge of a fern woodland, correct natural fox anatomy, one head, two visible forepaws, one bushy tail, soft clear eyes. Large sunlit clearing behind opens to CLEAR SKY BLUE sky and a blue reflective pond; skyblue morning haze and masses of delicate blue woodland flowers make the whole palette cool blue, with deep green ferns secondary and warm red fox focal accent. No buildings, people, snow, famous mountains, fantasy glow or text. Fox complete in frame, gentle quiet pose on soft moss. The foliage and sky are fully painted beneath later small moving tips. Portrait4:5, no UI or border.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-92025e99-ecd8-4ffe-8263-2397e2423820.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\background.png",
+            "sha256": "51cc6b16f78e583c029fb2acc80d0d974220c505583adecb95bc58c2515e38a2",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\atlas-original.png",
+            "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For a red fox resting in blue-flowered ferns beside a blue lake: upper-left one small delicate woodland fern frond with full slender base, muted green; upper-middle one thin branch with three fresh small beech leaves, bare lower-left stem; upper-right one curved bluebell stalk with three small blue bellflowers and narrow leaves, full stem; lower-left one small softly painted white cloud with cool blue shadow; lower-middle one tiny iridescent blue-green dragonfly with four translucent wings and coherent fine abdomen. No fox, moss, dirt, foliage rectangle or sky. Keep all five complete objects well inside their own cells; no intersecting silhouettes.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-d57b3d69-95ef-40ce-8d7a-084bcb20a5f9.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\atlas.png",
+            "sha256": "84debc3dc97b8d3fdcb0c09bd40fc2fecbae22ddba9bd5481f9fb50744fb35a5",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "woodland-fern",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\woodland-fern-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\woodland-fern.png",
+            "sha256": "f0fab9e5b19fcc2979b1ee1495e4076e0f5d58de8f1b99fbe0854b84015d2a9d",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "beech-tip",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\beech-tip-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\beech-tip.png",
+            "sha256": "b83c6379e721c3b57222f781370d6da2d0e4502f592db6ad93091a59367c3cdc",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "bluebell-stalk",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\bluebell-stalk-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              1100,
+              40,
+              1490,
+              540
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\bluebell-stalk.png",
+            "sha256": "dccb0c249ee95e9e21e9c2f8098e38c3f99997f5b29892f0f153c9678cd06c11",
+            "pixels": [
+              390,
+              500
+            ]
+          },
+          {
+            "name": "blue-lake-cloud",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\blue-lake-cloud-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\blue-lake-cloud.png",
+            "sha256": "5d389318a8fc70fe655191074f50818422691e630e92387d49ff839f2367ae5b",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "woodland-dragonfly",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-098\\woodland-dragonfly-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-098-animals\\source\\woodland-dragonfly.png",
+            "sha256": "6727d6207d8cc60e75878f1f51325eb2c8c03a203634e5225260496f5fd79ed6",
+            "pixels": [
+              512,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Fern, beech and bluebell attach among existing foliage without covering fox; cloud stays in sky, dragonfly hovers over lake. Fox has coherent face, ears, forepaws and single tail. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0037,
+          "orange-yellow": 0.5377,
+          "green": 0.2012,
+          "blue": 0.2572,
+          "violet-pink": 0.0001
+        },
+        "measuredDominantColour": "#95793b",
+        "mainColourLabel": "sky blue and fern green with red fox",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "3923d1194e43122c894587fa0a826310062a2e56f33564547253ec5b98bf2a84"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "levelId": 99,
+  "sceneId": "ah001-099-water-coast",
+  "theme": "water-coast",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "soft violet",
+  "visualReviewNotes": "Two broken ripple patches lie on unobstructed violet water, seaweed base joins rocky pool edge, two clouds sit within high sky. No recognizable coast or landmark. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval. Free-floating coastal cloud moved 30 source pixels lower within the sky to preserve its top silhouette during completion zoom.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-099-water-coast/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A colourful tide pool between warm coastal rocks. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: soft violet (#AE92C6), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft near-water reflection patch at normalised rect [0.14, 0.62, 0.25, 0.14]; a second distinct water reflection patch at normalised rect [0.51, 0.71, 0.27, 0.12]; a shore reed or sea-grass cluster at normalised rect [0.75, 0.53, 0.17, 0.24]; a softly painted near cloud at normalised rect [0.12, 0.1, 0.24, 0.14]; a softly painted far cloud or spray wisp appropriate to the scene at normalised rect [0.58, 0.18, 0.24, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting, alpha255 at every pixel, no transparency. Actual scene refinement: A close colourful tide pool among smooth warm coastal rocks, SOFT VIOLET water/reflections dominate most of the composition. Subtle purple sea anemones and a few tiny natural shells under clear still water, violet seaweed around edges, warm pale stones as accents, no geometric rainbow glow. A small distant lavender sea strip, soft evening light. No recognizable coast, building, people, text or huge animals. Tactile softly brushed storybook painting, clear natural anatomy and textures. Clean complete underlying water for two separately animated small reflection patches. Portrait4:5, no UI or border.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-f04bcf6f-94e3-415f-b700-e653b71db320.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\background-original.png",
+      "archiveSourceSha256": "487c5846491e30de1b0dcdf2347e55340e67bfa34d4502bd534b8f7be53b9e1b"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-099-water-coast/source/atlas.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For a violet coastal tide pool among warm stones: upper-left one thin lavender-silver broken water-reflection patch with alpha gaps; upper-middle a DIFFERENT peach-lavender ripple highlight cluster, narrow asymmetrical strokes; upper-right one small frond of deep purple-brown seaweed, branching ribbons with a full narrow attachment base, no rock; lower-left one small soft lavender-peach cloud puff for the high sky; lower-middle one DIFFERENT narrow pale-ivory cloud wisp. No opaque water, rocks, shells, backdrop, haze or glow. Keep all five complete objects well inside their own cells; no intersecting silhouettes.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-0a242b95-dda5-48b1-9091-b1ddac6af65f.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\atlas-original.png",
+      "archiveSourceSha256": "4851f24f47c35f8f678b9c99dc0882247aa4406d82956ef52046d4e88d4ad3af"
+    },
+    {
+      "name": "violet-pool-reflection",
+      "path": "ah001-099-water-coast/source/violet-pool-reflection.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\violet-pool-reflection-isolated.png",
+      "archiveSourceSha256": "466df3be70a92d333630756cd1f4f633bb47a107bcf79672ec82def3a65541b2"
+    },
+    {
+      "name": "peach-pool-ripples",
+      "path": "ah001-099-water-coast/source/peach-pool-ripples.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\peach-pool-ripples-isolated.png",
+      "archiveSourceSha256": "04db45752d1b76a341ec62536fe87dd7238c476a59f35b6b0f2425edf446757a"
+    },
+    {
+      "name": "purple-seaweed",
+      "path": "ah001-099-water-coast/source/purple-seaweed.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\purple-seaweed-isolated.png",
+      "archiveSourceSha256": "4690022a3077b625986f79265a0daa4f0d725a1e54b4bbdcd29f24a2222c2d49"
+    },
+    {
+      "name": "coastal-cloud",
+      "path": "ah001-099-water-coast/source/coastal-cloud.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\coastal-cloud-isolated.png",
+      "archiveSourceSha256": "b6e749ecec9703c02a0893f95513c0f4bb2475dcc3542b6ec5900eb53cbac957"
+    },
+    {
+      "name": "coastal-cloud-wisp",
+      "path": "ah001-099-water-coast/source/coastal-cloud-wisp.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-099\\coastal-cloud-wisp-isolated.png",
+      "archiveSourceSha256": "8a29f692790dd6a6e89ab18c41e336f927339d23b3c35820ca20862cf99b9530"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "violet pool reflection",
+      "source": "violet-pool-reflection",
+      "maxSize": [
+        190,
+        105
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          650,
+          700
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "peach pool ripples",
+      "source": "peach-pool-ripples",
+      "maxSize": [
+        180,
+        105
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          895,
+          1110
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "purple seaweed",
+      "source": "purple-seaweed",
+      "maxSize": [
+        145,
+        160
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1090,
+          915
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "coastal cloud",
+      "source": "coastal-cloud",
+      "maxSize": [
+        180,
+        105
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          530,
+          110
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "coastal cloud wisp",
+      "source": "coastal-cloud-wisp",
+      "maxSize": [
+        180,
+        80
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          860,
+          122
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

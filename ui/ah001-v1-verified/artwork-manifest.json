@@ -1,0 +1,2775 @@
+{
+  "tool": "built-in image_gen.imagegen; prior painted artwork reused where subject and style meet AH001",
+  "export_pipeline": "Alpha-preserving crop, exact-size Lanczos export, requested deterministic colour calibration. Pressed states dim existing painted pixels 12%; locked badges retain exactly50% source alpha. No procedural painting. Full-resolution source artwork is retained unchanged under source/.",
+  "assets": [
+    {
+      "name": "wood_panel",
+      "pixels": [
+        384,
+        384
+      ],
+      "points": [
+        128,
+        128
+      ],
+      "slices": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "target": [
+        209,
+        119,
+        43
+      ],
+      "file": "wood_panel.png",
+      "source_repository": "assets/ui/ah001/source/wood_panel.png",
+      "source_sha256": "6a804af2789c21a352181ae7a94fd937f51a8473313e5e4bb5505433ff62d23e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        14,
+        21,
+        1241,
+        1235
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: production mobile travel-puzzle game UI painted wooden nine-slice panel. Create one square front-facing honey orange wood panel, rounded corners, thick soft painted inward bevel rim and thin warm top highlight, restrained visibly painted horizontal wood grain running the long direction. Mid-face colour precisely #D1772B (RGB20911943), moderate small-value grain variation, warm darker inner bevel. Match polished cozy travel storybook mobile-game art, not flat vector or photoreal wood. Entire centre must be the same wooden material, not hollow. Panel fills canvas with only 1% transparent padding. True transparent alpha outside rounded silhouette. No words, symbols, leaves, background, cast shadow or extra objects. Square composition.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "692d51b7368c738f75d973c1bcc67f17c11606d797afcd2ac6c2fb0df6fee2c6",
+      "central_rgb_median": [
+        209.0,
+        119.0,
+        43.0
+      ],
+      "color_calibration_additive_rgb": [
+        -3,
+        5,
+        5
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "hud_pill",
+      "pixels": [
+        396,
+        99
+      ],
+      "points": [
+        132,
+        33
+      ],
+      "slices": [
+        16.5,
+        16.5,
+        16.5,
+        16.5
+      ],
+      "target": [
+        145,
+        73,
+        13
+      ],
+      "file": "hud_pill.png",
+      "source_repository": "assets/ui/ah001/source/hud_pill.png",
+      "source_sha256": "e41b2cbedfd21a3b5f94e0990af7e917d50c6e5de0f4b0944d1e2c0affddb168",
+      "source_size": [
+        2089,
+        753
+      ],
+      "source_crop": [
+        7,
+        115,
+        2083,
+        609
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: production mobile travel-puzzle game UI HUD capsule skin. A single wide horizontal dark brown painted wooden capsule, front-facing, width about 4 times height, perfectly round semicircular ends. Flat-face median colour precisely #91490D. Extremely subtle lengthwise painted wood grain in the main face, no icon or text. Dark brown thin softly recessed lower-inner lip, restrained warm top edge highlight. It should look like an inset warm brown HUD well inside an orange wooden game toolbar. No cream border, no metal, no glow, no decorations. True transparent alpha background. Capsule fills almost all canvas width; tightly framed; no cast shadow.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "1aa2ed48dfe287db5b9fc570c47ae020876d8cbced11eb4bb3a3c308b5009753",
+      "central_rgb_median": [
+        145.0,
+        73.0,
+        13.0
+      ],
+      "color_calibration_additive_rgb": [
+        10,
+        13,
+        8
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "join_glow",
+      "pixels": [
+        512,
+        48
+      ],
+      "points": [
+        0,
+        4
+      ],
+      "target": [
+        251,
+        243,
+        225
+      ],
+      "file": "join_glow.png",
+      "source_repository": "assets/ui/ah001/source/join_glow.png",
+      "source_sha256": "c7155fb556f818aa1f2bba5b290705e6469aaf7abaf733992e65314a1f773328",
+      "source_size": [
+        2109,
+        746
+      ],
+      "source_crop": [
+        11,
+        297,
+        2105,
+        456
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: painted animated seam glow brush, for a completed mobile puzzle join. One thin horizontal warm ivory painted luminous stroke #FBF3E1, long narrow aspect about 8:1, central line solid ivory and organic soft brushed feathering 2-4 pixels beyond it, rounded soft ends. Painterly translucent alpha falloff, fine brush texture in outer light only. True transparent alpha background. No object or scenery, no sparkle stars, no text, no background. This is actual painted light texture for game animation, not a flat vector line.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "da2e88cffec5a3f0cfe9978e44561aa60517fa142674f90cbc25a848fe75bbc1",
+      "central_rgb_median": [
+        251.0,
+        243.0,
+        225.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        11,
+        28
+      ],
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "variants": []
+    },
+    {
+      "name": "coin_icon",
+      "pixels": [
+        102,
+        102
+      ],
+      "points": [
+        34,
+        34
+      ],
+      "reuse": "assets/ui/painted/coin.png",
+      "aliases": [
+        "coin"
+      ],
+      "file": "coin_icon.png",
+      "source_repository": "assets/ui/ah001/source/coin_icon.png",
+      "source_sha256": "0151fdf1539b9457271762aabd83784299221506fb3fef4211a950bcff383ffc",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        68,
+        71,
+        1191,
+        1190
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "c0ec822eb9382dc87f46cdf2e15cc8f8cdedb64330b038f4d2f9e70d5f7fe014",
+      "central_rgb_median": [
+        234.0,
+        167.0,
+        34.5
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "coin_icon_level",
+      "pixels": [
+        90,
+        99
+      ],
+      "points": [
+        30,
+        33
+      ],
+      "reuse": "assets/ui/painted/coin.png",
+      "file": "coin_icon_level.png",
+      "source_repository": "assets/ui/ah001/source/coin_icon_level.png",
+      "source_sha256": "0151fdf1539b9457271762aabd83784299221506fb3fef4211a950bcff383ffc",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        68,
+        71,
+        1191,
+        1190
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "106d52374bdc1deffeb9c58208ee96e9d82a99c93c800b54f1bf65d247978ab5",
+      "central_rgb_median": [
+        233.0,
+        165.0,
+        34.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "flame_icon",
+      "pixels": [
+        90,
+        117
+      ],
+      "points": [
+        30,
+        39
+      ],
+      "aliases": [
+        "flame"
+      ],
+      "file": "flame_icon.png",
+      "source_repository": "assets/ui/ah001/source/flame_icon.png",
+      "source_sha256": "89f67c32b8f54c53c6a8d9866f8bce971200dc289b703684d5cb11c2f9636379",
+      "source_size": [
+        1100,
+        1430
+      ],
+      "source_crop": [
+        38,
+        23,
+        1075,
+        1418
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One lively upright flame, red outer tips, orange middle layer and bright pale yellow centre. Painted layered fire colour #E84120 red outer and #F6981E orange, warm light central yellow; flowing soft shapes with one tall tip and two smaller side tips, dark reddish thin edge. Wide-at-bottom teardrop silhouette, aspect30:39. No wings, no surrounding disc.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "e8ef9d3bdfbd07ffc0cd8d0052a63426ec1a3f6ca2bbebe48423f70d48d8cb19",
+      "central_rgb_median": [
+        251.0,
+        161.0,
+        25.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "settings_button",
+      "pixels": [
+        108,
+        108
+      ],
+      "points": [
+        36,
+        36
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "gear"
+      ],
+      "file": "settings_button.png",
+      "source_repository": "assets/ui/ah001/source/settings_button.png",
+      "source_sha256": "4cd1485a717370e4dc34d5bfbf21d8c520fd438d453d56ee69dd52ef2bcc1873",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        11,
+        11,
+        1240,
+        1244
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One round wooden dark brown button disc with recessed face precisely #8E350D and soft warm brown outer rim. Centered cream cogwheel #F9DFC4, chunky eight teeth, brown round centre hole, cog occupying two-thirds diameter (24pt gear inside36pt disc). Straight-on, perfectly circular overall, comfortable rounded soft paint bevel. No metal appearance.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "f49d49da0d9d26812f3158c7f532dc82a8d6f699340da063641f314b5f874666",
+      "central_rgb_median": [
+        250.0,
+        221.0,
+        178.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "pressed",
+          "file": "settings_button_pressed.png",
+          "sha256": "93de54178f796aebb306f87baeb0d39bf9f4b1eddfec5829a720d023d809b5dc"
+        }
+      ],
+      "pigment_calibration": [
+        {
+          "region": "cream",
+          "median_before": [
+            251.0,
+            223.0,
+            182.0
+          ],
+          "requested_median": [
+            249,
+            223,
+            196
+          ],
+          "offset": [
+            -2.0,
+            0.0,
+            14.0
+          ]
+        }
+      ],
+      "flat_face_sample_rect": [
+        52,
+        52,
+        5,
+        5
+      ],
+      "flat_face_rgb_median": [
+        142.0,
+        53.0,
+        13.0
+      ],
+      "flat_face_target": [
+        142,
+        53,
+        13
+      ]
+    },
+    {
+      "name": "gift_daily",
+      "pixels": [
+        108,
+        111
+      ],
+      "points": [
+        36,
+        37
+      ],
+      "states": [
+        "idle",
+        "unclaimed"
+      ],
+      "file": "gift_daily.png",
+      "source_repository": "assets/ui/ah001/source/gift_daily.png",
+      "source_sha256": "49f1b08abcffcaed67af69f27bb0bde3088dd78f0bced0c4c7d93fc01f31fec0",
+      "source_size": [
+        1237,
+        1272
+      ],
+      "source_crop": [
+        18,
+        18,
+        1227,
+        1247
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One wrapped gift box with two-loop bow and curled ribbon ends, three-quarter view. Box vivid warm red #C8402F, shiny gold ribbon #F2C14E. Show dimensional cube and softly shaded paper, gold bow and vertical crossed ribbon. No green parts, no badge, no extra gift. Nearly square 36:37 aspect.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "fd9ba7ae38873a11a2534c5b45cdfdab9de34f462e1da219ab2bdc07bdddb035",
+      "central_rgb_median": [
+        232.0,
+        47.0,
+        32.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "unclaimed",
+          "file": "gift_daily_unclaimed.png",
+          "sha256": "cc3fd9b90f47e06564bcf035091521c4ca412266b8cc78f3e29c99a5986b8fb9",
+          "note": "20ptdot; body26x27ptinside36x37ptstatecanvas. For unchanged36x37ptbody, compose idleassetplusseparate20ptdot in UI."
+        }
+      ],
+      "pigment_calibration": [
+        {
+          "region": "red",
+          "median_before": [
+            182.0,
+            27.0,
+            18.0
+          ],
+          "requested_median": [
+            200,
+            64,
+            47
+          ],
+          "offset": [
+            18.0,
+            37.0,
+            29.0
+          ]
+        },
+        {
+          "region": "gold",
+          "median_before": [
+            229.0,
+            155.0,
+            27.0
+          ],
+          "requested_median": [
+            242,
+            193,
+            78
+          ],
+          "offset": [
+            13.0,
+            38.0,
+            51.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coins_pile",
+      "pixels": [
+        135,
+        111
+      ],
+      "points": [
+        45,
+        37
+      ],
+      "aliases": [
+        "coin-pile"
+      ],
+      "file": "coins_pile.png",
+      "source_repository": "assets/ui/ah001/source/coins_pile.png",
+      "source_sha256": "afbab310307b00cb6b6715633d5097069436eb22dbf6f180359db2885a489cc0",
+      "source_size": [
+        1385,
+        1136
+      ],
+      "source_crop": [
+        21,
+        33,
+        1368,
+        1099
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. Exactly THREE shiny gold coins forming a small compact pile. Two coins rest low overlapping horizontally, the third propped centrally above and behind, each with embossed five-point star, golden rims and little painted highlights. Three coins total, count precisely, no extra stack layers. Compact wide aspect45:37.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "e442cc075747084db37198f9fed25a2d06858ea96c5f314ed263d3b77cba8ce9",
+      "central_rgb_median": [
+        244.0,
+        170.0,
+        29.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "close_button",
+      "pixels": [
+        147,
+        147
+      ],
+      "points": [
+        49,
+        49
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "nav-close"
+      ],
+      "file": "close_button.png",
+      "source_repository": "assets/ui/ah001/source/close_button.png",
+      "source_sha256": "23eb73e24aa82bc05d8f2aa8aea5507cc038466a4384be527557e9e35b81c50a",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. One round orange wooden button, center colour #BB5F26, thick softly beveled wood rim, small top highlight. Centered thick ivory white X #FAF8F8, diagonals equal45degree, softly rounded ends. Circle perfectly front-on. Button fills square canvas. No dot or words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "878067d83f22f7f4a62c154b48fccc6929cda5266dc6c063d059219c21400580",
+      "central_rgb_median": [
+        244.0,
+        237.0,
+        223.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "pressed",
+          "file": "close_button_pressed.png",
+          "sha256": "c633f00d0a835d215f0e59314ce7b9d4bafa696598fdf842b0c6f65f2e21263c"
+        }
+      ],
+      "flat_face_sample_rect": [
+        71,
+        34,
+        5,
+        5
+      ],
+      "flat_face_rgb_median": [
+        187.0,
+        95.0,
+        38.0
+      ],
+      "flat_face_target": [
+        187,
+        95,
+        38
+      ]
+    },
+    {
+      "name": "back_button",
+      "pixels": [
+        147,
+        147
+      ],
+      "points": [
+        49,
+        49
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "nav-back"
+      ],
+      "file": "back_button.png",
+      "source_repository": "assets/ui/ah001/source/back_button.png",
+      "source_sha256": "f8826a40a8ef466d9a5a47f6996e74b1140f591ef4c78b29dc7b870552568ea7",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. One round orange wooden button, center colour #BB5F26, thick softly beveled wood rim, small top highlight. Centered bold ivory-white simple left arrow with substantial shaft and arrowhead, softly rounded ends. Circle perfectly front-on. Button fills square canvas. No words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "43588ceb9125c672e6d16537c374837d88957fa5ca4865b8ecc2f4b8501cd12e",
+      "central_rgb_median": [
+        241.0,
+        229.0,
+        208.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "pressed",
+          "file": "back_button_pressed.png",
+          "sha256": "c56585052cde5ebcb6db1d341278a6a5d37e73be9ed1b7dcc79e4ab92da83ab3"
+        }
+      ],
+      "flat_face_sample_rect": [
+        71,
+        34,
+        5,
+        5
+      ],
+      "flat_face_rgb_median": [
+        187.0,
+        95.0,
+        38.0
+      ],
+      "flat_face_target": [
+        187,
+        95,
+        38
+      ]
+    },
+    {
+      "name": "badge_day_tripper",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-day-tripper.png",
+      "aliases": [
+        "badge-day-tripper"
+      ],
+      "file": "badge_day_tripper.png",
+      "source_repository": "assets/ui/ah001/source/badge_day_tripper.png",
+      "source_sha256": "1441b365e94b95f6b58a58a966d275a4150a2cb9f72dda35b7537565a3fa8a66",
+      "source_size": [
+        1247,
+        1261
+      ],
+      "source_crop": [
+        33,
+        13,
+        1222,
+        1227
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "e0e90aec8116c10a49f205f7516f0de25cdd4635e336cbaa574b8f328e808212",
+      "central_rgb_median": [
+        166.5,
+        88.0,
+        43.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "locked",
+          "file": "badge_day_tripper_locked.png",
+          "sha256": "dfa195a9c673f5cb0e1b7fc2298f70031ef1848e69c171d7210cbb8d3de6866c"
+        }
+      ]
+    },
+    {
+      "name": "badge_weekender",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-weekender.png",
+      "aliases": [
+        "badge-weekender"
+      ],
+      "file": "badge_weekender.png",
+      "source_repository": "assets/ui/ah001/source/badge_weekender.png",
+      "source_sha256": "0ccdb2a3bdd34ffa036af37c474280019161e272601cdbb5de947f23e9901211",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        82,
+        50,
+        1181,
+        1202
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "7b17a92d1d26b4d6f96dca4623c7309c75abba2d2cb4a073c1e1f720c183d4bb",
+      "central_rgb_median": [
+        206.0,
+        121.0,
+        51.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "locked",
+          "file": "badge_weekender_locked.png",
+          "sha256": "e26f0a54b173912085b7e800cdbc4aa5d85807e4512dde6af6f4e0e1fe63e159"
+        }
+      ]
+    },
+    {
+      "name": "badge_frequent_flyer",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-frequent-flyer.png",
+      "aliases": [
+        "badge-frequent-flyer"
+      ],
+      "file": "badge_frequent_flyer.png",
+      "source_repository": "assets/ui/ah001/source/badge_frequent_flyer.png",
+      "source_sha256": "bd1bdec2c75a00844a8029e5f648051764f8332356b4acdfffd1403a771a41d0",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "source_crop": [
+        13,
+        111,
+        1522,
+        921
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "7ebe148905bc6fa36947a2965411db6347fd39aaee047e1f1d825b0082d95c77",
+      "central_rgb_median": [
+        245.0,
+        227.0,
+        194.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "locked",
+          "file": "badge_frequent_flyer_locked.png",
+          "sha256": "a28838d323c4e0132ab990757e90608c293dbe3c7188cccb1f714ec0d495b7af"
+        }
+      ]
+    },
+    {
+      "name": "badge_globetrotter",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-globetrotter.png",
+      "aliases": [
+        "badge-globetrotter"
+      ],
+      "file": "badge_globetrotter.png",
+      "source_repository": "assets/ui/ah001/source/badge_globetrotter.png",
+      "source_sha256": "b663cb9c6c17a4f4ea0ae7050e487884c662650705bae9b3f594cbee44192db2",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        226,
+        15,
+        1082,
+        1205
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "5e13e90de172326c30117462ac8d7f6cc4838ee76605b53c09e36879a89a2cc4",
+      "central_rgb_median": [
+        148.0,
+        103.0,
+        42.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "locked",
+          "file": "badge_globetrotter_locked.png",
+          "sha256": "fb16ad34ea3cec87d928212ba902c949373409c8b48f2bc463b33ca3a7172269"
+        }
+      ]
+    },
+    {
+      "name": "badge_jet_setter",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "aliases": [
+        "badge-jet-setter"
+      ],
+      "file": "badge_jet_setter.png",
+      "source_repository": "assets/ui/ah001/source/badge_jet_setter.png",
+      "source_sha256": "204375964f7dee9bfa07cbec093a4b777c578c454aadb8da623fb6518d57dc19",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        0,
+        8,
+        1254,
+        1219
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One vintage honey-brown leather suitcase with rounded corners, stitching, two brass latches, top handle, AND a small golden royal crown perched on its top-right corner. Single warm ochre-brown cohesive colour range, only faint dark sage luggage tag. Square composition. No circular medal, no letters, no corner gift, no extra object.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "de20e3556eff43e1c61b6a139f15ee9c302d5923a8f3156b7707bcae28c17fc3",
+      "central_rgb_median": [
+        196.0,
+        108.0,
+        30.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "locked",
+          "file": "badge_jet_setter_locked.png",
+          "sha256": "fc4c0c15c42c71d30170cfa0b23ee087b2015dfa46f5d38660bc77ad74d4eb22"
+        }
+      ]
+    },
+    {
+      "name": "piece_icon",
+      "pixels": [
+        84,
+        90
+      ],
+      "points": [
+        28,
+        30
+      ],
+      "aliases": [
+        "puzzle"
+      ],
+      "file": "piece_icon.png",
+      "source_repository": "assets/ui/ah001/source/piece_icon.png",
+      "source_sha256": "10977e71c30386915c128d6066173194b946c294bbb60c402aec69e42a561d9e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        50,
+        34,
+        1253,
+        1227
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One cream ivory jigsaw puzzle piece with rounded knob on top and on right, inward socket on left, softly rounded corners. Slight warm brown painted bevel shadow on lower-right and ivory highlight on top-left, substantial dimensional thickness but front-on. Shape readable at28x30pt. No wood button or surrounding plaque.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "8a7f54b531c63e0360c85204f8cd13e3efb73c165663f1d676256fd030e85e38",
+      "central_rgb_median": [
+        246.0,
+        232.0,
+        209.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "pause_button",
+      "pixels": [
+        114,
+        114
+      ],
+      "points": [
+        38,
+        38
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "pause"
+      ],
+      "file": "pause_button.png",
+      "source_repository": "assets/ui/ah001/source/pause_button.png",
+      "source_sha256": "c0c01a0ecdcb4dea72904a2af3f3f3f600099851ab3e6f13bd9a45a433ed3514",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        0,
+        8,
+        1247,
+        1246
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. A perfectly round orange wooden pause button, centre wood colour #B66425, softly beveled darker rim and golden top highlight, fine painted woodgrain. Two equally tall creamy white bars centered on its face, parallel, rounded ends, no additional symbol. Nearly flat front view, no giant side thickness.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "ba5f3d787261e1066c58b4d6deeb7019862bec63451148b11c9db692c0540159",
+      "central_rgb_median": [
+        248.0,
+        235.0,
+        208.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "pressed",
+          "file": "pause_button_pressed.png",
+          "sha256": "f6df3c0f7a85328cec867cb447d50f9f2b3031fc662d03895d9413fd9bf5b018"
+        }
+      ],
+      "flat_face_sample_rect": [
+        55,
+        55,
+        5,
+        5
+      ],
+      "flat_face_rgb_median": [
+        182.0,
+        100.0,
+        37.0
+      ],
+      "flat_face_target": [
+        182,
+        100,
+        37
+      ]
+    },
+    {
+      "name": "booster_badge",
+      "pixels": [
+        54,
+        54
+      ],
+      "points": [
+        18,
+        18
+      ],
+      "file": "booster_badge.png",
+      "source_repository": "assets/ui/ah001/source/booster_badge.png",
+      "source_sha256": "72a829f76d0e1a2c8a2a0ea5b83f394eb5ed9e2c5bed6071009b9cca85bf7a5b",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        14,
+        18,
+        1239,
+        1240
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One perfectly round glossy green small reward badge disc, centre colour #2D9E37. Soft darker green rim, a broad soft light-green painted highlight toward top-left. No number, no plus, no symbol, no decorations. Strong simple circular silhouette. Designed18pt diameter.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "55aae4474790be8cf115c74a621807dcc66be158e0930b1f195146e9065e13b6",
+      "central_rgb_median": [
+        46.5,
+        166.0,
+        67.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "pigment_calibration": [
+        {
+          "region": "all",
+          "median_before": [
+            46.5,
+            166.0,
+            67.0
+          ],
+          "requested_median": [
+            45,
+            158,
+            55
+          ],
+          "offset": [
+            -1.5,
+            -8.0,
+            -12.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_complete_banner",
+      "pixels": [
+        756,
+        198
+      ],
+      "points": [
+        252,
+        66
+      ],
+      "baked_text": "Level complete",
+      "file": "level_complete_banner.png",
+      "source_repository": "assets/ui/ah001/source/level_complete_banner.png",
+      "source_sha256": "e825b58a1aee23e1fef8e45d5d65d3f53dcab264c721b365e7eea33f91918978",
+      "source_size": [
+        2043,
+        770
+      ],
+      "source_crop": [
+        7,
+        112,
+        2042,
+        622
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. Create a wide compact typographic title sprite, exact text \"Level complete\" in one line. Thick rounded playful hand-painted letters, warm cream face #FCF4E4, substantial dark chocolate-brown outline and thin honey-gold bevel. Text dominant fills central80%width; letter cap height about32pt in full252x66pt sprite. At both ends only, painted glossy dark green leaves and a little white five-petal flower with yellow centre tucked behind lettering. No rectangular signboard, no paper rectangle. The words themselves are the banner. Overall composition252:66, transparent background, little top/bottom padding. Exact spelling, lower case c of complete.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "c49585a45b766ca52daadca845e7aaa3db7f67941d2a9a227aeb173002e29010",
+      "central_rgb_median": [
+        227.0,
+        158.0,
+        49.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "result_icon_time",
+      "pixels": [
+        72,
+        93
+      ],
+      "points": [
+        24,
+        31
+      ],
+      "reuse": "assets/ui/painted/clock.png",
+      "file": "result_icon_time.png",
+      "source_repository": "assets/ui/ah001/source/result_icon_time.png",
+      "source_sha256": "31788838400b724fffdbd314a46ded4f26df98ec110106bc70063376531b03cd",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        89,
+        11,
+        1162,
+        1218
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "abbda1d061f6d80718adf51e5009a8e33c9b6310b24e4620cbba3444743d9cca",
+      "central_rgb_median": [
+        248.0,
+        232.0,
+        200.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "result_icon_combo",
+      "pixels": [
+        99,
+        84
+      ],
+      "points": [
+        33,
+        28
+      ],
+      "file": "result_icon_combo.png",
+      "source_repository": "assets/ui/ah001/source/result_icon_combo.png",
+      "source_sha256": "64dd9d70e94e140a5aec589d339107298f2149d1a275dc8f270640d3ef001aa4",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "source_crop": [
+        24,
+        24,
+        1517,
+        1002
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. One small torn piece of a colourful travel painting. A chunky polygon of painted scenery, with cream torn-paper edge, picture fragment shows blue sky, soft green foliage and tiny warm peach roof only. An irregular 6-sided piece, no jigsaw knob, no text. Readable at33x28pt, fairly wide composition. Nothing behind or around the fragment.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "b5c31c702301ed2ef7fcdac35694f7129af2c9781bba09ce7aa28519aeb08af4",
+      "central_rgb_median": [
+        123.5,
+        162.0,
+        200.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "result_icon_coins",
+      "pixels": [
+        90,
+        99
+      ],
+      "points": [
+        30,
+        33
+      ],
+      "generated_source": "coins_pair",
+      "file": "result_icon_coins.png",
+      "source_repository": "assets/ui/ah001/source/result_icon_coins.png",
+      "source_sha256": "2eb556f2f2cf61ce31d1a3d591d34dbf8f5f200da34caf9188b815875e2e3240",
+      "source_size": [
+        1280,
+        1229
+      ],
+      "source_crop": [
+        6,
+        182,
+        1279,
+        1082
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. Exactly TWO shiny golden coins, large star coin at right foreground and a slightly smaller coin behind at left, overlapping half diameter. Both show embossed five point stars, raised gold rims and softly painted shine. Strong compact silhouette at49x47pt, warm gold. No stack, no third coin.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "a5765ec2865bbfd60f27ea03b58e05a419abd9205db858afc52fa57c7fd3c2ff",
+      "central_rgb_median": [
+        250.0,
+        197.0,
+        36.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "coins_pair",
+      "pixels": [
+        147,
+        141
+      ],
+      "points": [
+        49,
+        47
+      ],
+      "file": "coins_pair.png",
+      "source_repository": "assets/ui/ah001/source/coins_pair.png",
+      "source_sha256": "2eb556f2f2cf61ce31d1a3d591d34dbf8f5f200da34caf9188b815875e2e3240",
+      "source_size": [
+        1280,
+        1229
+      ],
+      "source_crop": [
+        6,
+        182,
+        1279,
+        1082
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. Exactly TWO shiny golden coins, large star coin at right foreground and a slightly smaller coin behind at left, overlapping half diameter. Both show embossed five point stars, raised gold rims and softly painted shine. Strong compact silhouette at49x47pt, warm gold. No stack, no third coin.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "f88730b166c7cc0d1cd74a1f9d59abb8c730a70cab81f74710cab15b82d7d889",
+      "central_rgb_median": [
+        251.0,
+        199.0,
+        35.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "city_banner_paris",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "paris",
+      "file": "city_banner_paris.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_paris.png",
+      "source_sha256": "e70cc120bf89f2c01f54f51c5f0213c5cc1de0ed8cf5703b1cc4ac86c96e3c4c",
+      "source_size": [
+        2039,
+        771
+      ],
+      "source_crop": [
+        17,
+        14,
+        2018,
+        740
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. A wide cream parchment-like signboard with gently scalloped edges and warm pale tan bevel, leafy flowers at both ends. Canvas ratio306:116. Exact large dark brown rounded bold text \"Paris\" (#491B05), centered in upper half, letter cap height about37pt of116pt overall. Under name, centered painted French flag, flat horizontal51x24pt rectangle with exactly three equal vertical stripes blue-white-red. Text and flag comfortably inside board. Painted moss-green leaves and tiny white/yellow flowers decorate ONLY left and right ends; no leaves behind letters. Fine ivory paper brushwork. No city scene.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "b80977ad777bc2e624ae05fb39c4004e773cce454a5ce5f4ed40c8122d41c2bd",
+      "central_rgb_median": [
+        222.0,
+        165.0,
+        159.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Accurate typesetting on new painted blank plaque and exact-size crop of this destination original painted flag.",
+        "plaque": "city_banner_blank.png",
+        "font": "assets\\fonts\\LilitaOne-Regular.ttf",
+        "font_sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+        "font_pixels": 153,
+        "font_points": 51,
+        "text": "Paris",
+        "text_rgb": "#491B05",
+        "text_ink_rect": [
+          290,
+          55,
+          338,
+          110
+        ],
+        "uncondensed_text_width": 338,
+        "horizontal_condense": 1.0,
+        "flag_original_export_rect": [
+          372,
+          201,
+          545,
+          285
+        ],
+        "flag_rect_pixels": [
+          382,
+          216,
+          153,
+          72
+        ]
+      }
+    },
+    {
+      "name": "stamp_paris",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "PARIS ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true,
+      "file": "stamp_paris.png",
+      "source_repository": "assets/ui/ah001/source/stamp_paris.png",
+      "source_sha256": "58eed273581b34be6ccb8977050c1a7ffe2473bd68563ce4677fa78b7fb708a8",
+      "source_size": [
+        1378,
+        1142
+      ],
+      "source_crop": [
+        35,
+        63,
+        1344,
+        1092
+      ],
+      "prompt": "Use case: stylized-concept. Production travel-puzzle game arrival rubber stamp art. One upright rounded rectangular stamp impression on TRUE TRANSPARENT ALPHA, no paper or background. Aspect145:120. Exactly two nested rounded dark green ink outlines, slightly distressed hand-ink texture, colour precisely #075C1A. Centre text in bold friendly uppercase: \"PARIS\" above \"ARRIVED\", then a simple airplane silhouette centered below, all same dark green ink. Readable city on ONE LINE (smaller for long city name), ARRIVED largest. Include authentic lightly worn ink gaps, not grunge that obscures words. No perspective or rotation: game applies rotation. Entire stamp tightly framed. No white backing, no shadow, no other words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "ccfba36c280720199b2d4796e7375e9006fc7ab2e83517760d72639531d7a3f4",
+      "central_rgb_median": [
+        5.0,
+        89.0,
+        9.0
+      ],
+      "color_calibration_additive_rgb": [
+        5,
+        18,
+        9
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "city_banner_rome",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "rome",
+      "file": "city_banner_rome.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_rome.png",
+      "source_sha256": "eac2a2f629ff790a53b8cc6a368748631382ae95ebff1d8e94ac0efc47cfaaeb",
+      "source_size": [
+        2039,
+        771
+      ],
+      "source_crop": [
+        11,
+        10,
+        2029,
+        751
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. A wide cream parchment-like signboard with gently scalloped edges and warm pale tan bevel, leafy flowers at both ends. Canvas ratio306:116. Exact large dark brown rounded bold text \"Rome\" (#491B05), centered in upper half, letter cap height about37pt of116pt overall. Under name, centered painted Italian flag, flat horizontal51x24pt rectangle with exactly three equal vertical stripes green-white-red. Text and flag comfortably inside board. Painted moss-green leaves and tiny white/yellow flowers decorate ONLY left and right ends; no leaves behind letters. Fine ivory paper brushwork. No city scene.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "4c2877466352c216d784ba182e46da3702b05fb8e902f7114365324e6e70a71d",
+      "central_rgb_median": [
+        220.0,
+        158.0,
+        116.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Accurate typesetting on new painted blank plaque and exact-size crop of this destination original painted flag.",
+        "plaque": "city_banner_blank.png",
+        "font": "assets\\fonts\\LilitaOne-Regular.ttf",
+        "font_sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+        "font_pixels": 153,
+        "font_points": 51,
+        "text": "Rome",
+        "text_rgb": "#491B05",
+        "text_ink_rect": [
+          276,
+          55,
+          365,
+          109
+        ],
+        "uncondensed_text_width": 365,
+        "horizontal_condense": 1.0,
+        "flag_original_export_rect": [
+          377,
+          194,
+          539,
+          283
+        ],
+        "flag_rect_pixels": [
+          382,
+          216,
+          153,
+          72
+        ]
+      }
+    },
+    {
+      "name": "stamp_rome",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "ROME ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true,
+      "file": "stamp_rome.png",
+      "source_repository": "assets/ui/ah001/source/stamp_rome.png",
+      "source_sha256": "537302119c3afea11d54ac3ebd4247281e79da6efc4eac4584c0237b392c33f2",
+      "source_size": [
+        1378,
+        1141
+      ],
+      "source_crop": [
+        48,
+        63,
+        1330,
+        1083
+      ],
+      "prompt": "Use case: stylized-concept. Production travel-puzzle game arrival rubber stamp art. One upright rounded rectangular stamp impression on TRUE TRANSPARENT ALPHA, no paper or background. Aspect145:120. Exactly two nested rounded dark green ink outlines, slightly distressed hand-ink texture, colour precisely #075C1A. Centre text in bold friendly uppercase: \"ROME\" above \"ARRIVED\", then a simple airplane silhouette centered below, all same dark green ink. Readable city on ONE LINE (smaller for long city name), ARRIVED largest. Include authentic lightly worn ink gaps, not grunge that obscures words. No perspective or rotation: game applies rotation. Entire stamp tightly framed. No white backing, no shadow, no other words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "0c30a25fb53f330e036fb7ba34bf00e9c554762373305fa8b8ed3359af872d1b",
+      "central_rgb_median": [
+        4.0,
+        77.0,
+        8.0
+      ],
+      "color_calibration_additive_rgb": [
+        4,
+        14,
+        8
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "city_banner_new-york",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "new york",
+      "file": "city_banner_new-york.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_new-york.png",
+      "source_sha256": "1adf6fd63fe12cc413305b84e6b8b26de3f8fd47a5c04bc83dc11eb6569f29bc",
+      "source_size": [
+        2038,
+        771
+      ],
+      "source_crop": [
+        18,
+        48,
+        2020,
+        698
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. A wide cream parchment-like signboard with gently scalloped edges and warm pale tan bevel, leafy flowers at both ends. Canvas ratio306:116. Exact large dark brown rounded bold text \"New York\" (#491B05), centered in upper half, letter cap height about37pt of116pt overall. Under name, centered painted United States flag, flat horizontal51x24pt rectangle with13 red-white horizontal stripes and blue upper-left canton with tiny white stars. Text and flag comfortably inside board. Painted moss-green leaves and tiny white/yellow flowers decorate ONLY left and right ends; no leaves behind letters. Fine ivory paper brushwork. No city scene.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "c828bf86d7e94c2d2c7b016e1bbbeed040991fd2def869e192ed3dea02b4680e",
+      "central_rgb_median": [
+        238.0,
+        223.0,
+        197.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Accurate typesetting on new painted blank plaque and exact-size crop of this destination original painted flag.",
+        "plaque": "city_banner_blank.png",
+        "font": "assets\\fonts\\LilitaOne-Regular.ttf",
+        "font_sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+        "font_pixels": 153,
+        "font_points": 51,
+        "text": "New York",
+        "text_rgb": "#491B05",
+        "text_ink_rect": [
+          147,
+          55,
+          624,
+          110
+        ],
+        "uncondensed_text_width": 633,
+        "horizontal_condense": 0.985781990521327,
+        "flag_original_export_rect": [
+          368,
+          180,
+          550,
+          293
+        ],
+        "flag_rect_pixels": [
+          382,
+          216,
+          153,
+          72
+        ]
+      }
+    },
+    {
+      "name": "stamp_new-york",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "NEW YORK ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true,
+      "file": "stamp_new-york.png",
+      "source_repository": "assets/ui/ah001/source/stamp_new-york.png",
+      "source_sha256": "8ea428afbd8d9108399d4e6b9fbbca527c1f2d26ec0353d74f2348c87f528423",
+      "source_size": [
+        1378,
+        1142
+      ],
+      "source_crop": [
+        50,
+        65,
+        1329,
+        1086
+      ],
+      "prompt": "Use case: stylized-concept. Production travel-puzzle game arrival rubber stamp art. One upright rounded rectangular stamp impression on TRUE TRANSPARENT ALPHA, no paper or background. Aspect145:120. Exactly two nested rounded dark green ink outlines, slightly distressed hand-ink texture, colour precisely #075C1A. Centre text in bold friendly uppercase: \"NEW YORK\" above \"ARRIVED\", then a simple airplane silhouette centered below, all same dark green ink. Readable city on ONE LINE (smaller for long city name), ARRIVED largest. Include authentic lightly worn ink gaps, not grunge that obscures words. No perspective or rotation: game applies rotation. Entire stamp tightly framed. No white backing, no shadow, no other words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "1890b4bc4be8d670628d455be720680253e0db40a6c63270239e2fc6971aa6af",
+      "central_rgb_median": [
+        5.0,
+        90.0,
+        25.0
+      ],
+      "color_calibration_additive_rgb": [
+        5,
+        21,
+        16
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "city_banner_berlin",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "berlin",
+      "file": "city_banner_berlin.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_berlin.png",
+      "source_sha256": "0958d365d5d1fd7b3aa32c1cce52ba4f09f45d7ec4578de5db41fbbae7930577",
+      "source_size": [
+        2037,
+        772
+      ],
+      "source_crop": [
+        0,
+        0,
+        2037,
+        755
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. A wide cream parchment-like signboard with gently scalloped edges and warm pale tan bevel, leafy flowers at both ends. Canvas ratio306:116. Exact large dark brown rounded bold text \"Berlin\" (#491B05), centered in upper half, letter cap height about37pt of116pt overall. Under name, centered painted German flag, flat horizontal51x24pt rectangle with exactly three equal HORIZONTAL stripes black-red-gold. Text and flag comfortably inside board. Painted moss-green leaves and tiny white/yellow flowers decorate ONLY left and right ends; no leaves behind letters. Fine ivory paper brushwork. No city scene.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "796a80f69783117038d7cecf0e964f20aa12ecc8f707eb8784e18961d046ce48",
+      "central_rgb_median": [
+        202.0,
+        46.0,
+        29.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Accurate typesetting on new painted blank plaque and exact-size crop of this destination original painted flag.",
+        "plaque": "city_banner_blank.png",
+        "font": "assets\\fonts\\LilitaOne-Regular.ttf",
+        "font_sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+        "font_pixels": 153,
+        "font_points": 51,
+        "text": "Berlin",
+        "text_rgb": "#491B05",
+        "text_ink_rect": [
+          262,
+          55,
+          394,
+          110
+        ],
+        "uncondensed_text_width": 394,
+        "horizontal_condense": 1.0,
+        "flag_original_export_rect": [
+          373,
+          184,
+          543,
+          280
+        ],
+        "flag_rect_pixels": [
+          382,
+          216,
+          153,
+          72
+        ]
+      }
+    },
+    {
+      "name": "stamp_berlin",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "BERLIN ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true,
+      "file": "stamp_berlin.png",
+      "source_repository": "assets/ui/ah001/source/stamp_berlin.png",
+      "source_sha256": "32636d969c5218e2172e5399ec34688b80b1a061586685a706dc332cf1859676",
+      "source_size": [
+        1378,
+        1142
+      ],
+      "source_crop": [
+        86,
+        124,
+        1288,
+        1076
+      ],
+      "prompt": "Use case: stylized-concept. Production travel-puzzle game arrival rubber stamp art. One upright rounded rectangular stamp impression on TRUE TRANSPARENT ALPHA, no paper or background. Aspect145:120. Exactly two nested rounded dark green ink outlines, slightly distressed hand-ink texture, colour precisely #075C1A. Centre text in bold friendly uppercase: \"BERLIN\" above \"ARRIVED\", then a simple airplane silhouette centered below, all same dark green ink. Readable city on ONE LINE (smaller for long city name), ARRIVED largest. Include authentic lightly worn ink gaps, not grunge that obscures words. No perspective or rotation: game applies rotation. Entire stamp tightly framed. No white backing, no shadow, no other words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "eeaaf76afd48a4dc904b0282c2fefbe15618e1cf01cc91b1e97f56a46169cd6f",
+      "central_rgb_median": [
+        6.0,
+        90.0,
+        25.0
+      ],
+      "color_calibration_additive_rgb": [
+        5,
+        30,
+        19
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "city_banner_sydney",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "sydney",
+      "file": "city_banner_sydney.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_sydney.png",
+      "source_sha256": "91274fc60631caa976b82550b6aad0fbd82eeeaa7c9af2c7ded874d18fe2e587",
+      "source_size": [
+        2039,
+        771
+      ],
+      "source_crop": [
+        11,
+        38,
+        2025,
+        719
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. A wide cream parchment-like signboard with gently scalloped edges and warm pale tan bevel, leafy flowers at both ends. Canvas ratio306:116. Exact large dark brown rounded bold text \"Sydney\" (#491B05), centered in upper half, letter cap height about37pt of116pt overall. Under name, centered painted Australian flag, flat horizontal51x24pt rectangle, blue field with Union Jack at upper-left, Commonwealth seven-point star beneath canton and Southern Cross constellation right. Text and flag comfortably inside board. Painted moss-green leaves and tiny white/yellow flowers decorate ONLY left and right ends; no leaves behind letters. Fine ivory paper brushwork. No city scene.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "5993d8c37f53bc1c779b956660855506d7f7ee0f5fd4a7358ee5db9c945bb745",
+      "central_rgb_median": [
+        215.0,
+        75.0,
+        118.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Accurate typesetting on new painted blank plaque and exact-size crop of this destination original painted flag.",
+        "plaque": "city_banner_blank.png",
+        "font": "assets\\fonts\\LilitaOne-Regular.ttf",
+        "font_sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+        "font_pixels": 153,
+        "font_points": 51,
+        "text": "Sydney",
+        "text_rgb": "#491B05",
+        "text_ink_rect": [
+          213,
+          55,
+          492,
+          135
+        ],
+        "uncondensed_text_width": 492,
+        "horizontal_condense": 1.0,
+        "flag_original_export_rect": [
+          374,
+          190,
+          559,
+          301
+        ],
+        "flag_rect_pixels": [
+          382,
+          216,
+          153,
+          72
+        ]
+      }
+    },
+    {
+      "name": "stamp_sydney",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "SYDNEY ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true,
+      "file": "stamp_sydney.png",
+      "source_repository": "assets/ui/ah001/source/stamp_sydney.png",
+      "source_sha256": "5e87b72f2e1e184d2f7621dc7b2e7191eb0ed3ff693941c763f9d6b68fea60fb",
+      "source_size": [
+        1378,
+        1141
+      ],
+      "source_crop": [
+        64,
+        94,
+        1314,
+        1081
+      ],
+      "prompt": "Use case: stylized-concept. Production travel-puzzle game arrival rubber stamp art. One upright rounded rectangular stamp impression on TRUE TRANSPARENT ALPHA, no paper or background. Aspect145:120. Exactly two nested rounded dark green ink outlines, slightly distressed hand-ink texture, colour precisely #075C1A. Centre text in bold friendly uppercase: \"SYDNEY\" above \"ARRIVED\", then a simple airplane silhouette centered below, all same dark green ink. Readable city on ONE LINE (smaller for long city name), ARRIVED largest. Include authentic lightly worn ink gaps, not grunge that obscures words. No perspective or rotation: game applies rotation. Entire stamp tightly framed. No white backing, no shadow, no other words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "8047bea272b25172f70ecb8ee41294deab7561d8564603e9246b7e1ebf2ecee8",
+      "central_rgb_median": [
+        6.0,
+        90.0,
+        24.0
+      ],
+      "color_calibration_additive_rgb": [
+        6,
+        27,
+        12
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "city_banner_san-francisco",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "san francisco",
+      "file": "city_banner_san-francisco.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_san-francisco.png",
+      "source_sha256": "4acc139248d85cbdb826f6c01d08b2fda2990ccb4a419f9c51e919fcaaca26b9",
+      "source_size": [
+        2035,
+        773
+      ],
+      "source_crop": [
+        17,
+        56,
+        2020,
+        710
+      ],
+      "prompt": "Use case: stylized-concept. Production polished mobile travel-puzzle game painted UI art, warm storybook gouache-style shading with tactile fine brushwork, soft dimensional edges. True transparent alpha outside subject. Object tightly framed to near all canvas. No background scenery, no watermark. A wide cream parchment-like signboard with gently scalloped edges and warm pale tan bevel, leafy flowers at both ends. Canvas ratio306:116. Exact large dark brown rounded bold text \"San Francisco\" (#491B05), centered in upper half in ONE line fitting between flowers; use slightly narrower letter spacing for this longer name, no second line. Under name, centered painted United States flag, flat horizontal51x24pt rectangle with13 red-white horizontal stripes and blue upper-left canton with tiny white stars. Text and flag comfortably inside board. Painted moss-green leaves and tiny white/yellow flowers decorate ONLY left and right ends; no leaves behind letters. Fine ivory paper brushwork. No city scene.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "4ebbf5cda5641a0e010d69ba9d34af70ce5c2412d380a887226d98e8d84d1298",
+      "central_rgb_median": [
+        224.0,
+        203.0,
+        176.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Accurate typesetting on new painted blank plaque and exact-size crop of this destination original painted flag.",
+        "plaque": "city_banner_blank.png",
+        "font": "assets\\fonts\\LilitaOne-Regular.ttf",
+        "font_sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+        "font_pixels": 153,
+        "font_points": 51,
+        "text": "San Francisco",
+        "text_rgb": "#491B05",
+        "text_ink_rect": [
+          147,
+          55,
+          624,
+          110
+        ],
+        "uncondensed_text_width": 892,
+        "horizontal_condense": 0.6995515695067265,
+        "flag_original_export_rect": [
+          377,
+          183,
+          541,
+          286
+        ],
+        "flag_rect_pixels": [
+          382,
+          216,
+          153,
+          72
+        ]
+      }
+    },
+    {
+      "name": "stamp_san-francisco",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "SAN FRANCISCO ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true,
+      "file": "stamp_san-francisco.png",
+      "source_repository": "assets/ui/ah001/source/stamp_san-francisco.png",
+      "source_sha256": "722ca40027af8fa62eb8688c2d2bc2017bbd6ba384840f82a28f19e6527645d8",
+      "source_size": [
+        1378,
+        1142
+      ],
+      "source_crop": [
+        81,
+        108,
+        1297,
+        1046
+      ],
+      "prompt": "Use case: stylized-concept. Production travel-puzzle game arrival rubber stamp art. One upright rounded rectangular stamp impression on TRUE TRANSPARENT ALPHA, no paper or background. Aspect145:120. Exactly two nested rounded dark green ink outlines, slightly distressed hand-ink texture, colour precisely #075C1A. Centre text in bold friendly uppercase: \"SAN FRANCISCO\" above \"ARRIVED\", then a simple airplane silhouette centered below, all same dark green ink. Readable city on ONE LINE (smaller for long city name), ARRIVED largest. Include authentic lightly worn ink gaps, not grunge that obscures words. No perspective or rotation: game applies rotation. Entire stamp tightly framed. No white backing, no shadow, no other words.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "159b497f0d0cf23296620ea937980968413c5b81fd73bb1ea4aca3a67d6e970f",
+      "central_rgb_median": [
+        5.0,
+        90.0,
+        7.0
+      ],
+      "color_calibration_additive_rgb": [
+        5,
+        18,
+        7
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "paper_tile",
+      "pixels": [
+        192,
+        192
+      ],
+      "points": [
+        64,
+        64
+      ],
+      "reuse": "assets/ui/painted/paper-panel.png",
+      "source_crop": [
+        313,
+        313,
+        940,
+        940
+      ],
+      "target": [
+        235,
+        207,
+        176
+      ],
+      "file": "paper_tile.png",
+      "source_repository": "assets/ui/ah001/source/paper_tile.png",
+      "source_sha256": "c73b69f4a93d68199ea9a2e25aefd121942209f73893f94bf85742fbf3014075",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "prompt": "Reused prior reviewed painted illustration without subject changes. See assets/ui/painted/artwork-manifest.json.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "388d072c7ccaa59acf833989ec21020d71669af94ebf0680ec04e962c84854b8",
+      "central_rgb_median": [
+        235.0,
+        207.0,
+        176.0
+      ],
+      "color_calibration_additive_rgb": [
+        -15,
+        -31,
+        -39
+      ],
+      "alpha_extrema": [
+        252,
+        254
+      ],
+      "variants": []
+    },
+    {
+      "name": "green_dot",
+      "pixels": [
+        60,
+        60
+      ],
+      "points": [
+        20,
+        20
+      ],
+      "generated_source": "booster_badge",
+      "file": "green_dot.png",
+      "source_repository": "assets/ui/ah001/source/green_dot.png",
+      "source_sha256": "72a829f76d0e1a2c8a2a0ea5b83f394eb5ed9e2c5bed6071009b9cca85bf7a5b",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        14,
+        18,
+        1239,
+        1240
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One perfectly round glossy green small reward badge disc, centre colour #2D9E37. Soft darker green rim, a broad soft light-green painted highlight toward top-left. No number, no plus, no symbol, no decorations. Strong simple circular silhouette. Designed18pt diameter.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "e6380980e4e581aa45cba3bb50bd56fbabf4bcac867528bebee1067191d1e7ee",
+      "central_rgb_median": [
+        46.0,
+        166.0,
+        67.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "plus_button",
+      "pixels": [
+        84,
+        78
+      ],
+      "points": [
+        28,
+        26
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "file": "plus_button.png",
+      "source_repository": "assets/ui/ah001/source/plus_button.png",
+      "source_sha256": "02769dd575b3afeaf09b362efd5832380134f1d018e39fa8b8c24b9b42b8f34f",
+      "source_size": [
+        1300,
+        1209
+      ],
+      "source_crop": [
+        14,
+        17,
+        1289,
+        1198
+      ],
+      "prompt": "Use case: stylized-concept. Production cozy painted mobile game icon. A compact slightly wider-than-tall rounded green square button, aspect28:26. Rich glossy green face #2D9E37, soft bright top highlight, dark green beveled rim, gentle painted brush texture. One centered thick creamy white PLUS symbol with gently rounded stroke ends. Polished hand-painted game art, not flat vector or photographic. True transparent alpha, button fills canvas tightly, no background, no text other than plus.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "8649fadf3e054058ce1bcdf561b2090a3d5bb17a5b8bab2f8edb11191676d09b",
+      "central_rgb_median": [
+        240.0,
+        232.0,
+        214.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [
+        {
+          "state": "pressed",
+          "file": "plus_button_pressed.png",
+          "sha256": "05c46155110e6f04b2dbef3412bedcaaaa7fce38056d93bef6cd7ed2410aaa32"
+        }
+      ]
+    },
+    {
+      "name": "loading_frame",
+      "pixels": [
+        987,
+        114
+      ],
+      "points": [
+        329,
+        38
+      ],
+      "slices": [
+        19,
+        19,
+        19,
+        19
+      ],
+      "file": "loading_frame.png",
+      "source_repository": "assets/ui/ah001/source/loading_frame.png",
+      "source_sha256": "0dbb043ceb9257da4dda5af2715c2e98a91679a441b666f1b5c7e24fe60dea2e",
+      "source_size": [
+        2073,
+        758
+      ],
+      "source_crop": [
+        0,
+        206,
+        2073,
+        516
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel puzzle game loading-track skin. One very long horizontal recessed track in rounded honey-orange wooden frame, entire width329 versus height38. Frame precisely9units thick on all sides, painted honey-orange face #D1772B, fine horizontal wood grain, darker inward bevel and subtle top highlight. Empty inner track color #B17043 and softly recessed,21units high. NO progress fill, words, icon or numerals. True transparent alpha outside outer pilllike rounded shape. Tight framing, no large outside padding, no background. Polished warm hand-painted storybook game material, not flat vector.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "eaa8c9aacb15de3255a6b01e29bae64b4b816d59ec634ac2f7d3eda2f24c2bba",
+      "central_rgb_median": [
+        159.0,
+        101.0,
+        56.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "production_export": {
+        "method": "Nine-slice reflow and colour-calibrated composition of the authored painted HUD capsule; same actual painted grain/bevel, no shape painting.",
+        "material_source": "hud_pill.png",
+        "outer_pixels": [
+          987,
+          114
+        ],
+        "track_rect_pixels": [
+          27,
+          27,
+          933,
+          60
+        ],
+        "rim_points": 9,
+        "track_height_points": 20,
+        "wood_face_sample_rect": [
+          330,
+          12,
+          328,
+          10
+        ],
+        "wood_face_target": [
+          209,
+          119,
+          43
+        ],
+        "track_face_target": [
+          177,
+          112,
+          67
+        ],
+        "wood_offset": [
+          122.0,
+          72.0,
+          32.0
+        ],
+        "track_offset": [
+          33.0,
+          40.0,
+          54.0
+        ]
+      },
+      "wood_face_rgb_median": [
+        209.0,
+        119.0,
+        43.0
+      ],
+      "track_rgb_median": [
+        178.0,
+        112.0,
+        67.0
+      ]
+    },
+    {
+      "name": "loading_fill",
+      "pixels": [
+        933,
+        63
+      ],
+      "points": [
+        311,
+        21
+      ],
+      "slices": [
+        10.5,
+        10.5,
+        10.5,
+        10.5
+      ],
+      "target": [
+        81,
+        190,
+        43
+      ],
+      "file": "loading_fill.png",
+      "source_repository": "assets/ui/ah001/source/loading_fill.png",
+      "source_sha256": "98522112f4059d217e12a21e0be2ca90fb757db95b59170bab8d5e038dd67bf6",
+      "source_size": [
+        2185,
+        720
+      ],
+      "source_crop": [
+        21,
+        262,
+        2165,
+        452
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel puzzle game loading-fill skin. One VERY long low horizontal bright fresh-green rounded capsule (width311,height21), colour #51BE2B, glossy softly painted green gradient highlight along top quarter, subtly darker lower edge. Tiny fine painted texture, no rim made of another material. Real transparent alpha around capsule. No text, symbol, handle, outline, wood or backdrop. Tight framing. This painted progress fill will be clipped inside a recessed wooden track. Preserve semicircular ends.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "757cd5b73910efd329618dfca26b80245a56bec5cb03adb3c7f3136fb25a5364",
+      "central_rgb_median": [
+        81.0,
+        190.0,
+        43.0
+      ],
+      "color_calibration_additive_rgb": [
+        -5,
+        -3,
+        35
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "confetti_piece_cream",
+      "pixels": [
+        18,
+        30
+      ],
+      "points": [
+        6,
+        10
+      ],
+      "target": [
+        251,
+        243,
+        225
+      ],
+      "file": "confetti_piece_cream.png",
+      "source_repository": "assets/ui/ah001/source/confetti_piece_cream.png",
+      "source_sha256": "3d513297f16814a6dd82c6b9c3b39465e8ec58635f80f3ea59ffa4a3ea3046e4",
+      "source_size": [
+        971,
+        1619
+      ],
+      "source_crop": [
+        229,
+        43,
+        744,
+        1585
+      ],
+      "prompt": "Use case: stylized-concept. One isolated narrow rectangular strip of PAINTED PAPER, exact proportion6:10, warm ivory cream colour #FBF3E1. Tactile clearly visible irregular soft paint brush strokes running longwise, very subtle paper shading, gently imperfect softened-cut outline, flat front-facing. True transparent alpha around paper, strip fills near all canvas, no cast shadow, no objects or letters. This is a tiny18x30pixel export mobile celebration particle; surface stroke variation must remain readable when small.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "045573fb92a8d5c4bd4c21a3692ab411aad68c5b7afad72db5b54fa74d6066f0",
+      "central_rgb_median": [
+        251.0,
+        243.0,
+        225.0
+      ],
+      "color_calibration_additive_rgb": [
+        4,
+        7,
+        9
+      ],
+      "alpha_extrema": [
+        65,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "confetti_piece_green",
+      "pixels": [
+        18,
+        30
+      ],
+      "points": [
+        6,
+        10
+      ],
+      "target": [
+        78,
+        154,
+        62
+      ],
+      "file": "confetti_piece_green.png",
+      "source_repository": "assets/ui/ah001/source/confetti_piece_green.png",
+      "source_sha256": "0f44c96632bb7f83f41a68d17dc178d771ceeb84994973e78d125194b84fa01e",
+      "source_size": [
+        971,
+        1619
+      ],
+      "source_crop": [
+        175,
+        20,
+        822,
+        1600
+      ],
+      "prompt": "Use case: stylized-concept. One isolated narrow rectangular strip of PAINTED PAPER, exact proportion6:10, moss green colour #4E9A3E. Tactile clearly visible irregular soft paint brush strokes running longwise, very subtle paper shading, gently imperfect softened-cut outline, flat front-facing. True transparent alpha around paper, strip fills near all canvas, no cast shadow, no objects or letters. This is a tiny18x30pixel export mobile celebration particle; surface stroke variation must remain readable when small.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "55144b920804677aaa27eecf67b655007ebd0e1161903b01df92d71f8189c9f6",
+      "central_rgb_median": [
+        78.5,
+        153.5,
+        61.5
+      ],
+      "color_calibration_additive_rgb": [
+        -4,
+        8,
+        6
+      ],
+      "alpha_extrema": [
+        25,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "confetti_piece_wood",
+      "pixels": [
+        18,
+        30
+      ],
+      "points": [
+        6,
+        10
+      ],
+      "target": [
+        209,
+        119,
+        43
+      ],
+      "file": "confetti_piece_wood.png",
+      "source_repository": "assets/ui/ah001/source/confetti_piece_wood.png",
+      "source_sha256": "6f789b3395075388e34917b69c1c54658dfe07b515f8b42567a7afabcaa8a7d2",
+      "source_size": [
+        971,
+        1619
+      ],
+      "source_crop": [
+        161,
+        0,
+        810,
+        1619
+      ],
+      "prompt": "Use case: stylized-concept. One isolated narrow rectangular strip of PAINTED PAPER, exact proportion6:10, warm copper orange colour #D1772B. Tactile clearly visible irregular soft paint brush strokes running longwise, very subtle paper shading, gently imperfect softened-cut outline, flat front-facing. True transparent alpha around paper, strip fills near all canvas, no cast shadow, no objects or letters. This is a tiny18x30pixel export mobile celebration particle; surface stroke variation must remain readable when small.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "710677dc274c8a2a3bf32f34b55cdeba180ae244653982d9d89eab1a6095390d",
+      "central_rgb_median": [
+        209.0,
+        119.0,
+        43.0
+      ],
+      "color_calibration_additive_rgb": [
+        -3,
+        12,
+        12
+      ],
+      "alpha_extrema": [
+        19,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "departure_cloud_near",
+      "pixels": [
+        720,
+        360
+      ],
+      "points": [
+        240,
+        120
+      ],
+      "file": "departure_cloud_near.png",
+      "source_repository": "assets/ui/ah001/source/departure_cloud_near.png",
+      "source_sha256": "297fa322d940c1fd4401b7ad0ee6111f8cae2b1738146153898244d14b6bcb59",
+      "source_size": [
+        1774,
+        887
+      ],
+      "source_crop": [
+        0,
+        13,
+        1774,
+        872
+      ],
+      "prompt": "Use case: stylized-concept. Production animation layer for a cozy painted travel game's view from an airplane window. One wide layered bank of close fluffy cream-white cumulus cloud, sunlit warm top lobes with gentle peach hints, periwinkle-blue soft lower shadows, visible fine storybook gouache brush strokes. Isolated on TRUE transparent alpha, no blue sky plate. Wide aspect2:1, strongly cloud shaped outer contour, fills canvas without cropping tips. No other object, no airplane, no birds, no flat vector bubbles. This layer moves left across a blue sky behind a plane window.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "4a055cc0920032c57debfdd55adbc77bb421408f9e998d3b93fa25fa970ee0a3",
+      "central_rgb_median": [
+        245.0,
+        218.0,
+        201.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "departure_cloud_far",
+      "pixels": [
+        720,
+        300
+      ],
+      "points": [
+        240,
+        100
+      ],
+      "file": "departure_cloud_far.png",
+      "source_repository": "assets/ui/ah001/source/departure_cloud_far.png",
+      "source_sha256": "a4694ad5398dc24f6053974c461cc7e86ccc6aaa1c4a18dd751122badb5ccc8e",
+      "source_size": [
+        1942,
+        809
+      ],
+      "source_crop": [
+        0,
+        241,
+        1942,
+        602
+      ],
+      "prompt": "Use case: stylized-concept. Production distant animation layer for a cozy painted travel game's view from an airplane window. One long slim band of distant airy clouds, creamy white tops, hazy soft lilac-blue shading. Visibly soft hand-painted brushwork, dreamy daylight, gentle translucent outer wisps. Isolated on TRUE transparent alpha, NO blue sky plate. Wide aspect2.4:1, fills canvas without cutting tips. No other object, no airplane, no birds, no vector circles. Readable softly undulating cloud bank. This layer moves left more slowly than foreground clouds.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "14daad105d99d208daee0bcc1ad4f2326d1c2eb404073949c7cc01a8189702d6",
+      "central_rgb_median": [
+        182.0,
+        188.0,
+        224.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "departure_window",
+      "pixels": [
+        780,
+        1688
+      ],
+      "points": [
+        390,
+        844
+      ],
+      "crop": "none",
+      "file": "departure_window.png",
+      "source_repository": "assets/ui/ah001/source/departure_window.png",
+      "source_sha256": "5410a96b2e66d57998cdf7747eb29ba2c7289b8b0faff1008f0bffaf7d6ed814",
+      "source_size": [
+        853,
+        1844
+      ],
+      "source_crop": [
+        0,
+        0,
+        853,
+        1844
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle scene foreground layer. Portrait composition390:844. A single front-on AIRPLANE WINDOW in a softly hand-painted warm cream cabin wall, cozy storybook gouache digital painting. Tall rounded-rectangle airplane window centered horizontally, opening from x16% to84%, y20%to76%; cream molded rim softly shaded ochre and warm brown, thicker lower ledge, several nested rounded frame bevels. Cabin wall fills all remaining canvas edge to edge, pale warm cream, subtle brushed surface. THE ENTIRE OPEN WINDOW INTERIOR MUST BE TRUE TRANSPARENT ALPHA so separately animated clouds and sky can show through. No glass, no sky, no clouds, no scene drawn within opening. No text, seats, people or controls. No outside transparent edges: only window opening is transparent. Attractive production-quality painted travel game art.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "686b6d80133ec0b44f7c30568dcd12e06f73d828db9e49bc2bbb3efe1ffc6a11",
+      "central_rgb_median": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": [],
+      "transparent_window_rect_pixels": [
+        123,
+        327,
+        535,
+        899
+      ],
+      "transparent_window_rect_points": [
+        61.5,
+        163.5,
+        267.5,
+        449.5
+      ]
+    },
+    {
+      "name": "city_banner_blank",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "file": "city_banner_blank.png",
+      "source_repository": "assets/ui/ah001/source/city_banner_blank.png",
+      "source_sha256": "50febeac4792950d8b3693bc1a1f10f3beca8f1e3064db6d9dcff11102ee7b6d",
+      "source_size": [
+        2038,
+        771
+      ],
+      "source_crop": [
+        1,
+        10,
+        2038,
+        733
+      ],
+      "prompt": "Use case: stylized-concept. Production travel puzzle game UI, one BLANK cream painted parchment signboard with moss-green leaves and white flowers at the two ends. Aspect306:116. Front-facing signboard fills entire image canvas tightly, center usable blank area x17%-83%,y12%-89%, softly scalloped paper corners and fine warm honey-tan beveled rim. Top edge gently rising to small central curved point, soft concave lower edge. Tiny creamy five-petal flowers with golden centers, detailed painted rounded leaves only on far left and right, never behind center. Soft storybook painted texture with generous smooth cream center. True transparent alpha outside signboard. Absolutely no text, letters, flag, symbol or object in the center; it is blank for accurate game typesetting later. No scene or cast shadow. Width306 height116 relative.",
+      "resize_mode": "stretch specified panel geometry",
+      "export_sha256": "79c63bca5e114a9d57b6ce65ae53ae6884fed276fa57aa779a1499fb5f16e44c",
+      "central_rgb_median": [
+        251.0,
+        241.0,
+        218.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "page_dot_active",
+      "pixels": [
+        36,
+        36
+      ],
+      "points": [
+        12,
+        12
+      ],
+      "generated_source": "booster_badge",
+      "file": "page_dot_active.png",
+      "source_repository": "assets/ui/ah001/source/page_dot_active.png",
+      "source_sha256": "72a829f76d0e1a2c8a2a0ea5b83f394eb5ed9e2c5bed6071009b9cca85bf7a5b",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        14,
+        18,
+        1239,
+        1240
+      ],
+      "prompt": "Use case: stylized-concept. Production mobile travel-puzzle game icon, polished warm soft hand-painted storybook art, tactile brushwork, beveled shading and clean readable silhouette at 36pt. Real transparent alpha, tightly framed object occupies 94% canvas, no floor or cast shadow, no text or background. One perfectly round glossy green small reward badge disc, centre colour #2D9E37. Soft darker green rim, a broad soft light-green painted highlight toward top-left. No number, no plus, no symbol, no decorations. Strong simple circular silhouette. Designed18pt diameter.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "ec5948022b463c3034d95eafad54d73558e95a51e448bb7564f3bb2c093f60fb",
+      "central_rgb_median": [
+        46.0,
+        166.0,
+        67.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    },
+    {
+      "name": "page_dot_inactive",
+      "pixels": [
+        36,
+        36
+      ],
+      "points": [
+        12,
+        12
+      ],
+      "file": "page_dot_inactive.png",
+      "source_repository": "assets/ui/ah001/source/page_dot_inactive.png",
+      "source_sha256": "730d2488612e0866373b48523824eff67aef9d9200dbd9a33f865aaf9316b4ac",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_crop": [
+        151,
+        141,
+        1105,
+        1091
+      ],
+      "prompt": "Use case: stylized-concept. Production cozy painted mobile game UI, one small circular cream navigation dot. A perfectly round ivory painted disc with softly domed face, cream top highlight, warm tan lower shade, delicate narrow brown rim. Front-on, no perspective, canvas tightly cropped circle. Real transparent alpha background. No symbols or text. Painterly subtle brushwork, miniature polished style, readable at12ptdiameter. Not wood, not metallic, not vector.",
+      "resize_mode": "aspect-preserving contain within exact export box",
+      "export_sha256": "05874465b04d6a2368d2fb5439329b99427faf4eb1bc1bbbc16ceaef6b48cdf8",
+      "central_rgb_median": [
+        239.0,
+        223.0,
+        193.0
+      ],
+      "color_calibration_additive_rgb": [
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "variants": []
+    }
+  ],
+  "approved_board_sha256": {
+    "docs/mockups/art-direction-v2/01-splash-login-home.png": "e8e214528ece48ea155b3145500f8dc04246fe1800c9dacffc24fb84c14a2e00",
+    "docs/mockups/art-direction-v2/02-gameplay.png": "2bde0b696ac90e16a199456fa99c22affd5a01d9a5e5ac604157f39d07f0bf5f",
+    "docs/mockups/art-direction-v2/03-results-pause-retry.png": "f471e43a2ef6b5619d35f261536f1b95073bb5b3cc0773be3ce95cd9d1393972",
+    "docs/mockups/art-direction-v2/04-destinations.png": "a9a5c719ee743a9a00cbe9e8dd8801dd9f9cfbec1c02da09adccf8fe2324f11f",
+    "docs/mockups/art-direction-v2/05-arrival-passport-store.png": "a93a8d364daf4923feb4e36a05007955c19378b7e8794c2098d6fc4b8970af27",
+    "docs/mockups/art-direction-v2/06-supporting-dialogs.png": "d1b71517d9fa22389cadbf2ac050ca64fcf403fd707882d1c19de1434a56f3de"
+  }
+}

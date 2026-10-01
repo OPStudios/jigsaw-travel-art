@@ -1,0 +1,25 @@
+{
+  "reason": "Preparation-only visibility gate after independent review found exact rest-state reconstruction could still clip during105%zoom. No runtime scans or approved art-board edits.",
+  "command": "python -m unittest discover -s tests -p 'test_painted*.py'",
+  "tests": 32,
+  "passed": true,
+  "durationSeconds": 27.479,
+  "files": [
+    {
+      "path": "tools/painted_content.py",
+      "sha256": "691ed9335f86a56ba8b269afea6cacb8187d5e51f5c42dea9ead955c31431576"
+    },
+    {
+      "path": "tools/ingest_painted_scenes.py",
+      "sha256": "744bb243729b05c067a8934accf9ec0deb4eb8d2572557bf4ca6b59db15397fd"
+    },
+    {
+      "path": "tests/test_painted_content.py",
+      "sha256": "5b320b1a86fb0f7e266b9afe1f572427bbaf8aae604b87ffe9be8d9e2cefeff3"
+    },
+    {
+      "path": "tests/test_painted_ingestion.py",
+      "sha256": "37f8733e39b0274f6d72c81205e011668ed097bb2d18647bb1f0b6247e474866"
+    }
+  ]
+}

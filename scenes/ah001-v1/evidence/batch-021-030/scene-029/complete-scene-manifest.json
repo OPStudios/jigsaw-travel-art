@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 29,
+      "sceneId": "ah001-029-water-coast",
+      "status": "complete",
+      "theme": "water-coast",
+      "mainColour": "#ecc790",
+      "master": {
+        "source": "ah001-029-water-coast/master.png",
+        "sha256": "a5ad498797880a43a0a77e6270afef268870736993c6aca4253c71f76b5070f3"
+      },
+      "background": {
+        "source": "ah001-029-water-coast/background.png",
+        "sha256": "c6e55b7c8218757a943da958633a5bd7a8ec78bff671d19b082b596185cfe20b"
+      },
+      "parts": [
+        {
+          "source": "ah001-029-water-coast/part-1.png",
+          "sha256": "7b5dd1081b29652323a20e387d6724a42d2ee0206fe682d5c5a2d09fba4d99d1",
+          "rect": [
+            0.2265625,
+            0.340625,
+            0.140625,
+            0.04375
+          ],
+          "sourcePixelRect": [
+            290,
+            545,
+            180,
+            70
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "near reflection",
+          "authoringSource": "near-reflection",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            25,
+            205,
+            496,
+            388
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              380,
+              580
+            ]
+          }
+        },
+        {
+          "source": "ah001-029-water-coast/part-2.png",
+          "sha256": "425caceefbf496a395fc85778027cd9434f5462ef6c0c9a4ad1e5617b97514d0",
+          "rect": [
+            0.48046875,
+            0.25125,
+            0.1171875,
+            0.035
+          ],
+          "sourcePixelRect": [
+            615,
+            402,
+            150,
+            56
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "far wave glints",
+          "authoringSource": "far-wave-glints",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            15,
+            206,
+            498,
+            386
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              690,
+              430
+            ]
+          }
+        },
+        {
+          "source": "ah001-029-water-coast/part-3.png",
+          "sha256": "bfe5345a7a1dd542d9eff5e114711293cca721ce0dfc94c4a82ab0b66018d494",
+          "rect": [
+            0.7296875,
+            0.605,
+            0.140625,
+            0.115625
+          ],
+          "sourcePixelRect": [
+            934,
+            968,
+            180,
+            185
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "dune grass",
+          "authoringSource": "dune-grass",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            30,
+            39,
+            485,
+            506
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1060,
+              1150
+            ]
+          }
+        },
+        {
+          "source": "ah001-029-water-coast/part-4.png",
+          "sha256": "dbf82555cda46a120325f4c0349aecb09ab3274c76e19da1c16ec52bebe68d74",
+          "rect": [
+            0.5,
+            0.031875,
+            0.13828125,
+            0.0625
+          ],
+          "sourcePixelRect": [
+            640,
+            51,
+            177,
+            100
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "near cloud",
+          "authoringSource": "near-cloud",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            21,
+            113,
+            500,
+            384
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              728,
+              101
+            ]
+          }
+        },
+        {
+          "source": "ah001-029-water-coast/part-5.png",
+          "sha256": "5d793ae10fc9ec19fa72482f1499c654b7e33391351dd7bcb9310359435d4a9c",
+          "rect": [
+            0.79296875,
+            0.116875,
+            0.1171875,
+            0.02875
+          ],
+          "sourcePixelRect": [
+            1015,
+            187,
+            150,
+            46
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "far cloud wisp",
+          "authoringSource": "far-cloud-wisp",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            14,
+            189,
+            499,
+            338
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              1090,
+              210
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\background-original.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A sandy dune with shells and sea grass. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft near-water reflection patch at normalised rect [0.14, 0.62, 0.25, 0.14]; a second distinct water reflection patch at normalised rect [0.51, 0.71, 0.27, 0.12]; a shore reed or sea-grass cluster at normalised rect [0.75, 0.53, 0.17, 0.24]; a softly painted near cloud at normalised rect [0.12, 0.1, 0.24, 0.14]; a softly painted far cloud or spray wisp appropriate to the scene at normalised rect [0.58, 0.18, 0.24, 0.12]. The painting must remain attractive and complete underneath those parts.\nArt direction refinement: warm ivory is clearly dominant, broad pale dune sand occupying lower two-thirds, softly brushed wind ripples, a little driftwood and five naturally assorted seashells at lower-left, pale tawny dune grass at lower-right. A modest pale aqua sea strip at the upper-middle, broad pale ivory sky at the top with a faint blue tint. Ocean shallows are visible off the dune on the left, where two tiny separately painted reflection clusters can sit; the main scene remains sandy and serene. No people, buildings, boats, towers, striped cabins, lettering or recognizable coast. Soft warm morning light, crisp tactile shells, no oversized shells. No heavy orange sunset. All future animated cloud and grass surfaces have an intact clean underlying painting, not gaps.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-3203c43d-4d37-4bfd-8f58-909a49e41c0b.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\background.png",
+            "sha256": "5484fc540c6c0d9c1454f4cf1fdf9c8ae9a83868e7ca7e261322d3d09b4c5f4a",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\atlas-original.png",
+            "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"A sandy dune with shells and sea grass\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: close cozy three-quarter view; same gentle light from upper left. Palette dominant warm ivory (#E7D7B5) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a soft near-water reflection patch; cell(2,1): a second distinct water reflection patch; cell(3,1): a shore reed or sea-grass cluster; cell(1,2): a softly painted near cloud; cell(2,2): a softly painted far cloud or spray wisp appropriate to the scene. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nFive exact purpose-painted details in invisible 3x2 arrangement: top-left thin broken warm-silver nearshore reflections, shallow horizontal cluster; top-middle DIFFERENT pale aqua-and-white distant wave glints, narrow horizontal cluster; top-right one compact tawny dune-grass tuft with graceful narrow blades and two wheatlike seedheads, full anchored base; bottom-left one small soft ivory cumulus cloud, rounded asymmetrical silhouette, cool paleblue shadow; bottom-middle one DIFFERENT slender pale ivory cloud wisp, horizontal featherlike silhouette. All details fully inside their independent cells with very large empty transparent gutters. Sixth cell absolutely empty. All reflection spaces genuine transparent alpha, no water rectangle. No sand, rocks, sky, scenery, frame lines, haze, glow, matte or shadow fields. Natural softly brushed painting to match warm morning dune beside aqua surf.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-f7557287-ea88-468e-becc-0382583ceeb5.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\atlas.png",
+            "sha256": "b308d0aef9a1ff078ec3be32c7628f974df54d46578444268fc85c1428c28c1d",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "near-reflection",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\near-reflection-isolated.png",
+            "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\near-reflection.png",
+            "sha256": "58685e37da69b6c7e70a5161696456d356e67b37947b41d32f070c5025390a8b",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "far-wave-glints",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\far-wave-glints-isolated.png",
+            "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\far-wave-glints.png",
+            "sha256": "4661d738612306f0a635c57023bd6c04d0733f15bb0468238c9b364f8af4e979",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "dune-grass",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\dune-grass-isolated.png",
+            "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              1024,
+              0,
+              1536,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\dune-grass.png",
+            "sha256": "54352b6d131d6955ccf3c90545ebed39e1b97992a2f7fb4caef9405556a320f6",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "near-cloud",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\near-cloud-isolated.png",
+            "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\near-cloud.png",
+            "sha256": "743f82a2c3fd301a84e24ab5c6413ded2c0457e822e3f4fe3a5ffc5b528a185a",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "far-cloud-wisp",
+            "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-029\\far-cloud-wisp-isolated.png",
+            "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-029-water-coast\\source\\far-cloud-wisp.png",
+            "sha256": "5c09e60299735479c5475d7361c3f85dd04fae086b8b7fafbd0682d9b85eb940",
+            "pixels": [
+              512,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Two distinct reflection/wave clusters lie on water, dune grass roots in existing right-side grass, and two unique clouds sit fully in sky with clear canvas margins. No recognisable coast or landmark. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0002,
+          "orange-yellow": 0.8328,
+          "green": 0.0094,
+          "blue": 0.1577,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#ecc790",
+        "mainColourLabel": "warm ivory sand",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "3ad5d8200696b8982a61562c789f6d131d65c81e4ee5d9d738b083f8187888f2"
+      }
+    }
+  ]
+}

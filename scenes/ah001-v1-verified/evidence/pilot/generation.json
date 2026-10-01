@@ -1,0 +1,172 @@
+{
+  "row": {
+    "level_id": 1,
+    "scene_id": "ah001-001-food-drink",
+    "destination": "Paris",
+    "destination_level": 1,
+    "theme_id": 1,
+    "theme": "Food and drink",
+    "theme_slug": "food-drink",
+    "main_colour": "clear sky blue",
+    "main_colour_hex": "#7DBED8",
+    "viewpoint": "eye-level intimate view",
+    "scene": "Citrus tea and honey biscuits on a linen-covered garden table",
+    "master_pixels": [
+      1280,
+      1600
+    ],
+    "aspect": "4:5",
+    "atlas_pixels": [
+      2400,
+      1600
+    ],
+    "atlas_grid": [
+      3,
+      2
+    ],
+    "parts": [
+      {
+        "id": 1,
+        "subject": "a soft curling steam wisp or airy kitchen light haze appropriate to the drink",
+        "atlas_cell": [
+          0,
+          0
+        ],
+        "rect": [
+          0.16,
+          0.28,
+          0.16,
+          0.17
+        ],
+        "axis": [
+          0,
+          -1
+        ],
+        "amplitude": 4,
+        "source_pixel_rect_at_1280x1600": [
+          205,
+          448,
+          205,
+          272
+        ]
+      },
+      {
+        "id": 2,
+        "subject": "a scene-matching herb sprig",
+        "atlas_cell": [
+          1,
+          0
+        ],
+        "rect": [
+          0.68,
+          0.12,
+          0.2,
+          0.17
+        ],
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 4,
+        "source_pixel_rect_at_1280x1600": [
+          870,
+          192,
+          256,
+          272
+        ]
+      },
+      {
+        "id": 3,
+        "subject": "a tiny flower stem in the scene palette",
+        "atlas_cell": [
+          2,
+          0
+        ],
+        "rect": [
+          0.08,
+          0.62,
+          0.17,
+          0.18
+        ],
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 4,
+        "source_pixel_rect_at_1280x1600": [
+          102,
+          992,
+          218,
+          288
+        ]
+      },
+      {
+        "id": 4,
+        "subject": "one corner of the table napkin",
+        "atlas_cell": [
+          0,
+          1
+        ],
+        "rect": [
+          0.61,
+          0.74,
+          0.22,
+          0.13
+        ],
+        "axis": [
+          0,
+          1
+        ],
+        "amplitude": 4,
+        "source_pixel_rect_at_1280x1600": [
+          781,
+          1184,
+          282,
+          208
+        ]
+      },
+      {
+        "id": 5,
+        "subject": "a small leafy garnish or mint sprig",
+        "atlas_cell": [
+          1,
+          1
+        ],
+        "rect": [
+          0.43,
+          0.58,
+          0.14,
+          0.12
+        ],
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 4,
+        "source_pixel_rect_at_1280x1600": [
+          550,
+          928,
+          179,
+          192
+        ]
+      }
+    ],
+    "status": "planned_not_authored",
+    "background_prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Citrus tea and honey biscuits on a linen-covered garden table. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: clear sky blue (#7DBED8), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft curling steam wisp or airy kitchen light haze appropriate to the drink at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts. Precise composition for layer alignment: blue linen garden tabletop fills lower65% of image, pale sky blue and soft garden beyond in upper35%. Place a small blue-and-white teacup and saucer centered at(x24%,y48%), cup rim aroundy44%; no steam in clean plate. Place honey biscuits on an ivory ceramic plate centered at(x53%,y65%). Small pot/trunk near upper-right(x80%,y30%) has no foreground herb sprig. Small bud-vase at(x16%,y82%) has no flower stem. Include a naturally folded ivory linen napkin across lower-right with finished cloth underneath the intended moving corner(x61%-83%,y74%-87%). No mint garnish on biscuits yet. Leave naturally finished background under all layer positions, not obvious gaps.",
+    "atlas_prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"Citrus tea and honey biscuits on a linen-covered garden table\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: eye-level intimate view; same gentle light from upper left. Palette dominant clear sky blue (#7DBED8) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a soft curling steam wisp or airy kitchen light haze appropriate to the drink; cell(2,1): a scene-matching herb sprig; cell(3,1): a tiny flower stem in the scene palette; cell(1,2): one corner of the table napkin; cell(2,2): a small leafy garnish or mint sprig. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene. Align these exact five details: Cell1 upper-left: wispy cream tea steam with lowest point at bottom center; cell2 upper-middle: small bright green lemon-thyme branch, stem at bottom center, no pot; cell3 upper-right: a single small cream-yellow daisy flower on a slim stem, stem at bottom center, no vase; cell4 lower-left: a softly folded ivory linen napkin corner, close elevated tabletop view, no table rectangle; cell5 lower-middle: a tiny fresh mint garnish with three leaves, viewed from above at a slight angle. Each detail only, all else transparent. Sixth lower-right cell entirely empty. Keep the steam thin and translucent; the other four must be fully painted with soft alpha edges. Target atlas3:2.",
+    "output_directory": "assets/art/ah001-scenes/ah001-001-food-drink",
+    "approved_by_root": false
+  },
+  "sources": [
+    {
+      "name": "background",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Citrus tea and honey biscuits on a linen-covered garden table. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: clear sky blue (#7DBED8), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft curling steam wisp or airy kitchen light haze appropriate to the drink at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts. Precise composition for layer alignment: blue linen garden tabletop fills lower65% of image, pale sky blue and soft garden beyond in upper35%. Place a small blue-and-white teacup and saucer centered at(x24%,y48%), cup rim aroundy44%; no steam in clean plate. Place honey biscuits on an ivory ceramic plate centered at(x53%,y65%). Small pot/trunk near upper-right(x80%,y30%) has no foreground herb sprig. Small bud-vase at(x16%,y82%) has no flower stem. Include a naturally folded ivory linen napkin across lower-right with finished cloth underneath the intended moving corner(x61%-83%,y74%-87%). No mint garnish on biscuits yet. Leave naturally finished background under all layer positions, not obvious gaps.",
+      "source": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-f7d4938d-f982-4170-8f0a-e8a6766a7143.png"
+    },
+    {
+      "name": "atlas",
+      "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"Citrus tea and honey biscuits on a linen-covered garden table\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: eye-level intimate view; same gentle light from upper left. Palette dominant clear sky blue (#7DBED8) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a soft curling steam wisp or airy kitchen light haze appropriate to the drink; cell(2,1): a scene-matching herb sprig; cell(3,1): a tiny flower stem in the scene palette; cell(1,2): one corner of the table napkin; cell(2,2): a small leafy garnish or mint sprig. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene. Align these exact five details: Cell1 upper-left: wispy cream tea steam with lowest point at bottom center; cell2 upper-middle: small bright green lemon-thyme branch, stem at bottom center, no pot; cell3 upper-right: a single small cream-yellow daisy flower on a slim stem, stem at bottom center, no vase; cell4 lower-left: a softly folded ivory linen napkin corner, close elevated tabletop view, no table rectangle; cell5 lower-middle: a tiny fresh mint garnish with three leaves, viewed from above at a slight angle. Each detail only, all else transparent. Sixth lower-right cell entirely empty. Keep the steam thin and translucent; the other four must be fully painted with soft alpha edges. Target atlas3:2.",
+      "source": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-2c2f52f0-3745-44b3-928f-b1d7f093b5d9.png"
+    }
+  ]
+}

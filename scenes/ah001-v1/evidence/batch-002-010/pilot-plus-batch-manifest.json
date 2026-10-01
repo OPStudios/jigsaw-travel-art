@@ -1,0 +1,3222 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 1,
+      "sceneId": "ah001-001-food-drink",
+      "status": "complete",
+      "theme": "food-drink",
+      "mainColour": "#759bc6",
+      "master": {
+        "source": "ah001-001-food-drink/master.png",
+        "sha256": "59d8da3ac65ded16af50aa7a4a567c55804206ea4cfc733f8430190ec271faed"
+      },
+      "background": {
+        "source": "ah001-001-food-drink/background.png",
+        "sha256": "e8a667ec16995d3de45065b1a089e2f7677261ad2cd54c9c48d9beea6310f846"
+      },
+      "parts": [
+        {
+          "source": "ah001-001-food-drink/part-1-tea-steam.png",
+          "sha256": "b5e0531b01a0647df635a0798af46246824081c15ec4554525740b46e7f1dd9c",
+          "rect": [
+            0.24921875,
+            0.2925,
+            0.125,
+            0.144375
+          ],
+          "sourcePixelRect": [
+            319,
+            468,
+            160,
+            231
+          ],
+          "axis": [
+            0,
+            -1
+          ],
+          "amplitude": 4,
+          "subject": "tea-steam",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "alphaCrop": [
+            103,
+            11,
+            450,
+            512
+          ],
+          "anchor": {
+            "kind": "bottom",
+            "point": [
+              398,
+              696
+            ]
+          }
+        },
+        {
+          "source": "ah001-001-food-drink/part-2-lemon-thyme-branch.png",
+          "sha256": "f18798f2349d0ac3a2cf211f74a1f232a4b63dd9270d945de8677ee9d6738fa3",
+          "rect": [
+            0.81328125,
+            0.11375,
+            0.1640625,
+            0.15
+          ],
+          "sourcePixelRect": [
+            1041,
+            182,
+            210,
+            240
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "lemon-thyme-branch",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "alphaCrop": [
+            56,
+            50,
+            453,
+            504
+          ],
+          "anchor": {
+            "kind": "bottom",
+            "point": [
+              1140,
+              420
+            ]
+          }
+        },
+        {
+          "source": "ah001-001-food-drink/part-3-daisy-stem.png",
+          "sha256": "e0315649756a4109d4deba2c9337504714a9fa467c8f4c2e89667412a39d9b28",
+          "rect": [
+            0.07734375,
+            0.511875,
+            0.08203125,
+            0.119375
+          ],
+          "sourcePixelRect": [
+            99,
+            819,
+            105,
+            191
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "daisy-stem",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "alphaCrop": [
+            145,
+            70,
+            385,
+            507
+          ],
+          "anchor": {
+            "kind": "bottom",
+            "point": [
+              143,
+              1008
+            ]
+          }
+        },
+        {
+          "source": "ah001-001-food-drink/part-4-garden-butterfly.png",
+          "sha256": "0462059f464e066c5e324dcbd4e34eba4fae3bc67942cd123847d1fa2bf35c89",
+          "rect": [
+            0.521875,
+            0.293125,
+            0.08359375,
+            0.065
+          ],
+          "sourcePixelRect": [
+            668,
+            469,
+            107,
+            104
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "garden-butterfly",
+          "authoringSource": "butterfly",
+          "atlasCellRect": null,
+          "alphaCrop": [
+            56,
+            58,
+            1227,
+            1198
+          ],
+          "anchor": {
+            "kind": "center",
+            "point": [
+              721,
+              521
+            ]
+          }
+        },
+        {
+          "source": "ah001-001-food-drink/part-5-mint-garnish.png",
+          "sha256": "a04ea911794d64457ea81fe45a2667c302ceaaca367eb71897d5eeac92deb1f6",
+          "rect": [
+            0.61640625,
+            0.61,
+            0.090625,
+            0.06375
+          ],
+          "sourcePixelRect": [
+            789,
+            976,
+            116,
+            102
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "mint-garnish",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "alphaCrop": [
+            54,
+            71,
+            459,
+            428
+          ],
+          "anchor": {
+            "kind": "center",
+            "point": [
+              847,
+              1027
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Citrus tea and honey biscuits on a linen-covered garden table. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: clear sky blue (#7DBED8), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft curling steam wisp or airy kitchen light haze appropriate to the drink at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts. Precise composition for layer alignment: blue linen garden tabletop fills lower65% of image, pale sky blue and soft garden beyond in upper35%. Place a small blue-and-white teacup and saucer centered at(x24%,y48%), cup rim aroundy44%; no steam in clean plate. Place honey biscuits on an ivory ceramic plate centered at(x53%,y65%). Small pot/trunk near upper-right(x80%,y30%) has no foreground herb sprig. Small bud-vase at(x16%,y82%) has no flower stem. Include a naturally folded ivory linen napkin across lower-right with finished cloth underneath the intended moving corner(x61%-83%,y74%-87%). No mint garnish on biscuits yet. Leave naturally finished background under all layer positions, not obvious gaps.",
+            "source": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-f7d4938d-f982-4170-8f0a-e8a6766a7143.png",
+            "retained_source": "assets/art/ah001-scenes/ah001-001-food-drink/source/background.png",
+            "sha256": "c18ccb0e4319ddf7a0c2421b08ae3f0de876d9d7701ba1812c5d7fb5af8f541f"
+          },
+          {
+            "name": "atlas",
+            "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"Citrus tea and honey biscuits on a linen-covered garden table\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: eye-level intimate view; same gentle light from upper left. Palette dominant clear sky blue (#7DBED8) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a soft curling steam wisp or airy kitchen light haze appropriate to the drink; cell(2,1): a scene-matching herb sprig; cell(3,1): a tiny flower stem in the scene palette; cell(1,2): one corner of the table napkin; cell(2,2): a small leafy garnish or mint sprig. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene. Align these exact five details: Cell1 upper-left: wispy cream tea steam with lowest point at bottom center; cell2 upper-middle: small bright green lemon-thyme branch, stem at bottom center, no pot; cell3 upper-right: a single small cream-yellow daisy flower on a slim stem, stem at bottom center, no vase; cell4 lower-left: a softly folded ivory linen napkin corner, close elevated tabletop view, no table rectangle; cell5 lower-middle: a tiny fresh mint garnish with three leaves, viewed from above at a slight angle. Each detail only, all else transparent. Sixth lower-right cell entirely empty. Keep the steam thin and translucent; the other four must be fully painted with soft alpha edges. Target atlas3:2.",
+            "source": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-2c2f52f0-3745-44b3-928f-b1d7f093b5d9.png",
+            "retained_source": "assets/art/ah001-scenes/ah001-001-food-drink/source/atlas.png",
+            "sha256": "e22c7cfa1869af5dfceb49f0c0fb09ab70286d69df51a9490d811c0fdfe945be"
+          },
+          {
+            "name": "butterfly",
+            "prompt": "Use case: stylized-concept. Production painted moving detail for a cozy travel puzzle painting of citrus tea and honey biscuits on a blue linen garden table. ONE small pale lemon-yellow butterfly, wings spread in a gently angled three-quarter view, hovering above a sunny garden flower. Soft realistic storybook digital-paint style matching detailed illustrated garden tea scenes: delicate painted wing veins and cream highlights, warm gold subtly brown edges, small body and fine antennae. Not a photograph, not a vector symbol, not outlined cartoon. True transparent alpha outside the butterfly, no flowers, background, shadow, letters or other insects. Compact near-square full silhouette, tightly centered with comfortable transparent margin. Exact one butterfly.",
+            "source": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-08fa8f89-b1ec-4ecb-a109-8bf8dbbef4ef.png",
+            "retained_source": "assets/art/ah001-scenes/ah001-001-food-drink/source/butterfly.png",
+            "sha256": "3d75bebb5b4718b962f78d22207ab465acdef514ce0bdd7e78f85797f6f32ca4"
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "review": "Pilot still awaiting root visual and runtime review before batch scaling; complete means all7painted files exist and reconstruct exactly, not PM approval.",
+        "dominantHueBucket": "blue",
+        "chromaticHueFractions": {
+          "red": 0.0036,
+          "orange-yellow": 0.411,
+          "green": 0.0307,
+          "blue": 0.5547,
+          "violet-pink": 0.0
+        },
+        "dominantColourMedian": [
+          117,
+          155,
+          198
+        ],
+        "noDestinationLandmark": true,
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "atlasOriginalPixels": [
+          1536,
+          1024
+        ],
+        "correction": "The atlas napkin had a striped border that did not match the background floral embroidery. It is not used; replaced by a purpose-painted garden butterfly with its own retained source and prompt."
+      }
+    },
+    {
+      "levelId": 2,
+      "sceneId": "ah001-002-markets-shops",
+      "status": "complete",
+      "theme": "markets-shops",
+      "mainColour": "#a77da4",
+      "master": {
+        "source": "ah001-002-markets-shops/master.png",
+        "sha256": "0009ce122a4a05266156a5e4f74c81e18026a0dd4007dc102d45ab29994a9234"
+      },
+      "background": {
+        "source": "ah001-002-markets-shops/background.png",
+        "sha256": "c169a5a25be9a39e0de311794e67074b2443252f744f09f87568cbe2974042be"
+      },
+      "parts": [
+        {
+          "source": "ah001-002-markets-shops/part-1.png",
+          "sha256": "df31a5d80387f6bf035c60256da0edf3072fc5e719f4eec8665628a8799534c5",
+          "rect": [
+            0.58046875,
+            0.1525,
+            0.059375,
+            0.110625
+          ],
+          "sourcePixelRect": [
+            743,
+            244,
+            76,
+            177
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "awning tassel",
+          "authoringSource": "extraction-1",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            160,
+            54,
+            380,
+            566
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              743,
+              244
+            ]
+          }
+        },
+        {
+          "source": "ah001-002-markets-shops/part-2.png",
+          "sha256": "8f61a69b88488fc85a9501de10e85354a9e6a88d089b9edc78e129527bf8098b",
+          "rect": [
+            0.4796875,
+            0.420625,
+            0.09609375,
+            0.14375
+          ],
+          "sourcePixelRect": [
+            614,
+            673,
+            123,
+            230
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pink sweet-pea sprig",
+          "authoringSource": "extraction-2",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            105,
+            40,
+            408,
+            606
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              674,
+              901
+            ]
+          }
+        },
+        {
+          "source": "ah001-002-markets-shops/part-3.png",
+          "sha256": "5e2fac4428294982e10de75e26592fad3caa4464b9103a910076ed3ab7d68383",
+          "rect": [
+            0.12578125,
+            0.63625,
+            0.12109375,
+            0.165
+          ],
+          "sourcePixelRect": [
+            161,
+            1018,
+            155,
+            264
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "flower-stall ivy",
+          "authoringSource": "extraction-3",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            99,
+            48,
+            419,
+            594
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              176,
+              1280
+            ]
+          }
+        },
+        {
+          "source": "ah001-002-markets-shops/part-4.png",
+          "sha256": "40251468010d2fa18353b9986962a4311a264221075d171406493d492a780b45",
+          "rect": [
+            0.4703125,
+            0.5175,
+            0.08984375,
+            0.074375
+          ],
+          "sourcePixelRect": [
+            602,
+            828,
+            115,
+            119
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "bouquet ribbon",
+          "authoringSource": "extraction-4",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            83,
+            16,
+            448,
+            395
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              660,
+              888
+            ]
+          }
+        },
+        {
+          "source": "ah001-002-markets-shops/part-5.png",
+          "sha256": "df74f2e510a63509fc5bd33de2d326f5f8512a3d032e51f928433fd1801c0d19",
+          "rect": [
+            0.2453125,
+            0.361875,
+            0.05078125,
+            0.03875
+          ],
+          "sourcePixelRect": [
+            314,
+            579,
+            65,
+            62
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "cabbage butterfly",
+          "authoringSource": "extraction-5",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            111,
+            52,
+            429,
+            357
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              347,
+              610
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-8662e45b-a22e-478c-8b30-997bbeb6551c.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A neighborhood flower stall overflowing with wrapped bouquets. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: soft violet (#AE92C6), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a short scene-specific fabric pennant at normalised rect [0.13, 0.08, 0.22, 0.13]; a soft awning tassel at normalised rect [0.66, 0.23, 0.12, 0.18]; a small flower sprig matching the stall at normalised rect [0.74, 0.66, 0.16, 0.17]; a leafy branch entering from the left at normalised rect [0.06, 0.36, 0.17, 0.22]; a tied ribbon from one displayed package at normalised rect [0.41, 0.6, 0.16, 0.13]. The painting must remain attractive and complete underneath those parts. Make a lavender-purple cloth awning and violet flower wraps dominate this intimate flower stall. Finished wooden counter occupies lower half. Provide real hanging cords under the awning, flowerpots at the lower edge, and a tall leafy plant at left. Leave the intended foreground ribbon/tassel/flower details out, but paint complete pot and counter surfaces behind them. No lettering on signs. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\background.png",
+            "sha256": "24788c88ee447d8fe90f894f14bae67481f0e7ae2f11907b9c915d1b2c1bb0d0",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A neighborhood flower stall overflowing with wrapped bouquets\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a gently elevated three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a short ivory-and-lavender tasseled cord hanging vertically, top attachment narrow, bottom soft fan; top-middle one pink sweet-pea flower sprig with green leaves and a long tapered bottom stem, seen upright; top-right a curving ivy branch with small warm sunlit leaves and a narrow bottom stem; bottom-left one small loosely tied deep violet silk bow with two soft dangling tails; bottom-middle a tiny pale yellow cabbage butterfly in three-quarter view. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\atlas.png",
+            "sha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "extraction-1",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-1.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+            "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+            "sourceAtlasRect": [
+              0,
+              0,
+              512,
+              600
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-1.png",
+            "sha256": "40bf55bfcd57a82b469fd32ec0cfafa82de8653545208cdd26828f0dfd677c18",
+            "pixels": [
+              512,
+              600
+            ]
+          },
+          {
+            "name": "extraction-2",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-2.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+            "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+            "sourceAtlasRect": [
+              512,
+              0,
+              1024,
+              610
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-2.png",
+            "sha256": "8a7d0410a3591e6ede1ddc75b731b36a6590017ea02a6d77479f903d30f5f213",
+            "pixels": [
+              512,
+              610
+            ]
+          },
+          {
+            "name": "extraction-3",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-3.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+            "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+            "sourceAtlasRect": [
+              1024,
+              0,
+              1536,
+              650
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-3.png",
+            "sha256": "181f819241966ff937633c61afaa24b7af71973c0ed01cad82e52358b8b6d8fd",
+            "pixels": [
+              512,
+              650
+            ]
+          },
+          {
+            "name": "extraction-4",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-4.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+            "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+            "sourceAtlasRect": [
+              0,
+              600,
+              512,
+              1024
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-4.png",
+            "sha256": "aac2e6a50c044fdb7a344ae7eca3736e2513dffb8f30c034875111b2f85fc992",
+            "pixels": [
+              512,
+              424
+            ]
+          },
+          {
+            "name": "extraction-5",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-5.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+            "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+            "sourceAtlasRect": [
+              512,
+              610,
+              1024,
+              1024
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-5.png",
+            "sha256": "58fe9b75b229acf191ecfa37562fe0f0c3b0d53f70f015a54d2d135e37b61513",
+            "pixels": [
+              512,
+              414
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Tassel attaches to awning; flower and bow belong to a bouquet; ivy stems into floor planter; butterfly occupies open air. Original atlas unequal row heights retained via exact crop source overrides. Main colour is measured from visible subject region [210, 40, 1080, 320]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0987,
+          "orange-yellow": 0.5805,
+          "green": 0.0222,
+          "blue": 0.0042,
+          "violet-pink": 0.2944
+        },
+        "measuredDominantColour": "#86673e",
+        "mainColourLabel": "lavender violet",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "d0d7930d1d29158751666f4e51a4df79a4c250b55b2e1124bebcb2932229d8b7"
+      }
+    },
+    {
+      "levelId": 3,
+      "sceneId": "ah001-003-nature-gardens",
+      "status": "complete",
+      "theme": "nature-gardens",
+      "mainColour": "#798355",
+      "master": {
+        "source": "ah001-003-nature-gardens/master.png",
+        "sha256": "cd502df5f6bd82df2bcc03856d61598dc81d687b29825573e0aef76ff8d7a303"
+      },
+      "background": {
+        "source": "ah001-003-nature-gardens/background.png",
+        "sha256": "e75c733f2a820d156e7430f80228dd0b482c30993fa1c1c8f568c1898deae481"
+      },
+      "parts": [
+        {
+          "source": "ah001-003-nature-gardens/part-1.png",
+          "sha256": "446fcc7dc4c3cc92423846ea69a00e83a804fad3b092cb59651e65b0409b44d4",
+          "rect": [
+            0.0390625,
+            0.120625,
+            0.171875,
+            0.1225
+          ],
+          "sourcePixelRect": [
+            50,
+            193,
+            220,
+            196
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "bamboo twig",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            32,
+            52,
+            507,
+            476
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              261,
+              386
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-2.png",
+          "sha256": "b3c6ffbe28267b9875d2908069ac6242ddf0343714849c86182714346999f314",
+          "rect": [
+            0.1,
+            0.7575,
+            0.09296875,
+            0.14375
+          ],
+          "sourcePixelRect": [
+            128,
+            1212,
+            119,
+            230
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pond fern",
+          "authoringSource": "extraction-2",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            134,
+            48,
+            376,
+            514
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              170,
+              1440
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-3.png",
+          "sha256": "84250a543218b902fd95823fcd0f64f92d0c05234baad2597eecbfa2716a4d4d",
+          "rect": [
+            0.81875,
+            0.80875,
+            0.140625,
+            0.11125
+          ],
+          "sourcePixelRect": [
+            1048,
+            1294,
+            180,
+            178
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "water grass",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            5,
+            35,
+            476,
+            502
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1159,
+              1470
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-4.png",
+          "sha256": "e2d8d50e2d9c51d9642e3180b06a106822482986d3136ad132584292cdf8f24b",
+          "rect": [
+            0.3375,
+            0.77625,
+            0.12109375,
+            0.073125
+          ],
+          "sourcePixelRect": [
+            432,
+            1242,
+            155,
+            117
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "water lily",
+          "authoringSource": "extraction-4",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            32,
+            20,
+            516,
+            385
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              510,
+              1300
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-5.png",
+          "sha256": "97de95c78bdf3265f43263c17281a4e8ca1eb80b951cf7effdb4975df6245258",
+          "rect": [
+            0.65390625,
+            0.545,
+            0.0625,
+            0.045625
+          ],
+          "sourcePixelRect": [
+            837,
+            872,
+            80,
+            73
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pond dragonfly",
+          "authoringSource": "extraction-5",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            2,
+            28,
+            474,
+            458
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              877,
+              908
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-26530fc2-e2a8-4240-b3f0-d4716bbd6dce.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A quiet bamboo pond with a small unmarked footbridge. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: an upper-left branch of the scene-specific plant at normalised rect [0.07, 0.09, 0.23, 0.2]; an upper-right leaf cluster of a different scene plant at normalised rect [0.72, 0.14, 0.2, 0.2]; a lower-left flower or fern frond at normalised rect [0.08, 0.69, 0.21, 0.22]; a lower-right cluster of matching grass or foliage at normalised rect [0.71, 0.72, 0.22, 0.18]; a small soft cloud or reflected-water glint suited to this scene at normalised rect [0.4, 0.27, 0.2, 0.12]. The painting must remain attractive and complete underneath those parts. The real scene may be predominantly rich fresh green bamboo and pale stone rather than the provisional ivory palette; preserve natural botanical colour. A pond fills central lower half, thin bamboo stems and a small generic wood footbridge behind it. Finish all water and plant surfaces underneath the five later leaf/reflection layers. No famous garden or recognizable city landmark. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\background.png",
+            "sha256": "bf7c30b0f8ab052af072e975a0d997fc66d094a1d31824cef4fa2aed033c0a54",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A quiet bamboo pond with a small unmarked footbridge\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a close cozy three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left one gracefully bent bamboo twig with narrow green leaves and bottom stem; top-middle a single dark green curling fern frond, upright with bottom stalk; top-right a tuft of slim yellow-green water grasses, roots excluded, taper to one bottom base; bottom-left a small white water-lily flower with subtle pink center and two flat green pads viewed from above; bottom-middle one blue-green dragonfly with fine transparent painted wings, overhead three-quarter view. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\atlas.png",
+            "sha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "extraction-2",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-003-part-2.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "sourceAtlasSha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "sourceAtlasRect": [
+              512,
+              0,
+              1024,
+              540
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\extraction-2.png",
+            "sha256": "4f27befcc67194937ae6b30909f6b1d71dc2a06a5d58e0be2c5bd1f58f3987cb",
+            "pixels": [
+              512,
+              540
+            ]
+          },
+          {
+            "name": "extraction-4",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-003-part-4.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "sourceAtlasSha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "sourceAtlasRect": [
+              0,
+              575,
+              550,
+              1024
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\extraction-4.png",
+            "sha256": "3f4b2bb453e6b6864db4ac36ecd23ca8ba3d36da8d6e23a11c8134afacd8cf58",
+            "pixels": [
+              550,
+              449
+            ]
+          },
+          {
+            "name": "extraction-5",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-003-part-5.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "sourceAtlasSha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "sourceAtlasRect": [
+              550,
+              512,
+              1024,
+              1024
+            ],
+            "borderAlphaMax": 2,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\extraction-5.png",
+            "sha256": "fe652c0d0d2bc2ad1e291d3c65ca5ddb9e39e830f65b17904c2115a7c0f1ebe1",
+            "pixels": [
+              474,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Bamboo twig aligns to bamboo stem; fern and grass meet planted rock edges; lily floats at the existing pond scale; dragonfly occupies open pond air. Complete fern and lily extracted beyond nominal grid without clipping. Main colour is measured from visible subject region [350, 550, 1150, 1280]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0026,
+          "orange-yellow": 0.6824,
+          "green": 0.2847,
+          "blue": 0.0303,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#908e4a",
+        "mainColourLabel": "pond green",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "f1fb90e225be57fbf0e2ff2e71d4a3c1482ece4d53cdd8012c4ba56c3c873460"
+      }
+    },
+    {
+      "levelId": 4,
+      "sceneId": "ah001-004-streets-squares",
+      "status": "complete",
+      "theme": "streets-squares",
+      "mainColour": "#5d9f9a",
+      "master": {
+        "source": "ah001-004-streets-squares/master.png",
+        "sha256": "dbc0c2866961205f5eaa3d84b562e92290d2b15e2ce54ccd1629e1f1db53f1e3"
+      },
+      "background": {
+        "source": "ah001-004-streets-squares/background.png",
+        "sha256": "0b3754b544d31895363d239cd315476a3b84e9aefe38987dfc108475a1cd9bc4"
+      },
+      "parts": [
+        {
+          "source": "ah001-004-streets-squares/part-1.png",
+          "sha256": "0d5f24757ff5f5cc7e705c5f0cdf1fe4f9a17101759341ce37b7a6bbc23721bc",
+          "rect": [
+            0.09609375,
+            0.818125,
+            0.1171875,
+            0.108125
+          ],
+          "sourcePixelRect": [
+            123,
+            1309,
+            150,
+            173
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "jasmine sprig",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            53,
+            24,
+            462,
+            496
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              160,
+              1480
+            ]
+          }
+        },
+        {
+          "source": "ah001-004-streets-squares/part-2.png",
+          "sha256": "8ca2dc6ff44ce270a679809e116c467a1f2b025d4d766e4617654646cab28310",
+          "rect": [
+            0.74375,
+            0.648125,
+            0.0625,
+            0.09375
+          ],
+          "sourcePixelRect": [
+            952,
+            1037,
+            80,
+            150
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "rosemary sprig",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            143,
+            15,
+            402,
+            500
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              980,
+              1185
+            ]
+          }
+        },
+        {
+          "source": "ah001-004-streets-squares/part-3.png",
+          "sha256": "bb0b295b2958ae2836416af4050bd351580a8b0c62b9a2ffdccd3d472258062f",
+          "rect": [
+            0.42265625,
+            0.159375,
+            0.05859375,
+            0.065625
+          ],
+          "sourcePixelRect": [
+            541,
+            255,
+            75,
+            105
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "curtain tie",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            94,
+            15,
+            439,
+            497
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              541,
+              255
+            ]
+          }
+        },
+        {
+          "source": "ah001-004-streets-squares/part-4.png",
+          "sha256": "a3618530a1647feb8a56766961e92c31ba76c18d3a3a3bd6103cfdf745550398",
+          "rect": [
+            0.6421875,
+            0.1675,
+            0.0703125,
+            0.053125
+          ],
+          "sourcePixelRect": [
+            822,
+            268,
+            90,
+            85
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "courtyard swallow",
+          "authoringSource": "extraction-4",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            47,
+            27,
+            522,
+            475
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              867,
+              311
+            ]
+          }
+        },
+        {
+          "source": "ah001-004-streets-squares/part-5.png",
+          "sha256": "a8dd5a8395a052aeb26ccc8f4a80988acb8be592031f4ae3aa316a62d8f22573",
+          "rect": [
+            0.90703125,
+            0.771875,
+            0.05859375,
+            0.116875
+          ],
+          "sourcePixelRect": [
+            1161,
+            1235,
+            75,
+            187
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "lavender stem",
+          "authoringSource": "extraction-5",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            90,
+            5,
+            287,
+            496
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1200,
+              1420
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-7c9af477-2ae2-42c7-a27c-8798041baeca.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A quiet cobblestone lane with colourful unmarked doors. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: turquoise (#65B5AE), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a narrow hanging pennant appropriate to the neighborhood at normalised rect [0.17, 0.1, 0.18, 0.14]; a little flowering window-box sprig at normalised rect [0.73, 0.3, 0.18, 0.18]; a softly draped curtain corner in one window at normalised rect [0.36, 0.22, 0.13, 0.19]; a small foreground branch entering from the left at normalised rect [0.05, 0.66, 0.19, 0.23]; a soft cloud or pale reflection in this scene at normalised rect [0.49, 0.08, 0.22, 0.12]. The painting must remain attractive and complete underneath those parts. Turquoise and pale blue painted house walls are the largest shapes. Intimate unnamed cobblestone lane, flower pots, one clearly open upper window with an empty curtain rod, visible blue sky above. Provide real architectural hanging points for a small pennant and a flowerbox. No people needed and no readable shop lettering. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-004-streets-squares\\source\\background.png",
+            "sha256": "44d5440f1090e699795a235e762bae3cb4b0862a46b80cb9a5ae2016d707392e",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6c13b36d-c153-47a5-8eb6-00c962df7b00.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A quiet cobblestone lane with colourful unmarked doors\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a wide intimate view from slightly above painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a short flowering orange-jasmine vine sprig with pale ivory buds and green leaves, bottom stem; top-middle an upright rosemary sprig with subtle blue blossoms and tapered bottom stem; top-right one short cream cotton curtain tie with two draping tassels, narrow top attachment; bottom-left a small russet-and-navy swallow with spread curved wings and forked tail; bottom-middle a fine lavender stem with two narrow leaves and bottom stalk. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-004-streets-squares\\source\\atlas.png",
+            "sha256": "b718d4f10ea07ed15307b27283bbfa1d49a2dfb072c2fc95ead56b374ff4eaa1",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "extraction-4",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-004-part-4.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6c13b36d-c153-47a5-8eb6-00c962df7b00.png",
+            "sourceAtlasSha256": "b718d4f10ea07ed15307b27283bbfa1d49a2dfb072c2fc95ead56b374ff4eaa1",
+            "sourceAtlasRect": [
+              0,
+              512,
+              600,
+              1024
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-004-streets-squares\\source\\extraction-4.png",
+            "sha256": "60d0c40f7a22c0faf4aa321d6f6f08aa1d3f0c1de5aeadbf6afcb6cb6e7a3210",
+            "pixels": [
+              600,
+              512
+            ]
+          },
+          {
+            "name": "extraction-5",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-004-part-5.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6c13b36d-c153-47a5-8eb6-00c962df7b00.png",
+            "sourceAtlasSha256": "b718d4f10ea07ed15307b27283bbfa1d49a2dfb072c2fc95ead56b374ff4eaa1",
+            "sourceAtlasRect": [
+              600,
+              512,
+              1024,
+              1024
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-004-streets-squares\\source\\extraction-5.png",
+            "sha256": "0b2f88e13cb03a3aa4ddcf156a2420d312f7008922f6e4668f8cd7721c3bffaa",
+            "pixels": [
+              424,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Jasmine, rosemary and lavender grow from existing planters; tie-back is inside the upper window; swallow crosses the sky. Full swallow silhouette extracted across nominal cell boundary. Main colour is measured from visible subject region [340, 530, 520, 710]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0141,
+          "orange-yellow": 0.5947,
+          "green": 0.1922,
+          "blue": 0.1955,
+          "violet-pink": 0.0035
+        },
+        "measuredDominantColour": "#ad8f5e",
+        "mainColourLabel": "turquoise",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "da9f44c84a3b3ca2a1da942a57f98c6666339bbf35580563029091a942f1fb24"
+      }
+    },
+    {
+      "levelId": 5,
+      "sceneId": "ah001-005-interiors",
+      "status": "complete",
+      "theme": "interiors",
+      "mainColour": "#777940",
+      "master": {
+        "source": "ah001-005-interiors/master.png",
+        "sha256": "1fcb753b37661ea263d6e6fb3b32e1e9103dbc5041d17ec6834ce0692da15b90"
+      },
+      "background": {
+        "source": "ah001-005-interiors/background.png",
+        "sha256": "f04336901b3e99721732491dee1d543a1d2545a0f191b1206190529c591dc349"
+      },
+      "parts": [
+        {
+          "source": "ah001-005-interiors/part-1.png",
+          "sha256": "c5462d75501d9d29bcabf0b959bd07ef545a1014a2b7a5652ab5ce85c41406e6",
+          "rect": [
+            0.396875,
+            0.26375,
+            0.04453125,
+            0.0275
+          ],
+          "sourcePixelRect": [
+            508,
+            422,
+            57,
+            44
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "window bumblebee",
+          "authoringSource": "bee",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            371,
+            189,
+            1183,
+            820
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              537,
+              444
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-2.png",
+          "sha256": "988f90ed059634c103468bb46aed707cc47a764e1a8e52678834bc30ffd06e73",
+          "rect": [
+            0.6765625,
+            0.199375,
+            0.1671875,
+            0.13125
+          ],
+          "sourcePixelRect": [
+            866,
+            319,
+            214,
+            210
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "philodendron vine",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            513,
+            1,
+            1023,
+            511
+          ],
+          "cellInset": 1,
+          "cellInsetReview": "Only faint alpha3 border pixels removed from outermost transparent column; actual painted leaves have no alpha>8 on cell edges.",
+          "alphaCrop": [
+            14,
+            10,
+            510,
+            497
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              951,
+              527
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-3.png",
+          "sha256": "3c97dbd1876b0196a5d015652da84cb95d2d0647c406a2e9c8a0dae7714e3cab",
+          "rect": [
+            0.01796875,
+            0.3675,
+            0.046875,
+            0.1125
+          ],
+          "sourcePixelRect": [
+            23,
+            588,
+            60,
+            180
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "curtain tassel",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            188,
+            12,
+            351,
+            498
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              23,
+              588
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-4.png",
+          "sha256": "48a75aaa7484962b0b57e316e54e1369c769c2f9ec0fb473668c6659e325caa1",
+          "rect": [
+            0.125,
+            0.6075,
+            0.0390625,
+            0.043125
+          ],
+          "sourcePixelRect": [
+            160,
+            972,
+            50,
+            69
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "silk bookmark",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            152,
+            16,
+            482,
+            472
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              160,
+              972
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-5.png",
+          "sha256": "96369bde1882af8d8179e57923d6e2a5c73a0863ba4707e8d77d695fc418b131",
+          "rect": [
+            0.63046875,
+            0.535625,
+            0.0859375,
+            0.08
+          ],
+          "sourcePixelRect": [
+            807,
+            857,
+            110,
+            128
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "vase jasmine",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            26,
+            15,
+            444,
+            501
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              879,
+              983
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-c29977a3-46a4-41f4-be68-e326f43968ad.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A window reading nook with cushions and stacked books. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: sage green (#8CAC71), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: one softly draped curtain edge at normalised rect [0.07, 0.14, 0.18, 0.27]; an upper houseplant leaf cluster at normalised rect [0.73, 0.13, 0.2, 0.24]; a small flower in a tabletop vase at normalised rect [0.46, 0.56, 0.16, 0.17]; a soft corner of a woven blanket or cloth at normalised rect [0.62, 0.74, 0.24, 0.13]; a dangling ribbon or fabric tie appropriate to the room at normalised rect [0.28, 0.38, 0.1, 0.19]. The painting must remain attractive and complete underneath those parts. Use soft sage-green walls as the largest background surfaces. Cozy window reading nook, pale ivory plain curtain body or empty curtain rod, wooden bookshelves with unlettered spines, a little side table with an empty bud-vase, a houseplant pot. Keep blanket/cloth plain without complex embroidery; no people and no writing. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-005-interiors\\source\\background.png",
+            "sha256": "17a63b2553778b9457247555cdee7fd06ed4e5a9e0b655b5333f293cae3c06f3",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-045004c4-63b3-4347-9a2c-e4dcb0523b47.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A window reading nook with cushions and stacked books\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a eye-level intimate view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left soft ivory translucent steam rising from a hot tea cup, one coherent delicate curved column fading into transparency, no cup; top-middle one trailing heartleaf philodendron vine curving naturally to left from a thin right-hand stem; top-right a slim beige curtain tassel hanging vertically from a narrow top loop; bottom-left a small burgundy silk bookmark ribbon curled over an invisible book edge, no rectangular book background; bottom-middle one creamy jasmine flower cluster with delicate leaves on a slender bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-005-interiors\\source\\atlas.png",
+            "sha256": "135f3ab56663bb76d8f3920e36f6137946e61dc074485ce587cf70d7806f7e66",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "bee",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-9e5ab46d-8cb1-4749-aa62-a014ae1dea62.png",
+            "prompt": "Production transparent RGBA cutout for a cozy sunlit sage-green reading nook puzzle painting. ONE tiny realistic illustrated golden bumblebee in three-quarter side view flying toward the right, warm golden fuzzy body, dark brown bands, small delicate translucent wings with naturally painted veins. Premium dimensional storybook gouache-like digital painting, gentle upper-left sunlight, painterly restrained detail, not a cartoon mascot and no outline. Entire bee including antennae and wings fits inside central50% with at least25% transparent margin on every side. TRUE transparent alpha, no backdrop, no shadow, no flowers or particles, no text, no other objects.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-005-interiors\\source\\bee.png",
+            "sha256": "c4477fc9aa76aae3aa5ac3f7b628911765bb12c1e02e12f5874a3c130a087ea3",
+            "pixels": [
+              1536,
+              1024
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. No tea cup exists in the clean plate, so rejected steam is replaced with a unique bumblebee by the open window. Jasmine meets the vase mouth, vine joins shelf foliage, tassel meets curtain tie and bookmark sits over the existing book edge. Main colour is measured from visible subject region [785, 230, 940, 735]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.001,
+          "orange-yellow": 0.9807,
+          "green": 0.0136,
+          "blue": 0.0047,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#7c6a37",
+        "mainColourLabel": "sage olive",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "fcd7e73cab36538127bd05995696aa4c128f3311430667b6cb59cd3c0f358766"
+      }
+    },
+    {
+      "levelId": 6,
+      "sceneId": "ah001-006-transport",
+      "status": "complete",
+      "theme": "transport",
+      "mainColour": "#6c2d24",
+      "master": {
+        "source": "ah001-006-transport/master.png",
+        "sha256": "7468a04d21c847cd77657d660fd83e653eb55c49ac776448cc4c6b657003c44f"
+      },
+      "background": {
+        "source": "ah001-006-transport/background.png",
+        "sha256": "e1a3abbc6218ae8f31518614a391d961292caca98fc335f7e8f6b56a7df12cab"
+      },
+      "parts": [
+        {
+          "source": "ah001-006-transport/part-1.png",
+          "sha256": "05af40d8b15c49456a98603b4d6ef640bff2a0dd88431ca549c76668f268a1c3",
+          "rect": [
+            0.58359375,
+            0.035,
+            0.15625,
+            0.1575
+          ],
+          "sourcePixelRect": [
+            747,
+            56,
+            200,
+            252
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "locomotive steam",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            78,
+            21,
+            467,
+            512
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              905,
+              303
+            ]
+          }
+        },
+        {
+          "source": "ah001-006-transport/part-2.png",
+          "sha256": "9e661419b8741c863247aa530f2be9b5e0eb9fff1950db74c7bdccc263fdf0b4",
+          "rect": [
+            0.853125,
+            0.843125,
+            0.0859375,
+            0.096875
+          ],
+          "sourcePixelRect": [
+            1092,
+            1349,
+            110,
+            155
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "platform coreopsis",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            80,
+            49,
+            399,
+            498
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1166,
+              1500
+            ]
+          }
+        },
+        {
+          "source": "ah001-006-transport/part-3.png",
+          "sha256": "fbcdb98df98914074efdafebbbcac26f22fe66d88db15461c3d5ab9a712cfae6",
+          "rect": [
+            0.015625,
+            0.015,
+            0.1640625,
+            0.10625
+          ],
+          "sourcePixelRect": [
+            20,
+            24,
+            210,
+            170
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "station ivy",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            7,
+            61,
+            465,
+            431
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              20,
+              24
+            ]
+          }
+        },
+        {
+          "source": "ah001-006-transport/part-4.png",
+          "sha256": "32fa4f36fdae437b041e5e584843bc401cbeb6f05263c9d3b7afc7f9313d60d0",
+          "rect": [
+            0.50546875,
+            0.129375,
+            0.059375,
+            0.05375
+          ],
+          "sourcePixelRect": [
+            647,
+            207,
+            76,
+            86
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "flying sparrow",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            65,
+            0,
+            469,
+            458
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              685,
+              250
+            ]
+          }
+        },
+        {
+          "source": "ah001-006-transport/part-5.png",
+          "sha256": "0c49302c3d780e35dd1771949c9cae24f86242897b3e40f0bcb3777f6ca0989d",
+          "rect": [
+            0.384375,
+            0.8,
+            0.040625,
+            0.055625
+          ],
+          "sourcePixelRect": [
+            492,
+            1280,
+            52,
+            89
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "luggage tag",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            168,
+            10,
+            424,
+            446
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              492,
+              1280
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-2de81e1a-f39a-4996-baea-0a45bb24a45d.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A vintage train resting beside an unnamed countryside platform. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: berry red (#B85466), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small pale cloud behind the vehicle at normalised rect [0.13, 0.1, 0.25, 0.14]; a little tied pennant or luggage ribbon at normalised rect [0.64, 0.3, 0.12, 0.16]; a roadside or shore leaf cluster at normalised rect [0.08, 0.67, 0.18, 0.22]; a scene-specific grass or flower cluster at normalised rect [0.72, 0.74, 0.2, 0.16]; a soft cloud wisp or water highlight appropriate to the setting at normalised rect [0.45, 0.17, 0.22, 0.11]. The painting must remain attractive and complete underneath those parts. The vintage steam locomotive is deep berry-red and fills the main central sixty percent of the portrait. A little unmarked country platform and luggage trunks in front, small green planters at corners, a narrow pale sky strip above. NO steam over the engine funnel yet; later painted steam attaches to the real funnel. No logos, station names, numbers or text. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-006-transport\\source\\background.png",
+            "sha256": "cc4ffdc5336f9cf1f15f6b3db266030a44efaf3c555bbac2381a4e4cf30a4dfa",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-1a5c829c-dd0b-42be-ba2e-f6b533a6feee.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A vintage train resting beside an unnamed countryside platform\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a gently elevated three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a soft small charcoal-grey and ivory steam puff rising upward from a vintage train funnel, feathered alpha edges and a narrow lower spout; no train; top-middle a yellow coreopsis flower stem with two green leaves and tapered bottom base; top-right a short ivy vine extending left from a thin right-hand stem, dark green leaves in golden sunshine; bottom-left one russet and cream sparrow with spread wings, viewed from side in flight; bottom-middle an unlettered worn ivory paper luggage tag on a short loop of brown twine, hanging from narrow top attachment. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-006-transport\\source\\atlas.png",
+            "sha256": "55bde95d21ca5aecfcdf60e51e6d40f14b1648201846b3ad3bb136154f1a9075",
+            "pixels": [
+              1536,
+              1024
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Steam ends at the real funnel lip; coreopsis and ivy join station planters/roof foliage; luggage tag hangs from suitcase edge; sparrow crosses the sky. Main colour is measured from visible subject region [470, 600, 640, 880]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.3192,
+          "orange-yellow": 0.5026,
+          "green": 0.0245,
+          "blue": 0.1505,
+          "violet-pink": 0.0032
+        },
+        "measuredDominantColour": "#ad884d",
+        "mainColourLabel": "berry red",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "da6ade4d964dc98f8bf18bc693da5d523200a0e4d24e2f054bbf15af3050468b"
+      }
+    },
+    {
+      "levelId": 7,
+      "sceneId": "ah001-007-crafts-objects",
+      "status": "complete",
+      "theme": "crafts-objects",
+      "mainColour": "#c68b72",
+      "master": {
+        "source": "ah001-007-crafts-objects/master.png",
+        "sha256": "fe10585525ee82481366814b5a304670be07f498b4e1d759e083bd90f4264890"
+      },
+      "background": {
+        "source": "ah001-007-crafts-objects/background.png",
+        "sha256": "b9d506ef42f8b4254bccb02a67fdce42307e76c758d33b07ff1ed9ca2adea08d"
+      },
+      "parts": [
+        {
+          "source": "ah001-007-crafts-objects/part-1.png",
+          "sha256": "5948b1ee37c2d44f3172cc7c0298307458d2bd88eee97a4537e886f9e01e2a03",
+          "rect": [
+            0.1578125,
+            0.094375,
+            0.09765625,
+            0.106875
+          ],
+          "sourcePixelRect": [
+            202,
+            151,
+            125,
+            171
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "eucalyptus in vase",
+          "authoringSource": "extraction-1",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            49,
+            22,
+            411,
+            516
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              316,
+              320
+            ]
+          }
+        },
+        {
+          "source": "ah001-007-crafts-objects/part-2.png",
+          "sha256": "29d6b4f6f78b5a5fac1caada915bda21fcd1c1c4f7dd5cd481f8b97721fba938",
+          "rect": [
+            0.8125,
+            0.244375,
+            0.09375,
+            0.074375
+          ],
+          "sourcePixelRect": [
+            1040,
+            391,
+            120,
+            119
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "studio paintbrush",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            47,
+            56,
+            495,
+            502
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1045,
+              508
+            ]
+          }
+        },
+        {
+          "source": "ah001-007-crafts-objects/part-3.png",
+          "sha256": "9329b3fdebbaea6db0383c3865b92f6b13e7e556b6055aab6f6901b0755509f2",
+          "rect": [
+            0.85546875,
+            0.8775,
+            0.046875,
+            0.053125
+          ],
+          "sourcePixelRect": [
+            1095,
+            1404,
+            60,
+            85
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "linen tassel",
+          "authoringSource": "extraction-3",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            98,
+            27,
+            454,
+            529
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              1095,
+              1404
+            ]
+          }
+        },
+        {
+          "source": "ah001-007-crafts-objects/part-4.png",
+          "sha256": "063d9ff06aa3f2a46737b9f3f04ffc4f107b2a63e071453c1a465e07e2349c20",
+          "rect": [
+            0.43984375,
+            0.22875,
+            0.0484375,
+            0.049375
+          ],
+          "sourcePixelRect": [
+            563,
+            366,
+            62,
+            79
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "ceramic tag",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            68,
+            0,
+            450,
+            485
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              563,
+              366
+            ]
+          }
+        },
+        {
+          "source": "ah001-007-crafts-objects/part-5.png",
+          "sha256": "f4667a503bc563daafbcf40311b4bcf87b2cefdb30b88634fb8948f0b18eb96f",
+          "rect": [
+            0.22421875,
+            0.030625,
+            0.1171875,
+            0.103125
+          ],
+          "sourcePixelRect": [
+            287,
+            49,
+            150,
+            165
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "studio ivy",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            41,
+            0,
+            481,
+            485
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              308,
+              212
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-8399b9e3-d52d-4be0-9216-e136a671e52b.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A pottery workbench with freshly painted ceramic vessels. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: coral pink (#D99B96), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a curled ribbon matching the material palette at normalised rect [0.14, 0.24, 0.17, 0.16]; a light fabric corner on the table at normalised rect [0.67, 0.71, 0.23, 0.16]; a small leafy sprig in a nearby jar at normalised rect [0.75, 0.13, 0.16, 0.23]; a fine hanging thread or tassel connected to the craft at normalised rect [0.44, 0.34, 0.12, 0.17]; a small scene-specific flower blossom at normalised rect [0.12, 0.73, 0.17, 0.17]. The painting must remain attractive and complete underneath those parts. Keep this intimate pottery workbench pale warm ivory and softly blue glazed ceramics, with finished honey wood workbench and clay objects. Soft cream/ivory surfaces are the largest tonal area; coral may remain an accent. A small ceramic jar can hold a later flower/leaf stem; blank string tags may hang from pottery. No people, writing or UI. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-007-crafts-objects\\source\\background.png",
+            "sha256": "fdd02408f6c89acc911f1fcb8215617bb8dadab64824fc0431527a9453194189",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-ad83133c-3888-419a-877b-3d67cac8ccd7.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A pottery workbench with freshly painted ceramic vessels\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a close cozy three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a sunlit olive-green eucalyptus sprig with rounded leaves, slim bottom stem; top-middle a fine brown wooden paintbrush, cream bristles tapered to a paint-stained blue tip, lying at a gentle diagonal; top-right one tied beige flax-fiber fringe tassel, irregular soft fibers, narrow top attachment; bottom-left a small blank cream ceramic tag with blue glazed rim and a short ochre hanging cord loop; bottom-middle a short glossy ivy branch with five distinct emerald leaves, narrow bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-007-crafts-objects\\source\\atlas.png",
+            "sha256": "1938ee572736ca78b574c4f3092785d62b60e473d3d0f98b916ce7dab157123a",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "extraction-1",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-007-part-1.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-ad83133c-3888-419a-877b-3d67cac8ccd7.png",
+            "sourceAtlasSha256": "1938ee572736ca78b574c4f3092785d62b60e473d3d0f98b916ce7dab157123a",
+            "sourceAtlasRect": [
+              0,
+              0,
+              512,
+              530
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-007-crafts-objects\\source\\extraction-1.png",
+            "sha256": "030fc0e5abda41613659f362c37e9a3e22a5c236efaf581f94d178d6a1c5630d",
+            "pixels": [
+              512,
+              530
+            ]
+          },
+          {
+            "name": "extraction-3",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-007-part-3.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-ad83133c-3888-419a-877b-3d67cac8ccd7.png",
+            "sourceAtlasSha256": "1938ee572736ca78b574c4f3092785d62b60e473d3d0f98b916ce7dab157123a",
+            "sourceAtlasRect": [
+              1024,
+              0,
+              1536,
+              550
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-007-crafts-objects\\source\\extraction-3.png",
+            "sha256": "05d3f9e34adbdead98e244063f872a01746ddbde2fb3a77c2594d5a327b3c728",
+            "pixels": [
+              512,
+              550
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Eucalyptus joins blue vase mouth; brush meets the actual brush jug; ceramic tag hangs at jug handle; linen tassel meets cloth edge; ivy extends existing upper-left plant. Actual palette is peach porcelain, not the provisional ivory label. Main colour is measured from visible subject region [540, 295, 825, 700]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.1453,
+          "orange-yellow": 0.8417,
+          "green": 0.0064,
+          "blue": 0.0066,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#b08058",
+        "mainColourLabel": "peach porcelain",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "88471c93d1331af2a0ff07b74a381a47f63b666b5f7c9a1bfffa859e18b45b45"
+      }
+    },
+    {
+      "levelId": 8,
+      "sceneId": "ah001-008-animals",
+      "status": "complete",
+      "theme": "animals",
+      "mainColour": "#b75a2d",
+      "master": {
+        "source": "ah001-008-animals/master.png",
+        "sha256": "76c034a9be5f48926afaec27dbc0f080ea6f72c64f4e8451eea4ed4095b84f48"
+      },
+      "background": {
+        "source": "ah001-008-animals/background.png",
+        "sha256": "bba2e1246d283e451332f0257db06cfef5f7951bd915eb761fc5e6048c148823"
+      },
+      "parts": [
+        {
+          "source": "ah001-008-animals/part-1.png",
+          "sha256": "dc524247071ba4857ca5af598776fc421f9e0488a50dec7a98cc62ad888e9ac2",
+          "rect": [
+            0.41484375,
+            0.255,
+            0.1015625,
+            0.08875
+          ],
+          "sourcePixelRect": [
+            531,
+            408,
+            130,
+            142
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "window pelargonium",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            62,
+            31,
+            494,
+            503
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              588,
+              548
+            ]
+          }
+        },
+        {
+          "source": "ah001-008-animals/part-2.png",
+          "sha256": "54cb6c795f372fdd195004e2fc067f6936cb81811077262487aaa07fee4a9e5e",
+          "rect": [
+            0.06328125,
+            0.710625,
+            0.11328125,
+            0.119375
+          ],
+          "sourcePixelRect": [
+            81,
+            1137,
+            145,
+            191
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "foreground jasmine",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            61,
+            28,
+            421,
+            503
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              166,
+              1326
+            ]
+          }
+        },
+        {
+          "source": "ah001-008-animals/part-3.png",
+          "sha256": "b44079c168161d64bc4522e716547dfc509075530b23419b6d2300a05c8f4bdb",
+          "rect": [
+            0.91796875,
+            0.625,
+            0.0453125,
+            0.08125
+          ],
+          "sourcePixelRect": [
+            1175,
+            1000,
+            58,
+            130
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "curtain tie-back",
+          "authoringSource": "tassel",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            295,
+            256,
+            750,
+            1272
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              1175,
+              1000
+            ]
+          }
+        },
+        {
+          "source": "ah001-008-animals/part-4.png",
+          "sha256": "793bfb9cd68d4573c2c8bd96ce2ff95d0aff33803ebf7c704dfe352791729666",
+          "rect": [
+            0.575,
+            0.29625,
+            0.04765625,
+            0.040625
+          ],
+          "sourcePixelRect": [
+            736,
+            474,
+            61,
+            65
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "window butterfly",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            93,
+            47,
+            460,
+            435
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              767,
+              507
+            ]
+          }
+        },
+        {
+          "source": "ah001-008-animals/part-5.png",
+          "sha256": "29224a2f994cc2e90cd450f769845d6e26b444ddbc2332b6ca3cce3614ced475",
+          "rect": [
+            0.84296875,
+            0.31125,
+            0.11328125,
+            0.095625
+          ],
+          "sourcePixelRect": [
+            1079,
+            498,
+            145,
+            153
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "window basil",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            45,
+            23,
+            481,
+            482
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1144,
+              650
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-d4f53484-f66f-47a7-a3c6-2c0182bed187.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Two relaxed cats on a flower-filled windowsill. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm terracotta (#C97A54), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a pale window-curtain corner at normalised rect [0.07, 0.09, 0.21, 0.21]; a leafy windowsill branch at normalised rect [0.72, 0.12, 0.2, 0.23]; a small flower stem at normalised rect [0.09, 0.69, 0.2, 0.19]; a soft curtain tie at normalised rect [0.68, 0.72, 0.23, 0.17]; a tiny hanging paper bird at normalised rect [0.42, 0.25, 0.18, 0.16]. The painting must remain attractive and complete underneath those parts. Terracotta and warm peach wall colours dominate this cat-filled windowsill. Two different relaxed friendly cats are the main subjects, with real plant pots and an empty small bud-vase along the window ledge. Use a simple ivory curtain and a bare curtain tie point, no embroidery that a moving detail would have to match. A garden is visible beyond, without recognizable landmarks. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-008-animals\\source\\background.png",
+            "sha256": "c52c0aacbce1a142d254cfbb617f83e9f4e239aa87776dee4a7c5691cf47c8ed",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-edf97f5c-ee3d-4e2f-b3f3-8277c629689d.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"Two relaxed cats on a flower-filled windowsill\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a wide intimate view from slightly above painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a delicate apricot pelargonium flower cluster with leaves and a narrow bottom stem; top-middle one slim white jasmine sprig with small flowers and olive-green leaves, bottom stem; top-right a warm ivory curtain tassel, fine twisted cord at top, gold-tinted soft fibers; bottom-left a small pale gold butterfly, wings half open and naturally asymmetrical in perspective; bottom-middle a lush basil sprig with luminous green leaves and narrow bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-008-animals\\source\\atlas.png",
+            "sha256": "35331fda30f92b6d5e2ff8644c2d9714e6c2ead1d5d3c165cb8ba4fd2a0d7102",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "tassel",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-50a88c99-8900-4f1d-b280-28cbe169f783.png",
+            "prompt": "Production transparent RGBA cutout for a cozy painted cat-window puzzle scene, matching polished dimensional warm storybook gouache-like mobile game art. ONE small ivory curtain tie-back tassel with a COMPLETE CLOSED OVAL LOOP of fine twisted golden cord at its top, one subtly carved cream knot and soft fine flax fibers below. Entire object MUST fit inside central50% of image with at least25% fully transparent empty margin on each side, especially above the entire loop; nothing cut off. Soft upper-left warm sunlight, ivory body with restrained golden shading. True transparent alpha, no background, no shadow rectangle, no frame, no extra objects or text. A unique naturally painted hanging tassel, not vector.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-008-animals\\source\\tassel.png",
+            "sha256": "bb9c8b23bd7a53e83fcea62dc245f234c2a8f80ed5835fda3af46f4fb13086a4",
+            "pixels": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Pelargonium stem moved behind the cats into the window planter, away from cat face; jasmine and basil join actual pots; full newly generated tassel attaches to right curtain tie; butterfly occupies outdoor air. Main colour is measured from visible subject region [200, 1070, 900, 1240]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0669,
+          "orange-yellow": 0.8905,
+          "green": 0.0094,
+          "blue": 0.0331,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#aa6232",
+        "mainColourLabel": "terracotta",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "9e545999c99cf76e172a50b99cb98e519ac7a3fe85418eff04aedd867ce653f1"
+      }
+    },
+    {
+      "levelId": 9,
+      "sceneId": "ah001-009-water-coast",
+      "status": "complete",
+      "theme": "water-coast",
+      "mainColour": "#409784",
+      "master": {
+        "source": "ah001-009-water-coast/master.png",
+        "sha256": "1b15d5bc50b418d447e4386f4931ebaa324fe9a6362bb1dddbb0095d62d19a60"
+      },
+      "background": {
+        "source": "ah001-009-water-coast/background.png",
+        "sha256": "0eedf4d00c1bca6cd90dab72de85424a2fa7d2108030bad52c0124c659cc8d6a"
+      },
+      "parts": [
+        {
+          "source": "ah001-009-water-coast/part-1.png",
+          "sha256": "7e2afbf63e3abdb82a7979cea63db5a63d5bc119dbae5a1e52a2bfc4a3f25fe0",
+          "rect": [
+            0.83203125,
+            0.509375,
+            0.1328125,
+            0.095
+          ],
+          "sourcePixelRect": [
+            1065,
+            815,
+            170,
+            152
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "coastal grass",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            31,
+            51,
+            510,
+            478
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1175,
+              965
+            ]
+          }
+        },
+        {
+          "source": "ah001-009-water-coast/part-2.png",
+          "sha256": "13cde00ac30a410e98730fb20a40c37d4edeb4f25867da61840b8872761ddf8f",
+          "rect": [
+            0.5671875,
+            0.3125,
+            0.08203125,
+            0.060625
+          ],
+          "sourcePixelRect": [
+            726,
+            500,
+            105,
+            97
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "floating kelp",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            30,
+            54,
+            494,
+            484
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              779,
+              549
+            ]
+          }
+        },
+        {
+          "source": "ah001-009-water-coast/part-3.png",
+          "sha256": "7a9d80d349dd85560232f3afdb726360fbccd76acbc2a26aae24fe89dd974010",
+          "rect": [
+            0.3125,
+            0.54375,
+            0.13828125,
+            0.100625
+          ],
+          "sourcePixelRect": [
+            400,
+            870,
+            177,
+            161
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "water caustic",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            25,
+            75,
+            473,
+            483
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              489,
+              950
+            ]
+          }
+        },
+        {
+          "source": "ah001-009-water-coast/part-4.png",
+          "sha256": "40c4696999157401a4c166c7d3e685445494b2708979010fe7f0ffd7e2dcb1a0",
+          "rect": [
+            0.0703125,
+            0.6625,
+            0.1015625,
+            0.07625
+          ],
+          "sourcePixelRect": [
+            90,
+            1060,
+            130,
+            122
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "dune grass",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            30,
+            7,
+            505,
+            454
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              183,
+              1180
+            ]
+          }
+        },
+        {
+          "source": "ah001-009-water-coast/part-5.png",
+          "sha256": "1a0f517ecf664af8940ab323986132c7619555f87f71475d4ebdd261348dcc9a",
+          "rect": [
+            0.2796875,
+            0.90125,
+            0.06875,
+            0.046875
+          ],
+          "sourcePixelRect": [
+            358,
+            1442,
+            88,
+            75
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "shore crab",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            18,
+            26,
+            495,
+            432
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              402,
+              1480
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6a8b17c2-d512-4f4b-9a1e-3035c99ed77d.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A sunlit rock pool filled with shells and clear water. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: golden yellow (#DFC260), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft near-water reflection patch at normalised rect [0.14, 0.62, 0.25, 0.14]; a second distinct water reflection patch at normalised rect [0.51, 0.71, 0.27, 0.12]; a shore reed or sea-grass cluster at normalised rect [0.75, 0.53, 0.17, 0.24]; a softly painted near cloud at normalised rect [0.12, 0.1, 0.24, 0.14]; a softly painted far cloud or spray wisp appropriate to the scene at normalised rect [0.58, 0.18, 0.24, 0.12]. The painting must remain attractive and complete underneath those parts. Use clear cyan-blue/turquoise WATER as the main colour, filling more than half this rock-pool view; gold rock edges and shells are accents. Slightly elevated intimate view, no horizon or sky necessary. Paint complete water behind all later thin reflective ripples and a shore sea-grass cluster. No city landmarks, man-made symbols or text. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-009-water-coast\\source\\background.png",
+            "sha256": "a2dc227c90f3de3d196191a0b4fad701ea653b2ecad1a2b94eb64d61972aa757",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-aea2727b-ee55-4d28-a393-0489be80b8ec.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A sunlit rock pool filled with shells and clear water\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a eye-level intimate view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a small fan of flexible ochre-green coastal grass blades, all meet at bottom base; top-middle a short curling ribbon of deep amber seaweed floating on clear water, no water rectangle; top-right a narrow painted sunlight caustic reflection crescent on clear water, translucent warm ivory feathered brush strokes, no backdrop; bottom-left a fine tuft of bluish dune grass bending left, bottom stem base; bottom-middle a single small orange shore crab viewed from overhead, dimensional painted legs and claws, no ground shadow. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-009-water-coast\\source\\atlas.png",
+            "sha256": "18c427f2a9c38f72115c98ac79b5b8a8525b6ad495e11f2fa47bf3b0af069be0",
+            "pixels": [
+              1536,
+              1024
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Grasses meet real coastal rock tufts; kelp rests on pool surface; caustic brush is a local water reflection, not a rectangular overlay; small crab sits on exposed foreground shore rock. Main colour is measured from visible subject region [420, 200, 970, 640]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0105,
+          "orange-yellow": 0.5666,
+          "green": 0.211,
+          "blue": 0.2114,
+          "violet-pink": 0.0005
+        },
+        "measuredDominantColour": "#b08c3d",
+        "mainColourLabel": "cyan turquoise",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "cf7e810265aea8f6e048b12634bdd038051be87d8d75cd45d50f74520e48fb96"
+      }
+    },
+    {
+      "levelId": 10,
+      "sceneId": "ah001-010-festivals-music",
+      "status": "complete",
+      "theme": "festivals-music",
+      "mainColour": "#79431a",
+      "master": {
+        "source": "ah001-010-festivals-music/master.png",
+        "sha256": "37f0efcb2dc052059ceee0ea7fa69deb504f2456cf32c6a8ed356c6b0663a7ec"
+      },
+      "background": {
+        "source": "ah001-010-festivals-music/background.png",
+        "sha256": "8a3d06c030bc7f1b492ba19ad54b56c60613d0b7803e943afc3e2689ac219127"
+      },
+      "parts": [
+        {
+          "source": "ah001-010-festivals-music/part-1.png",
+          "sha256": "a79e36cee8a0bd3e2de94fd8c70740c5df5ccab8f689aaf856eef532f4b2f6d5",
+          "rect": [
+            0.703125,
+            0.069375,
+            0.059375,
+            0.073125
+          ],
+          "sourcePixelRect": [
+            900,
+            111,
+            76,
+            117
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "courtyard lantern",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            153,
+            39,
+            450,
+            496
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              900,
+              111
+            ]
+          }
+        },
+        {
+          "source": "ah001-010-festivals-music/part-2.png",
+          "sha256": "8da625a5fb1ac6d1953e196119833f15a6b6ac427dc57345c418ee37e8815592",
+          "rect": [
+            0.3609375,
+            0.12625,
+            0.04453125,
+            0.08
+          ],
+          "sourcePixelRect": [
+            462,
+            202,
+            57,
+            128
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "cloth pennant",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            153,
+            28,
+            367,
+            508
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              462,
+              202
+            ]
+          }
+        },
+        {
+          "source": "ah001-010-festivals-music/part-3.png",
+          "sha256": "41dcb5655b0ac1734b684c64037fd354a00d5c2a7299021feeccfc53b672f9f6",
+          "rect": [
+            0.040625,
+            0.64625,
+            0.109375,
+            0.10125
+          ],
+          "sourcePixelRect": [
+            52,
+            1034,
+            140,
+            162
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "courtyard flowers",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            67,
+            60,
+            443,
+            494
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              101,
+              1194
+            ]
+          }
+        },
+        {
+          "source": "ah001-010-festivals-music/part-4.png",
+          "sha256": "6c98964b1145305b61df4134185dfe430dd58fab538125a4e1b8c5ff907a356e",
+          "rect": [
+            0.65078125,
+            0.3025,
+            0.125,
+            0.101875
+          ],
+          "sourcePixelRect": [
+            833,
+            484,
+            160,
+            163
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "courtyard vine",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            90,
+            55,
+            507,
+            479
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              858,
+              645
+            ]
+          }
+        },
+        {
+          "source": "ah001-010-festivals-music/part-5.png",
+          "sha256": "93a6cd347e01d99f0178e9d0619b096bfab93e4cad45ba21b1a23291ae76dfce",
+          "rect": [
+            0.28984375,
+            0.445,
+            0.034375,
+            0.095
+          ],
+          "sourcePixelRect": [
+            371,
+            712,
+            44,
+            152
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "marigold string",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            185,
+            9,
+            321,
+            480
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              371,
+              712
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-47591169-7fe5-42b1-89ce-84a21573811e.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A lantern-lit courtyard prepared for an evening gathering. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: cocoa brown (#997357), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small scene-specific pennant or kite tail at normalised rect [0.14, 0.1, 0.19, 0.19]; one hanging painted lantern or festival ornament at normalised rect [0.66, 0.18, 0.15, 0.19]; a curling ribbon tied to a scene prop at normalised rect [0.42, 0.43, 0.16, 0.18]; a small flower-garland section at normalised rect [0.1, 0.7, 0.21, 0.15]; a loose scene-matching fabric streamer at normalised rect [0.72, 0.64, 0.16, 0.23]. The painting must remain attractive and complete underneath those parts. Warm cocoa-brown wooden courtyard architecture dominates this lantern-lit evening scene. Glowing amber lanterns and muted colourful fabric are accents. Provide a few real hanging cords across the courtyard, an empty cord where one separately painted lantern will hang, potted flowers and garland supports. No people, lettering, logos or recognizable place. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-010-festivals-music\\source\\background.png",
+            "sha256": "b51f5d60c2aeb89cad6e28e5fc08b96d095b5c4ec7efd31d4dd6bd5f46895cf5",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-691aa08d-a8d4-4de8-9458-781483660fd0.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A lantern-lit courtyard prepared for an evening gathering\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a gently elevated three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left one small warm glowing amber paper lantern with dark bronze cap and a short top hanging loop, alpha glow tight to silhouette; top-middle a narrow burgundy cloth pennant hanging from a top corner, no text; top-right a sprig of small coral-pink courtyard flowers with dark green leaves and a tapered bottom stem; bottom-left a short dark olive vine curling to right from a narrow bottom stem; bottom-middle one short string of three distinct tiny golden marigold flowers hanging vertically from a top thread. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-010-festivals-music\\source\\atlas.png",
+            "sha256": "a8194c3ece112bc0f41a2f356f0073c549009fabb91e2f696af97d4b4236227b",
+            "pixels": [
+              1536,
+              1024
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Lantern and pennant attach to existing overhead lines; flowers and vine join balcony planters; marigolds hang from stair trim. Warm night lighting is shared by all parts. Main colour is measured from visible subject region [420, 760, 1040, 1050]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.1076,
+          "orange-yellow": 0.8701,
+          "green": 0.0031,
+          "blue": 0.0188,
+          "violet-pink": 0.0004
+        },
+        "measuredDominantColour": "#663c1b",
+        "mainColourLabel": "cocoa brown",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "e683641f43006ec6c0532404bd99b2905352bc274c39142b87ed13ae84d1a336"
+      }
+    }
+  ]
+}

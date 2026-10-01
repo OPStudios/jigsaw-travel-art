@@ -1,0 +1,358 @@
+{
+  "levelId": 86,
+  "sceneId": "ah001-086-transport",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-086-transport/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A vintage cable-car cabin at a quiet mountain station. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: soft violet (#AE92C6), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small pale cloud behind the vehicle at normalised rect [0.13, 0.1, 0.25, 0.14]; a little tied pennant or luggage ribbon at normalised rect [0.64, 0.3, 0.12, 0.16]; a roadside or shore leaf cluster at normalised rect [0.08, 0.67, 0.18, 0.22]; a scene-specific grass or flower cluster at normalised rect [0.72, 0.74, 0.2, 0.16]; a soft cloud wisp or water highlight appropriate to the setting at normalised rect [0.45, 0.17, 0.22, 0.11]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 everywhere. An intimate small vintage enclosed cable-car gondola cabin, painted muted SOFT VIOLET with cream window frames, resting motionless at a quiet little mountain station. Lavender painted platform railings and pale violet distant mountain slopes make the overall palette distinctly lavender. Coherent steel hanger on taut overhead cable, enclosed cabin with clear seats and closed door, no impossible vehicle geometry. Warm wood platform details and small flowering planters secondary. Wide soft purple-blue sky at top, gentle warm late-afternoon sunlight. No visible text, logos, numbers, signs, famous mountains, recognizable buildings or people. Complete underlying painting for five separate small cloud/foliage details; cabin itself stays solid and static. Rich softly brushed dimensional storybook illustration, portrait4:5.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-e0b43e5f-40cd-46c7-80c4-88057ab8f143.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\background.png",
+        "sha256": "acbebcc892bd72d3fb892619a3979cfd58107032d6d38db71a4e60d8f1f018b5",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\background-original.png",
+        "archiveSourceSha256": "acbebcc892bd72d3fb892619a3979cfd58107032d6d38db71a4e60d8f1f018b5"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-086-transport/source/atlas.png",
+        "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five specific small painted details for a lavender mountain cable-car station, soft violet distant peaks, warm afternoon light. Upper-left: one small warm ivory cumulus puff with pale lavender base. Upper-middle: a DIFFERENT slender peach-lavender cloud wisp, horizontal and asymmetrical. Upper-right: a small sprig of purple alpine daisies, two flowers and green leaves with bare full base stem for the left planter. Lower-left: one slender lavender flower stalk with tiny purple buds and two narrow green leaves for the foreground alpine bed. Lower-middle: one small fresh birch twig with four golden-green leaves and complete fine lower stem for the left foliage. No cable car, mountains, planter, sky rectangle, shadows or scenery. All five complete silhouettes inside generous transparent gutters.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-53dbcfb5-109b-4ffa-b840-fa0c1f82bc3c.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\atlas.png",
+        "sha256": "5f323b410fad94477440592670a0c9204e2644a855eee4c6ce8a162b76187177",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\atlas-original.png",
+        "archiveSourceSha256": "5f323b410fad94477440592670a0c9204e2644a855eee4c6ce8a162b76187177"
+      },
+      {
+        "name": "ivory-mountain-cloud",
+        "path": "ah001-086-transport/source/ivory-mountain-cloud.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          25,
+          135,
+          500,
+          440
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\ivory-mountain-cloud.png",
+        "sha256": "a2cf0ad4be7f3e8c775fe128d26fb3cc57b056a0bd28ffa4ae91d5457348f20c",
+        "pixels": [
+          475,
+          305
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\ivory-mountain-cloud-isolated.png",
+        "archiveSourceSha256": "a2cf0ad4be7f3e8c775fe128d26fb3cc57b056a0bd28ffa4ae91d5457348f20c"
+      },
+      {
+        "name": "violet-cloud-wisp",
+        "path": "ah001-086-transport/source/violet-cloud-wisp.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          520,
+          140,
+          1080,
+          435
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\violet-cloud-wisp.png",
+        "sha256": "ee17023d5daced798d2fce2450fe42bf04d71fdd4071fcd4700a7ad009d86d8e",
+        "pixels": [
+          560,
+          295
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\violet-cloud-wisp-isolated.png",
+        "archiveSourceSha256": "ee17023d5daced798d2fce2450fe42bf04d71fdd4071fcd4700a7ad009d86d8e"
+      },
+      {
+        "name": "alpine-daisies",
+        "path": "ah001-086-transport/source/alpine-daisies.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          1100,
+          45,
+          1490,
+          510
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\alpine-daisies.png",
+        "sha256": "92c3c40e6316defefb0a7a2d6f6d70cebcfa7ea1bd26be7baa66cb910aa627d2",
+        "pixels": [
+          390,
+          465
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\alpine-daisies-isolated.png",
+        "archiveSourceSha256": "92c3c40e6316defefb0a7a2d6f6d70cebcfa7ea1bd26be7baa66cb910aa627d2"
+      },
+      {
+        "name": "alpine-lavender",
+        "path": "ah001-086-transport/source/alpine-lavender.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          160,
+          505,
+          380,
+          985
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\alpine-lavender.png",
+        "sha256": "4197c1148682b8de145f52c7ffc2d02de49ef2fc4c3cf36be41a97096e3faa15",
+        "pixels": [
+          220,
+          480
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\alpine-lavender-isolated.png",
+        "archiveSourceSha256": "4197c1148682b8de145f52c7ffc2d02de49ef2fc4c3cf36be41a97096e3faa15"
+      },
+      {
+        "name": "birch-tip",
+        "path": "ah001-086-transport/source/birch-tip.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          610,
+          490,
+          1000,
+          980
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-086-transport\\source\\birch-tip.png",
+        "sha256": "d48ebaf894c4db7ad057649efb8ff2277c6633c5045427ce3ac6718420c90ee0",
+        "pixels": [
+          390,
+          490
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-086\\birch-tip-isolated.png",
+        "archiveSourceSha256": "d48ebaf894c4db7ad057649efb8ff2277c6633c5045427ce3ac6718420c90ee0"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Two separate clouds remain in sky, alpine daisies and lavender join their planters and birch joins nearby foliage; gondola anatomy and cable connection inspected. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.2199,
+      "orange-yellow": 0.3551,
+      "green": 0.0016,
+      "blue": 0.2273,
+      "violet-pink": 0.1961
+    },
+    "measuredDominantColour": "#af8254",
+    "mainColourLabel": "soft violet with warm wood",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "94ab115365a916658e72d9529b9bdaab2785f44e0ee12cf85cd68b9f44627b12"
+  },
+  "parts": [
+    {
+      "source": "ah001-086-transport/part-1.png",
+      "sha256": "509a0fd4db56e5242ff616cd4282158e9f8021a6e13d644460c0eaf24513516e",
+      "rect": [
+        0.13671875,
+        0.1625,
+        0.1484375,
+        0.0625
+      ],
+      "sourcePixelRect": [
+        175,
+        260,
+        190,
+        100
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "ivory mountain cloud",
+      "authoringSource": "ivory-mountain-cloud",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        18,
+        39,
+        461,
+        272
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          270,
+          310
+        ]
+      }
+    },
+    {
+      "source": "ah001-086-transport/part-2.png",
+      "sha256": "bb30de09f35ec41d5c574397922dbd18e11f846ab1928efe45939565da4a3c37",
+      "rect": [
+        0.51171875,
+        0.14375,
+        0.125,
+        0.036875
+      ],
+      "sourcePixelRect": [
+        655,
+        230,
+        160,
+        59
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "violet cloud wisp",
+      "authoringSource": "violet-cloud-wisp",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        22,
+        59,
+        522,
+        242
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          735,
+          260
+        ]
+      }
+    },
+    {
+      "source": "ah001-086-transport/part-3.png",
+      "sha256": "1feb4a0bb78c0c66f7551b86138ccab63f66cebd2ce3e69fe445e88c6cb0d1ab",
+      "rect": [
+        0.196875,
+        0.65875,
+        0.08984375,
+        0.0925
+      ],
+      "sourcePixelRect": [
+        252,
+        1054,
+        115,
+        148
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "alpine daisies",
+      "authoringSource": "alpine-daisies",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        35,
+        32,
+        354,
+        442
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          315,
+          1200
+        ]
+      }
+    },
+    {
+      "source": "ah001-086-transport/part-4.png",
+      "sha256": "c45503a97e156634406ed3b4f529713378243c85bc6161db127d316d0054f530",
+      "rect": [
+        0.75703125,
+        0.8075,
+        0.05703125,
+        0.125
+      ],
+      "sourcePixelRect": [
+        969,
+        1292,
+        73,
+        200
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "alpine lavender",
+      "authoringSource": "alpine-lavender",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        21,
+        19,
+        183,
+        463
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1000,
+          1490
+        ]
+      }
+    },
+    {
+      "source": "ah001-086-transport/part-5.png",
+      "sha256": "98fc06714c55cf9dbc3ed9c3e3a0b11ea1216ace0e654397b867de9a4eb90037",
+      "rect": [
+        0.078125,
+        0.54375,
+        0.109375,
+        0.11375
+      ],
+      "sourcePixelRect": [
+        100,
+        870,
+        140,
+        182
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "birch tip",
+      "authoringSource": "birch-tip",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        23,
+        22,
+        367,
+        468
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          105,
+          1050
+        ]
+      }
+    }
+  ]
+}

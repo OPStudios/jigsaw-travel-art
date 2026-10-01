@@ -1,0 +1,161 @@
+{
+  "levelId": 32,
+  "sceneId": "ah001-032-markets-shops",
+  "theme": "markets-shops",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm ivory linen awning and tablecloth",
+  "visualReviewNotes": "Original background and all five transparent parts inspected. Source alpha checked on light and dark grounds, bounded paint silhouettes verified. Real vessel mouths, cord/hook positions, vegetation roots or water surfaces determine anchors; final composites require separate inspection. Distinct actual palette from both neighboring scenes. No identifiable destination landmark.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0543bae6-af5b-484e-b28a-49fc946045e9.png",
+      "prompt": "Use case: stylized-concept. Asset: production clean background for portrait4:5 jigsaw painting,1280x1600. A charming secondhand book stall beneath a linen awning, close eye-level view. Dominant warm IVORY across awning, pale plaster back wall, cream cloth-covered tables and abundant old paper pages; muted green and russet small accents. Warm dimensional hand-painted storybook digital illustration with tactile linen, aged paper, rounded weathered wooden shelves, crisp appealing objects, rich small discoveries, soft afternoon sunlight. Generic unnamed travel shop, no recognizable city, no landmark, NO text/letters/numbers/logos or UI/border. No people. Diverse books with blank detailed embossed covers stacked on counter and shelf, open atlas-like book with decorative unlettered shapes, brass reading lamp, magnifying glass, small wrapped paper parcel tied with plain string on counter at(58%,68%). Compose awning edge across upper23%; a bare short horizontal brass hook under awning at(73%,27%); plain string between awning poles near upperleft(24%,17%). An empty ceramic bud vase at(85%,76%). A pot at(15%,57%) with a short bare stem, no leafy tip. Clean background plate for five separately painted moving details; omit the small fabric pennant, hanging tassel, flowers in the vase, leafy potted tip and loose parcel ribbon. Do not omit structural supports; fully paint the natural surfaces beneath those five details. No obvious empty rectangles or placeholders. Fine softly brushed material details and beautiful readable silhouette composition, illustrated rather than photographic."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-19ef62e4-c5b3-4916-ae51-c960fb0f4c8e.png",
+      "prompt": "Use case: stylized-concept. ONE production sprite atlas on genuine transparent alpha, strict3columns by2rows, aspect3:2,target2400x1600. Five unique meaningful cutout details for a warm-ivory secondhand book stall under a linen awning, eye-level view, soft upper-left sunlight. Dimensional warm hand-painted storybook illustration, agedlinen/brass/paper/leaf textures, natural warm ivory and muted olive/russet palette. Each800x800cell has at least96px transparent gutter around the entire silhouette. Bottom-right sixth cell is completely empty truealpha. Row1 left: a small single ivory linen triangular pennant with subtle olive edging and two tiny fabric loops at its straight horizontal top edge, not a flagpole. Row1 middle: a soft ochre-gold and ivory tassel hanging vertically from a thin small cord loop, aged natural threads, top attachment visible. Row1 right: a slender white-and-soft-yellow meadow flower sprig with three delicate flowerheads, thin long green stem downward, for a small ceramic bud vase. Row2 left: a distinct olive-green leafy branch tip with a downward slender woody stem, for the top of a small potted shrub. Row2 middle: a small loosely tied russet fabric bow, two narrow tails, seen slightly fromabove, to lie on a wrapped bookparcel. No background, checkerboard, letters, numbers, books, pots, vase, shelf, awning, labels, contactshadow or frame. Keep five parts fully isolated and complete, with softly painted edges and no rectangular scenery."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "ivory pennant hanging from overhead cord",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        171,
+        183
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          382,
+          324
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cellInset": 4,
+      "cellInsetReview": "Original atlas inspected on light and dark backgrounds. Real painted subjects have alpha >32 bounds inside this four-pixel crop (nearest point seven pixels from cell boundary); discarded edge specks are alpha 16 or below. Only the empty outer grid gutter is removed; no real subject is clipped."
+    },
+    {
+      "subject": "gold tassel hanging from brass hook",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        68,
+        154
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          969,
+          305
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cellInset": 4,
+      "cellInsetReview": "Original atlas inspected on light and dark backgrounds. Real painted subjects have alpha >32 bounds inside this four-pixel crop (nearest point seven pixels from cell boundary); discarded edge specks are alpha 16 or below. Only the empty outer grid gutter is removed; no real subject is clipped."
+    },
+    {
+      "subject": "ivory flowers in right bud vase",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        131,
+        274
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1141,
+          1089
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cellInset": 4,
+      "cellInsetReview": "Original atlas inspected on light and dark backgrounds. Real painted subjects have alpha >32 bounds inside this four-pixel crop (nearest point seven pixels from cell boundary); discarded edge specks are alpha 16 or below. Only the empty outer grid gutter is removed; no real subject is clipped."
+    },
+    {
+      "subject": "olive branch attached to bare potted plant",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        165,
+        217
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          287,
+          777
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cellInset": 4,
+      "cellInsetReview": "Original atlas inspected on light and dark backgrounds. Real painted subjects have alpha >32 bounds inside this four-pixel crop (nearest point seven pixels from cell boundary); discarded edge specks are alpha 16 or below. Only the empty outer grid gutter is removed; no real subject is clipped."
+    },
+    {
+      "subject": "russet ribbon bow on wrapped parcel",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        87,
+        64
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          811,
+          1244
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cellInset": 4,
+      "cellInsetReview": "Original atlas inspected on light and dark backgrounds. Real painted subjects have alpha >32 bounds inside this four-pixel crop (nearest point seven pixels from cell boundary); discarded edge specks are alpha 16 or below. Only the empty outer grid gutter is removed; no real subject is clipped."
+    }
+  ]
+}

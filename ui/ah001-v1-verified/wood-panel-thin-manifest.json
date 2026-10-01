@@ -1,0 +1,94 @@
+{
+  "name": "wood_panel_thin",
+  "pixels": [
+    384,
+    384
+  ],
+  "points": [
+    128,
+    128
+  ],
+  "slices": [
+    13,
+    13,
+    13,
+    13
+  ],
+  "intendedBevelPoints": 2,
+  "source": "source/wood_panel_thin.png",
+  "source_sha256": "069532ace95715fca0ae6b6aea9d2c7701a9cbd91156ec5d903c91a4b7282533",
+  "export_sha256": "c504dcfc7da6c9cf173c6f833717ee87798093042c56a53ff749a67ba86f535e",
+  "calibration": "Remove only low-frequency RGB face drift with14pxGaussian reference, edge-extended at12px to exclude bevel, plus smooth42pxfalloff correction for residual broad top lighting. Retain original high-frequency painted grain. The authored bevel and alpha are retained through a7pxinterior mask; no procedural wood or replacement geometry.",
+  "topFaceDriftCorrection": [
+    7.1215686274509835,
+    5.921568627450981,
+    0.9294117647058826
+  ],
+  "flatFaceSamples": {
+    "center": {
+      "rect": [
+        128,
+        128,
+        256,
+        256
+      ],
+      "median": [
+        210.0,
+        120.0,
+        43.0
+      ]
+    },
+    "top6pt": {
+      "rect": [
+        128,
+        18,
+        256,
+        24
+      ],
+      "median": [
+        209.0,
+        119.0,
+        43.0
+      ]
+    },
+    "left6pt": {
+      "rect": [
+        18,
+        128,
+        24,
+        256
+      ],
+      "median": [
+        210.0,
+        120.0,
+        43.0
+      ]
+    },
+    "bottom6pt": {
+      "rect": [
+        128,
+        360,
+        256,
+        366
+      ],
+      "median": [
+        209.0,
+        118.0,
+        42.0
+      ]
+    },
+    "right6pt": {
+      "rect": [
+        360,
+        128,
+        366,
+        256
+      ],
+      "median": [
+        212.0,
+        120.0,
+        43.0
+      ]
+    }
+  }
+}

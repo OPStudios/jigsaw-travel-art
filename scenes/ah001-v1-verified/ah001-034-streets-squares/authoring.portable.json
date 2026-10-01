@@ -1,0 +1,309 @@
+{
+  "levelId": 34,
+  "sceneId": "ah001-034-streets-squares",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-034-streets-squares/source/background.png",
+        "prompt": "Use case: stylized-concept. Production clean background for a portrait4:5 jigsaw painting,1280x1600. A peaceful unnamed night-market corner with closed stalls, close cozy three-quarter view, early bluehour with warm lantern illumination. Dominant SAGE GREEN on closed wooden stall shutters, canvas awnings and broad neighboring plaster surfaces; warmamber lamp pools, muted slate paving and palecream accents. Rich dimensional warm storybook hand-painted digital illustration, tactile wood/cloth/cobblestone details and appealing rounded forms, no city landmark, no signs, letters, numbers, logos, people or UIborder. A narrow diagonal walkway leads from lowercenter toward upperright; closed stalls on both sides, baskets and empty small ceramic pots outside. Paint complete clean background beneath five later moving details. Include a bare short curved lantern hook on left stall front around(26%,31%), a plain rope between posts aroundupperthird with one empty pennantposition, a small emptyflowerpot on rightstall step at(82%,69%), a plain tied fabric bundle at(19%,80%) with no loosebow, and a small rooftop branch stub at(75%,18%) without its foreleaf tip. Omit the foreground lantern, single cloth pennant, smallflower sprig, loose fabricbow and leafybranch tip. Background existing light should still come from offscreen side and windows, no empty glaring areas. Detailed cohesive painted nighttime travel atmosphere, comfortable and inviting, not photographic or flatvector.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-034-streets-squares\\source\\background.png",
+        "sha256": "097d13d3cfcb5d1a4cdcd06a89290f8b556b92510f10687d7146b72aa77b0527",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-e516a5cc-a77d-4bb4-ae7b-eadaa7b31191.png",
+        "archiveSourceSha256": "097d13d3cfcb5d1a4cdcd06a89290f8b556b92510f10687d7146b72aa77b0527"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-034-streets-squares/source/atlas.png",
+        "prompt": "Use case: stylized-concept. Transparent production sprite atlas of five unique painted moving details for an olive-sage closed market street at bluehour. Canvas1536x1024, INVISIBLE3column2row layout. Central300x300pixels of each512x512cell contains justoneSMALLcomplete subject, at least100pixels completelytransparent gutter eachside. No drawn gridlines. Bottomrightsixthcell EMPTYALPHA. Warm dimensional hand-painted storybookgame art, soft lowlight, cool ambient blueand warm lanternlit edges, aged olivecloth andbronze. Row1left: a single small hanging bronzelantern with warmcream lightbehindglass, visiblethinverticalcordandloopattop; no outerglow or illuminationcloud. Row1middle: a single small olive-sagecloth triangularpennant witha straighttopseam andtwosmallloops, softfolds, no poleorstring. Row1right: a small three-flower warmivory sprig with a longthin greenstem extendingstraightdown to placeintopot; mutednightlight. Row2left: a narrow darkolive fabric ribbon with asmallknot andtwo loosecurlingtails, to tie ontoa clothbundle; no surroundingclothbody. Row2middle: one small ivybranch with5olivegreenleaves, downwardthinwoodystem, goldenedgelight, no trunkorbackground. TRUE transparentalpha, no checkerboard, contactshadows, glow, letters, sign, scenicrectangles orborder. Allobjects entireandisolatedwithlargezeroalphagutters.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-034-streets-squares\\source\\atlas.png",
+        "sha256": "ca90c34197ee7c2d07144ea448094077dc21a84b1f10f189b0932a555e07553e",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-66de4c7e-675f-4483-aed6-b2fd2cc11519.png",
+        "archiveSourceSha256": "ca90c34197ee7c2d07144ea448094077dc21a84b1f10f189b0932a555e07553e"
+      },
+      {
+        "name": "lantern",
+        "path": "ah001-034-streets-squares/source/lantern.png",
+        "prompt": "Use case: illustration-story. One isolated small antique bronze hanging lantern sprite for a hand-painted cozy olive-green night market at blue hour. Landscape or square transparent RGBA image, no background, no halo, no ground plane, no label. Fine natural brush texture, warm amber candle light confined to glass, dark bronze metal lit from upper-left. Whole lantern with a CLOSED circular suspension ring at the top; no string or cord extending beyond that ring. Entire object centered with enormous empty transparent margins, at least 25 percent image width on every side. The ring must be fully visible, not cut off. Lantern body tall oval with delicate metal framing and pointed bottom. Will hang from an existing painted brass hook. No extra objects.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-034-streets-squares\\source\\lantern.png",
+        "sha256": "3ef52f644ad3423de4e6b0b8d73473ed6be1ad4ebbecc1895e8c066416302b37",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-37129066-712e-4b90-a85f-3774ea435d05.png",
+        "archiveSourceSha256": "3ef52f644ad3423de4e6b0b8d73473ed6be1ad4ebbecc1895e8c066416302b37"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Inspected original painting and transparent details. Vessel mouths, existing stems, ties and metal hooks determine actual attachment positions. Original atlas silhouettes are fully bounded; scene34 clipped lantern source is retained but replaced by a new complete closed-ring lantern. Final composite contact and motion review recorded separately. No identifiable destination landmark.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0865,
+      "orange-yellow": 0.8395,
+      "green": 0.0015,
+      "blue": 0.0686,
+      "violet-pink": 0.0039
+    },
+    "measuredDominantColour": "#5c4423",
+    "mainColourLabel": "olive-green shutters and amber evening light",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "7e761ed75d59c5f43901f7675f326cf8cde38c5029d99ba5f70fb7aec8a5d81f"
+  },
+  "parts": [
+    {
+      "source": "ah001-034-streets-squares/part-1.png",
+      "sha256": "43f34c9924efa2fbfa9936476411a29ac849d79ea653ec908bc3f18f3c9e3c7b",
+      "rect": [
+        0.29375,
+        0.265625,
+        0.05,
+        0.10875
+      ],
+      "sourcePixelRect": [
+        376,
+        425,
+        64,
+        174
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "subject": "bronze lantern suspended from left brass hook",
+      "authoringSource": "lantern",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        624,
+        112,
+        913,
+        897
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          376,
+          425
+        ]
+      }
+    },
+    {
+      "source": "ah001-034-streets-squares/part-2.png",
+      "sha256": "c7c9727b9242a474928b261a36605a97eaba195da3a245587a4600a7df5eccf5",
+      "rect": [
+        0.61484375,
+        0.163125,
+        0.07421875,
+        0.0825
+      ],
+      "sourcePixelRect": [
+        787,
+        261,
+        95,
+        132
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "olive pennant hanging from upper courtyard cord",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        136,
+        86,
+        407,
+        461
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          787,
+          261
+        ]
+      }
+    },
+    {
+      "source": "ah001-034-streets-squares/part-3.png",
+      "sha256": "0eae91bd2fe30969239b9aaffd820d864d14930955f58616b8713bbfec3a3f91",
+      "rect": [
+        0.871875,
+        0.583125,
+        0.0625,
+        0.106875
+      ],
+      "sourcePixelRect": [
+        1116,
+        933,
+        80,
+        171
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "ivory flowers rising from right pot",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        162,
+        67,
+        364,
+        499
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1157,
+          1102
+        ]
+      }
+    },
+    {
+      "source": "ah001-034-streets-squares/part-4.png",
+      "sha256": "59073e0b96329a1454f8bffe03db662a821c4df426ba547b38ca70c71f616267",
+      "rect": [
+        0.1625,
+        0.75,
+        0.05,
+        0.04125
+      ],
+      "sourcePixelRect": [
+        208,
+        1200,
+        64,
+        66
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "subject": "olive cloth bow at tied bundle knot",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "atlasExtractionRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        103,
+        82,
+        464,
+        454
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          240,
+          1233
+        ]
+      }
+    },
+    {
+      "source": "ah001-034-streets-squares/part-5.png",
+      "sha256": "3ac9dde48a03fe5383bdb751b20b76eb8f4ab696b056cd2e6fa54ed0709e7ac2",
+      "rect": [
+        0.078125,
+        0.44375,
+        0.0609375,
+        0.094375
+      ],
+      "sourcePixelRect": [
+        100,
+        710,
+        78,
+        151
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "ivy sprig rooted in left stall shrub",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "atlasExtractionRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        157,
+        14,
+        402,
+        486
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          138,
+          859
+        ]
+      }
+    }
+  ]
+}

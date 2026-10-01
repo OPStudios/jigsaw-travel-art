@@ -1,0 +1,195 @@
+{
+  "levelId": 30,
+  "sceneId": "ah001-030-festivals-music",
+  "theme": "festivals-music",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "turquoise",
+  "visualReviewNotes": "Pennant and lantern loops meet the arched wood, coral bow ties over the right post, garland joins flowers, ivory streamer attaches on left post. Close inspection checks the loops. First atlas rejected for overflowing cells and possible clipped hanging rope; new fully contained atlas replaces it. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A flower festival arch beside baskets of blossoms. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: turquoise (#65B5AE), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small scene-specific pennant or kite tail at normalised rect [0.14, 0.1, 0.19, 0.19]; one hanging painted lantern or festival ornament at normalised rect [0.66, 0.18, 0.15, 0.19]; a curling ribbon tied to a scene prop at normalised rect [0.42, 0.43, 0.16, 0.18]; a small flower-garland section at normalised rect [0.1, 0.7, 0.21, 0.15]; a loose scene-matching fabric streamer at normalised rect [0.72, 0.64, 0.16, 0.23]. The painting must remain attractive and complete underneath those parts.\nArt direction refinement: a charming intimate local flower-festival preparation courtyard, one modest rounded wooden arch painted turquoise, wide large turquoise plaster wall behind, turquoise painted floor tiles so the dominant whole composition reads sea-green TURQUOISE. Arch is covered in white, pale peach and coral flowers with fresh leaves; wicker baskets full of blossoms flank its feet. Leave the middle of the arch open, no people, no words, no famous architecture, no city skyline. Tiny natural grass growth beside floor tiles, soft late morning light from upper-left. No ribbons, pennants, hanging lanterns or streamers painted yet: they will be separately authored and tied onto the arch. Design clean solid painted wood underneath their attachment points. Subtle decorative bead carving, polished storybook detail, not a neon fantasy scene.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-45831f14-5e81-461b-a566-5cc147e22a9e.png"
+    },
+    {
+      "name": "atlas",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. Create one TRUE TRANSPARENT RGBA sprite sheet, 1536x1024, containing exactly five SMALL FULLY SEPARATED painted objects. Invisible grid of3columns by2rows, eachcell512x512. CRITICAL EACH OBJECT MUST FIT INSIDE A280x300 pixel maximum rectangle centered in its cell; huge transparent gutters surround all sides. The sixth lower-right cell is completely empty. Do not fill the cells with big art. No grid lines, no glows, no haze, no contact shadows, no backdrop of any color. Warm detailed dimensional storybook painting with delicate natural fabric/wood texture, soft light upper-left, for a turquoise flower-festival arch with coral-and-white blossoms. Cell1 upperleft: one SMALL ivory triangular cloth pennant with tiny top loop and a subtle coral flower embroidery. Cell2 uppermiddle: one SMALL pale peach oval paper lantern with gentle ribs, tiny top hanging loop, no long rope, no bottom tassel and no illumination. Cell3 upperright: one SMALL coral satin bow tied at centre with two curling tails. Cell4 lowerleft: one SMALL curved sprig with three white flowers and green leaves, complete thin branch. Cell5 lowermiddle: one SMALL ivory cloth streamer with short tied top loop and one loose curved tail. Object size restraint is essential, fully inside eachcell, never crosses x512/x1024/y512. Genuine alpha between leaves and cloth ends; no painted scenery. No lettering.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-8c5ec410-af72-428f-9fcc-a4967000c351.png"
+    },
+    {
+      "name": "atlas-rejected",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\atlas-rejected-original.png",
+      "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"A flower festival arch beside baskets of blossoms\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: wide intimate view from slightly above; same gentle light from upper left. Palette dominant turquoise (#65B5AE) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a small scene-specific pennant or kite tail; cell(2,1): one hanging painted lantern or festival ornament; cell(3,1): a curling ribbon tied to a scene prop; cell(1,2): a small flower-garland section; cell(2,2): a loose scene-matching fabric streamer. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nRefine each exact separately painted complete object: top-left one small ivory triangular pennant tied with a SHORT TOP loop, one pennant not a string; top-middle one modest pale-peach oval paper lantern with vertical ribbing and a short slender top string (no glow); top-right one small coral-pink satin bow tied at its centre with two graceful curling tails; bottom-left one short curving garland sprig of three tiny white blossoms and sage-green leaves, complete slender stem; bottom-middle one long slender pale-ivory fabric streamer with a tied top knot and a single fluttering tail. True transparent alpha background. Layout is invisible3x2, huge clear alpha gutters on all sides, each object well inside its cell, sixth cell totally empty. NO light rays, haze, glows, scene pixels, arch, wall, ropes beyond the item's own short loop, text, numbers or grid. Refined gently textured storybook painting, warm sunlight upper-left, purpose-painted for a turquoise floral arch with white and coral blooms.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-494eca9d-fbf5-4d1b-a8e9-8b2674b2cabe.png"
+    },
+    {
+      "name": "flower-pennant",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\flower-pennant-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "name": "peach-lantern",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\peach-lantern-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "coral-bow",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\coral-bow-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ]
+    },
+    {
+      "name": "flower-garland",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\flower-garland-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "ivory-streamer",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-030\\ivory-streamer-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "flower pennant",
+      "source": "flower-pennant",
+      "maxSize": [
+        100,
+        145
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          377,
+          284
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "peach lantern",
+      "source": "peach-lantern",
+      "maxSize": [
+        115,
+        150
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          765,
+          275
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "coral bow",
+      "source": "coral-bow",
+      "maxSize": [
+        145,
+        130
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1041,
+          621
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "flower garland",
+      "source": "flower-garland",
+      "maxSize": [
+        135,
+        160
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          359,
+          1000
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "ivory streamer",
+      "source": "ivory-streamer",
+      "maxSize": [
+        100,
+        175
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          245,
+          538
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

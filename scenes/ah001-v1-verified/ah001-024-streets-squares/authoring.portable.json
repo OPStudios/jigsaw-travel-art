@@ -1,0 +1,358 @@
+{
+  "levelId": 24,
+  "sceneId": "ah001-024-streets-squares",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-024-streets-squares/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A rain-washed cafe alley with reflected warm windows. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm terracotta (#C97A54), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a narrow hanging pennant appropriate to the neighborhood at normalised rect [0.17, 0.1, 0.18, 0.14]; a little flowering window-box sprig at normalised rect [0.73, 0.3, 0.18, 0.18]; a softly draped curtain corner in one window at normalised rect [0.36, 0.22, 0.13, 0.19]; a small foreground branch entering from the left at normalised rect [0.05, 0.66, 0.19, 0.23]; a soft cloud or pale reflection in this scene at normalised rect [0.49, 0.08, 0.22, 0.12]. The painting must remain attractive and complete underneath those parts.\nArt direction: warm terracotta plaster and wet reddish cobblestones dominate an intimate generic cafe lane after a short summer shower, with honey-lit windows, blue-gray rain reflections as smaller accents, small terracotta pots and modest awnings. Rich soft painted detail, no famous architecture. Give one visible warm window a simple pale curtain hanging inside and provide natural attachment locations for a small pennant beneath the near awning and a new flower stem in one small window box. Complete reflections painted on the wet paving; later an isolated highlight will animate softly. No people, no readable cafe sign, no text or street numbers.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-e5820d54-5fd1-482d-a511-c51cc6491193.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\background.png",
+        "sha256": "7c9fa6c70a4010ad4d3cdc71c356b3a21a36ce31ecb3103084dda93acc56a8ab",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\background-original.png",
+        "archiveSourceSha256": "7c9fa6c70a4010ad4d3cdc71c356b3a21a36ce31ecb3103084dda93acc56a8ab"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-024-streets-squares/source/atlas.png",
+        "prompt": "Use case: stylized-concept. ONE production sprite atlas containing exactly FIVE small, individually painted scene-specific details for a rain-washed warm terracotta cafe alley. Detailed softly brushed storybook travel painting, gentle golden upper-left daylight, natural materials. True transparent alpha. Invisible 3-column by2-row layout, no grid lines or labels; each object entirely inside the middle60percent of its own cell, with wide fully transparent gutters. Top-left: one short ivory triangular awning pennant with a warm terracotta sewn edge, hanging from a small horizontal attachment seam. Top-middle: a tiny jasmine sprig with two white blossoms and four olive-green leaves, thin stem pointing down-left. Top-right: one small soft pale peach cloud with ivory highlights, stretched horizontally. Bottom-left: a slim scene-specific olive branch extending upward-right from a narrow exposed woody stem. Bottom-middle: one soft irregular golden window-light reflection on wet stone, a sparse horizontal cluster of delicate amber ripples with translucent broken alpha edges, no stone or pavement background. Bottom-right empty. No curtains, buildings, signs, lanterns, boxes, scenery, drop shadows or frames. Five genuinely isolated parts for this exact alley scene; not rectangular crops.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-ffa1f4d0-4947-45f8-b4bc-f4f3bcd804b9.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\atlas.png",
+        "sha256": "5c9e731a63a81be99d92007842d3b98fab2578f80fa1e7b2471e4f55f173356f",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\atlas-original.png",
+        "archiveSourceSha256": "5c9e731a63a81be99d92007842d3b98fab2578f80fa1e7b2471e4f55f173356f"
+      },
+      {
+        "name": "awning-pennant",
+        "path": "ah001-024-streets-squares/source/awning-pennant.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          73,
+          100,
+          485,
+          459
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\awning-pennant.png",
+        "sha256": "f991a544cb19008cd614b1f2f591aa530853efb77f6a5e69c4a0f549acf18de3",
+        "pixels": [
+          412,
+          359
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\awning-pennant-isolated.png",
+        "archiveSourceSha256": "f991a544cb19008cd614b1f2f591aa530853efb77f6a5e69c4a0f549acf18de3"
+      },
+      {
+        "name": "window-jasmine",
+        "path": "ah001-024-streets-squares/source/window-jasmine.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          582,
+          87,
+          937,
+          455
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\window-jasmine.png",
+        "sha256": "5078cb76cf74f49bf8d3e0e2e9292ce665442fc0e53c421eefd2890762e6eaa0",
+        "pixels": [
+          355,
+          368
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\window-jasmine-isolated.png",
+        "archiveSourceSha256": "5078cb76cf74f49bf8d3e0e2e9292ce665442fc0e53c421eefd2890762e6eaa0"
+      },
+      {
+        "name": "near-cloud",
+        "path": "ah001-024-streets-squares/source/near-cloud.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          986,
+          142,
+          1534,
+          417
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\near-cloud.png",
+        "sha256": "c0215db38aef34669fb8fe7de9aa8550644f4f1adb7d226245bf10eb904bec50",
+        "pixels": [
+          548,
+          275
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\near-cloud-isolated.png",
+        "archiveSourceSha256": "c0215db38aef34669fb8fe7de9aa8550644f4f1adb7d226245bf10eb904bec50"
+      },
+      {
+        "name": "foreground-olive",
+        "path": "ah001-024-streets-squares/source/foreground-olive.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          83,
+          517,
+          495,
+          947
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\foreground-olive.png",
+        "sha256": "feb809dfb5367043e796c33a7d77a589095c10deaa10c01aef60fedbbec91b3b",
+        "pixels": [
+          412,
+          430
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\foreground-olive-isolated.png",
+        "archiveSourceSha256": "feb809dfb5367043e796c33a7d77a589095c10deaa10c01aef60fedbbec91b3b"
+      },
+      {
+        "name": "wet-paving-reflection",
+        "path": "ah001-024-streets-squares/source/wet-paving-reflection.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          535,
+          613,
+          1013,
+          932
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-024-streets-squares\\source\\wet-paving-reflection.png",
+        "sha256": "8a08ed94fd4eddb4349a317c3bc277dcd531b8b38c85816344d00d7a282705f4",
+        "pixels": [
+          478,
+          319
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-024\\wet-paving-reflection-isolated.png",
+        "archiveSourceSha256": "8a08ed94fd4eddb4349a317c3bc277dcd531b8b38c85816344d00d7a282705f4"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Pennant attaches under the awning, jasmine extends the window box, cloud sits in sky, olive attaches to foreground growth, and broken golden reflection rests on wet cobblestones. Window-box attachment inspected close up. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.1756,
+      "orange-yellow": 0.8153,
+      "green": 0.006,
+      "blue": 0.0025,
+      "violet-pink": 0.0006
+    },
+    "measuredDominantColour": "#95582a",
+    "mainColourLabel": "warm terracotta",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "9eedb4546e1caa062dbdd633f9ebad5f2fca07a77811a707a0d311ee334be148"
+  },
+  "parts": [
+    {
+      "source": "ah001-024-streets-squares/part-1.png",
+      "sha256": "f6db21dc4db150508e5a61c449943339fd2a278b3adf6a9200f59ebd1915dcbc",
+      "rect": [
+        0.13671875,
+        0.28375,
+        0.1015625,
+        0.07125
+      ],
+      "sourcePixelRect": [
+        175,
+        454,
+        130,
+        114
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "awning pennant",
+      "authoringSource": "awning-pennant",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        20,
+        20,
+        392,
+        346
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          175,
+          454
+        ]
+      }
+    },
+    {
+      "source": "ah001-024-streets-squares/part-2.png",
+      "sha256": "cf6c7ca81acf67eb3d27040be0febc48b28e8a0693f3d0e18d568b9fde24af6a",
+      "rect": [
+        0.6578125,
+        0.268125,
+        0.1,
+        0.08375
+      ],
+      "sourcePixelRect": [
+        842,
+        429,
+        128,
+        134
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "window jasmine",
+      "authoringSource": "window-jasmine",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        19,
+        15,
+        340,
+        350
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          852,
+          561
+        ]
+      }
+    },
+    {
+      "source": "ah001-024-streets-squares/part-3.png",
+      "sha256": "cef6080df9bc8539c6cb7497d9bf4816bad92b1fac6dab46052c0f61be50deec",
+      "rect": [
+        0.6484375,
+        0.07875,
+        0.1328125,
+        0.040625
+      ],
+      "sourcePixelRect": [
+        830,
+        126,
+        170,
+        65
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "near cloud",
+      "authoringSource": "near-cloud",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        19,
+        35,
+        534,
+        233
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          915,
+          158
+        ]
+      }
+    },
+    {
+      "source": "ah001-024-streets-squares/part-4.png",
+      "sha256": "def4e8a559ef9e6d20f35e7d9257364ebe07714aedbef9808fecccfbf290d188",
+      "rect": [
+        0.075,
+        0.725,
+        0.1328125,
+        0.11375
+      ],
+      "sourcePixelRect": [
+        96,
+        1160,
+        170,
+        182
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "foreground olive",
+      "authoringSource": "foreground-olive",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        25,
+        20,
+        392,
+        413
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          102,
+          1340
+        ]
+      }
+    },
+    {
+      "source": "ah001-024-streets-squares/part-5.png",
+      "sha256": "ec43a891d3f87e4d7453d9909bda68674300cbfa3eb73cd0eda747a9f7607aed",
+      "rect": [
+        0.59765625,
+        0.87375,
+        0.1375,
+        0.065625
+      ],
+      "sourcePixelRect": [
+        765,
+        1398,
+        176,
+        105
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "wet paving reflection",
+      "authoringSource": "wet-paving-reflection",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        18,
+        24,
+        458,
+        287
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          853,
+          1450
+        ]
+      }
+    }
+  ]
+}

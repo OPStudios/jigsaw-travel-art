@@ -1,0 +1,251 @@
+{
+  "levelId": 51,
+  "sceneId": "ah001-051-food-drink",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "berry red",
+  "mainColour": "#851a10",
+  "paletteReview": {
+    "sourceSurfaceRect": [
+      650,
+      50,
+      945,
+      350
+    ],
+    "medianRGB": [
+      133,
+      26,
+      16
+    ],
+    "reason": "Actual visually defining surface, not different arbitrary hex codes. Full chromatic histogram retained separately."
+  },
+  "visualReviewNotes": "Original opaque background and all five authored cutouts inspected at composition scale and against cream/dark alpha backgrounds. Adapted attachments to visible branches, pots, surface contact, strings, or sky/water. Implementation art review only, not PM approval. Master/contact and actual GPU review follow export.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-051-food-drink/source/background.png",
+      "prompt": "Complete FULLY OPAQUE portrait4:5 storybook illustration, target1280x1600. All pixels alpha255/opaque, no transparent edges, no cutouts or atlas. Cozy dimensional gently brushed digitalpainting, detailed natural materials, coherent upperleftsunshine andperspective. No words, labels, logos, landmarks, people,UI,frame orwatermark. Attractivefinishedcleanbackground forlaterdetail layers, noholes. Icedmatchaand strawberrylayercake on a creamceramictray beside a cottagewindow. BERRY RED dominates large linen tablecloth andpaintedwall withwarm ivory dish accents, greenmatcha providesdelightfulcontrast. Drinkglass leftmid atx31%,y49%, visibleice, NO steam. Strawberrycakeplaterightmiddle x64%,y63%, strawberriesbutno mintgarnish. Tinyemptycreamvasefrontleftx15%,y73%, andsmallclayplanterrear rightx83%,y34% withbarestem. Plainclothnapkin lower-rightboundwithcottoncord butno bow. Littlecleartablepatchnearx42%,y81% available forlater fallenstrawberryleaf. Laterpartsomitted:mintgarnishontopofcake, potleavesprig, smallwhiteflowerinvase, delicateivorytwinebowattachednapkincord, flatfallenstrawberryleafontable. Allsupportsurfacescomplete; noartificialsteamforcold drink.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-5f1a9085-d197-4a6e-80b2-9dc4aa20b2af.png",
+      "archiveSourceSha256": "4f1e7c8f18653c09bb5fe82664cdc20f24e0f79957b8c1f44142dc2e442dfd26"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-051-food-drink/source/atlas.png",
+      "prompt": "Use case: illustration-story. Production sprite atlas for a softly hand-painted travel jigsaw. Five independently painted watercolor/gouache cutouts, TRUE transparent RGBA with empty alpha between subjects. Landscape1536x1024, three columns/two rows, bottom-right cell completely empty. Very wide transparent gutters, each COMPLETE subject centered inside own cell, maxheight400, no touching borders or crossing cells. Do not paint background/halo/grid/checkerboard/stickers/text. Natural subtly textured paint, gentle upper-left daylight, no hard outlines. Subjects in cell order: A strawberry cake and iced matcha table scene: TOP LEFT tiny fresh mint garnish, three leaves and short bottom stalk; TOP MIDDLE small potted-plant leafy branch with a bottom cut stem; TOP RIGHT one small white strawberry flower on a long thin bottom stem; BOTTOM LEFT thin ivory cotton twine bow resting flat on a napkin viewed above45degrees, tiny contact shadow immediately under cord; BOTTOM MIDDLE single fresh strawberry leaf lying flat on table, three-quarter overhead view, subtle contact shadow, short stalk. No mug/plate/napkin/background.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-1a509b21-0627-437c-bc35-0933db6e0d56.png",
+      "archiveSourceSha256": "5a51c6b24d7802f64a57a3c89989cec9b0fd3cc55ad9008fc84b1ae9a9c3b033"
+    },
+    {
+      "name": "cutout-1",
+      "path": "ah001-051-food-drink/source/cutout-1.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-1a509b21-0627-437c-bc35-0933db6e0d56.png",
+      "originalPixelRect": [
+        0,
+        0,
+        525,
+        520
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-051\\technical-crops\\cutout-1.png",
+      "archiveSourceSha256": "128de725098e174859c5decec5029e11fc5f41a0f989bbe8c71b371d21ac6aa8"
+    },
+    {
+      "name": "cutout-2",
+      "path": "ah001-051-food-drink/source/cutout-2.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-1a509b21-0627-437c-bc35-0933db6e0d56.png",
+      "originalPixelRect": [
+        525,
+        0,
+        1070,
+        520
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-051\\technical-crops\\cutout-2.png",
+      "archiveSourceSha256": "052082ea9ab20bbef6a057288360e6f425ae32a2f8967ad2a0efb8e1d9137162"
+    },
+    {
+      "name": "cutout-3",
+      "path": "ah001-051-food-drink/source/cutout-3.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-1a509b21-0627-437c-bc35-0933db6e0d56.png",
+      "originalPixelRect": [
+        1070,
+        0,
+        1536,
+        520
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-051\\technical-crops\\cutout-3.png",
+      "archiveSourceSha256": "ffd770268109bec28ffd09573217a6621ed6682baeba955108c3fb789bc338e7"
+    },
+    {
+      "name": "cutout-4",
+      "path": "ah001-051-food-drink/source/cutout-4.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-1a509b21-0627-437c-bc35-0933db6e0d56.png",
+      "originalPixelRect": [
+        0,
+        520,
+        525,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-051\\technical-crops\\cutout-4.png",
+      "archiveSourceSha256": "a18da6231e670623b5935e5740f3fc9b2526c2c48a92b02c850a3b39972e2b8e"
+    },
+    {
+      "name": "cutout-5",
+      "path": "ah001-051-food-drink/source/cutout-5.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-1a509b21-0627-437c-bc35-0933db6e0d56.png",
+      "originalPixelRect": [
+        525,
+        520,
+        1070,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-051\\technical-crops\\cutout-5.png",
+      "archiveSourceSha256": "1e843e1ad33f25e694a81c7a94e0df5e0293be489ffc0d5dcd9c6266bb99d0f5"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "mint garnish on strawberry cake",
+      "source": "cutout-1",
+      "maxSize": [
+        72,
+        52
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          912.6559714795009,
+          758.9158345221113
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          800,
+          665
+        ]
+      }
+    },
+    {
+      "subject": "branch tip in clay pot",
+      "source": "cutout-2",
+      "maxSize": [
+        98,
+        170
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1118.0035650623886,
+          325.2496433666191
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          980,
+          285
+        ]
+      }
+    },
+    {
+      "subject": "strawberry flower in vase",
+      "source": "cutout-3",
+      "maxSize": [
+        105,
+        220
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          180.24955436720143,
+          996.2910128388017
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          158,
+          873
+        ]
+      }
+    },
+    {
+      "subject": "ivory bow on folded napkin",
+      "source": "cutout-4",
+      "maxSize": [
+        85,
+        58
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1140.819964349376,
+          1266.7617689015692
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "center",
+        "backgroundSourcePoint": [
+          1000,
+          1110
+        ]
+      }
+    },
+    {
+      "subject": "fallen strawberry leaf",
+      "source": "cutout-5",
+      "maxSize": [
+        72,
+        58
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          570.409982174688,
+          1312.4108416547788
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "center",
+        "backgroundSourcePoint": [
+          500,
+          1150
+        ]
+      }
+    }
+  ]
+}

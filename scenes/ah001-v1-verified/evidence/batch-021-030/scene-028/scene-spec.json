@@ -1,0 +1,189 @@
+{
+  "levelId": 28,
+  "sceneId": "ah001-028-animals",
+  "theme": "animals",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "soft violet",
+  "visualReviewNotes": "Two distinct reflection clusters sit on unobstructed violet water, reed roots overlap shore growth, lily leaf floats flat at lower-right, and dragonfly hovers over water. All duck silhouettes and anatomy are coherent. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Ducks swimming across a garden pond. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: soft violet (#AE92C6), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a long pale water reflection at normalised rect [0.07, 0.09, 0.21, 0.21]; a second rippling water reflection at normalised rect [0.72, 0.12, 0.2, 0.23]; a reed cluster at normalised rect [0.09, 0.69, 0.2, 0.19]; a water-lily leaf at normalised rect [0.68, 0.72, 0.23, 0.17]; a small soft cloud at normalised rect [0.42, 0.25, 0.18, 0.16]. The painting must remain attractive and complete underneath those parts.\nArt direction refinement: violet dominates through the broad quiet pond water reflecting a soft lavender evening sky and blooming purple iris border. Three beautifully painted mallard ducks swim near the middle, full silhouettes and natural anatomy, one male two females, graceful small V-shaped ripples. Keep the huge coherent water surface luminous SOFT VIOLET, with muted greens and warm buff stone edging as secondary accents. No palace, bridge, pagoda or landmark. Low far bank at top fifth; most canvas is water with tasteful lily pads near the edges and clear empty water at lower-right for a separate lily leaf. Foreground reed roots at lower-left await one separately painted small reed clump. Sky occupies only top tenth. Calm distinct composition, no glowing fantasy mist or scattered glitter.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-d28fbf89-2e8a-4044-805a-7426cd2d4219.png"
+    },
+    {
+      "name": "atlas",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"Ducks swimming across a garden pond\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: gently elevated three-quarter view; same gentle light from upper left. Palette dominant soft violet (#AE92C6) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a long pale water reflection; cell(2,1): a second rippling water reflection; cell(3,1): a reed cluster; cell(1,2): a water-lily leaf; cell(2,2): a small soft cloud. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nRefine exact five full small silhouettes: first cell a narrow horizontal cluster of warm pale-peach broken pond reflection strokes; second cell a DIFFERENT broader cool pale-lavender reflection ripple, thinner broken strokes; third cell a short green reed cluster with two slender brown seedheads, complete tapered base; fourth cell one olive-green water-lily leaf with notch, floating flat on water, shallow ellipse seen three-quarter from slightly above, warm highlights and no shadow rectangle; fifth cell one tiny blue-green dragonfly with four translucent delicate wings, hovering diagonally (replaces provisional cloud, appropriate to pond). Genuine transparent alpha outside each silhouette and BETWEEN reflection strokes. No water, sky, ground, shadows, haze, glow or rectangular surroundings. Invisible 3x2 placement only, leave huge empty gutters, all five silhouettes comfortably inset, sixth cell absolutely empty. Match actual softly painted lavender pond at warm sunset, no flat clipart.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-d63400f2-d3bb-413e-9dc6-861d56951a8d.png"
+    },
+    {
+      "name": "peach-pond-reflection",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\peach-pond-reflection-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        15,
+        170,
+        551,
+        420
+      ]
+    },
+    {
+      "name": "violet-pond-reflection",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\violet-pond-reflection-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        558,
+        160,
+        1064,
+        422
+      ]
+    },
+    {
+      "name": "pond-reeds",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\pond-reeds-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1080,
+        20,
+        1520,
+        500
+      ]
+    },
+    {
+      "name": "lily-leaf",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\lily-leaf-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        50,
+        605,
+        546,
+        911
+      ]
+    },
+    {
+      "name": "dragonfly",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-028\\dragonfly-isolated.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        615,
+        552,
+        985,
+        938
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "peach pond reflection",
+      "source": "peach-pond-reflection",
+      "maxSize": [
+        205,
+        90
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          375,
+          433
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "violet pond reflection",
+      "source": "violet-pond-reflection",
+      "maxSize": [
+        205,
+        100
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          959,
+          1200
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pond reeds",
+      "source": "pond-reeds",
+      "maxSize": [
+        160,
+        210
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          135,
+          1460
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "lily leaf",
+      "source": "lily-leaf",
+      "maxSize": [
+        165,
+        100
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1040,
+          1463
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "dragonfly",
+      "source": "dragonfly",
+      "maxSize": [
+        90,
+        95
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          316,
+          850
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

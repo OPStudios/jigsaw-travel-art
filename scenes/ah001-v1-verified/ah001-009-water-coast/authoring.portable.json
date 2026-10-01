@@ -1,0 +1,306 @@
+{
+  "levelId": 9,
+  "sceneId": "ah001-009-water-coast",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-009-water-coast/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A sunlit rock pool filled with shells and clear water. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: golden yellow (#DFC260), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft near-water reflection patch at normalised rect [0.14, 0.62, 0.25, 0.14]; a second distinct water reflection patch at normalised rect [0.51, 0.71, 0.27, 0.12]; a shore reed or sea-grass cluster at normalised rect [0.75, 0.53, 0.17, 0.24]; a softly painted near cloud at normalised rect [0.12, 0.1, 0.24, 0.14]; a softly painted far cloud or spray wisp appropriate to the scene at normalised rect [0.58, 0.18, 0.24, 0.12]. The painting must remain attractive and complete underneath those parts. Use clear cyan-blue/turquoise WATER as the main colour, filling more than half this rock-pool view; gold rock edges and shells are accents. Slightly elevated intimate view, no horizon or sky necessary. Paint complete water behind all later thin reflective ripples and a shore sea-grass cluster. No city landmarks, man-made symbols or text. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-009-water-coast\\source\\background.png",
+        "sha256": "a2dc227c90f3de3d196191a0b4fad701ea653b2ecad1a2b94eb64d61972aa757",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6a8b17c2-d512-4f4b-9a1e-3035c99ed77d.png",
+        "archiveSourceSha256": "a2dc227c90f3de3d196191a0b4fad701ea653b2ecad1a2b94eb64d61972aa757"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-009-water-coast/source/atlas.png",
+        "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A sunlit rock pool filled with shells and clear water\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a eye-level intimate view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a small fan of flexible ochre-green coastal grass blades, all meet at bottom base; top-middle a short curling ribbon of deep amber seaweed floating on clear water, no water rectangle; top-right a narrow painted sunlight caustic reflection crescent on clear water, translucent warm ivory feathered brush strokes, no backdrop; bottom-left a fine tuft of bluish dune grass bending left, bottom stem base; bottom-middle a single small orange shore crab viewed from overhead, dimensional painted legs and claws, no ground shadow. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-009-water-coast\\source\\atlas.png",
+        "sha256": "18c427f2a9c38f72115c98ac79b5b8a8525b6ad495e11f2fa47bf3b0af069be0",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-aea2727b-ee55-4d28-a393-0489be80b8ec.png",
+        "archiveSourceSha256": "18c427f2a9c38f72115c98ac79b5b8a8525b6ad495e11f2fa47bf3b0af069be0"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Grasses meet real coastal rock tufts; kelp rests on pool surface; caustic brush is a local water reflection, not a rectangular overlay; small crab sits on exposed foreground shore rock. Main colour is measured from visible subject region [420, 200, 970, 640]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0105,
+      "orange-yellow": 0.5666,
+      "green": 0.211,
+      "blue": 0.2114,
+      "violet-pink": 0.0005
+    },
+    "measuredDominantColour": "#b08c3d",
+    "mainColourLabel": "cyan turquoise",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "cf7e810265aea8f6e048b12634bdd038051be87d8d75cd45d50f74520e48fb96"
+  },
+  "parts": [
+    {
+      "source": "ah001-009-water-coast/part-1.png",
+      "sha256": "7e2afbf63e3abdb82a7979cea63db5a63d5bc119dbae5a1e52a2bfc4a3f25fe0",
+      "rect": [
+        0.83203125,
+        0.509375,
+        0.1328125,
+        0.095
+      ],
+      "sourcePixelRect": [
+        1065,
+        815,
+        170,
+        152
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "coastal grass",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "atlasExtractionRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        31,
+        51,
+        510,
+        478
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1175,
+          965
+        ]
+      }
+    },
+    {
+      "source": "ah001-009-water-coast/part-2.png",
+      "sha256": "13cde00ac30a410e98730fb20a40c37d4edeb4f25867da61840b8872761ddf8f",
+      "rect": [
+        0.5671875,
+        0.3125,
+        0.08203125,
+        0.060625
+      ],
+      "sourcePixelRect": [
+        726,
+        500,
+        105,
+        97
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "floating kelp",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        30,
+        54,
+        494,
+        484
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          779,
+          549
+        ]
+      }
+    },
+    {
+      "source": "ah001-009-water-coast/part-3.png",
+      "sha256": "7a9d80d349dd85560232f3afdb726360fbccd76acbc2a26aae24fe89dd974010",
+      "rect": [
+        0.3125,
+        0.54375,
+        0.13828125,
+        0.100625
+      ],
+      "sourcePixelRect": [
+        400,
+        870,
+        177,
+        161
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "water caustic",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        25,
+        75,
+        473,
+        483
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          489,
+          950
+        ]
+      }
+    },
+    {
+      "source": "ah001-009-water-coast/part-4.png",
+      "sha256": "40c4696999157401a4c166c7d3e685445494b2708979010fe7f0ffd7e2dcb1a0",
+      "rect": [
+        0.0703125,
+        0.6625,
+        0.1015625,
+        0.07625
+      ],
+      "sourcePixelRect": [
+        90,
+        1060,
+        130,
+        122
+      ],
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4,
+      "subject": "dune grass",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "atlasExtractionRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        30,
+        7,
+        505,
+        454
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          183,
+          1180
+        ]
+      }
+    },
+    {
+      "source": "ah001-009-water-coast/part-5.png",
+      "sha256": "1a0f517ecf664af8940ab323986132c7619555f87f71475d4ebdd261348dcc9a",
+      "rect": [
+        0.2796875,
+        0.90125,
+        0.06875,
+        0.046875
+      ],
+      "sourcePixelRect": [
+        358,
+        1442,
+        88,
+        75
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "shore crab",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "atlasExtractionRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        18,
+        26,
+        495,
+        432
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          402,
+          1480
+        ]
+      }
+    }
+  ]
+}

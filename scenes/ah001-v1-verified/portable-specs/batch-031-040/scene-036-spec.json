@@ -1,0 +1,156 @@
+{
+  "levelId": 36,
+  "sceneId": "ah001-036-transport",
+  "theme": "transport",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "coral stucco with yellow tram and dark teal doors",
+  "visualReviewNotes": "Inspected original painting and transparent details. Vessel mouths, existing stems, ties and metal hooks determine actual attachment positions. Original atlas silhouettes are fully bounded; scene34 clipped lantern source is retained but replaced by a new complete closed-ring lantern. Final composite contact and motion review recorded separately. No identifiable destination landmark. Representative primary surface color #fa8f67 sampled from large coral wall, original pixels [874, 290, 1100, 754]; global warm-light hue histogram is retained separately and is not a perceptual dominant-color classifier.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-036-transport/source/background.png",
+      "prompt": "Use case: stylized-concept. Portrait4:5 production jigsaw clean painting,1280x1600. A charming yellow vintage tram parked at a leafy unnamed depot, eye-level three-quarter view. Broad CORAL PINK depot walls and paving reflections dominate the background and foreground; sunny yellow tram occupies central-left, deep teal glass windows, muted green plants. Warm dimensional hand-painted travel storybook art, soft afternoon light, tactile painted metal, stone and leaves, appealing rounded forms, detailed but clean readable objects. Generic tram with no city markings, route text, numbers, brands, landmark or people. No UI or border. This is a completed clean plate for five separately painted moving details. Include a slim pole on tram roof for a small pennant but omit the pennant; an empty wall flowerpot on the right at midheight, omit its flowering sprig; a low leafy shrub base lower-left with the foremost branch omitted; a small bare upper-right branch stub against the coral wall, omit its leaf tip; and a luggage parcel on a depot bench lower-right tied with simple string but no loose ribbon bow. Fully finish surfaces behind all five parts, no blank gaps. Nice visible wheel and rail details with an inviting quiet depot atmosphere. Avoid photographic collage and flat graphics.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-e643c368-9a1e-4eab-86f0-e5e2af015e30.png",
+      "archiveSourceSha256": "d6dd26eb57a969e4d1a36fe9febac00c3592ef39afcd9fd9d4e0bc879a0866e7"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-036-transport/source/atlas.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas for a warm, detailed hand-painted travel jigsaw. Genuine transparent RGBA background, absolutely no colored backdrop, no haze, no glow, no drop-shadow halo. Landscape 1536x1024. Invisible 3-column by 2-row grid, each cell 512x512. Five independent objects, sixth lower-right cell completely empty. Each whole object must fit inside the central 300x300 pixels of its cell with at least 100px fully transparent padding on every side. Objects MUST NOT touch cell boundaries. No drawn grid, no labels or text, no ground surfaces. Crisp painted texture, natural light upper left, thin clean alpha edges. Paint exactly these five objects, one per cell in reading order: (1) small triangular ivory linen pennant extending rightward from a short vertical sleeve on its left edge; (2) fine pale pink geranium bloom cluster with thin stem to sit in a wall pot; (3) leafy yellow-green foreground twig with a short pointed base at bottom, upper-left sunlight; (4) a small olive-green branch with three leaves and bare twig base toward lower-right; (5) a small looped tan twine parcel bow viewed three-quarter from above. These go in a sunny coral stucco tram depot with yellow tram and green doors. Distinct natural painted objects.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-75a8d9d3-2d6f-4302-90ba-2236150006c4.png",
+      "archiveSourceSha256": "92116f225d5ab85dad2357833a06979c91d137b0b0cfc9d3a1a169128b0ce3e8"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "ivory pennant attached to roof pole",
+      "source": "atlas",
+      "maxSize": [
+        105,
+        74
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          762,
+          155
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "pink geranium rooted in wall pot",
+      "source": "atlas",
+      "maxSize": [
+        114,
+        165
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1168,
+          546
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "subject": "sunlit leafy twig rooted in foreground shrub",
+      "source": "atlas",
+      "maxSize": [
+        137,
+        169
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          186,
+          1359
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "olive leaves attached to upper right twig",
+      "source": "atlas",
+      "maxSize": [
+        105,
+        114
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1101,
+          163
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "twine bow tied around parcel",
+      "source": "atlas",
+      "maxSize": [
+        66,
+        46
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1185,
+          943
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ],
+  "mainColour": "#fa8f67"
+}

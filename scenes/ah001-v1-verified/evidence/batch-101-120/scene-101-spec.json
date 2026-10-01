@@ -1,0 +1,188 @@
+{
+  "levelId": 101,
+  "sceneId": "ah001-101-food-drink",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "clear blue picnic cloth and parasol",
+  "visualReviewNotes": "Original fully opaque painting and complete transparent subjects inspected. Real vessel mouths, stems, hook, string and surface planes establish placement. Atlas101 complete-subject rectangular crops use inspected empty gutters and retain all painted pixels. Scene102 generated a whole violet wrapped parcel instead of only a bow; it is intentionally placed as a small complete parcel on the paper stack, not mislabelled a ribbon. No destination landmark. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-3ce2eef7-8c53-47c5-9557-f168f4666ba8.png",
+      "prompt": "Use case: illustration-story. A complete portrait 4:5 production game puzzle painting. Rich warm painterly oil/gouache illustration with fine believable materials, coherent perspective, inviting natural light, clean crisp detail; not a photograph or flat vector. No letters, logos, numbers, landmarks, border or UI. Full bleed varied detail, clear focus. This is a clean background plate; leave the specific tiny moving details below absent, and paint their anchor surfaces naturally. Do not leave holes. A watermelon-and-mint picnic beside a striped parasol, close cozy three-quarter view. Dominant clear SKY BLUE picnic cloth covering the large foreground and pale blue parasol stripes, vivid red watermelon slices and glass lemonade jug, mint bowl, wicker basket, summer meadow background. Paint a small empty cream bud vase at the right, a terracotta mint pot with only short bare stems at left, a folded linen napkin with a plain tied center, an empty airy patch above the watermelon, and a plain small uncut melon on the plate. Five later details will be a flower in vase, mint sprig in pot, cloth bow on napkin, flying honeybee, little leaf on melon. Natural comfortable proportions; food appetizing."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-7321b5c0-77a4-48bb-b67c-785b8663506c.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas, detailed warm oil/gouache painting, upper-left natural light, true transparent RGBA background with no haze, glow, rectangles, or ground. Landscape 1536x1024, invisible 3x2 grid. Exactly five complete small objects, one per cell in reading order, sixth lower-right empty. Each object bounded inside central 280x300 of its 512x512 cell, huge transparent margins; nothing touches cell edges. No labels, visible grid, text, branding. Fine natural painted edges. For a clear-blue tablecloth watermelon picnic, paint (1) one small white cosmos flower on long fine green stem with bare pointed base; (2) one leafy mint sprig with bare short stem base; (3) a small flying golden honeybee viewed obliquely, correct wings and legs, no shadow; (4) one little fresh melon leaf with short stem viewed from above, resting naturally flat with subtle transparent contact shadow; (5) one tiny white butterfly in flight, seen in profile. Do not paint a napkin or bow. Each insect unique, not silhouettes."
+    },
+    {
+      "name": "flower-101",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\flower-101.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas, detailed warm oil/gouache painting, upper-left natural light, true transparent RGBA background with no haze, glow, rectangles, or ground. Landscape 1536x1024, invisible 3x2 grid. Exactly five complete small objects, one per cell in reading order, sixth lower-right empty. Each object bounded inside central 280x300 of its 512x512 cell, huge transparent margins; nothing touches cell edges. No labels, visible grid, text, branding. Fine natural painted edges. For a clear-blue tablecloth watermelon picnic, paint (1) one small white cosmos flower on long fine green stem with bare pointed base; (2) one leafy mint sprig with bare short stem base; (3) a small flying golden honeybee viewed obliquely, correct wings and legs, no shadow; (4) one little fresh melon leaf with short stem viewed from above, resting naturally flat with subtle transparent contact shadow; (5) one tiny white butterfly in flight, seen in profile. Do not paint a napkin or bow. Each insect unique, not silhouettes.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-7321b5c0-77a4-48bb-b67c-785b8663506c.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          0,
+          512,
+          550
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    },
+    {
+      "name": "melon-leaf-101",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\melon-leaf-101.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas, detailed warm oil/gouache painting, upper-left natural light, true transparent RGBA background with no haze, glow, rectangles, or ground. Landscape 1536x1024, invisible 3x2 grid. Exactly five complete small objects, one per cell in reading order, sixth lower-right empty. Each object bounded inside central 280x300 of its 512x512 cell, huge transparent margins; nothing touches cell edges. No labels, visible grid, text, branding. Fine natural painted edges. For a clear-blue tablecloth watermelon picnic, paint (1) one small white cosmos flower on long fine green stem with bare pointed base; (2) one leafy mint sprig with bare short stem base; (3) a small flying golden honeybee viewed obliquely, correct wings and legs, no shadow; (4) one little fresh melon leaf with short stem viewed from above, resting naturally flat with subtle transparent contact shadow; (5) one tiny white butterfly in flight, seen in profile. Do not paint a napkin or bow. Each insect unique, not silhouettes.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-7321b5c0-77a4-48bb-b67c-785b8663506c.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          550,
+          620,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    },
+    {
+      "name": "butterfly-101",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\butterfly-101.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas, detailed warm oil/gouache painting, upper-left natural light, true transparent RGBA background with no haze, glow, rectangles, or ground. Landscape 1536x1024, invisible 3x2 grid. Exactly five complete small objects, one per cell in reading order, sixth lower-right empty. Each object bounded inside central 280x300 of its 512x512 cell, huge transparent margins; nothing touches cell edges. No labels, visible grid, text, branding. Fine natural painted edges. For a clear-blue tablecloth watermelon picnic, paint (1) one small white cosmos flower on long fine green stem with bare pointed base; (2) one leafy mint sprig with bare short stem base; (3) a small flying golden honeybee viewed obliquely, correct wings and legs, no shadow; (4) one little fresh melon leaf with short stem viewed from above, resting naturally flat with subtle transparent contact shadow; (5) one tiny white butterfly in flight, seen in profile. Do not paint a napkin or bow. Each insect unique, not silhouettes.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-7321b5c0-77a4-48bb-b67c-785b8663506c.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          620,
+          550,
+          1100,
+          1024
+        ],
+        "boundaryAlphaMaximum": 0
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "white cosmos flower in right bud vase",
+      "source": "flower-101",
+      "maxSize": [
+        91,
+        184
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1168,
+          834
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "mint leaves attached to existing potted stems",
+      "source": "atlas",
+      "maxSize": [
+        144,
+        163
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          147,
+          777
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "subject": "small honeybee hovering beside watermelon",
+      "source": "atlas",
+      "maxSize": [
+        40,
+        33
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          867,
+          681
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "green leaf resting on whole melon",
+      "source": "melon-leaf-101",
+      "maxSize": [
+        76,
+        71
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          737,
+          778
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "white butterfly flying above picnic basket",
+      "source": "butterfly-101",
+      "maxSize": [
+        62,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          545,
+          582
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    }
+  ],
+  "mainColour": "#8898c2"
+}

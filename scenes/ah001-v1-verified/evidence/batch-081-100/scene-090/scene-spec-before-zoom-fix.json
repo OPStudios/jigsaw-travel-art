@@ -1,0 +1,189 @@
+{
+  "levelId": 90,
+  "sceneId": "ah001-090-festivals-music",
+  "theme": "festivals-music",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "berry red",
+  "visualReviewNotes": "Chair bow crosses the wood post, looped ribbon visibly hangs from bunting rope, pink cosmos and white flowers extend real bouquets, butterfly hovers beside garden. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A long picnic table beneath handmade paper bunting. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: berry red (#B85466), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small scene-specific pennant or kite tail at normalised rect [0.14, 0.1, 0.19, 0.19]; one hanging painted lantern or festival ornament at normalised rect [0.66, 0.18, 0.15, 0.19]; a curling ribbon tied to a scene prop at normalised rect [0.42, 0.43, 0.16, 0.18]; a small flower-garland section at normalised rect [0.1, 0.7, 0.21, 0.15]; a loose scene-matching fabric streamer at normalised rect [0.72, 0.64, 0.16, 0.23]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 everywhere. A long picnic table prepared for a small local garden celebration, rich BERRY RED linen cloth and berry-painted wooden chairs dominate. Handmade paper bunting in cream and berry hangs from a natural rope across the upper part of the view; irregular small individual pennants with coherent attachment. Simple ceramic plates and clear drinking glasses arranged along the table, a few baskets of white and pink blossoms beside the legs. Sunlit walled garden with rich muted berry flowering shrubs, green secondary leaves, soft natural daytime light. No people, signage, lettering, numbers, recognizable landmarks, food branding or giant birthday symbols. Refined warm softly brushed storybook illustration, cozy intimate composition. Leave solid full underlying table/flowers/sky for additional small separately painted decorations, not gaps or transparency.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-48c716d0-2705-464e-8eea-c1e9d3d6a48a.png"
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five unique small painted details for a berry-red garden celebration table with cream paper bunting, red chairs and baskets of pink/white blossoms. Upper-left: a small rich berry satin bow with two curling tails, centre knot to tie to a chair post. Upper-middle: one little ivory linen ribbon loop with a short trailing streamer, tied at top, to fasten on a bunting rope beside a tree. Upper-right: one fresh pink cosmos flower on short green stalk with two small leaves, full base for the table flowers. Lower-left: one sprig of two small cream-white flowers and muted green leaves, bare stem for near flower basket. Lower-middle: a tiny pale-yellow butterfly with delicate brown-spotted wings, hovering three-quarter. No table, chair, rope beyond its own loop, basket, sky, cloth patch, shadows or scenery. Small complete silhouettes with generous true-alpha gutters.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-e27b5d2b-64ac-42e5-b838-d7bef3a70fd1.png"
+    },
+    {
+      "name": "berry-chair-bow",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\berry-chair-bow-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        35,
+        45,
+        490,
+        490
+      ]
+    },
+    {
+      "name": "bunting-ribbon",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\bunting-ribbon-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        630,
+        30,
+        1010,
+        500
+      ]
+    },
+    {
+      "name": "table-cosmos",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\table-cosmos-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1090,
+        45,
+        1490,
+        510
+      ]
+    },
+    {
+      "name": "basket-flowers",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\basket-flowers-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        60,
+        540,
+        490,
+        990
+      ]
+    },
+    {
+      "name": "garden-butterfly",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-090\\garden-butterfly-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        625,
+        570,
+        1000,
+        920
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "berry chair bow",
+      "source": "berry-chair-bow",
+      "maxSize": [
+        100,
+        105
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          250,
+          1050
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "bunting ribbon",
+      "source": "bunting-ribbon",
+      "maxSize": [
+        70,
+        115
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          245,
+          5
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "table cosmos",
+      "source": "table-cosmos",
+      "maxSize": [
+        100,
+        125
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          785,
+          850
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "basket flowers",
+      "source": "basket-flowers",
+      "maxSize": [
+        130,
+        165
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          144,
+          1340
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "garden butterfly",
+      "source": "garden-butterfly",
+      "maxSize": [
+        80,
+        80
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          935,
+          586
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

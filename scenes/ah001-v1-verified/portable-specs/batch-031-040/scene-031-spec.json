@@ -1,0 +1,155 @@
+{
+  "levelId": 31,
+  "sceneId": "ah001-031-food-drink",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "soft violet linen and ceramics",
+  "visualReviewNotes": "Original background and all five transparent parts inspected. Source alpha checked on light and dark grounds, bounded paint silhouettes verified. Real vessel mouths, cord/hook positions, vegetation roots or water surfaces determine anchors; final composites require separate inspection. Distinct actual palette from both neighboring scenes. No identifiable destination landmark.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-031-food-drink/source/background.png",
+      "prompt": "Use case: stylized-concept. Asset: production clean background for a portrait4:5 jigsaw painting,1280x1600. Scene: an inviting noodle bowl on a small covered market counter, viewed from slightly above. Warm dimensional storybook digital painting, softly brushed tactile ceramics and cloth, rich small discoveries and crisp local color boundaries, gentle afternoon light, matching a polished illustrated travel game. Dominant SOFT VIOLET and lavender on the large counter cloth, painted wall and hanging cloth surfaces; warm food and green accents. Generic unnamed place with no recognizable landmark, lettering, numbers, logo or border. Entire canvas is the scene, not UI. Detailed central cream ceramic noodle bowl centered(50%,57%), bowl rim approximatelyy49%, chopsticks beside it, small dipping dishes and fresh ingredients. Purple cloth counter fills lower55%; background wall and stall shelf upper45%. A small empty lavender bud vase at(17%,72%) and an empty little herb pot at(82%,43%) with finished interiors. This is a fully painted clean plate for five later independent moving details: DO NOT paint steam, flower in vase, herb sprig in pot, loose napkin corner or green garnish on noodles. All underlying surfaces must be complete and natural, no blank cutout or missing area. A folded solid lavender cloth napkin at(77%,78%) should have a plain corner without embroidery. The composition should feel hand-painted and cohesive, not a photograph, not flat vector art. Make detailed tangible noodles, broth, chopsticks, ceramic glazes and fabric with no city imagery.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-6fe5665d-5f8e-40e2-8fc1-ae87ca399520.png",
+      "archiveSourceSha256": "07d82c9a330a17b9a82ce7d368f90c5e8bd3ef30af5f0efde13a516965870fe6"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-031-food-drink/source/atlas.png",
+      "prompt": "Create a NEW production transparent sprite sheet, not a reference edit. Use case: stylized-concept. Five small isolated hand-painted details for a violet-linen noodle-stall puzzle. Canvas 1536x1024. Invisible layout: three columns, two rows, each cell512x512. Each object occupies no more than the CENTRAL260x260 pixels of its cell; keep a very large completely transparent moat of at least126px on all sides. NO visible grid, divider, label, number or frame. Bottom-right sixth cell is entirely transparent. Subject order: top-left one fine, tightly curled cream steam wisp; top-middle a small leafy Thai-basil sprig with whole downward stem; top-right a lilac flowering stalk with whole downward stem; bottom-left a second DIFFERENT small fine S-shaped cream steam wisp; bottom-middle a little cluster of three diagonal green scallion rings viewed slightly from above. Polished dimensional storybook painting, soft warm upper-left light and tactile natural colors. Steam should be bounded individual wispy brushstrokes whose silhouette fades fully to alpha0 well inside its cell; no broad diffuse light clouds, glow or spill. True zero-alpha background, no checkerboard, color haze, drop shadows, surrounding scenery, water or rectangular matte. These are small distinct transparent cutouts, not large objects filling each cell. Preserve ample empty space and complete unclipped subjects.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-c04c7b84-1cda-47fb-9f18-415430381be4.png",
+      "archiveSourceSha256": "474bf2ccb5becc69f2893000a50bcf7b010ab5221997c67a328aaa872a15834f"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "fine steam wisp above hot noodle bowl",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        80,
+        217
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          650,
+          701
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "basil sprig rooted in right ceramic pot",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        217,
+        240
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1018,
+          415
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "lilac flower in left violet bud vase",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        114,
+        256
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          148,
+          447
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "second distinct steam curl from left side of hot bowl",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        59,
+        148
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          519,
+          730
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "small fresh scallion garnish resting on noodles",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        80,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          707,
+          743
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 3,
+      "sceneId": "ah001-003-nature-gardens",
+      "status": "complete",
+      "theme": "nature-gardens",
+      "mainColour": "#798355",
+      "master": {
+        "source": "ah001-003-nature-gardens/master.png",
+        "sha256": "cd502df5f6bd82df2bcc03856d61598dc81d687b29825573e0aef76ff8d7a303"
+      },
+      "background": {
+        "source": "ah001-003-nature-gardens/background.png",
+        "sha256": "e75c733f2a820d156e7430f80228dd0b482c30993fa1c1c8f568c1898deae481"
+      },
+      "parts": [
+        {
+          "source": "ah001-003-nature-gardens/part-1.png",
+          "sha256": "446fcc7dc4c3cc92423846ea69a00e83a804fad3b092cb59651e65b0409b44d4",
+          "rect": [
+            0.0390625,
+            0.120625,
+            0.171875,
+            0.1225
+          ],
+          "sourcePixelRect": [
+            50,
+            193,
+            220,
+            196
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "bamboo twig",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlasExtractionRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            32,
+            52,
+            507,
+            476
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              261,
+              386
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-2.png",
+          "sha256": "b3c6ffbe28267b9875d2908069ac6242ddf0343714849c86182714346999f314",
+          "rect": [
+            0.1,
+            0.7575,
+            0.09296875,
+            0.14375
+          ],
+          "sourcePixelRect": [
+            128,
+            1212,
+            119,
+            230
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pond fern",
+          "authoringSource": "extraction-2",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            134,
+            48,
+            376,
+            514
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              170,
+              1440
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-3.png",
+          "sha256": "84250a543218b902fd95823fcd0f64f92d0c05234baad2597eecbfa2716a4d4d",
+          "rect": [
+            0.81875,
+            0.80875,
+            0.140625,
+            0.11125
+          ],
+          "sourcePixelRect": [
+            1048,
+            1294,
+            180,
+            178
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "water grass",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            5,
+            35,
+            476,
+            502
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1159,
+              1470
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-4.png",
+          "sha256": "e2d8d50e2d9c51d9642e3180b06a106822482986d3136ad132584292cdf8f24b",
+          "rect": [
+            0.3375,
+            0.77625,
+            0.12109375,
+            0.073125
+          ],
+          "sourcePixelRect": [
+            432,
+            1242,
+            155,
+            117
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "water lily",
+          "authoringSource": "extraction-4",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            32,
+            20,
+            516,
+            385
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              510,
+              1300
+            ]
+          }
+        },
+        {
+          "source": "ah001-003-nature-gardens/part-5.png",
+          "sha256": "97de95c78bdf3265f43263c17281a4e8ca1eb80b951cf7effdb4975df6245258",
+          "rect": [
+            0.65390625,
+            0.545,
+            0.0625,
+            0.045625
+          ],
+          "sourcePixelRect": [
+            837,
+            872,
+            80,
+            73
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pond dragonfly",
+          "authoringSource": "extraction-5",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            2,
+            28,
+            474,
+            458
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              877,
+              908
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-26530fc2-e2a8-4240-b3f0-d4716bbd6dce.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A quiet bamboo pond with a small unmarked footbridge. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: an upper-left branch of the scene-specific plant at normalised rect [0.07, 0.09, 0.23, 0.2]; an upper-right leaf cluster of a different scene plant at normalised rect [0.72, 0.14, 0.2, 0.2]; a lower-left flower or fern frond at normalised rect [0.08, 0.69, 0.21, 0.22]; a lower-right cluster of matching grass or foliage at normalised rect [0.71, 0.72, 0.22, 0.18]; a small soft cloud or reflected-water glint suited to this scene at normalised rect [0.4, 0.27, 0.2, 0.12]. The painting must remain attractive and complete underneath those parts. The real scene may be predominantly rich fresh green bamboo and pale stone rather than the provisional ivory palette; preserve natural botanical colour. A pond fills central lower half, thin bamboo stems and a small generic wood footbridge behind it. Finish all water and plant surfaces underneath the five later leaf/reflection layers. No famous garden or recognizable city landmark. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\background.png",
+            "sha256": "bf7c30b0f8ab052af072e975a0d997fc66d094a1d31824cef4fa2aed033c0a54",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A quiet bamboo pond with a small unmarked footbridge\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a close cozy three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left one gracefully bent bamboo twig with narrow green leaves and bottom stem; top-middle a single dark green curling fern frond, upright with bottom stalk; top-right a tuft of slim yellow-green water grasses, roots excluded, taper to one bottom base; bottom-left a small white water-lily flower with subtle pink center and two flat green pads viewed from above; bottom-middle one blue-green dragonfly with fine transparent painted wings, overhead three-quarter view. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\atlas.png",
+            "sha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "extraction-2",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-003-part-2.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "sourceAtlasSha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "sourceAtlasRect": [
+              512,
+              0,
+              1024,
+              540
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\extraction-2.png",
+            "sha256": "4f27befcc67194937ae6b30909f6b1d71dc2a06a5d58e0be2c5bd1f58f3987cb",
+            "pixels": [
+              512,
+              540
+            ]
+          },
+          {
+            "name": "extraction-4",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-003-part-4.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "sourceAtlasSha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "sourceAtlasRect": [
+              0,
+              575,
+              550,
+              1024
+            ],
+            "borderAlphaMax": 1,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\extraction-4.png",
+            "sha256": "3f4b2bb453e6b6864db4ac36ecd23ca8ba3d36da8d6e23a11c8134afacd8cf58",
+            "pixels": [
+              550,
+              449
+            ]
+          },
+          {
+            "name": "extraction-5",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-003-part-5.png",
+            "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+            "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+            "sourceAtlasSha256": "a46f0329bfa1e5faa4519aaeb44fe9c0f14d92f4f178f5387009ff72d0d9ee4f",
+            "sourceAtlasRect": [
+              550,
+              512,
+              1024,
+              1024
+            ],
+            "borderAlphaMax": 2,
+            "borderAbove8": 0,
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-003-nature-gardens\\source\\extraction-5.png",
+            "sha256": "fe652c0d0d2bc2ad1e291d3c65ca5ddb9e39e830f65b17904c2115a7c0f1ebe1",
+            "pixels": [
+              474,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Bamboo twig aligns to bamboo stem; fern and grass meet planted rock edges; lily floats at the existing pond scale; dragonfly occupies open pond air. Complete fern and lily extracted beyond nominal grid without clipping. Main colour is measured from visible subject region [350, 550, 1150, 1280]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0026,
+          "orange-yellow": 0.6824,
+          "green": 0.2847,
+          "blue": 0.0303,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#908e4a",
+        "mainColourLabel": "pond green",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "f1fb90e225be57fbf0e2ff2e71d4a3c1482ece4d53cdd8012c4ba56c3c873460"
+      }
+    }
+  ]
+}

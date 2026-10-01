@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 96,
+      "sceneId": "ah001-096-transport",
+      "status": "complete",
+      "theme": "transport",
+      "mainColour": "#b27a33",
+      "master": {
+        "source": "ah001-096-transport/master.png",
+        "sha256": "7c8eb429e6c9d00568ea5a1c8edb86e756db36c5649b38ed0e46ce4ef119f3b8"
+      },
+      "background": {
+        "source": "ah001-096-transport/background.png",
+        "sha256": "48a718be5b12a337822684067c11e8a3715e1666644929f7f3e0d8a130c81132"
+      },
+      "parts": [
+        {
+          "source": "ah001-096-transport/part-1.png",
+          "sha256": "5debbd900e7e663a91057168559a96a597fbb2d4a7b22786d4b40154af19ef72",
+          "rect": [
+            0.05859375,
+            0.08,
+            0.125,
+            0.065625
+          ],
+          "sourcePixelRect": [
+            75,
+            128,
+            160,
+            105
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "repair shop cloud",
+          "authoringSource": "repair-shop-cloud",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            75,
+            129,
+            465,
+            384
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              155,
+              180
+            ]
+          }
+        },
+        {
+          "source": "ah001-096-transport/part-2.png",
+          "sha256": "066682962fa0930d5f960e111bcaab46babf9431b80ae4db3585039393570e9b",
+          "rect": [
+            0.18125,
+            0.1825,
+            0.12890625,
+            0.038125
+          ],
+          "sourcePixelRect": [
+            232,
+            292,
+            165,
+            61
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "repair shop wisp",
+          "authoringSource": "repair-shop-wisp",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            63,
+            193,
+            471,
+            344
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              315,
+              322
+            ]
+          }
+        },
+        {
+          "source": "ah001-096-transport/part-3.png",
+          "sha256": "f3cd7bf04c951ddf5dd8b3edaf24a8f74e567035b5620231d72aa2c6268e12c8",
+          "rect": [
+            0.36875,
+            0.254375,
+            0.0859375,
+            0.09375
+          ],
+          "sourcePixelRect": [
+            472,
+            407,
+            110,
+            150
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "shop olive tip",
+          "authoringSource": "shop-olive-tip",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            139,
+            72,
+            415,
+            450
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              484,
+              555
+            ]
+          }
+        },
+        {
+          "source": "ah001-096-transport/part-4.png",
+          "sha256": "615c50e66464e868db7e0bf03f69d8c692d9745d225069a0b8fe1221a1d24367",
+          "rect": [
+            0.85546875,
+            0.79,
+            0.09765625,
+            0.0925
+          ],
+          "sourcePixelRect": [
+            1095,
+            1264,
+            125,
+            148
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "roadside daisies",
+          "authoringSource": "roadside-daisies",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            112,
+            65,
+            443,
+            456
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1160,
+              1410
+            ]
+          }
+        },
+        {
+          "source": "ah001-096-transport/part-5.png",
+          "sha256": "c157955b8955a50f1096ab9b4426eee4623bc3d5bae566f659f7eba831c79445",
+          "rect": [
+            0.63515625,
+            0.44875,
+            0.0625,
+            0.03875
+          ],
+          "sourcePixelRect": [
+            813,
+            718,
+            80,
+            62
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "handlebar ribbon",
+          "authoringSource": "handlebar-ribbon",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            68,
+            137,
+            445,
+            431
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              853,
+              749
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\background-original.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A pair of scooters outside a tiny repair shop. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: golden yellow (#DFC260), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small pale cloud behind the vehicle at normalised rect [0.13, 0.1, 0.25, 0.14]; a little tied pennant or luggage ribbon at normalised rect [0.64, 0.3, 0.12, 0.16]; a roadside or shore leaf cluster at normalised rect [0.08, 0.67, 0.18, 0.22]; a scene-specific grass or flower cluster at normalised rect [0.72, 0.74, 0.2, 0.16]; a soft cloud wisp or water highlight appropriate to the setting at normalised rect [0.45, 0.17, 0.22, 0.11]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting, alpha255 at every pixel, no transparency. Actual scene refinement: A tiny unbranded scooter repair shop, golden-yellow plaster facade, mustard-painted door and warm yellow paving dominate. Exactly two small classic scooters, one creamy yellow and one muted teal accent, parked fully in view with coherent wheels, handlebars, seats and kickstands. No brand, numberplate letters, signs, text, tools floating, people or recognisable location. A leafy pot by the door and a small upper sky strip. Warm storybook texture, not photo collage. No ribbons or separate loose flowers yet. Portrait4:5, no UI or border.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-6807ce42-a0de-410c-bf81-eefebbeec870.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\background.png",
+            "sha256": "e67634754c48db403f80dfda8e830d6ddde0ba00701c01b0de407047d4f07493",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\atlas-original.png",
+            "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For two classic scooters outside golden-yellow repair shop: upper-left one small ivory cumulus with pale-blue base; upper-middle a DIFFERENT tiny wispy pale cloud, horizontal; upper-right one slim olive sprig with four sage-green leaves, complete bare stem; lower-left two small sunny-yellow daisies with green stem and leaves for the foreground planter; lower-middle one short muted teal cloth ribbon tied into a simple knot with two tails for a scooter handlebar. No vehicle, pots, sky rectangle, wall, shadow or scenery. Keep all five complete objects well inside their own cells; no intersecting silhouettes.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-91ab7ac3-3d26-4839-adf3-7b12c17e3c24.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\atlas.png",
+            "sha256": "b47c312e62c711e72147695287c0c749605eae96c48823145a29a390cb2e56de",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "repair-shop-cloud",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\repair-shop-cloud-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\repair-shop-cloud.png",
+            "sha256": "4adf09fd7bcb831aaaaa34a06825207546e5e27578c8d80adb22672a06e2f20d",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "repair-shop-wisp",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\repair-shop-wisp-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\repair-shop-wisp.png",
+            "sha256": "d087a691e335d8425d1431f72c9f815b0a7ad27ff1553e83d06d20647766092d",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "shop-olive-tip",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\shop-olive-tip-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              1024,
+              0,
+              1536,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\shop-olive-tip.png",
+            "sha256": "bc109fd16edae7efc972ed8f2e13974be50afc9acf6a43a382ca655818908723",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "roadside-daisies",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\roadside-daisies-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\roadside-daisies.png",
+            "sha256": "7b9cbf0a6dc2c343dfa8d4821748f77b123fa8d66da92eb0b15902218593397b",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "handlebar-ribbon",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-096\\handlebar-ribbon-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-096-transport\\source\\handlebar-ribbon.png",
+            "sha256": "7b75d32075cb95defdfd1f15682208859178510009afe06a95b0051359a33c24",
+            "pixels": [
+              512,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Two unique clouds sit in sky, olive and yellow daisies join existing plants, teal ribbon knot visibly overlaps the scooter handlebar. Both scooters have coherent complete wheels, seats and stands. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0201,
+          "orange-yellow": 0.846,
+          "green": 0.0276,
+          "blue": 0.1057,
+          "violet-pink": 0.0005
+        },
+        "measuredDominantColour": "#b27a33",
+        "mainColourLabel": "golden yellow",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "6f1a6c7bdf211e09962091376e3c44d34d3393d40d777e5fe24756745283cc23"
+      }
+    }
+  ]
+}

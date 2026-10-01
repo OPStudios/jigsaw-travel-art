@@ -1,0 +1,189 @@
+{
+  "levelId": 84,
+  "sceneId": "ah001-084-streets-squares",
+  "theme": "streets-squares",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "cocoa brown",
+  "visualReviewNotes": "Linden and ivy attach into existing trees/vines, white blossom extends the bench planter, two distinct clouds remain in open sky. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A leafy local tram stop on a quiet street. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: cocoa brown (#997357), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a narrow hanging pennant appropriate to the neighborhood at normalised rect [0.17, 0.1, 0.18, 0.14]; a little flowering window-box sprig at normalised rect [0.73, 0.3, 0.18, 0.18]; a softly draped curtain corner in one window at normalised rect [0.36, 0.22, 0.13, 0.19]; a small foreground branch entering from the left at normalised rect [0.05, 0.66, 0.19, 0.23]; a soft cloud or pale reflection in this scene at normalised rect [0.49, 0.08, 0.22, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY full-canvas OPAQUE RGB painting, alpha255 everywhere. Quiet intimate neighbourhood tram stop, small weathered COCOA BROWN timber shelter with a pitched wood roof, empty bench, tactile cocoa-brown brick walls and warm brown cobblestone foreground occupying most of the view. Two fine tram rails recede naturally along the quiet narrow street, no tram vehicle. A few muted sage-green linden leaves above and flowering planters by the bench, warm cream houses in the far distance but no landmark. Modest patch of pale sky above the lane. No advertisement, schedule sheet, station sign, number, lettering, label or symbol panel. No people or bicycles. Gently overcast warm morning light to keep cocoa brown darker than previous golden forest. Complete underlying foliage for separate leaf tips and flower sprig. Polished softly brushed dimensional storybook illustration, coherent perspective, no excessive blur.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-aa5af2fe-0559-4873-bdaf-0d90b5ff7561.png"
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five unique small atmospheric painted details for a cocoa-brown wooden tram-stop shelter on a quiet cobbled lane. Upper-left: one linden twig with three fresh muted-green heart-shaped leaves and thin stem at lower-left. Upper-middle: one DISTINCT smaller trailing ivy tip with four pointed leaves, full bare upper attachment stem, hanging downward. Upper-right: one delicate white jasmine blossom cluster with three small flowers and green stem for a planter beside the bench. Lower-left: a compact cream cloud puff with warm gray base, irregular complete silhouette. Lower-middle: a DIFFERENT slender pale cloud wisp with feathery edges, horizontal shape. Large transparent gutters, fully separate silhouettes, no sky, wall, leaves behind leaves, planter, shadow field or background painting.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-bc9201bc-997a-4a9c-a1d3-d2ddf3ba94ec.png"
+    },
+    {
+      "name": "linden-tip",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\linden-tip-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        50,
+        60,
+        480,
+        545
+      ]
+    },
+    {
+      "name": "trailing-ivy",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\trailing-ivy-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        650,
+        10,
+        920,
+        548
+      ]
+    },
+    {
+      "name": "bench-jasmine",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\bench-jasmine-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1100,
+        95,
+        1510,
+        533
+      ]
+    },
+    {
+      "name": "lane-cloud",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\lane-cloud-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        30,
+        600,
+        510,
+        935
+      ]
+    },
+    {
+      "name": "lane-cloud-wisp",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-084\\lane-cloud-wisp-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        530,
+        630,
+        1090,
+        925
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "linden tip",
+      "source": "linden-tip",
+      "maxSize": [
+        145,
+        170
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          185,
+          1270
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "trailing ivy",
+      "source": "trailing-ivy",
+      "maxSize": [
+        95,
+        210
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          100,
+          500
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "bench jasmine",
+      "source": "bench-jasmine",
+      "maxSize": [
+        140,
+        145
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          213,
+          962
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "lane cloud",
+      "source": "lane-cloud",
+      "maxSize": [
+        145,
+        100
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          953,
+          215
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "lane cloud wisp",
+      "source": "lane-cloud-wisp",
+      "maxSize": [
+        140,
+        80
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1112,
+          323
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

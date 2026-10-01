@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 91,
+      "sceneId": "ah001-091-food-drink",
+      "status": "complete",
+      "theme": "food-drink",
+      "mainColour": "#cca26b",
+      "master": {
+        "source": "ah001-091-food-drink/master.png",
+        "sha256": "64ae8f9afd83c6a9c53217efd4296f509bba487f2a1b714b899bc3e78d9058d5"
+      },
+      "background": {
+        "source": "ah001-091-food-drink/background.png",
+        "sha256": "2c735fd6508123d0980ada382bce03c895994833189a07d1577b8c8634edb815"
+      },
+      "parts": [
+        {
+          "source": "ah001-091-food-drink/part-1.png",
+          "sha256": "3f5ee54bad03d8768f2d0f2461a5454245521052a82aa0920270447111674570",
+          "rect": [
+            0.74765625,
+            0.20375,
+            0.05390625,
+            0.109375
+          ],
+          "sourcePixelRect": [
+            957,
+            326,
+            69,
+            175
+          ],
+          "axis": [
+            0,
+            -1
+          ],
+          "amplitude": 4,
+          "subject": "tea steam",
+          "authoringSource": "tea-steam",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            160,
+            59,
+            326,
+            480
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              995,
+              498
+            ]
+          }
+        },
+        {
+          "source": "ah001-091-food-drink/part-2.png",
+          "sha256": "71127d1157bc769b1a2502334a973b4c80235693eb5561e70c4432cb82846473",
+          "rect": [
+            0.7296875,
+            0.45125,
+            0.05703125,
+            0.040625
+          ],
+          "sourcePixelRect": [
+            934,
+            722,
+            73,
+            65
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pancake mint",
+          "authoringSource": "pancake-mint",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            71,
+            102,
+            441,
+            432
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              970,
+              755
+            ]
+          }
+        },
+        {
+          "source": "ah001-091-food-drink/part-3.png",
+          "sha256": "e711417977ce83edd2d0aec8fb101ee29807ca5e089fbe0591a1c0ffc7c0287e",
+          "rect": [
+            0.128125,
+            0.17125,
+            0.078125,
+            0.113125
+          ],
+          "sourcePixelRect": [
+            164,
+            274,
+            100,
+            181
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "vase daisy",
+          "authoringSource": "vase-daisy",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            176,
+            73,
+            394,
+            467
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              184,
+              453
+            ]
+          }
+        },
+        {
+          "source": "ah001-091-food-drink/part-4.png",
+          "sha256": "e67e368f4cce16312ae38fc79f9f2ac8df83718e005df69db3296677cfaed059",
+          "rect": [
+            0.3515625,
+            0.75625,
+            0.06953125,
+            0.0625
+          ],
+          "sourcePixelRect": [
+            450,
+            1210,
+            89,
+            100
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "blueberry sprig",
+          "authoringSource": "blueberry-sprig",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            129,
+            84,
+            431,
+            423
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              494,
+              1260
+            ]
+          }
+        },
+        {
+          "source": "ah001-091-food-drink/part-5.png",
+          "sha256": "80324ba8ba9a035796221d89a59eb9bd33e66beaeb5d02b5a0f12ca13f9d25ef",
+          "rect": [
+            0.6703125,
+            0.16,
+            0.05859375,
+            0.045625
+          ],
+          "sourcePixelRect": [
+            858,
+            256,
+            75,
+            73
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "breakfast butterfly",
+          "authoringSource": "breakfast-butterfly",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            123,
+            106,
+            397,
+            372
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              896,
+              292
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\background-original.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Pancakes and blueberries on a gingham breakfast cloth. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: turquoise (#65B5AE), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft curling steam wisp or airy kitchen light haze appropriate to the drink at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting with alpha255 everywhere; no transparent regions or translucent painted background. Refinement: Bright turquoise-and-ivory gingham breakfast cloth fills the broad tabletop. A cream plate of three golden pancakes topped with a few blueberries, small bowl of additional blueberries, glass syrup pitcher and one cup of tea with no steam. Small empty white bud vase left-middle with clear space above. Turquoise garden shutters behind, warm morning light. No hands, labels or cutlery distortions. Leave separate mint garnish, flower, steam and butterfly absent; fully paint everything underneath. No UI, border, logo or lettering. This is a fully finished clean plate, portrait4:5.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-818d7c8b-3e43-4e9d-8e1f-89d449b82002.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\background.png",
+            "sha256": "167c00299beb6efafa92dc39661995bfde6454e45cbc52ae68363d6baee1a680",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\atlas-original.png",
+            "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For pancakes and blueberries on turquoise gingham beside tea and empty white vase: upper-left one fine ivory tea-steam curl with narrow bottom tip; upper-middle one small fresh mint sprig of three leaves to sit on the pancake; upper-right one single small white daisy on full slender stem for vase; lower-left one blueberry twig with two green oval leaves and one little dark-blue berry to rest loose beside the berry bowl; lower-middle one tiny pale-yellow butterfly with delicate brown-spotted wing tips. No cup, food, cloth or vase behind them. Fully separate complete shapes. Do not paint any object touching image or cell boundaries.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-98865dae-e1ec-4e3e-8c89-50ed929699df.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\atlas.png",
+            "sha256": "58c25bd13c92898c99c0f03f2e3666721ca30752f642d8d0dc2ed728c7671a05",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "tea-steam",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\tea-steam-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              0,
+              512,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\tea-steam.png",
+            "sha256": "4a8d66fe25a24ac6236e108a8694e3a44591cf1e25aabe4e02298de71a609cdd",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "pancake-mint",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\pancake-mint-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              0,
+              1024,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\pancake-mint.png",
+            "sha256": "a6d3f55acec449e3d575f61714c3693f9b4284e7dbc004424e26139468d1feef",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "vase-daisy",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\vase-daisy-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              1024,
+              0,
+              1536,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\vase-daisy.png",
+            "sha256": "3834413c23bbdb9c42d34c7cf4140cd07148200d5b2b20ce116a9dabf47396a4",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "blueberry-sprig",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\blueberry-sprig-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\blueberry-sprig.png",
+            "sha256": "2090690ca1c150195d06206ec1694e6013a3d4540c3a69349534c5589e87daa8",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "breakfast-butterfly",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-091\\breakfast-butterfly-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              512,
+              512,
+              1024,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-091-food-drink\\source\\breakfast-butterfly.png",
+            "sha256": "c7ad746b7272da3f8950f86d8abf75d249cbaa3097bf8e20c257ac56357cb162",
+            "pixels": [
+              512,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Steam starts at tea surface, mint sits on pancake edge, daisy stem enters vase, loose blueberry sprig rests beside bowl, butterfly appears near open window. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0192,
+          "orange-yellow": 0.4803,
+          "green": 0.0602,
+          "blue": 0.4392,
+          "violet-pink": 0.0011
+        },
+        "measuredDominantColour": "#cca26b",
+        "mainColourLabel": "turquoise gingham with golden pancakes",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "aedd60985873976f1859d5a49a801f694e90437cdd6a637e4cd982e6db8f4f67"
+      }
+    }
+  ]
+}

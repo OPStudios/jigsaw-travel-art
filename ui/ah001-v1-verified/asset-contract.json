@@ -1,0 +1,889 @@
+{
+  "authority": "AH-001, 2026-09-30; exact filenames/sizes are integration contract",
+  "root": "res://assets/ui/ah001/",
+  "coordinate_system": "390x844 logical points; specified exports3x",
+  "assets": [
+    {
+      "name": "wood_panel",
+      "pixels": [
+        384,
+        384
+      ],
+      "points": [
+        128,
+        128
+      ],
+      "slices": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "target": [
+        209,
+        119,
+        43
+      ]
+    },
+    {
+      "name": "hud_pill",
+      "pixels": [
+        396,
+        99
+      ],
+      "points": [
+        132,
+        33
+      ],
+      "slices": [
+        16.5,
+        16.5,
+        16.5,
+        16.5
+      ],
+      "target": [
+        145,
+        73,
+        13
+      ]
+    },
+    {
+      "name": "join_glow",
+      "pixels": [
+        512,
+        48
+      ],
+      "points": [
+        0,
+        4
+      ],
+      "target": [
+        251,
+        243,
+        225
+      ]
+    },
+    {
+      "name": "coin_icon",
+      "pixels": [
+        102,
+        102
+      ],
+      "points": [
+        34,
+        34
+      ],
+      "reuse": "assets/ui/painted/coin.png",
+      "aliases": [
+        "coin"
+      ]
+    },
+    {
+      "name": "coin_icon_level",
+      "pixels": [
+        90,
+        99
+      ],
+      "points": [
+        30,
+        33
+      ],
+      "reuse": "assets/ui/painted/coin.png"
+    },
+    {
+      "name": "flame_icon",
+      "pixels": [
+        90,
+        117
+      ],
+      "points": [
+        30,
+        39
+      ],
+      "aliases": [
+        "flame"
+      ]
+    },
+    {
+      "name": "settings_button",
+      "pixels": [
+        108,
+        108
+      ],
+      "points": [
+        36,
+        36
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "gear"
+      ]
+    },
+    {
+      "name": "gift_daily",
+      "pixels": [
+        108,
+        111
+      ],
+      "points": [
+        36,
+        37
+      ],
+      "states": [
+        "idle",
+        "unclaimed"
+      ]
+    },
+    {
+      "name": "coins_pile",
+      "pixels": [
+        135,
+        111
+      ],
+      "points": [
+        45,
+        37
+      ],
+      "aliases": [
+        "coin-pile"
+      ]
+    },
+    {
+      "name": "close_button",
+      "pixels": [
+        147,
+        147
+      ],
+      "points": [
+        49,
+        49
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "nav-close"
+      ]
+    },
+    {
+      "name": "back_button",
+      "pixels": [
+        147,
+        147
+      ],
+      "points": [
+        49,
+        49
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "nav-back"
+      ]
+    },
+    {
+      "name": "badge_day_tripper",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-day-tripper.png",
+      "aliases": [
+        "badge-day-tripper"
+      ]
+    },
+    {
+      "name": "badge_weekender",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-weekender.png",
+      "aliases": [
+        "badge-weekender"
+      ]
+    },
+    {
+      "name": "badge_frequent_flyer",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-frequent-flyer.png",
+      "aliases": [
+        "badge-frequent-flyer"
+      ]
+    },
+    {
+      "name": "badge_globetrotter",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "reuse": "assets/ui/painted/badge-globetrotter.png",
+      "aliases": [
+        "badge-globetrotter"
+      ]
+    },
+    {
+      "name": "badge_jet_setter",
+      "pixels": [
+        180,
+        180
+      ],
+      "points": [
+        60,
+        60
+      ],
+      "states": [
+        "earned",
+        "locked"
+      ],
+      "aliases": [
+        "badge-jet-setter"
+      ]
+    },
+    {
+      "name": "piece_icon",
+      "pixels": [
+        84,
+        90
+      ],
+      "points": [
+        28,
+        30
+      ],
+      "aliases": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "pause_button",
+      "pixels": [
+        114,
+        114
+      ],
+      "points": [
+        38,
+        38
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ],
+      "aliases": [
+        "pause"
+      ]
+    },
+    {
+      "name": "booster_badge",
+      "pixels": [
+        54,
+        54
+      ],
+      "points": [
+        18,
+        18
+      ]
+    },
+    {
+      "name": "level_complete_banner",
+      "pixels": [
+        756,
+        198
+      ],
+      "points": [
+        252,
+        66
+      ],
+      "baked_text": "Level complete"
+    },
+    {
+      "name": "result_icon_time",
+      "pixels": [
+        72,
+        93
+      ],
+      "points": [
+        24,
+        31
+      ],
+      "reuse": "assets/ui/painted/clock.png"
+    },
+    {
+      "name": "result_icon_combo",
+      "pixels": [
+        99,
+        84
+      ],
+      "points": [
+        33,
+        28
+      ]
+    },
+    {
+      "name": "result_icon_coins",
+      "pixels": [
+        90,
+        99
+      ],
+      "points": [
+        30,
+        33
+      ],
+      "generated_source": "coins_pair"
+    },
+    {
+      "name": "coins_pair",
+      "pixels": [
+        147,
+        141
+      ],
+      "points": [
+        49,
+        47
+      ]
+    },
+    {
+      "name": "city_banner_paris",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "paris"
+    },
+    {
+      "name": "stamp_paris",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "PARIS ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true
+    },
+    {
+      "name": "city_banner_rome",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "rome"
+    },
+    {
+      "name": "stamp_rome",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "ROME ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true
+    },
+    {
+      "name": "city_banner_new-york",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "new york"
+    },
+    {
+      "name": "stamp_new-york",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "NEW YORK ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true
+    },
+    {
+      "name": "city_banner_berlin",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "berlin"
+    },
+    {
+      "name": "stamp_berlin",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "BERLIN ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true
+    },
+    {
+      "name": "city_banner_sydney",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "sydney"
+    },
+    {
+      "name": "stamp_sydney",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "SYDNEY ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true
+    },
+    {
+      "name": "city_banner_san-francisco",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ],
+      "baked_text": "san francisco"
+    },
+    {
+      "name": "stamp_san-francisco",
+      "pixels": [
+        435,
+        360
+      ],
+      "points": [
+        145,
+        120
+      ],
+      "baked_text": "SAN FRANCISCO ARRIVED",
+      "target": [
+        7,
+        92,
+        26
+      ],
+      "ink_only": true
+    },
+    {
+      "name": "paper_tile",
+      "pixels": [
+        192,
+        192
+      ],
+      "points": [
+        64,
+        64
+      ],
+      "reuse": "assets/ui/painted/paper-panel.png",
+      "source_crop": "central_50_percent",
+      "target": [
+        235,
+        207,
+        176
+      ]
+    },
+    {
+      "name": "green_dot",
+      "pixels": [
+        60,
+        60
+      ],
+      "points": [
+        20,
+        20
+      ],
+      "generated_source": "booster_badge"
+    },
+    {
+      "name": "plus_button",
+      "pixels": [
+        84,
+        78
+      ],
+      "points": [
+        28,
+        26
+      ],
+      "states": [
+        "idle",
+        "pressed"
+      ]
+    },
+    {
+      "name": "loading_frame",
+      "pixels": [
+        987,
+        114
+      ],
+      "points": [
+        329,
+        38
+      ],
+      "slices": [
+        19,
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "name": "loading_fill",
+      "pixels": [
+        933,
+        63
+      ],
+      "points": [
+        311,
+        21
+      ],
+      "slices": [
+        10.5,
+        10.5,
+        10.5,
+        10.5
+      ],
+      "target": [
+        81,
+        190,
+        43
+      ]
+    },
+    {
+      "name": "confetti_piece_cream",
+      "pixels": [
+        18,
+        30
+      ],
+      "points": [
+        6,
+        10
+      ],
+      "target": [
+        251,
+        243,
+        225
+      ]
+    },
+    {
+      "name": "confetti_piece_green",
+      "pixels": [
+        18,
+        30
+      ],
+      "points": [
+        6,
+        10
+      ],
+      "target": [
+        78,
+        154,
+        62
+      ]
+    },
+    {
+      "name": "confetti_piece_wood",
+      "pixels": [
+        18,
+        30
+      ],
+      "points": [
+        6,
+        10
+      ],
+      "target": [
+        209,
+        119,
+        43
+      ]
+    },
+    {
+      "name": "departure_cloud_near",
+      "pixels": [
+        720,
+        360
+      ],
+      "points": [
+        240,
+        120
+      ]
+    },
+    {
+      "name": "departure_cloud_far",
+      "pixels": [
+        720,
+        300
+      ],
+      "points": [
+        240,
+        100
+      ]
+    },
+    {
+      "name": "departure_window",
+      "pixels": [
+        780,
+        1688
+      ],
+      "points": [
+        390,
+        844
+      ],
+      "crop": "none"
+    },
+    {
+      "name": "city_banner_blank",
+      "pixels": [
+        918,
+        348
+      ],
+      "points": [
+        306,
+        116
+      ]
+    },
+    {
+      "name": "page_dot_active",
+      "pixels": [
+        36,
+        36
+      ],
+      "points": [
+        12,
+        12
+      ],
+      "generated_source": "booster_badge"
+    },
+    {
+      "name": "page_dot_inactive",
+      "pixels": [
+        36,
+        36
+      ],
+      "points": [
+        12,
+        12
+      ]
+    },
+    {
+      "name": "action_sort",
+      "points": [
+        28,
+        28
+      ],
+      "pixels": [
+        84,
+        84
+      ],
+      "aliases": [
+        "action-sort"
+      ]
+    },
+    {
+      "name": "action_hint",
+      "points": [
+        24,
+        28
+      ],
+      "pixels": [
+        72,
+        84
+      ],
+      "aliases": [
+        "action-hint"
+      ]
+    },
+    {
+      "name": "booster_capsule",
+      "points": [
+        102,
+        34
+      ],
+      "pixels": [
+        306,
+        102
+      ],
+      "aliases": [
+        "cream-pill-pm"
+      ]
+    },
+    {
+      "name": "switch_on",
+      "points": [
+        56,
+        30
+      ],
+      "pixels": [
+        168,
+        90
+      ],
+      "aliases": [
+        "switch-on"
+      ]
+    },
+    {
+      "name": "switch_off",
+      "points": [
+        56,
+        30
+      ],
+      "pixels": [
+        168,
+        90
+      ],
+      "aliases": [
+        "switch-off"
+      ]
+    },
+    {
+      "name": "stamp_arrived",
+      "points": [
+        120,
+        48
+      ],
+      "pixels": [
+        360,
+        144
+      ],
+      "aliases": []
+    },
+    {
+      "name": "settings_chevron",
+      "points": [
+        12,
+        18
+      ],
+      "pixels": [
+        36,
+        54
+      ],
+      "aliases": []
+    },
+    {
+      "name": "spinner",
+      "points": [
+        24,
+        24
+      ],
+      "pixels": [
+        72,
+        72
+      ],
+      "aliases": []
+    },
+    {
+      "name": "wood_panel_thin",
+      "pixels": [
+        384,
+        384
+      ],
+      "points": [
+        128,
+        128
+      ],
+      "slices": [
+        13,
+        13,
+        13,
+        13
+      ]
+    }
+  ]
+}

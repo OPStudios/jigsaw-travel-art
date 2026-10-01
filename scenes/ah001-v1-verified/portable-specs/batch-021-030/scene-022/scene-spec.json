@@ -1,0 +1,203 @@
+{
+  "levelId": 22,
+  "sceneId": "ah001-022-markets-shops",
+  "theme": "markets-shops",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "berry red",
+  "visualReviewNotes": "Pennant and tassel attach to the awning; daisy stem enters the bud vase; olive extends existing foliage; parcel bow sits over the package string. Close inspection verifies ribbon/parcel alignment. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-022-markets-shops/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A small ceramic shop with colourful handmade bowls. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: berry red (#B85466), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a short scene-specific fabric pennant at normalised rect [0.13, 0.08, 0.22, 0.13]; a soft awning tassel at normalised rect [0.66, 0.23, 0.12, 0.18]; a small flower sprig matching the stall at normalised rect [0.74, 0.66, 0.16, 0.17]; a leafy branch entering from the left at normalised rect [0.06, 0.36, 0.17, 0.22]; a tied ribbon from one displayed package at normalised rect [0.41, 0.6, 0.16, 0.13]. The painting must remain attractive and complete underneath those parts.\nArt direction: a cozy open-front pottery shop, rich berry-red painted shelves and a berry-red shop awning occupying most of the large surfaces. Sunlit hand-thrown bowls and jugs in cream, pale blue and mustard offer clear small contrast. A few neatly wrapped paper parcels sit on a low counter at lower center; one small bare ceramic bud vase stands low-right awaiting its separate flower sprig. Leave the awning front simple, without tassels or pennants; these come as separate painted layers. Inviting depth, no people and no writing.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-764a2175-7aaf-486c-b3c0-d800f80fdef7.png",
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\background-original.png",
+      "archiveSourceSha256": "272d699ff22b76c59e25a2e5f2a425d56e4e2038c5ada2824e63de2167456d12"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-022-markets-shops/source/atlas.png",
+      "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"A small ceramic shop with colourful handmade bowls\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: wide intimate view from slightly above; same gentle light from upper left. Palette dominant berry red (#B85466) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a short scene-specific fabric pennant; cell(2,1): a soft awning tassel; cell(3,1): a small flower sprig matching the stall; cell(1,2): a leafy branch entering from the left; cell(2,2): a tied ribbon from one displayed package. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nProduction isolation is essential: each painted item must fit well inside its own grid cell, using at most60% of that cell width/height, with a completely transparent buffer between all five objects. No artwork crosses a cell boundary. Precisely these distinct subjects: top-left one short triangular faded-cream pennant with a berry-red sewn edge hanging vertically from a tiny horizontal attachment seam; top-middle one soft ivory cotton awning tassel with a short straight cord above; top-right one small white daisy blossom on a long olive-green stem for a blue-and-cream bud vase; bottom-left one slim olive sprig with muted green leaves extending up-right from a visible short woody base; bottom-middle one curled berry-red silk gift ribbon bow with two tails, viewed slightly from above to lie on a small brown-paper parcel. No vases, gift boxes, wall, awning or props behind any part. Same warm upper-left sunlight and softly painted ceramic-shop illustration style. Real transparent alpha, not a checkerboard or opaque colored matte. Bottom-right cell empty.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-b7033c2f-35c8-48d8-ba61-c881e0b9d9ad.png",
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\atlas-original.png",
+      "archiveSourceSha256": "fd70ebc069d54ab8ebad0eedd4cadc23f3d5c64fe8217284e87d171f0e9b0c57"
+    },
+    {
+      "name": "cream-berry-pennant",
+      "path": "ah001-022-markets-shops/source/cream-berry-pennant.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        70,
+        70,
+        490,
+        487
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\cream-berry-pennant-isolated.png",
+      "archiveSourceSha256": "15e153346a262073c01ecb0f9387b3133b2fe3f8e77f67fbbf28a64c30c1f6e2"
+    },
+    {
+      "name": "awning-tassel",
+      "path": "ah001-022-markets-shops/source/awning-tassel.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        620,
+        10,
+        925,
+        502
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\awning-tassel-isolated.png",
+      "archiveSourceSha256": "705229d677daac03e3347ccdf8ed17b116c61f5fdbb8961617bc07187eb0bce8"
+    },
+    {
+      "name": "white-daisy",
+      "path": "ah001-022-markets-shops/source/white-daisy.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1077,
+        40,
+        1492,
+        511
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\white-daisy-isolated.png",
+      "archiveSourceSha256": "82fe26edd72673c4f7c07f008b02b7c23a60a9f9e365045a874639841c7b8cac"
+    },
+    {
+      "name": "olive-sprig",
+      "path": "ah001-022-markets-shops/source/olive-sprig.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        40,
+        510,
+        520,
+        1000
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\olive-sprig-isolated.png",
+      "archiveSourceSha256": "0cb8bef5c442a6c9ba7895fd88940aae01d219e6b104abdadeaf05f3a4c39208"
+    },
+    {
+      "name": "parcel-ribbon",
+      "path": "ah001-022-markets-shops/source/parcel-ribbon.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        531,
+        545,
+        1015,
+        970
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-022\\parcel-ribbon-isolated.png",
+      "archiveSourceSha256": "1c5ccdf90d7ec7192e647fb1fa13e46e0e904505c1f9c79c0f98d68f78f2c6fe"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "cream berry pennant",
+      "source": "cream-berry-pennant",
+      "maxSize": [
+        150,
+        150
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          273,
+          229
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "awning tassel",
+      "source": "awning-tassel",
+      "maxSize": [
+        60,
+        145
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          920,
+          310
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "white daisy",
+      "source": "white-daisy",
+      "maxSize": [
+        100,
+        200
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          970,
+          883
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "olive sprig",
+      "source": "olive-sprig",
+      "maxSize": [
+        185,
+        205
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          84,
+          674
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "parcel ribbon",
+      "source": "parcel-ribbon",
+      "maxSize": [
+        115,
+        100
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          625,
+          850
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

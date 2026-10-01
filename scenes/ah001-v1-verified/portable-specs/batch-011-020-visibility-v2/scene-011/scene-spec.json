@@ -1,0 +1,201 @@
+{
+  "levelId": 11,
+  "sceneId": "ah001-011-food-drink-visibility-v2",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm terracotta",
+  "visualReviewNotes": "Background and all five independently painted cutouts visually inspected. Actual image anchors selected for rooted stems, hanging details, tabletop objects and sky/water layers. Source alpha and contrasting-background review recorded separately. This is implementation review only; root review pending.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-011-food-drink-visibility-v2/source/background.png",
+      "prompt": "Use case: stylized-concept. Asset type: production painted clean background for a portrait 4:5 mobile travel puzzle. Paint a berry tart breakfast beside a sunny cottage window, gently elevated three-quarter view. Match a polished warm storybook digital painting: dimensional illustrated objects, tactile softly brushed surfaces, detailed ceramic glaze and crumb textures, gentle upper-left sunlight, rich small discoveries and clear local colors. Dominant warm terracotta #C97A54 on the cottage plaster and large linen tabletop; balanced cream and berry details. No recognizable city landmark, city name, text, signs, logos, UI, frame or watermark. Finished image target 1280x1600. Composition: table occupies lower 65%; window with a softly blurred generic garden occupies upper left. A white ceramic cup of tea sits near x30%, y46%, with its rim at y42%; NO STEAM. A small pot with a naturally complete short bare stem sits upper right near x83%, y34%; do NOT draw its later foreground rosemary sprig. A tiny ivory bud vase with open rim sits near x12%, y77%; NO foreground daisy in this vase. A beautiful berry tart on a scalloped cream plate sits x57%, y62%, with red berries and glazed crust but NO mint garnish. A neatly folded PLAIN ivory napkin rests on the lower right. Keep a natural small terracotta tabletop patch near x40%, y77% available for a later separately painted fallen strawberry leaf. This is a complete attractive clean plate underlying five future painted moving details: steam, rosemary sprig, daisy stem, fallen strawberry leaf, and tiny mint garnish. Paint all surfaces fully, no holes, blank boxes, placeholders or prepainted copies of those five details.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-132b53dd-675b-4765-9298-14e7a58c410e.png",
+      "archiveSourceSha256": "338b850f010337853ab31215e8f2b9e031c130b7f31ec2efb5d0e725dcc46306"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-011-food-drink-visibility-v2/source/atlas.png",
+      "prompt": "Create a production transparent PNG sprite atlas, 3 columns Ã— 2 rows, five separate hand-painted cutouts and a completely empty bottom-right cell. True transparent alpha background, no shadows cast on an invisible surface, no colored/checkered backdrop, no text/numbers/borders. Every sprite entirely inside its cell with wide transparent gutters. Polished dimensional warm storybook digital painting with soft brush texture, delicate detailed natural surfaces and sunlight from upper left. These are unique details for a terracotta berry-tart breakfast next to a sunny cottage window. Top left: slender gently curling translucent cream tea steam wisp, tapering to a single narrow bottom origin. Top middle: graceful small rosemary sprig with fine needle leaves, one slender brown stem at the bottom, a slight natural rightward bend. Top right: one tiny white daisy flower on a long thin green stem with two little leaves, bottom stem exposed for insertion into a vase. Bottom left: one natural strawberry leaf lying flat, seen from a gently elevated three-quarter angle, muted olive green with serrated edge, small ochre stem, no soil. Bottom middle: a tiny fresh mint garnish with three overlapping richly textured green leaves, resting flat on a berry tart, gently elevated three-quarter view, no plate or tart. Bottom right: completely empty transparent. Do not include any extra subjects, dishes, vases, pots, furniture or opaque backgrounds. Five distinct art elements, no reuse.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-845ad534-531b-4fa4-8ae7-39e261aecde3.png",
+      "archiveSourceSha256": "f33e7ce589a4be7bec0734d9ee9f6c681198108243938f93de7abc9e518cb945"
+    },
+    {
+      "name": "cutout-1",
+      "path": "ah001-011-food-drink-visibility-v2/source/cutout-1.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-845ad534-531b-4fa4-8ae7-39e261aecde3.png",
+      "originalPixelRect": [
+        0,
+        0,
+        512,
+        540
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-011\\technical-crops\\cutout-1.png",
+      "archiveSourceSha256": "2f3e61bc4a30fc4f61196ed44cf8f3c89f03f8696733f2cc24e702bf8cbdf6d7"
+    },
+    {
+      "name": "cutout-2",
+      "path": "ah001-011-food-drink-visibility-v2/source/cutout-2.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-845ad534-531b-4fa4-8ae7-39e261aecde3.png",
+      "originalPixelRect": [
+        512,
+        0,
+        1024,
+        540
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-011\\technical-crops\\cutout-2.png",
+      "archiveSourceSha256": "c53f52cd84648a07c485dc27a00638ffa35183798263afb867cc553c31de2237"
+    },
+    {
+      "name": "cutout-3",
+      "path": "ah001-011-food-drink-visibility-v2/source/cutout-3.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-845ad534-531b-4fa4-8ae7-39e261aecde3.png",
+      "originalPixelRect": [
+        1024,
+        0,
+        1536,
+        540
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-011\\technical-crops\\cutout-3.png",
+      "archiveSourceSha256": "d1940007f5c35ca4996d8ca11ad4f5eee084231af7c45baa0bd026ad37a8cbab"
+    },
+    {
+      "name": "cutout-4",
+      "path": "ah001-011-food-drink-visibility-v2/source/cutout-4.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-845ad534-531b-4fa4-8ae7-39e261aecde3.png",
+      "originalPixelRect": [
+        0,
+        540,
+        540,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-011\\technical-crops\\cutout-4.png",
+      "archiveSourceSha256": "433331c00809ec2286a0d2f067174888fa78b52fe72dc214d65381c742c787d3"
+    },
+    {
+      "name": "cutout-5",
+      "path": "ah001-011-food-drink-visibility-v2/source/cutout-5.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-845ad534-531b-4fa4-8ae7-39e261aecde3.png",
+      "originalPixelRect": [
+        540,
+        540,
+        1120,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-011\\technical-crops\\cutout-5.png",
+      "archiveSourceSha256": "e5ad50af7e00370ee01f20e0e4bbd4ba883ffb1b5a8f7f13e3ffb1010daefaae"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "tea steam",
+      "source": "cutout-1",
+      "maxSize": [
+        115,
+        225
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          409,
+          596
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "rosemary in mixed herb pot",
+      "source": "cutout-2",
+      "maxSize": [
+        110,
+        200
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1125,
+          454
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "daisy in bud vase",
+      "source": "cutout-3",
+      "maxSize": [
+        135,
+        230
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          155,
+          847
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "fallen strawberry leaf",
+      "source": "cutout-4",
+      "maxSize": [
+        130,
+        105
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          565,
+          1250
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "mint garnish on berry tart",
+      "source": "cutout-5",
+      "maxSize": [
+        90,
+        66
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          843,
+          790
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

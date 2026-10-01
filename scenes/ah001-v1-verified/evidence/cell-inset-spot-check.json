@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "onePixelInsetEquivalent": true
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "onePixelInsetEquivalent": true
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "onePixelInsetEquivalent": true
+    }
+  ],
+  "note": "Three clean pilot cells preserve exact RGBA after empty one-pixel gutter removal. Pilot steam has faint alpha3 pixels at bottom boundary; it was not altered."
+}

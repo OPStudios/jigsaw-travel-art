@@ -1,0 +1,152 @@
+{
+  "levelId": 117,
+  "sceneId": "ah001-117-arts-crafts",
+  "theme": "crafts-objects",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "turquoise craft mat and workshop walls",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene115 original feather-on-book and Scene116 feather-on-stones and large splash were rejected and replaced by isolated feathers and calm ripple. Scene117 loose twine rests on clear mat away from existing paper bow. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-af06d876-4d1a-4ad7-aaf4-55d29adfc4f6.png",
+      "prompt": "Use case: illustration-story. Complete warm painterly oil/gouache portrait 4:5 game puzzle background, rich coherent natural textures and perspective, fine crisp detail. Fully opaque RGB, all canvas pixels alpha255 including edges; no transparency. No text, numbers, brands, recognizable landmark, border, UI or placeholder. Full bleed. This plate receives five small painted moving objects later; omit those specified details but retain their natural attachment surfaces. Gently elevated view of an artisan craft bench with small hand-carved wooden musical instruments: an unfinished violin body, small flute, wooden tuning pegs and fine carving tools. Large TURQUOISE work mat and turquoise painted workshop wall dominate, honey wood accents, warm window light. Include a small empty ceramic bud vase, a visible empty brass hook on rear rail, a plain bare string knot around a bundle of music-paper sheets that are blank, a tiny potted plant with a short bare stem, and an empty clear patch of turquoise mat. Later details one flower, hanging tiny wooden charm, string bow, leaf sprig, one thin curled wood shaving lying flat. No musical notation or letters."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-774e2ddf-7968-4e15-9f59-3261eeb263f4.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Turquoise musical-instrument maker's workbench details. Cell0: one small white meadow flower with yellow center and long rootless cut green stem for a vase. Cell1: small carved honey-wood violin-shaped charm hanging from a SHORT CLOSED beige string loop above it, no extra hook, complete and bounded. Cell2: tiny tan twine bow with two modest loops and short tails, diagonal viewed from above, no background, will sit on a blank paper bundle. Cell3: small sprig of two soft fresh green leaves on one short woody cut stem for a potted twig, no roots. Cell4: one delicate curled honey-colored wood shaving resting on an unseen workbench viewed from above, minimal tight shadow only."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "white meadow flower in ceramic vase",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        92,
+        148
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          471,
+          403
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "carved violin charm hanging from brass hook",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        38,
+        104
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          953,
+          266
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "loose twine bow resting on clear craft mat",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        56,
+        37
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1118,
+          1164
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "green leaf pair attached to right potted twig",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        50,
+        68
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1212,
+          410
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "curled shaving resting on workbench mat",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        74,
+        48
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          843,
+          1271
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    }
+  ],
+  "mainColour": "#337f79"
+}

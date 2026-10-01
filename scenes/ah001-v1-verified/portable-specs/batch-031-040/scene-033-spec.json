@@ -1,0 +1,156 @@
+{
+  "levelId": 33,
+  "sceneId": "ah001-033-nature-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "turquoise running water",
+  "visualReviewNotes": "Original background and all five transparent parts inspected. Source alpha checked on light and dark grounds, bounded paint silhouettes verified. Real vessel mouths, cord/hook positions, vegetation roots or water surfaces determine anchors; final composites require separate inspection. Distinct actual palette from both neighboring scenes. No identifiable destination landmark. Representative primary surface color #51a389 sampled from large turquoise foreground water, original pixels [400, 760, 800, 1250]; global warm-light hue histogram is retained separately and is not a perceptual dominant-color classifier. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-033-nature-gardens/source/background.png",
+      "prompt": "Use case: stylized-concept. Production jigsaw clean background,portrait4:5,1280x1600. A fern-lined stream winding around smooth mossy stones, gently elevated three-quarter view. TURQUOISE water occupies the majority of the composition from upper-center to the wide foreground, contrasting emerald and sage ferns, warmgray steppingstones and small dappled sunlight patches. A detailed warm dimensional storybook digital painting, softly brushed but crisp local objects and tangible moss/stone/water textures, peaceful generic travel nature scene, no city or landmark, no lettering, UI orborder. Full canvas beautiful finished painting. Small pebbles visible under clear turquoise water. This is a clean plate for five independently painted foreground details: leave out one foreground fern tip, one right-bank reed cluster, two small drifting fallen leaves and one isolated surface glint; paint complete background water/rock behind them. Natural anchors: a low fernbase on the left bank near(15%,72%) without its frontmost frond; rightbank soil at(82%,52%) has a small reedbase; calm waterpatches at(39%,60%),(61%,78%),(49%,40%) contain no drifting leaf/glint. Keep plenty of irregular streambed detail for interesting puzzlepieces, no large featureless gradient. No photographic collage and no flat vector graphics.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-ec4b1212-af04-464e-838a-edeb2fc3c336.png",
+      "archiveSourceSha256": "937c65cedfa85d094281c7ec9ce8f2c368d07e2611c42493c2211bb9dab87294"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-033-nature-gardens/source/atlas.png",
+      "prompt": "Use case: stylized-concept. A transparent production sprite atlas with five uniquely painted parts for a turquoise woodland stream illustration. Canvas1536x1024, INVISIBLE arrangement of3columns2rows. Each512x512cell contains a SMALL subject in central300x300pixels only, leaving at least100pixels of genuinely empty alpha on every edge. Do not draw the layoutgrid or lines. Sixthcell bottomright entirelytransparent. Polished warm dimensional storybook painted materials, dappled natural sunlight from upperleft, clean complete anti-aliased silhouettes. Row1left: one graceful green fern frond with thin stem curving down to a complete root tip. Row1middle: a compact three-stem reed cluster with two seedheads, long stems meeting at its base. Row1right: one warm russet small maple leaf floating onwater, seen slightlyfromabove, without water orshadow. Row2left: a DIFFERENT small golden birchleaf seenfromabove, gentlycurled, withoutwater orshadow. Row2middle: one short narrow curved WHITE-TURQUOISE surface ripple/glint, delicatelypainted as a tightlybounded disconnected-light brushstroke, fades to completelytransparent wellinsideitscell, no rectangular waterpatch and no surrounding halo. TRUE ALPHA background with zeroambientglow, no checkerboard, labels, numbers, frame, branches beyondtheonefrond, scenery or otherobjects. Keep every silhouette comfortablyinsidecentral300x300.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-8913b99b-0152-4c89-9dea-e459a6bf5fd0.png",
+      "archiveSourceSha256": "99cbbb1a58c529a1a4bd38f717643354695d7b8f92a8836938acea130286ccae"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "fern frond rooted beside lower-left bank",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        77,
+        97
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          125,
+          903
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "seed-tipped reeds rooted on right stream bank",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        96,
+        142
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1172,
+          685
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "russet maple leaf floating on calm water",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        68,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          758,
+          1191
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "golden birch leaf floating in foreground water",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        51,
+        57
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          510,
+          1392
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "thin curved glint on calm water",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        183,
+        66
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          698,
+          1101
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    }
+  ],
+  "mainColour": "#51a389"
+}

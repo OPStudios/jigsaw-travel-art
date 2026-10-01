@@ -1,0 +1,151 @@
+{
+  "levelId": 39,
+  "sceneId": "ah001-039-water-coast",
+  "theme": "water-coast",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "cocoa-brown rocks and woodland",
+  "visualReviewNotes": "Original painting and complete transparent subjects inspected. Natural attachment points and surface contact determine positions. Lossless custom extraction rectangles where needed preserve entire silhouettes in empty alpha gutters; originals remain retained. Scene37 flat thread and leather replace the unsuitable upright atlas versions. No destination landmark. Final composite and production renderer review recorded separately. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-a94e8ac3-3866-48a7-9f1a-5cce70283d0c.png",
+      "prompt": "Use case: illustration-story. A production-quality portrait 4:5 illustration for a warm, richly detailed travel jigsaw, painterly oil/gouache brush texture, believable materials and anatomy, no text or logos or border. Not photorealistic, no vector style, no UI. Full bleed, clear enjoyable focal point and ample varied puzzle detail. Generic imaginative place with no identifiable landmark. Clean background plate for later adding exactly five tiny painted moving details; do not draw those five listed details, but draw their anchor surfaces naturally. A small forest waterfall cascading into a deep mossy basin surrounded by cocoa-brown rocks, rich russet tree roots and dark forest soil, cozy three-quarter view. Main large surfaces cocoa brown and deep warm earth; modest ivory water and muted moss-green highlights. Natural detailed stone not a famous place. Reserve five independent detail zones: bare short reed stem at bottom-right bank, moss patch with space for one tiny fern frond lower-left, calm dark water middle-bottom for one thin ripple, bare twig on upper-left for a little leaf cluster, a little still water pocket for a floating golden leaf. Paint waterfall water itself but no ornamental sparkle objects."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-bb2ff529-9333-4e2a-8885-bc49e6a2947f.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a shady cocoa-brown woodland waterfall basin. Paint (1) a tiny cluster of three russet reeds with slender stems joined at a fine root base; (2) a small rich moss-green fern frond with pointed bare stem end; (3) a very thin and subtle ivory-gold elliptical water ripple, nearly horizontal and translucent, not a glowing crescent; (4) a small amber-green twig with three leaves and bare stem pointing downward; (5) one golden autumn leaf floating flat on water viewed at three-quarter angle, slight wet shine, no water rectangle. Natural muted forest color, not neon."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "russet reeds rooted at lower right shore",
+      "source": "atlas",
+      "maxSize": [
+        43,
+        67
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1209,
+          1401
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "fern rooted in lower-left moss bank",
+      "source": "atlas",
+      "maxSize": [
+        100,
+        161
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          233,
+          1344
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "subject": "subtle flat ripple on dark calm water",
+      "source": "atlas",
+      "maxSize": [
+        135,
+        37
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          772,
+          1154
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "amber-green leaves attached to upper-left twig",
+      "source": "atlas",
+      "maxSize": [
+        70,
+        111
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          434,
+          120
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "golden leaf floating near shore",
+      "source": "atlas",
+      "maxSize": [
+        59,
+        29
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          849,
+          1340
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ]
+}

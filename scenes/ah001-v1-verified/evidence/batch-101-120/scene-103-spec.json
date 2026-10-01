@@ -1,0 +1,152 @@
+{
+  "levelId": 103,
+  "sceneId": "ah001-103-nature-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm ivory garden wall and gravel",
+  "visualReviewNotes": "Original fully opaque painting and complete transparent subjects inspected. Real vessel mouths, stems, hook, string and surface planes establish placement. Atlas101 complete-subject rectangular crops use inspected empty gutters and retain all painted pixels. Scene102 generated a whole violet wrapped parcel instead of only a bow; it is intentionally placed as a small complete parcel on the paper stack, not mislabelled a ribbon. No destination landmark. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-fd4f87a9-4dd0-45dd-b833-032cc0d1074e.png",
+      "prompt": "Use case: illustration-story. A complete portrait 4:5 production game puzzle painting. Rich warm painterly oil/gouache illustration with fine believable materials, coherent perspective, inviting natural light, clean crisp detail; not a photograph or flat vector. No letters, logos, numbers, landmarks, border or UI. Full bleed varied detail, clear focus. This is a clean background plate; leave the specific tiny moving details below absent, and paint their anchor surfaces naturally. Do not leave holes. An eye-level intimate view of a lush sunflower garden patch around a little weathered ivory garden stool, with a WARM IVORY plaster wall behind and ivory gravel foreground occupying large surfaces, golden sunflowers and green leaves as rich accents. Natural garden depth, pleasant sunlight. Five later details: a small empty clay bud vase on stool for one daisy; a bare trimmed stalk near left foreground for a leaf sprig; clear air above stool for a small orange butterfly; a bare plant stem near lower-right for a small yellow flower; a small exposed gravel patch for a loose fallen green leaf. Paint no placeholder markers. Each anchor comfortably inside picture."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-76ae84c7-33c4-4c25-88f3-6c36c7502769.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas, detailed warm oil/gouache painting, upper-left natural light, true transparent RGBA background with no haze, glow, rectangles, or ground. Landscape 1536x1024, invisible 3x2 grid. Exactly five complete small objects, one per cell in reading order, sixth lower-right empty. Each object bounded inside central 280x300 of its 512x512 cell, huge transparent margins; nothing touches cell edges. No labels, visible grid, text, branding. Fine natural painted edges. For an ivory-walled sunflower garden, paint (1) a single white daisy with long thin bare green stem, no roots; (2) small green sunflower leaf sprig with bare pointed stem base; (3) one small orange butterfly with complete natural wings, viewed obliquely, no flowers below; (4) one little yellow wildflower on a long fine stem; (5) one green leaf lying flat on gravel viewed three-quarter from above, tight semitransparent contact shadow but NO gravel surface. Natural garden colors and delicate scale."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "white daisy placed in stool vase",
+      "source": "atlas",
+      "maxSize": [
+        107,
+        212
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          703,
+          653
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "fresh leaf shoot attached to trimmed stalk",
+      "source": "atlas",
+      "maxSize": [
+        103,
+        144
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          194,
+          849
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "subject": "orange butterfly above garden stool",
+      "source": "atlas",
+      "maxSize": [
+        58,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          842,
+          409
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "yellow flower rooted in lower-right foliage",
+      "source": "atlas",
+      "maxSize": [
+        73,
+        217
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1143,
+          1290
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "fallen green leaf lying on ivory gravel",
+      "source": "atlas",
+      "maxSize": [
+        80,
+        40
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          886,
+          1371
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ],
+  "mainColour": "#bc9c6a"
+}

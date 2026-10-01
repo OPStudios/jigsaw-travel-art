@@ -1,0 +1,159 @@
+{
+  "levelId": 8,
+  "sceneId": "ah001-008-animals",
+  "theme": "animals",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Pelargonium stem moved behind the cats into the window planter, away from cat face; jasmine and basil join actual pots; full newly generated tassel attaches to right curtain tie; butterfly occupies outdoor air. Main colour is measured from visible subject region [200, 1070, 900, 1240]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-008-animals/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Two relaxed cats on a flower-filled windowsill. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm terracotta (#C97A54), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a pale window-curtain corner at normalised rect [0.07, 0.09, 0.21, 0.21]; a leafy windowsill branch at normalised rect [0.72, 0.12, 0.2, 0.23]; a small flower stem at normalised rect [0.09, 0.69, 0.2, 0.19]; a soft curtain tie at normalised rect [0.68, 0.72, 0.23, 0.17]; a tiny hanging paper bird at normalised rect [0.42, 0.25, 0.18, 0.16]. The painting must remain attractive and complete underneath those parts. Terracotta and warm peach wall colours dominate this cat-filled windowsill. Two different relaxed friendly cats are the main subjects, with real plant pots and an empty small bud-vase along the window ledge. Use a simple ivory curtain and a bare curtain tie point, no embroidery that a moving detail would have to match. A garden is visible beyond, without recognizable landmarks. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-d4f53484-f66f-47a7-a3c6-2c0182bed187.png",
+      "archiveSourceSha256": "c52c0aacbce1a142d254cfbb617f83e9f4e239aa87776dee4a7c5691cf47c8ed"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-008-animals/source/atlas.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"Two relaxed cats on a flower-filled windowsill\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a wide intimate view from slightly above painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a delicate apricot pelargonium flower cluster with leaves and a narrow bottom stem; top-middle one slim white jasmine sprig with small flowers and olive-green leaves, bottom stem; top-right a warm ivory curtain tassel, fine twisted cord at top, gold-tinted soft fibers; bottom-left a small pale gold butterfly, wings half open and naturally asymmetrical in perspective; bottom-middle a lush basil sprig with luminous green leaves and narrow bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-edf97f5c-ee3d-4e2f-b3f3-8277c629689d.png",
+      "archiveSourceSha256": "35331fda30f92b6d5e2ff8644c2d9714e6c2ead1d5d3c165cb8ba4fd2a0d7102"
+    },
+    {
+      "name": "tassel",
+      "path": "ah001-008-animals/source/tassel.png",
+      "prompt": "Production transparent RGBA cutout for a cozy painted cat-window puzzle scene, matching polished dimensional warm storybook gouache-like mobile game art. ONE small ivory curtain tie-back tassel with a COMPLETE CLOSED OVAL LOOP of fine twisted golden cord at its top, one subtly carved cream knot and soft fine flax fibers below. Entire object MUST fit inside central50% of image with at least25% fully transparent empty margin on each side, especially above the entire loop; nothing cut off. Soft upper-left warm sunlight, ivory body with restrained golden shading. True transparent alpha, no background, no shadow rectangle, no frame, no extra objects or text. A unique naturally painted hanging tassel, not vector.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-50a88c99-8900-4f1d-b280-28cbe169f783.png",
+      "archiveSourceSha256": "bb9c8b23bd7a53e83fcea62dc245f234c2a8f80ed5835fda3af46f4fb13086a4"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "window pelargonium",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        130,
+        190
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          588,
+          548
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "foreground jasmine",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        145,
+        225
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          166,
+          1326
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "curtain tie-back",
+      "source": "tassel",
+      "maxSize": [
+        58,
+        170
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1175,
+          1000
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "window butterfly",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        63,
+        65
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          767,
+          507
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "window basil",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        145,
+        195
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1144,
+          650
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "terracotta",
+  "mainColour": "#b75a2d"
+}

@@ -1,0 +1,157 @@
+{
+  "levelId": 5,
+  "sceneId": "ah001-005-interiors",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. No tea cup exists in the clean plate, so rejected steam is replaced with a unique bumblebee by the open window. Jasmine meets the vase mouth, vine joins shelf foliage, tassel meets curtain tie and bookmark sits over the existing book edge. Main colour is measured from visible subject region [785, 230, 940, 735]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-c29977a3-46a4-41f4-be68-e326f43968ad.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A window reading nook with cushions and stacked books. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: sage green (#8CAC71), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: one softly draped curtain edge at normalised rect [0.07, 0.14, 0.18, 0.27]; an upper houseplant leaf cluster at normalised rect [0.73, 0.13, 0.2, 0.24]; a small flower in a tabletop vase at normalised rect [0.46, 0.56, 0.16, 0.17]; a soft corner of a woven blanket or cloth at normalised rect [0.62, 0.74, 0.24, 0.13]; a dangling ribbon or fabric tie appropriate to the room at normalised rect [0.28, 0.38, 0.1, 0.19]. The painting must remain attractive and complete underneath those parts. Use soft sage-green walls as the largest background surfaces. Cozy window reading nook, pale ivory plain curtain body or empty curtain rod, wooden bookshelves with unlettered spines, a little side table with an empty bud-vase, a houseplant pot. Keep blanket/cloth plain without complex embroidery; no people and no writing. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-045004c4-63b3-4347-9a2c-e4dcb0523b47.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A window reading nook with cushions and stacked books\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a eye-level intimate view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left soft ivory translucent steam rising from a hot tea cup, one coherent delicate curved column fading into transparency, no cup; top-middle one trailing heartleaf philodendron vine curving naturally to left from a thin right-hand stem; top-right a slim beige curtain tassel hanging vertically from a narrow top loop; bottom-left a small burgundy silk bookmark ribbon curled over an invisible book edge, no rectangular book background; bottom-middle one creamy jasmine flower cluster with delicate leaves on a slender bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified."
+    },
+    {
+      "name": "bee",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-9e5ab46d-8cb1-4749-aa62-a014ae1dea62.png",
+      "prompt": "Production transparent RGBA cutout for a cozy sunlit sage-green reading nook puzzle painting. ONE tiny realistic illustrated golden bumblebee in three-quarter side view flying toward the right, warm golden fuzzy body, dark brown bands, small delicate translucent wings with naturally painted veins. Premium dimensional storybook gouache-like digital painting, gentle upper-left sunlight, painterly restrained detail, not a cartoon mascot and no outline. Entire bee including antennae and wings fits inside central50% with at least25% transparent margin on every side. TRUE transparent alpha, no backdrop, no shadow, no flowers or particles, no text, no other objects."
+    },
+    {
+      "name": "inward-tassel",
+      "path": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-28c61190-52cf-4210-9a20-06f2075c0548.png",
+      "prompt": "Use case: stylized-concept. A single isolated small curtain tassel painted for a premium cozy storybook jigsaw scene, RGBA true transparent background. Warm ivory linen thread, fine hand-painted fibers, warm upper-left sunlight, dimensional softly brushed digital painting, coherent with a sunlit cream curtain and carved wooden tieback. The COMPLETE small narrow hanging loop is at the extreme TOP LEFT of the object; from that loop the knotted neck and softly fanned fringe trail DIAGONALLY DOWN AND RIGHT by about35 degrees, gently pulled inward by a breeze. Nothing should extend to the left of the loop. The composition makes a left-edge curtain tie's tassel lean into the picture. No curtain, hook, room, background, shadow matte, text, grid, border or extra object. Keep generous transparent gutters around every thread and loop, no clipped strands. Full complete hanging silhouette. Tall portrait canvas."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "window bumblebee",
+      "source": "bee",
+      "maxSize": [
+        57,
+        52
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          537,
+          444
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "philodendron vine",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        220,
+        210
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          951,
+          527
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "cellInset": 1,
+      "cellInsetReview": "Only faint alpha3 border pixels removed from outermost transparent column; actual painted leaves have no alpha>8 on cell edges."
+    },
+    {
+      "subject": "curtain tassel",
+      "source": "inward-tassel",
+      "maxSize": [
+        80,
+        150
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          38,
+          590
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "visibilityCorrection": "Inward-facing detail preserves actual curtain tie or ivy/wood junction and the entire painted silhouette throughout completion zoom."
+    },
+    {
+      "subject": "silk bookmark",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        50,
+        110
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          160,
+          972
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase jasmine",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        110,
+        175
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          879,
+          983
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "sage olive",
+  "mainColour": "#777940"
+}

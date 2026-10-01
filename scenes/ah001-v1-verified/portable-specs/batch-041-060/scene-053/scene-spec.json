@@ -1,0 +1,251 @@
+{
+  "levelId": 53,
+  "sceneId": "ah001-053-nature-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "terracotta",
+  "mainColour": "#76411a",
+  "paletteReview": {
+    "sourceSurfaceRect": [
+      250,
+      1160,
+      450,
+      1320
+    ],
+    "medianRGB": [
+      118,
+      65,
+      26
+    ],
+    "reason": "Actual visually defining surface, not different arbitrary hex codes. Full chromatic histogram retained separately."
+  },
+  "visualReviewNotes": "Original opaque background and all five authored cutouts inspected at composition scale and against cream/dark alpha backgrounds. Adapted attachments to visible branches, pots, surface contact, strings, or sky/water. Implementation art review only, not PM approval. Master/contact and actual GPU review follow export.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-053-nature-gardens/source/background.png",
+      "prompt": "Complete FULLY OPAQUE portrait4:5 storybook illustration, target1280x1600. All pixels alpha255/opaque, no transparent edges, no cutouts or atlas. Cozy dimensional gently brushed digitalpainting, detailed natural materials, coherent upperleftsunshine andperspective. No words, labels, logos, landmarks, people,UI,frame orwatermark. Attractivefinishedcleanbackground forlaterdetail layers, noholes. An appleorchard gate with wickerharvestbasket, wideintimateviewslightlyabove. WARM TERRACOTTA dominatesbroadbrickgardenwall, earthenpathandweatheredgatepaint, redapples and sageleavesminor accents. Basketfullofredandgoldapplesrestsforegroundonpath. Genericcozyorchard treesbeyondwall, smallopaque blueskystripoftop. Barebranchend leftupperx22%,y25%, differentthintwig rightupperx80%,y30%. Naturalearthforegroundpatchleftx18%,y86% forlaterflower andrightx83%,y88% forlatergrass. Fiveomittedparts:smallappleleafbranch, differentwoodyoliveleafsprig, tinycreamwildflowerstem, narrowgoldenmeadowgrass, smallpalecloud. Paintallgroundandtreesfully, no blankholes.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-c24b403d-16db-4575-8b83-489c08b65117.png",
+      "archiveSourceSha256": "51a0e27a91e2286298fe922b3fb6f6e4ac67a4b7f222b67a737726b4aaccf5a5"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-053-nature-gardens/source/atlas.png",
+      "prompt": "Use case: illustration-story. Production sprite atlas for a softly hand-painted travel jigsaw. Five independently painted watercolor/gouache cutouts, TRUE transparent RGBA with empty alpha between subjects. Landscape1536x1024, three columns/two rows, bottom-right cell completely empty. Very wide transparent gutters, each COMPLETE subject centered inside own cell, maxheight400, no touching borders or crossing cells. Do not paint background/halo/grid/checkerboard/stickers/text. Natural subtly textured paint, gentle upper-left daylight, no hard outlines. Subjects in cell order: An apple orchard gate in warm terracotta earth: TOP LEFT small apple-leaf twig with three leaves, bottom stem; TOP MIDDLE different olive-leaf twig on thin bottom stem; TOP RIGHT slender ivory cosmos flower on long green bottom stem; BOTTOM LEFT little rooted golden grass tuft; BOTTOM MIDDLE small horizontal white cloud with faint peach edges. No scenery or backdrop.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-925327c9-0927-4a02-8bf7-d6c8841352e0.png",
+      "archiveSourceSha256": "ffe1790def0a43db258aea3e059ef35787850a6ec582f34f619089b93178eb12"
+    },
+    {
+      "name": "cutout-1",
+      "path": "ah001-053-nature-gardens/source/cutout-1.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-925327c9-0927-4a02-8bf7-d6c8841352e0.png",
+      "originalPixelRect": [
+        0,
+        0,
+        515,
+        505
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-053\\technical-crops\\cutout-1.png",
+      "archiveSourceSha256": "12129df5c18bd7e58b580dbb15624656a43b4269aa81f182f9d945c4c84a2aca"
+    },
+    {
+      "name": "cutout-2",
+      "path": "ah001-053-nature-gardens/source/cutout-2.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-925327c9-0927-4a02-8bf7-d6c8841352e0.png",
+      "originalPixelRect": [
+        515,
+        0,
+        1040,
+        505
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-053\\technical-crops\\cutout-2.png",
+      "archiveSourceSha256": "c37ff4afc1ae65c3f3cc0fb23a7367284c51f9ba0cf5581fa1fff9b9586a12d3"
+    },
+    {
+      "name": "cutout-3",
+      "path": "ah001-053-nature-gardens/source/cutout-3.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-925327c9-0927-4a02-8bf7-d6c8841352e0.png",
+      "originalPixelRect": [
+        1040,
+        0,
+        1536,
+        505
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-053\\technical-crops\\cutout-3.png",
+      "archiveSourceSha256": "1f777e97a58e9e142086f4bef17f6040ba6a2107c1cb85416c1a15b58f3221ba"
+    },
+    {
+      "name": "cutout-4",
+      "path": "ah001-053-nature-gardens/source/cutout-4.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-925327c9-0927-4a02-8bf7-d6c8841352e0.png",
+      "originalPixelRect": [
+        0,
+        505,
+        515,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-053\\technical-crops\\cutout-4.png",
+      "archiveSourceSha256": "39a7d0415425aff62c15e2808db7699974b62d07c8f943bf3f0eabbbded23e4f"
+    },
+    {
+      "name": "cutout-5",
+      "path": "ah001-053-nature-gardens/source/cutout-5.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-925327c9-0927-4a02-8bf7-d6c8841352e0.png",
+      "originalPixelRect": [
+        515,
+        505,
+        1040,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-053\\technical-crops\\cutout-5.png",
+      "archiveSourceSha256": "fb0c2e0ddd7f3deb2509a51030a1b297d4b70e1bef5e7fb96f69c11f9ce60b82"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "apple twig on left branch",
+      "source": "cutout-1",
+      "maxSize": [
+        90,
+        92
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          559.0017825311943,
+          143.79457917261055
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          490,
+          126
+        ]
+      }
+    },
+    {
+      "subject": "olive twig on right branch",
+      "source": "cutout-2",
+      "maxSize": [
+        72,
+        115
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1192.1568627450981,
+          188.30242510699
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          1045,
+          165
+        ]
+      }
+    },
+    {
+      "subject": "rooted orchard cosmos",
+      "source": "cutout-3",
+      "maxSize": [
+        95,
+        190
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          273.7967914438503,
+          1495.0071326676177
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          240,
+          1310
+        ]
+      }
+    },
+    {
+      "subject": "rooted golden orchard grass",
+      "source": "cutout-4",
+      "maxSize": [
+        115,
+        180
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1161.3547237076648,
+          1437.9457917261057
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          1018,
+          1260
+        ]
+      }
+    },
+    {
+      "subject": "orchard sky cloud",
+      "source": "cutout-5",
+      "maxSize": [
+        180,
+        70
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          775.7575757575758,
+          106.13409415121255
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "center",
+        "backgroundSourcePoint": [
+          680,
+          93
+        ]
+      }
+    }
+  ]
+}

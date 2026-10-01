@@ -1,0 +1,184 @@
+{
+  "levelId": 118,
+  "sceneId": "ah001-118-animals",
+  "theme": "animals",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "sage eucalyptus canopy and gray koala",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene115 original feather-on-book and Scene116 feather-on-stones and large splash were rejected and replaced by isolated feathers and calm ripple. Scene117 loose twine rests on clear mat away from existing paper bow. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded. Independent review moved loose leaf from vertical trunk onto the exposed upper face of the sloping bough at original(400,1000), keeping it below koala and clear of foliage.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-118-animals/source/background.png",
+      "prompt": "Use case: illustration-story. Complete warm painterly oil/gouache portrait 4:5 game puzzle background, rich coherent natural textures and perspective, fine crisp detail. Fully opaque RGB, all canvas pixels alpha255 including edges; no transparency. No text, numbers, brands, recognizable landmark, border, UI or placeholder. Full bleed. This plate receives five small painted moving objects later; omit those specified details but retain their natural attachment surfaces. Close cozy three-quarter view of one anatomically believable gray koala resting comfortably in the fork of a eucalyptus tree. SAGE GREEN canopy foliage and softly green distant forest fill most image, muted gray-brown bark and gray koala. Correct fluffy ears, dark nose, natural paws curled around branch, peaceful expression. Five later detail zones: one bare short eucalyptus twig ending inside upper-left, another little bare twig at right of animal, one empty airy patch left of koala for tiny blue butterfly, one small naturally bare leaf stem near lower branch for leaf pair, a tiny empty patch of bark for a loose pale eucalyptus leaf. Do not paint the later leaves at these specific tips. Keep koala complete and organic.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-b13ea20c-8a24-4d94-9f31-c7a158bec161.png",
+      "archiveSourceSha256": "9df6b1b2f45ffc6a1e386316873cddd3378532c8d89a6dce81f2bc3e8f62a953"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-118-animals/source/atlas.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Sage eucalyptus forest with koala details, no animals needed. Cell0: eucalyptus twig with THREE sage green long narrow leaves, rootless short cut stem pointing left for attachment to a horizontal branch. Cell1: a smaller cluster of TWO sunlit yellow-sage eucalyptus leaves, short bare rootless woody cut stem at bottom for joining a tree twig. Cell2: small soft blue butterfly in side-three-quarter profile, complete wings legs and antennae. Cell3: a hanging pair of dark sage eucalyptus leaves on short cut woody stem at top pointing right, no roots. Cell4: one pale olive eucalyptus leaf resting flat on slanted rough bark viewed diagonally from above, minimal tight contact shadow, no bark painted into sprite.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-d9d54203-19af-456d-bb67-adce5b6cd221.png",
+      "archiveSourceSha256": "3d1c314e3efd6935c2a01d944a9e95649ea8be3309dd6d05e3f6e1f035398cdc"
+    },
+    {
+      "name": "left-leaves-118",
+      "path": "ah001-118-animals/source/left-leaves-118.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Sage eucalyptus forest with koala details, no animals needed. Cell0: eucalyptus twig with THREE sage green long narrow leaves, rootless short cut stem pointing left for attachment to a horizontal branch. Cell1: a smaller cluster of TWO sunlit yellow-sage eucalyptus leaves, short bare rootless woody cut stem at bottom for joining a tree twig. Cell2: small soft blue butterfly in side-three-quarter profile, complete wings legs and antennae. Cell3: a hanging pair of dark sage eucalyptus leaves on short cut woody stem at top pointing right, no roots. Cell4: one pale olive eucalyptus leaf resting flat on slanted rough bark viewed diagonally from above, minimal tight contact shadow, no bark painted into sprite.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-d9d54203-19af-456d-bb67-adce5b6cd221.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          0,
+          512,
+          480
+        ],
+        "boundaryAlphaMaximum": 1
+      },
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\left-leaves-118.png",
+      "archiveSourceSha256": "210288fc310c7b3d4ecf164bbcd63c19777cc752547fd460c96bf90e87b2c14c"
+    },
+    {
+      "name": "lower-leaves-118",
+      "path": "ah001-118-animals/source/lower-leaves-118.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Sage eucalyptus forest with koala details, no animals needed. Cell0: eucalyptus twig with THREE sage green long narrow leaves, rootless short cut stem pointing left for attachment to a horizontal branch. Cell1: a smaller cluster of TWO sunlit yellow-sage eucalyptus leaves, short bare rootless woody cut stem at bottom for joining a tree twig. Cell2: small soft blue butterfly in side-three-quarter profile, complete wings legs and antennae. Cell3: a hanging pair of dark sage eucalyptus leaves on short cut woody stem at top pointing right, no roots. Cell4: one pale olive eucalyptus leaf resting flat on slanted rough bark viewed diagonally from above, minimal tight contact shadow, no bark painted into sprite.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-d9d54203-19af-456d-bb67-adce5b6cd221.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          480,
+          512,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      },
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\lower-leaves-118.png",
+      "archiveSourceSha256": "f03d798081f8626c167a92fb3c0b651b19f7fdf733a58bd80ca22997426e04a4"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "eucalyptus leaves attached to left bare branch",
+      "source": "left-leaves-118",
+      "maxSize": [
+        127,
+        114
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          274,
+          135
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "sunlit leaf pair attached to right twig",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        81,
+        121
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1184,
+          389
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "small blue butterfly in open left air",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        56,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          240,
+          498
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "hanging leaf pair attached to lower branch tip",
+      "source": "lower-leaves-118",
+      "maxSize": [
+        73,
+        130
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          588,
+          1225
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "loose eucalyptus leaf resting on bark",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        82,
+        43
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          456,
+          1141
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    }
+  ],
+  "mainColour": "#848349"
+}

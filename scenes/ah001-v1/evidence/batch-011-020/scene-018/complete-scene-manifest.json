@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 18,
+      "sceneId": "ah001-018-animals",
+      "status": "complete",
+      "theme": "animals",
+      "mainColour": "#8e9e48",
+      "master": {
+        "source": "ah001-018-animals/master.png",
+        "sha256": "843c2e19fe1ade444767b754e30569d2b1f0c6f5439159ba35b354604ecb1f4c"
+      },
+      "background": {
+        "source": "ah001-018-animals/background.png",
+        "sha256": "8e11cd043492127ea173410d5535559c3d2d5ba524fb4292af3bd7aecde46d29"
+      },
+      "parts": [
+        {
+          "source": "ah001-018-animals/part-1.png",
+          "sha256": "f152e2a93e57c99af49039cd02c802eebac0ae57fb50020725b858873762ce14",
+          "rect": [
+            0.121875,
+            0.42,
+            0.12109375,
+            0.05625
+          ],
+          "sourcePixelRect": [
+            156,
+            672,
+            155,
+            90
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "gingham cloth on picnic basket",
+          "authoringSource": "cutout-1",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            33,
+            158,
+            530,
+            446
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              156,
+              672
+            ]
+          }
+        },
+        {
+          "source": "ah001-018-animals/part-2.png",
+          "sha256": "03529f053a546626a9843a7f9f2eae2cc89760f412fa4157bd28d5669454dce0",
+          "rect": [
+            0.8125,
+            0.128125,
+            0.10546875,
+            0.084375
+          ],
+          "sourcePixelRect": [
+            1040,
+            205,
+            135,
+            135
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pear-leaf twig attached to branch",
+          "authoringSource": "cutout-2",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            21,
+            49,
+            469,
+            496
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1150,
+              338
+            ]
+          }
+        },
+        {
+          "source": "ah001-018-animals/part-3.png",
+          "sha256": "b12bd86c014837862efa2924308c5fddd66f00e3a0d871efea4b4922dfb1bdf8",
+          "rect": [
+            0.37578125,
+            0.3775,
+            0.0453125,
+            0.033125
+          ],
+          "sourcePixelRect": [
+            481,
+            604,
+            58,
+            53
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "yellow butterfly near garden flowers",
+          "authoringSource": "cutout-3",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            72,
+            144,
+            386,
+            433
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              510,
+              630
+            ]
+          }
+        },
+        {
+          "source": "ah001-018-animals/part-4.png",
+          "sha256": "427dfa4f7051271dd24d08b9dc6618f8e8f8778349316eab4c8b8159567aaab3",
+          "rect": [
+            0.790625,
+            0.74375,
+            0.09375,
+            0.099375
+          ],
+          "sourcePixelRect": [
+            1012,
+            1190,
+            120,
+            159
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "rooted garden daisies",
+          "authoringSource": "cutout-4",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            124,
+            10,
+            459,
+            453
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1072,
+              1347
+            ]
+          }
+        },
+        {
+          "source": "ah001-018-animals/part-5.png",
+          "sha256": "67e53240d891f8acce54c7d726aa577f7fb4b3c56a940f8d9169f07507705da2",
+          "rect": [
+            0.54140625,
+            0.784375,
+            0.09765625,
+            0.071875
+          ],
+          "sourcePixelRect": [
+            693,
+            1255,
+            125,
+            115
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "foreground meadow grass",
+          "authoringSource": "cutout-5",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            34,
+            0,
+            525,
+            450
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              742,
+              1369
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-f7709bed-cc12-46e1-908d-a7111fb50177.png",
+            "prompt": "Create a portrait4:5 finished illustrated mobile puzzle clean plate, target1280x1600. Beautiful dimensional warm storybook digital painting, soft brush surfaces, nuanced natural colors, upperleft sunlight, not a photograph. No text, landmark, logos, humans, border,UI,watermark. Friendly golden-brown dog sleeping comfortably beside a woven picnicbasket in a lushsagegreen garden, intimateeye-level. Dominantsoftsagegreen lawn, shrubsandgentlefoliage, subtle creamdaisies andtinypinkflowers. Dog fullyvisible centeredlowerhalf withanatomicallycoherent paws, relaxed head and peaceful closedeyes. Wovenbasketleftmiddlewithlid partlyopen, no hangingclothcorner yet; its edge aroundx26%,y52% provides attachment for laterginghamcloth. A smallthinbranch rooted inrightside shrub bends intoopenbackground nearx80%,y28%, noextra foregroundleafcluster. Naturalopenspacesinleftmiddleabovethe grassfor one tinyyellowbutterfly, bottomrightgrassfor3daisystems, lowercentergrassnearbutclearofdogpaws foronegrasstuft. Laterfivepaintedparts: danglingpicniccloth on basketedge, shrubbranch, butterfly nearflower, daisiesrootedinlawn, grasstuft. Omitthosepartsonly, groundsandbackgroundfullypainted.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\background.png",
+            "sha256": "869fa5025d231b80315be9296318292cb41fdfbddc6b0440848223144097720b",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-2d5265ca-e946-45b5-8d46-a970f61c8a9b.png",
+            "prompt": "ExactlyFIVE hand-painted production PNG sprites onTRUE TRANSPARENTalpha canvas,3columns\u00c3\u20142rows withbottomrightempty. No background, checkerboard,visiblegrid, text,borders,shadowmatte. Each object centered withinitsowncell, generousclear60pxgutter, donotcrosscellborders. Dimensionalstorybookpainting, softbrushtextures,sunlightupperleft,naturalcolor. Unique details forasagegreenpicnicgarden:TOPLEFT shortsmallcreamandsagegingham cloth foldedoverastraighthorizontalbasketedge, straighttop withnaturallyhangingcurvedbottomcorner, no basket; TOPMIDDLE shortgracefulgardenpear-leafbranchwithbarebottomstem; TOPRIGHT onesmallyellowbutterfly withwingsinagentlethreequarteropenpose; BOTTOMLEFT threetinywhitedaisies onslendergreenstemswithoneveryshortbottomroot; BOTTOMMIDDLE asmalltuftofsoftsage-green meadowgrass, slightlyarchingblades, narrowrootbase. No soil,plantsupports,containeroranimalsotherthanbutterfly.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\atlas.png",
+            "sha256": "ab7646bd1be167e524a34bdb5bdd2790868ec000989b5b030dad4dfeaf6ea7c4",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "cutout-1",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020\\scene-018\\technical-crops\\cutout-1.png",
+            "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-2d5265ca-e946-45b5-8d46-a970f61c8a9b.png",
+            "originalPixelRect": [
+              0,
+              0,
+              545,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\cutout-1.png",
+            "sha256": "03ffc745ee92514ad998f08a372a31625c42cb7eca1c3642043357d8c59bb119",
+            "pixels": [
+              545,
+              512
+            ]
+          },
+          {
+            "name": "cutout-2",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020\\scene-018\\technical-crops\\cutout-2.png",
+            "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-2d5265ca-e946-45b5-8d46-a970f61c8a9b.png",
+            "originalPixelRect": [
+              545,
+              0,
+              1040,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\cutout-2.png",
+            "sha256": "30e634b685998d8745c744a16463ee6650f16bb6cef9117c1c434226ab36eae6",
+            "pixels": [
+              495,
+              512
+            ]
+          },
+          {
+            "name": "cutout-3",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020\\scene-018\\technical-crops\\cutout-3.png",
+            "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-2d5265ca-e946-45b5-8d46-a970f61c8a9b.png",
+            "originalPixelRect": [
+              1040,
+              0,
+              1536,
+              512
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\cutout-3.png",
+            "sha256": "25464d8cff2174a158be10619c365cd6a341f7fc2b2e9ab302882f2512d807bb",
+            "pixels": [
+              496,
+              512
+            ]
+          },
+          {
+            "name": "cutout-4",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020\\scene-018\\technical-crops\\cutout-4.png",
+            "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-2d5265ca-e946-45b5-8d46-a970f61c8a9b.png",
+            "originalPixelRect": [
+              0,
+              512,
+              512,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\cutout-4.png",
+            "sha256": "1da4c2a34c48f79db3f83fe598295cd2c6f2d62b3624c197bd69d17fdd76fca7",
+            "pixels": [
+              512,
+              512
+            ]
+          },
+          {
+            "name": "cutout-5",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020\\scene-018\\technical-crops\\cutout-5.png",
+            "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-2d5265ca-e946-45b5-8d46-a970f61c8a9b.png",
+            "originalPixelRect": [
+              512,
+              512,
+              1080,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-018-animals\\source\\cutout-5.png",
+            "sha256": "73c44be32179aa2493af2af6c8ee077796cd416d971e8d010423a370f69d6135",
+            "pixels": [
+              568,
+              512
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Background and all five independently painted cutouts visually inspected. Actual image anchors selected for rooted stems, hanging details, tabletop objects and sky/water layers. Source alpha and contrasting-background review recorded separately. This is implementation review only; root review pending. Main colour measured from the visible defining surface at [480, 1200, 790, 1450], rather than inferring a different main colour from the broad hue histogram alone.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.0061,
+          "orange-yellow": 0.6483,
+          "green": 0.3041,
+          "blue": 0.0415,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#b39e4c",
+        "mainColourLabel": "sage green",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "b6e71eb01d135080902ccf4826c03c7de0101956cd88553f95103cc678918d83"
+      }
+    }
+  ]
+}

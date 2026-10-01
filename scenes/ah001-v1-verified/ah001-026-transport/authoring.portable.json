@@ -1,0 +1,358 @@
+{
+  "levelId": 26,
+  "sceneId": "ah001-026-transport",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-026-transport/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A blue canoe tied to a quiet wooden dock. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: cocoa brown (#997357), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small pale cloud behind the vehicle at normalised rect [0.13, 0.1, 0.25, 0.14]; a little tied pennant or luggage ribbon at normalised rect [0.64, 0.3, 0.12, 0.16]; a roadside or shore leaf cluster at normalised rect [0.08, 0.67, 0.18, 0.22]; a scene-specific grass or flower cluster at normalised rect [0.72, 0.74, 0.2, 0.16]; a soft cloud wisp or water highlight appropriate to the setting at normalised rect [0.45, 0.17, 0.22, 0.11]. The painting must remain attractive and complete underneath those parts.\nArt direction: foreground and most of the composition is a handsome weathered cocoa-brown wooden dock with richly painted planks and a warm brown boathouse edge. One modest blue canoe is tied alongside, resting on calm dark-brown reflective lake water that picks up the wooded banks; blue remains an accent, not the dominant whole image. Soft diffused morning sunlight, peaceful close view, coiled natural rope, a folded oar and subtle reflections. A little shore growth at lower-left has room for one separately painted leafy sprig. No people, famous skyline, marina brand, boat names or numbers. Full clear canoe silhouette, no clipped bow.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-50a30e6c-e16e-4735-9c75-c9c2b339e499.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\background.png",
+        "sha256": "b324e803d847601210d3bb24e229c2a24609450a83b4a5a1a8a9f41bb0b1e001",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\background-original.png",
+        "archiveSourceSha256": "b324e803d847601210d3bb24e229c2a24609450a83b4a5a1a8a9f41bb0b1e001"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-026-transport/source/atlas.png",
+        "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"A blue canoe tied to a quiet wooden dock\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: wide intimate view from slightly above; same gentle light from upper left. Palette dominant cocoa brown (#997357) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a small pale cloud behind the vehicle; cell(2,1): a little tied pennant or luggage ribbon; cell(3,1): a roadside or shore leaf cluster; cell(1,2): a scene-specific grass or flower cluster; cell(2,2): a soft cloud wisp or water highlight appropriate to the setting. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nKeep all five full silhouettes inside widely separated cells; no visible grid or framing. Refine the five details to this actual blue-canoe and cocoa-brown dock scene: top-left one small warm ivory cloud with pale blue-gray lower shading; top-middle one short faded-blue fabric ribbon tied with a small knot and two loose tails, appropriate to tie around the dock mooring rope; top-right one shore alder twig with three broad muted olive-green leaves, visible slender stem pointing down-left; bottom-left one little tufty reed-and-grass cluster with two fine seedheads, full base; bottom-middle one soft horizontal cool-silver lake reflection patch composed of several thin broken ripples with genuine translucent alpha between strokes. Bottom-right empty. No water rectangle, canoe, dock, rope behind the ribbon, rocks, scenery, contact shadows, light rays or letters. Natural soft morning light from upper-left; finely painted but coherent illustrated textures.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-c61ec81b-0199-481a-87c1-d981e86f6e46.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\atlas.png",
+        "sha256": "135027994c219a5e7be2a4962326e5eb7e6ea539f3d3c34b9112b7260b776321",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\atlas-original.png",
+        "archiveSourceSha256": "135027994c219a5e7be2a4962326e5eb7e6ea539f3d3c34b9112b7260b776321"
+      },
+      {
+        "name": "morning-cloud",
+        "path": "ah001-026-transport/source/morning-cloud.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          0,
+          120,
+          610,
+          434
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\morning-cloud.png",
+        "sha256": "469fcf0b99dc3f221433ea2beae7ce0b9cc3aa0308fdc8a0bb0a8a95c0de70d2",
+        "pixels": [
+          610,
+          314
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\morning-cloud-isolated.png",
+        "archiveSourceSha256": "469fcf0b99dc3f221433ea2beae7ce0b9cc3aa0308fdc8a0bb0a8a95c0de70d2"
+      },
+      {
+        "name": "mooring-ribbon",
+        "path": "ah001-026-transport/source/mooring-ribbon.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          626,
+          110,
+          1024,
+          474
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\mooring-ribbon.png",
+        "sha256": "3e06d7436a7f6cd0123ef720e8dcf71bc48e1346416caa38f4034f9b21d01fb8",
+        "pixels": [
+          398,
+          364
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\mooring-ribbon-isolated.png",
+        "archiveSourceSha256": "3e06d7436a7f6cd0123ef720e8dcf71bc48e1346416caa38f4034f9b21d01fb8"
+      },
+      {
+        "name": "shore-alder",
+        "path": "ah001-026-transport/source/shore-alder.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          1051,
+          45,
+          1500,
+          485
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\shore-alder.png",
+        "sha256": "158a709ab3dcfcf19f085a936a9ade1c9688b990452aac1bff88f5f6d6bbe9c7",
+        "pixels": [
+          449,
+          440
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\shore-alder-isolated.png",
+        "archiveSourceSha256": "158a709ab3dcfcf19f085a936a9ade1c9688b990452aac1bff88f5f6d6bbe9c7"
+      },
+      {
+        "name": "shore-reeds",
+        "path": "ah001-026-transport/source/shore-reeds.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          25,
+          456,
+          558,
+          998
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\shore-reeds.png",
+        "sha256": "e4830672fad2d04acdab023810b15d3cb369ea138af1506b332bb53990b4d019",
+        "pixels": [
+          533,
+          542
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\shore-reeds-isolated.png",
+        "archiveSourceSha256": "e4830672fad2d04acdab023810b15d3cb369ea138af1506b332bb53990b4d019"
+      },
+      {
+        "name": "lake-reflection",
+        "path": "ah001-026-transport/source/lake-reflection.png",
+        "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          570,
+          610,
+          1067,
+          941
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-026-transport\\source\\lake-reflection.png",
+        "sha256": "7dad3c8fcd3f1f254d841f6164aba8ecc7dff77d5d428c7f9f95e927351a0d45",
+        "pixels": [
+          497,
+          331
+        ],
+        "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-026\\lake-reflection-isolated.png",
+        "archiveSourceSha256": "7dad3c8fcd3f1f254d841f6164aba8ecc7dff77d5d428c7f9f95e927351a0d45"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Cloud lies in the lake sky, blue bow attaches at the mooring rope, alder stem meets shore growth, reeds root among near-shore plants, and silver broken reflection sits on open lake water. Alder uses direct position because its lowest leaf is below the stem tip. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0353,
+      "orange-yellow": 0.8209,
+      "green": 0.0052,
+      "blue": 0.1385,
+      "violet-pink": 0.0
+    },
+    "measuredDominantColour": "#7a5731",
+    "mainColourLabel": "cocoa brown with blue canoe",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "e8e0f8ce9dd5cfd8061e694dddd7e08daa84200b036fddcb98674fe893eb5475"
+  },
+  "parts": [
+    {
+      "source": "ah001-026-transport/part-1.png",
+      "sha256": "33bddc782723c78d3ba63caf334ae788519c048f720ede96cb7c944957f22005",
+      "rect": [
+        0.45859375,
+        0.065625,
+        0.1640625,
+        0.05
+      ],
+      "sourcePixelRect": [
+        587,
+        105,
+        210,
+        80
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "morning cloud",
+      "authoringSource": "morning-cloud",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        12,
+        46,
+        600,
+        271
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          692,
+          145
+        ]
+      }
+    },
+    {
+      "source": "ah001-026-transport/part-2.png",
+      "sha256": "18daf757ad9579b3ef43d63d43fa4cea43c0cfbb8427ccb05d6785422c6a1b8f",
+      "rect": [
+        0.396875,
+        0.39,
+        0.078125,
+        0.056875
+      ],
+      "sourcePixelRect": [
+        508,
+        624,
+        100,
+        91
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "mooring ribbon",
+      "authoringSource": "mooring-ribbon",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        20,
+        16,
+        389,
+        352
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          558,
+          670
+        ]
+      }
+    },
+    {
+      "source": "ah001-026-transport/part-3.png",
+      "sha256": "9de2289a1f48997a693e0b9f0573ca6007b91ba8417c0ec55bc1182c3bd8cf20",
+      "rect": [
+        0.03515625,
+        0.558125,
+        0.1328125,
+        0.10625
+      ],
+      "sourcePixelRect": [
+        45,
+        893,
+        170,
+        170
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "shore alder",
+      "authoringSource": "shore-alder",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        20,
+        26,
+        422,
+        427
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          45,
+          893
+        ]
+      }
+    },
+    {
+      "source": "ah001-026-transport/part-4.png",
+      "sha256": "f3a63750d17db2135226f240f0106ed09269bbacf3c0602a3a6401e76757fe8e",
+      "rect": [
+        0.29609375,
+        0.8275,
+        0.1640625,
+        0.1325
+      ],
+      "sourcePixelRect": [
+        379,
+        1324,
+        210,
+        212
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "shore reeds",
+      "authoringSource": "shore-reeds",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        24,
+        20,
+        528,
+        528
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          508,
+          1534
+        ]
+      }
+    },
+    {
+      "source": "ah001-026-transport/part-5.png",
+      "sha256": "af08804b4a94c76219a2b3e92db30dc26f18e3175dcf1329f46d5bbf28120b20",
+      "rect": [
+        0.821875,
+        0.828125,
+        0.1375,
+        0.0625
+      ],
+      "sourcePixelRect": [
+        1052,
+        1325,
+        176,
+        100
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "lake reflection",
+      "authoringSource": "lake-reflection",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        2,
+        26,
+        489,
+        302
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1140,
+          1375
+        ]
+      }
+    }
+  ]
+}

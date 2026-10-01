@@ -1,0 +1,175 @@
+{
+  "levelId": 113,
+  "sceneId": "ah001-113-parks-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "cocoa woodland path with copper autumn leaves",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene115 original feather-on-book and Scene116 feather-on-stones and large splash were rejected and replaced by isolated feathers and calm ripple. Scene117 loose twine rests on clear mat away from existing paper bow. Final composite and renderer review recorded separately. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0936cc82-737e-425e-b37c-24c473b8bb6c.png",
+      "prompt": "Use case: illustration-story. Production game puzzle clean background, full bleed portrait 4:5, detailed warm oil/gouache illustration with visible painterly texture, natural coherent light/perspective. Fully opaque RGB: every pixel alpha255, no transparent areas or edge glitches. No writing, logos, digits, identifiable famous place, frame or UI. Complete inviting scene; omit only specified tiny later animated details, leaving natural anchor surfaces. Gently elevated view of an autumn park path winding among mature trees. Main palette COCOA BROWN earth, dark brown trunks and warm cocoa wooden bench; golden fallen leaves scattered richly but brown surfaces dominate. Dappled light, subtle green moss, distant gentle mist. Include one visible bare thin branch ending inside upper-right for an autumn leaf cluster, a trimmed small fern stem in moss lower-left for a fern frond, an empty dry path patch center foreground for one curled golden leaf, an empty small patch of bright air near bench for a little orange butterfly, a tiny bare grass stalk lower-right for a seed head. No person or animal already in those detail zones."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0ffec767-9c43-4e9c-bd28-24e56ae54385.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows, wisps and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Autumn park details. Cell0: compact cluster of THREE copper maple leaves on one short woody twig, cut stem pointing down-left. Cell1: one elegant deep olive fern frond, fully complete with bare cut stem lower center, no soil. Cell2: one flat golden maple leaf lying on an unseen path, viewed diagonally from above, minimal tiny contact shadow only. Cell3: small orange comma butterfly in three-quarter view, complete wings legs and antennae. Cell4: two slim golden grass seed heads sharing a cut stalk base, no roots."
+    },
+    {
+      "name": "butterfly-113",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\butterfly-113.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows, wisps and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Autumn park details. Cell0: compact cluster of THREE copper maple leaves on one short woody twig, cut stem pointing down-left. Cell1: one elegant deep olive fern frond, fully complete with bare cut stem lower center, no soil. Cell2: one flat golden maple leaf lying on an unseen path, viewed diagonally from above, minimal tiny contact shadow only. Cell3: small orange comma butterfly in three-quarter view, complete wings legs and antennae. Cell4: two slim golden grass seed heads sharing a cut stalk base, no roots.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0ffec767-9c43-4e9c-bd28-24e56ae54385.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          512,
+          600,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    },
+    {
+      "name": "seed-113",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\seed-113.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows, wisps and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Autumn park details. Cell0: compact cluster of THREE copper maple leaves on one short woody twig, cut stem pointing down-left. Cell1: one elegant deep olive fern frond, fully complete with bare cut stem lower center, no soil. Cell2: one flat golden maple leaf lying on an unseen path, viewed diagonally from above, minimal tiny contact shadow only. Cell3: small orange comma butterfly in three-quarter view, complete wings legs and antennae. Cell4: two slim golden grass seed heads sharing a cut stalk base, no roots.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0ffec767-9c43-4e9c-bd28-24e56ae54385.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          600,
+          512,
+          1024,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "copper leaves attached to high right twig",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        128,
+        135
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1074,
+          188
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "fern rooted beside lower left tree base",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        88,
+        149
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          217,
+          1427
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "golden leaf resting on park path",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        64,
+        51
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          736,
+          1187
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "orange butterfly over park path",
+      "source": "butterfly-113",
+      "maxSize": [
+        55,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          786,
+          738
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "seed heads growing at path edge",
+      "source": "seed-113",
+      "maxSize": [
+        49,
+        107
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1198,
+          1330
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    }
+  ]
+}

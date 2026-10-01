@@ -1,0 +1,189 @@
+{
+  "levelId": 97,
+  "sceneId": "ah001-097-crafts-objects",
+  "theme": "crafts-objects",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "cocoa brown",
+  "visualReviewNotes": "Teal ribbon rests loose on desk, small tassel visibly joins hanging bead strand, pale flowers enter vase, pothos joins the plant and butterfly appears above the table. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A beadwork desk with colourful glass beads and ribbons. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: cocoa brown (#997357), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a curled ribbon matching the material palette at normalised rect [0.14, 0.24, 0.17, 0.16]; a light fabric corner on the table at normalised rect [0.67, 0.71, 0.23, 0.16]; a small leafy sprig in a nearby jar at normalised rect [0.75, 0.13, 0.16, 0.23]; a fine hanging thread or tassel connected to the craft at normalised rect [0.44, 0.34, 0.12, 0.17]; a small scene-specific flower blossom at normalised rect [0.12, 0.73, 0.17, 0.17]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting, alpha255 at every pixel, no transparency. Actual scene refinement: A close inviting beadwork desk of rich COCOA BROWN wood, broad dark wood desktop and brown wall dominate. Small ceramic bowls of colourful glass beads, partly strung necklaces, neat small thread spools and tiny wooden tray, rich tactile amber/teal/cream bead highlights. A small EMPTY cream bud vase near left-middle with plenty of space above. Muted green plant edge. No hands, lettering, logos or numbers, no labels. Eye-catching handcraft detail and coherent bead strings, no abstract geometry. No loose ribbons or butterflies painted yet. Portrait4:5, no UI or border.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-d7c828d3-dde3-4c92-96b4-fd80fe8d5130.png"
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For a cocoa-brown beadwork desk with amber and teal beads, empty cream vase and pothos plant: upper-left one loosely curled teal satin ribbon resting flat, tiny full ribbon only; upper-middle a fine amber-gold thread tassel with small top loop for a hanging necklace; upper-right one slender dried ivory wildflower stem with three small blossoms and full bare base for vase; lower-left one small pothos tip with two green heart leaves and visible stem; lower-middle one tiny pale-gold butterfly with patterned wings, partly open. No beads behind tassel, table, pot, vase, mat or scenery. Keep all five complete objects well inside their own cells; no intersecting silhouettes.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-db64756a-6c85-4b10-9bd9-758ff8766e03.png"
+    },
+    {
+      "name": "loose-teal-ribbon",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\loose-teal-ribbon-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "name": "necklace-tassel",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\necklace-tassel-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "vase-wildflowers",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\vase-wildflowers-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ]
+    },
+    {
+      "name": "pothos-tip",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\pothos-tip-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "craft-butterfly",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-097\\craft-butterfly-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "loose teal ribbon",
+      "source": "loose-teal-ribbon",
+      "maxSize": [
+        145,
+        115
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          590,
+          1300
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "necklace tassel",
+      "source": "necklace-tassel",
+      "maxSize": [
+        55,
+        130
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1202,
+          300
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase wildflowers",
+      "source": "vase-wildflowers",
+      "maxSize": [
+        100,
+        205
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          396,
+          325
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pothos tip",
+      "source": "pothos-tip",
+      "maxSize": [
+        135,
+        135
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          262,
+          330
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "craft butterfly",
+      "source": "craft-butterfly",
+      "maxSize": [
+        65,
+        70
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          640,
+          186
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

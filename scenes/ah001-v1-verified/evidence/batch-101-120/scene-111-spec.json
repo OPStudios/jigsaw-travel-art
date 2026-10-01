@@ -1,0 +1,168 @@
+{
+  "levelId": 111,
+  "sceneId": "ah001-111-food",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "terracotta espresso table and wall",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene110 acorn and Scene112 butterfly replace redundant duplicate bows; original painted knots are preserved. Final composite and renderer review recorded separately. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-3bfa17ae-0c94-4c19-8ceb-40481d612753.png",
+      "prompt": "Use case: illustration-story. Full-bleed portrait 4:5 hand-painted oil/gouache game puzzle background with rich natural textures, believable perspective and calm inviting detail. FULLY OPAQUE RGB painting: every pixel opaque, alpha255 everywhere, including edges; no transparency or black voids. Not a photo, vector, UI, collage or diagram. No text, digits, logos, famous landmarks or border. A complete coherent environment; leave only specified tiny later details absent and paint their natural anchor surfaces. Wide intimate view from slightly above of a warm TERRACOTTA kitchen nook and terracotta tablecloth, an espresso pot and cup of dark coffee beside a plate of chocolate biscuits. Rich red-orange plaster and cloth dominate; ivory plate, silver espresso pot, dark chocolate accents. Sunlight from left. Include empty ivory bud vase at right, small potted herb with a bare short stem at left, a warm filled coffee cup with NO steam, a folded linen napkin already tied with plain cord but no decorative bow, and a small clear patch of cloth beside biscuits. Later details are steam, one flower, herb leaves, little cord bow and one loose mint leaf. No letters or package brands."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-8bae33d8-e168-4d1f-b2b3-e9a96c68c7cc.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a terracotta espresso table: (1) delicate narrow translucent cream coffee steam ending in a thin pointed base, no opaque rope; (2) a small ivory-pink cosmos bloom on a long thin green CUT stem, no roots; (3) a little leafy mint shoot with short clean cut stem at bottom, no roots; (4) a small tan linen twine bow viewed three-quarter from above lying flat with tight semitransparent contact shadow; (5) one small fresh mint leaf resting flat, same tabletop viewing angle and tight contact shadow. No cup, vase, pot or table surfaces."
+    },
+    {
+      "name": "visibility-plants-original",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-4b711783-abc0-466b-8ee3-69c9a515ff42.png",
+      "prompt": "Production illustrated game cutout atlas,1536x1024 RGBA with true transparent background. Three complete unique plant cutouts in top row of invisible3columns by2rows grid; lower row completely empty. Each plant contained within the central330x390 of its512x512cell with at least55transparent pixels on every side. Soft warm upper-left light, textured detailed oil/gouache brushwork, natural materials. ALL THREE PLANTS LEAN LEFT: their bare cut stem tips are at bottom-right of their own silhouette, and every flower/leaf is LEFT of that tip. Cell0: one delicate ivory COSMOS flower with subtle rosy-pink petal edges and golden center, on one graceful long green rootless stem leaning upper-left, small leaf on left side only. Cell1: one small PALE PEACH ROSE with softly layered petals, on a different graceful long rootless green stem leaning upper-left, two small leaves extending left only. Cell2: a short fresh ROSEMARY sprig, fine needle leaves mostly reaching upper-left, woody rootless cut stem at bottom-right. Single rooted cut stems, no soil, no pots, no vases, no extra objects, no typography, no labels, no broad glow, no rectangle matte. The cut stems will enter vessels near the right edge of paintings, so whole painted silhouettes MUST extend LEFT of their cut-stem anchor."
+    },
+    {
+      "name": "ivory-pink-cosmos-left",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\visibility-111-ivory-pink-cosmos-left.png",
+      "prompt": "Production illustrated game cutout atlas,1536x1024 RGBA with true transparent background. Three complete unique plant cutouts in top row of invisible3columns by2rows grid; lower row completely empty. Each plant contained within the central330x390 of its512x512cell with at least55transparent pixels on every side. Soft warm upper-left light, textured detailed oil/gouache brushwork, natural materials. ALL THREE PLANTS LEAN LEFT: their bare cut stem tips are at bottom-right of their own silhouette, and every flower/leaf is LEFT of that tip. Cell0: one delicate ivory COSMOS flower with subtle rosy-pink petal edges and golden center, on one graceful long green rootless stem leaning upper-left, small leaf on left side only. Cell1: one small PALE PEACH ROSE with softly layered petals, on a different graceful long rootless green stem leaning upper-left, two small leaves extending left only. Cell2: a short fresh ROSEMARY sprig, fine needle leaves mostly reaching upper-left, woody rootless cut stem at bottom-right. Single rooted cut stems, no soil, no pots, no vases, no extra objects, no typography, no labels, no broad glow, no rectangle matte. The cut stems will enter vessels near the right edge of paintings, so whole painted silhouettes MUST extend LEFT of their cut-stem anchor.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-4b711783-abc0-466b-8ee3-69c9a515ff42.png",
+        "operation": "Lossless complete-subject rectangular extraction; original atlas retained",
+        "sourceRect": [
+          0,
+          0,
+          512,
+          700
+        ],
+        "boundaryAlphaMaximum": 0
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "warm steam rising from espresso cup",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        51,
+        114
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          834,
+          785
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "ivory pink flower rooted in right vase",
+      "source": "ivory-pink-cosmos-left",
+      "maxSize": [
+        98,
+        138
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1206,
+          630
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "mint shoot attached to left potted plant",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        64,
+        70
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          79,
+          510
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "twine bow on folded napkin",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        51,
+        34
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          122,
+          1142
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "mint leaf resting on the terracotta tablecloth",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        52,
+        35
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          890,
+          1244
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    }
+  ]
+}

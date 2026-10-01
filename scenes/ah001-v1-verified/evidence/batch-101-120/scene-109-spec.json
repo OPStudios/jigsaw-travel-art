@@ -1,0 +1,187 @@
+{
+  "levelId": 109,
+  "sceneId": "ah001-109-natural-wonders",
+  "theme": "water-coast",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "golden yellow mangrove canopy and reflections",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene110 acorn and Scene112 butterfly replace redundant duplicate bows; original painted knots are preserved. Final composite and renderer review recorded separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-7b44007f-4546-40d1-8d5e-ee8f3ca6fef4.png",
+      "prompt": "Use case: illustration-story. Full-bleed portrait 4:5 hand-painted oil/gouache game puzzle background with rich natural textures, believable perspective and calm inviting detail. FULLY OPAQUE RGB painting: every pixel opaque, alpha255 everywhere, including edges; no transparency or black voids. Not a photo, vector, UI, collage or diagram. No text, digits, logos, famous landmarks or border. A complete coherent environment; leave only specified tiny later details absent and paint their natural anchor surfaces. Close cozy three-quarter view of a sheltered mangrove inlet with arching natural roots and calm water. GOLDEN YELLOW canopy leaves, warm yellow light and large golden water reflections must dominate most of composition; muted cocoa roots and green accents. A little canoe is moored far back, no person. Reserve clear calm water patches near center and lower-right for one ripple and one floating golden leaf; an exposed bare mangrove twig comfortably inside upper-left for a little leaf cluster; a thin bare reed root at near right shore for seed reeds; a clear warm air patch above water for one small dragonfly. Delicate fine roots, no fantasy shapes."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-f21000c2-e3c5-495b-b89f-2362666be88a.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden-yellow mangrove inlet: (1) thin translucent golden-ivory horizontal water ripple, no filled water patch; (2) a small golden oval mangrove leaf floating flat on water, slight wet rim, no ground; (3) a compact golden-green mangrove twig with three leaves and a bare cut stem at bottom, no roots; (4) two delicate golden reeds with pointed thin bases, no root ball; (5) one small blue-green dragonfly flying viewed obliquely, correct four transparent wings and slender body. Subtle natural details."
+    },
+    {
+      "name": "ripple-109",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\ripple-109.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden-yellow mangrove inlet: (1) thin translucent golden-ivory horizontal water ripple, no filled water patch; (2) a small golden oval mangrove leaf floating flat on water, slight wet rim, no ground; (3) a compact golden-green mangrove twig with three leaves and a bare cut stem at bottom, no roots; (4) two delicate golden reeds with pointed thin bases, no root ball; (5) one small blue-green dragonfly flying viewed obliquely, correct four transparent wings and slender body. Subtle natural details.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-f21000c2-e3c5-495b-b89f-2362666be88a.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          0,
+          512,
+          400
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    },
+    {
+      "name": "reed-109",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\reed-109.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden-yellow mangrove inlet: (1) thin translucent golden-ivory horizontal water ripple, no filled water patch; (2) a small golden oval mangrove leaf floating flat on water, slight wet rim, no ground; (3) a compact golden-green mangrove twig with three leaves and a bare cut stem at bottom, no roots; (4) two delicate golden reeds with pointed thin bases, no root ball; (5) one small blue-green dragonfly flying viewed obliquely, correct four transparent wings and slender body. Subtle natural details.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-f21000c2-e3c5-495b-b89f-2362666be88a.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          400,
+          512,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    },
+    {
+      "name": "dragonfly-109",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\dragonfly-109.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden-yellow mangrove inlet: (1) thin translucent golden-ivory horizontal water ripple, no filled water patch; (2) a small golden oval mangrove leaf floating flat on water, slight wet rim, no ground; (3) a compact golden-green mangrove twig with three leaves and a bare cut stem at bottom, no roots; (4) two delicate golden reeds with pointed thin bases, no root ball; (5) one small blue-green dragonfly flying viewed obliquely, correct four transparent wings and slender body. Subtle natural details.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-f21000c2-e3c5-495b-b89f-2362666be88a.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          512,
+          512,
+          1100,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "golden ripple in calm foreground water",
+      "source": "ripple-109",
+      "maxSize": [
+        143,
+        43
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          742,
+          1198
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "small golden floating mangrove leaf",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        73,
+        41
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          764,
+          1369
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "leaf cluster attached to upper left bare twig",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        118,
+        128
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          501,
+          247
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "golden reeds rooted in right shoreline",
+      "source": "reed-109",
+      "maxSize": [
+        86,
+        165
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1141,
+          939
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "dragonfly flying over distant water",
+      "source": "dragonfly-109",
+      "maxSize": [
+        62,
+        56
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          901,
+          524
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    }
+  ]
+}

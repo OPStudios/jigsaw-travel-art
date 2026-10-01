@@ -1,0 +1,175 @@
+{
+  "levelId": 112,
+  "sceneId": "ah001-112-markets-shops",
+  "theme": "markets-shops",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "golden wicker shop and awning",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene110 acorn and Scene112 butterfly replace redundant duplicate bows; original painted knots are preserved. Final composite and renderer review recorded separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-c57967fa-efcb-46f4-be1f-d0ffa03a901f.png",
+      "prompt": "Use case: illustration-story. Full-bleed portrait 4:5 hand-painted oil/gouache game puzzle background with rich natural textures, believable perspective and calm inviting detail. FULLY OPAQUE RGB painting: every pixel opaque, alpha255 everywhere, including edges; no transparency or black voids. Not a photo, vector, UI, collage or diagram. No text, digits, logos, famous landmarks or border. A complete coherent environment; leave only specified tiny later details absent and paint their natural anchor surfaces. Eye-level intimate view of a basket-weaving storefront with neatly stacked wicker baskets, a wicker chair and half-finished basket. GOLDEN YELLOW awning, straw wicker, and ochre plaster dominate. Sunlit but soft, blue sky glimpse and green vine accents only. Include one empty pottery bud vase on side table, one short trimmed ivy stem by doorway, one loose thin twine hanging from full visible hook, one basket handle with bare knotted ribbon center, and a small empty paving-stone patch. Later details tiny flower, ivy sprig, tassel, bow, loose straw curl. Maintain craft detail and natural surface contact, no letters or signs."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-56767b52-2255-430b-8a92-49ae773f5eeb.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden wicker-basket storefront: (1) a tiny white field flower on long thin bare green cut stem; (2) a small fresh ivy sprig with a short bare stem at bottom, no roots; (3) one little honey-gold straw tassel with fully visible closed top suspension loop, not touching cell edge; (4) a thin curled wicker shaving lying FLAT at a low three-quarter angle, horizontally elongated, with tight subtle transparent contact shadow and no ground; (5) one tiny pale blue butterfly in flight viewed obliquely, natural wings and antennae, no shadow. All unique complete shapes."
+    },
+    {
+      "name": "wicker-112",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\wicker-112.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden wicker-basket storefront: (1) a tiny white field flower on long thin bare green cut stem; (2) a small fresh ivy sprig with a short bare stem at bottom, no roots; (3) one little honey-gold straw tassel with fully visible closed top suspension loop, not touching cell edge; (4) a thin curled wicker shaving lying FLAT at a low three-quarter angle, horizontally elongated, with tight subtle transparent contact shadow and no ground; (5) one tiny pale blue butterfly in flight viewed obliquely, natural wings and antennae, no shadow. All unique complete shapes.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-56767b52-2255-430b-8a92-49ae773f5eeb.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          0,
+          512,
+          580,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    },
+    {
+      "name": "butterfly-112",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-101-120\\extracted\\butterfly-112.png",
+      "prompt": "Use case: illustration-story. Production painted game cutout atlas, landscape1536x1024, genuine transparent RGBA. Invisible3x2 grid, five complete tiny objects in reading order, sixth lower-right empty. Whole objects within central280x300 of each512x512 cell with100px transparent gutters. No border, text, labels, drawn grid, backdrop or glow. Warm detailed oil/gouache brush texture, natural upper-left lighting. For a golden wicker-basket storefront: (1) a tiny white field flower on long thin bare green cut stem; (2) a small fresh ivy sprig with a short bare stem at bottom, no roots; (3) one little honey-gold straw tassel with fully visible closed top suspension loop, not touching cell edge; (4) a thin curled wicker shaving lying FLAT at a low three-quarter angle, horizontally elongated, with tight subtle transparent contact shadow and no ground; (5) one tiny pale blue butterfly in flight viewed obliquely, natural wings and antennae, no shadow. All unique complete shapes.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-56767b52-2255-430b-8a92-49ae773f5eeb.png",
+        "operation": "lossless complete-subject rectangular extraction",
+        "sourceRect": [
+          580,
+          512,
+          1024,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "white flower inserted into right vase",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        71,
+        146
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1172,
+          799
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "ivy sprig joined to right door vine",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        83,
+        96
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1084,
+          769
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "gold tassel hanging beside existing cord on right hook",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        55,
+        86
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1158,
+          220
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "wicker curl resting on paving",
+      "source": "wicker-112",
+      "maxSize": [
+        75,
+        35
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          509,
+          1330
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "small blue butterfly over left sky",
+      "source": "butterfly-112",
+      "maxSize": [
+        50,
+        51
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          169,
+          427
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    }
+  ]
+}

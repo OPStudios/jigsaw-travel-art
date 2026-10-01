@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 5,
+      "sceneId": "ah001-005-interiors",
+      "status": "complete",
+      "theme": "interiors",
+      "mainColour": "#777940",
+      "master": {
+        "source": "ah001-005-interiors/master.png",
+        "sha256": "1fcb753b37661ea263d6e6fb3b32e1e9103dbc5041d17ec6834ce0692da15b90"
+      },
+      "background": {
+        "source": "ah001-005-interiors/background.png",
+        "sha256": "f04336901b3e99721732491dee1d543a1d2545a0f191b1206190529c591dc349"
+      },
+      "parts": [
+        {
+          "source": "ah001-005-interiors/part-1.png",
+          "sha256": "c5462d75501d9d29bcabf0b959bd07ef545a1014a2b7a5652ab5ce85c41406e6",
+          "rect": [
+            0.396875,
+            0.26375,
+            0.04453125,
+            0.0275
+          ],
+          "sourcePixelRect": [
+            508,
+            422,
+            57,
+            44
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "window bumblebee",
+          "authoringSource": "bee",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            371,
+            189,
+            1183,
+            820
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              537,
+              444
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-2.png",
+          "sha256": "988f90ed059634c103468bb46aed707cc47a764e1a8e52678834bc30ffd06e73",
+          "rect": [
+            0.6765625,
+            0.199375,
+            0.1671875,
+            0.13125
+          ],
+          "sourcePixelRect": [
+            866,
+            319,
+            214,
+            210
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "philodendron vine",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "atlasExtractionRect": [
+            513,
+            1,
+            1023,
+            511
+          ],
+          "cellInset": 1,
+          "cellInsetReview": "Only faint alpha3 border pixels removed from outermost transparent column; actual painted leaves have no alpha>8 on cell edges.",
+          "alphaCrop": [
+            14,
+            10,
+            510,
+            497
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              951,
+              527
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-3.png",
+          "sha256": "3c97dbd1876b0196a5d015652da84cb95d2d0647c406a2e9c8a0dae7714e3cab",
+          "rect": [
+            0.01796875,
+            0.3675,
+            0.046875,
+            0.1125
+          ],
+          "sourcePixelRect": [
+            23,
+            588,
+            60,
+            180
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "curtain tassel",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "atlasExtractionRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            188,
+            12,
+            351,
+            498
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              23,
+              588
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-4.png",
+          "sha256": "48a75aaa7484962b0b57e316e54e1369c769c2f9ec0fb473668c6659e325caa1",
+          "rect": [
+            0.125,
+            0.6075,
+            0.0390625,
+            0.043125
+          ],
+          "sourcePixelRect": [
+            160,
+            972,
+            50,
+            69
+          ],
+          "axis": [
+            0,
+            1
+          ],
+          "amplitude": 4,
+          "subject": "silk bookmark",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "atlasExtractionRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            152,
+            16,
+            482,
+            472
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              160,
+              972
+            ]
+          }
+        },
+        {
+          "source": "ah001-005-interiors/part-5.png",
+          "sha256": "96369bde1882af8d8179e57923d6e2a5c73a0863ba4707e8d77d695fc418b131",
+          "rect": [
+            0.63046875,
+            0.535625,
+            0.0859375,
+            0.08
+          ],
+          "sourcePixelRect": [
+            807,
+            857,
+            110,
+            128
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "vase jasmine",
+          "authoringSource": "atlas",
+          "atlasCellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "atlasExtractionRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            26,
+            15,
+            444,
+            501
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              879,
+              983
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-c29977a3-46a4-41f4-be68-e326f43968ad.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A window reading nook with cushions and stacked books. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: sage green (#8CAC71), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: one softly draped curtain edge at normalised rect [0.07, 0.14, 0.18, 0.27]; an upper houseplant leaf cluster at normalised rect [0.73, 0.13, 0.2, 0.24]; a small flower in a tabletop vase at normalised rect [0.46, 0.56, 0.16, 0.17]; a soft corner of a woven blanket or cloth at normalised rect [0.62, 0.74, 0.24, 0.13]; a dangling ribbon or fabric tie appropriate to the room at normalised rect [0.28, 0.38, 0.1, 0.19]. The painting must remain attractive and complete underneath those parts. Use soft sage-green walls as the largest background surfaces. Cozy window reading nook, pale ivory plain curtain body or empty curtain rod, wooden bookshelves with unlettered spines, a little side table with an empty bud-vase, a houseplant pot. Keep blanket/cloth plain without complex embroidery; no people and no writing. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-005-interiors\\source\\background.png",
+            "sha256": "17a63b2553778b9457247555cdee7fd06ed4e5a9e0b655b5333f293cae3c06f3",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-045004c4-63b3-4347-9a2c-e4dcb0523b47.png",
+            "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A window reading nook with cushions and stacked books\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a eye-level intimate view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left soft ivory translucent steam rising from a hot tea cup, one coherent delicate curved column fading into transparency, no cup; top-middle one trailing heartleaf philodendron vine curving naturally to left from a thin right-hand stem; top-right a slim beige curtain tassel hanging vertically from a narrow top loop; bottom-left a small burgundy silk bookmark ribbon curled over an invisible book edge, no rectangular book background; bottom-middle one creamy jasmine flower cluster with delicate leaves on a slender bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-005-interiors\\source\\atlas.png",
+            "sha256": "135f3ab56663bb76d8f3920e36f6137946e61dc074485ce587cf70d7806f7e66",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "bee",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-9e5ab46d-8cb1-4749-aa62-a014ae1dea62.png",
+            "prompt": "Production transparent RGBA cutout for a cozy sunlit sage-green reading nook puzzle painting. ONE tiny realistic illustrated golden bumblebee in three-quarter side view flying toward the right, warm golden fuzzy body, dark brown bands, small delicate translucent wings with naturally painted veins. Premium dimensional storybook gouache-like digital painting, gentle upper-left sunlight, painterly restrained detail, not a cartoon mascot and no outline. Entire bee including antennae and wings fits inside central50% with at least25% transparent margin on every side. TRUE transparent alpha, no backdrop, no shadow, no flowers or particles, no text, no other objects.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-005-interiors\\source\\bee.png",
+            "sha256": "c4477fc9aa76aae3aa5ac3f7b628911765bb12c1e02e12f5874a3c130a087ea3",
+            "pixels": [
+              1536,
+              1024
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. No tea cup exists in the clean plate, so rejected steam is replaced with a unique bumblebee by the open window. Jasmine meets the vase mouth, vine joins shelf foliage, tassel meets curtain tie and bookmark sits over the existing book edge. Main colour is measured from visible subject region [785, 230, 940, 735]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.001,
+          "orange-yellow": 0.9807,
+          "green": 0.0136,
+          "blue": 0.0047,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#7c6a37",
+        "mainColourLabel": "sage olive",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "fcd7e73cab36538127bd05995696aa4c128f3311430667b6cb59cd3c0f358766"
+      }
+    }
+  ]
+}

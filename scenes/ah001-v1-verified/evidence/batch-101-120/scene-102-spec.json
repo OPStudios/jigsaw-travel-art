@@ -1,0 +1,152 @@
+{
+  "levelId": 102,
+  "sceneId": "ah001-102-markets-shops",
+  "theme": "markets-shops",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "violet lantern-shop cloth and walls",
+  "visualReviewNotes": "Original fully opaque painting and complete transparent subjects inspected. Real vessel mouths, stems, hook, string and surface planes establish placement. Atlas101 complete-subject rectangular crops use inspected empty gutters and retain all painted pixels. Scene102 generated a whole violet wrapped parcel instead of only a bow; it is intentionally placed as a small complete parcel on the paper stack, not mislabelled a ribbon. No destination landmark. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-e6ffb881-9121-417e-ba37-edbf3745ee9d.png",
+      "prompt": "Use case: illustration-story. A complete portrait 4:5 production game puzzle painting. Rich warm painterly oil/gouache illustration with fine believable materials, coherent perspective, inviting natural light, clean crisp detail; not a photograph or flat vector. No letters, logos, numbers, landmarks, border or UI. Full bleed varied detail, clear focus. This is a clean background plate; leave the specific tiny moving details below absent, and paint their anchor surfaces naturally. Do not leave holes. A charming paper lantern shop at dusk, wide intimate view from slightly above. Main large palette SOFT VIOLET on fabric wall panels and table covering, varied warmly glowing hand-painted paper shades, dark wood shelves, small paper-making tools and blank decorated paper. No lettering. Five later detail anchors: one fully visible EMPTY brass hook at center-left above counter (for small hanging lantern); a bare center knot on a tied paper bundle at lower-right (for small silk bow); an empty cream vase lower-left (for tiny flower); a small clay pot with short bare stem on shelf (for leafy branch); an empty overhead string segment at upper-middle (for tiny pennant). Keep palette clearly violet and compositions unique."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-09081799-31bc-4ae2-863c-dc945cdfe857.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas, detailed warm oil/gouache painting, upper-left natural light, true transparent RGBA background with no haze, glow, rectangles, or ground. Landscape 1536x1024, invisible 3x2 grid. Exactly five complete small objects, one per cell in reading order, sixth lower-right empty. Each object bounded inside central 280x300 of its 512x512 cell, huge transparent margins; nothing touches cell edges. No labels, visible grid, text, branding. Fine natural painted edges. For a rich violet hand-painted lantern shop at dusk, paint (1) one small oval ivory-violet paper lantern with fine floral brush decoration and a COMPLETE closed brass ring at top, no cord beyond ring, warm glow only within paper shade; (2) a short violet silk parcel bow viewed three-quarter from above with tight soft transparent contact shadow; (3) one ivory flower sprig with thin long bare green stem; (4) a small fresh olive leafy branch ending in a bare thin stem; (5) one small lavender silk tassel hanging from a fully visible closed loop, complete. Fine antique decorative craft detail, warm shop lighting."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "small paper lantern hanging on visible brass hook",
+      "source": "atlas",
+      "maxSize": [
+        132,
+        217
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          461,
+          283
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "tiny violet wrapped parcel resting on paper stack",
+      "source": "atlas",
+      "maxSize": [
+        112,
+        87
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1072,
+          1221
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "subject": "ivory flowers in lower-left bud vase",
+      "source": "atlas",
+      "maxSize": [
+        137,
+        251
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          154,
+          1151
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "olive sprig attached to bare shelf plant",
+      "source": "atlas",
+      "maxSize": [
+        116,
+        157
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          824,
+          467
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "lavender tassel suspended from overhead cord",
+      "source": "atlas",
+      "maxSize": [
+        40,
+        103
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          625,
+          96
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ],
+  "mainColour": "#714265"
+}

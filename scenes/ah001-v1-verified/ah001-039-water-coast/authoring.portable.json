@@ -1,0 +1,306 @@
+{
+  "levelId": 39,
+  "sceneId": "ah001-039-water-coast",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-039-water-coast/source/background.png",
+        "prompt": "Use case: illustration-story. A production-quality portrait 4:5 illustration for a warm, richly detailed travel jigsaw, painterly oil/gouache brush texture, believable materials and anatomy, no text or logos or border. Not photorealistic, no vector style, no UI. Full bleed, clear enjoyable focal point and ample varied puzzle detail. Generic imaginative place with no identifiable landmark. Clean background plate for later adding exactly five tiny painted moving details; do not draw those five listed details, but draw their anchor surfaces naturally. A small forest waterfall cascading into a deep mossy basin surrounded by cocoa-brown rocks, rich russet tree roots and dark forest soil, cozy three-quarter view. Main large surfaces cocoa brown and deep warm earth; modest ivory water and muted moss-green highlights. Natural detailed stone not a famous place. Reserve five independent detail zones: bare short reed stem at bottom-right bank, moss patch with space for one tiny fern frond lower-left, calm dark water middle-bottom for one thin ripple, bare twig on upper-left for a little leaf cluster, a little still water pocket for a floating golden leaf. Paint waterfall water itself but no ornamental sparkle objects.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-039-water-coast\\source\\background.png",
+        "sha256": "67acd3fcb7bcb4d6996d4a1c3a7cb7807d4621ab5723f8af8895f273c201e811",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-a94e8ac3-3866-48a7-9f1a-5cce70283d0c.png",
+        "archiveSourceSha256": "67acd3fcb7bcb4d6996d4a1c3a7cb7807d4621ab5723f8af8895f273c201e811"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-039-water-coast/source/atlas.png",
+        "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a shady cocoa-brown woodland waterfall basin. Paint (1) a tiny cluster of three russet reeds with slender stems joined at a fine root base; (2) a small rich moss-green fern frond with pointed bare stem end; (3) a very thin and subtle ivory-gold elliptical water ripple, nearly horizontal and translucent, not a glowing crescent; (4) a small amber-green twig with three leaves and bare stem pointing downward; (5) one golden autumn leaf floating flat on water viewed at three-quarter angle, slight wet shine, no water rectangle. Natural muted forest color, not neon.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-039-water-coast\\source\\atlas.png",
+        "sha256": "5d161ce1ee04a0c74de4da169cffce99aaa549a8a27e6e95fcb9939c45673b2e",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-bb2ff529-9333-4e2a-8885-bc49e6a2947f.png",
+        "archiveSourceSha256": "5d161ce1ee04a0c74de4da169cffce99aaa549a8a27e6e95fcb9939c45673b2e"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Original painting and complete transparent subjects inspected. Natural attachment points and surface contact determine positions. Lossless custom extraction rectangles where needed preserve entire silhouettes in empty alpha gutters; originals remain retained. Scene37 flat thread and leather replace the unsuitable upright atlas versions. No destination landmark. Final composite and production renderer review recorded separately. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0209,
+      "orange-yellow": 0.9368,
+      "green": 0.0421,
+      "blue": 0.0,
+      "violet-pink": 0.0001
+    },
+    "measuredDominantColour": "#4f381a",
+    "mainColourLabel": "cocoa-brown rocks and woodland",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "294d6369753df0338939dd69c0b6934f5e64add40f49c3643caacb0bd1c195cc"
+  },
+  "parts": [
+    {
+      "source": "ah001-039-water-coast/part-1.png",
+      "sha256": "ea90ac2a2318da0066580bd491299c75c0b9b49006ed8a566447b71b478eb028",
+      "rect": [
+        0.93046875,
+        0.835,
+        0.0328125,
+        0.041875
+      ],
+      "sourcePixelRect": [
+        1191,
+        1336,
+        42,
+        67
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "russet reeds rooted at lower right shore",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "atlasExtractionRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        144,
+        38,
+        422,
+        480
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1209,
+          1401
+        ]
+      }
+    },
+    {
+      "source": "ah001-039-water-coast/part-2.png",
+      "sha256": "f221c39ab89463038e6a5568c2d29a9b2e821c9ce9cbd34d59508c742f857f31",
+      "rect": [
+        0.1328125,
+        0.7725,
+        0.078125,
+        0.06875
+      ],
+      "sourcePixelRect": [
+        170,
+        1236,
+        100,
+        110
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "fern rooted in lower-left moss bank",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        87,
+        78,
+        441,
+        466
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          233,
+          1344
+        ]
+      }
+    },
+    {
+      "source": "ah001-039-water-coast/part-3.png",
+      "sha256": "2f3340aa3d7a72ddaffbdb2d7276c109ea1da941f9a17a8784aaa17d45d5008e",
+      "rect": [
+        0.5546875,
+        0.71,
+        0.09609375,
+        0.023125
+      ],
+      "sourcePixelRect": [
+        710,
+        1136,
+        123,
+        37
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "subtle flat ripple on dark calm water",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        28,
+        215,
+        451,
+        342
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          772,
+          1154
+        ]
+      }
+    },
+    {
+      "source": "ah001-039-water-coast/part-4.png",
+      "sha256": "156c69dd90c97a5cba41f64ebc3837c6f94af7e69c50e67ea4a6b26ab6bd048e",
+      "rect": [
+        0.30390625,
+        0.024375,
+        0.0546875,
+        0.051875
+      ],
+      "sourcePixelRect": [
+        389,
+        39,
+        70,
+        83
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "amber-green leaves attached to upper-left twig",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "atlasExtractionRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        118,
+        47,
+        450,
+        441
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          434,
+          120
+        ]
+      }
+    },
+    {
+      "source": "ah001-039-water-coast/part-5.png",
+      "sha256": "69124b054d148ae6b8878df12299338db483f9bcfb1944f688bea3969cc4ffe6",
+      "rect": [
+        0.640625,
+        0.829375,
+        0.04609375,
+        0.01625
+      ],
+      "sourcePixelRect": [
+        820,
+        1327,
+        59,
+        26
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "golden leaf floating near shore",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "atlasExtractionRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        32,
+        144,
+        481,
+        339
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          849,
+          1340
+        ]
+      }
+    }
+  ]
+}

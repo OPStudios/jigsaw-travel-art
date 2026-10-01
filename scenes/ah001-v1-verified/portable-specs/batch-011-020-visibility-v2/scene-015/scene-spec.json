@@ -1,0 +1,216 @@
+{
+  "levelId": 15,
+  "sceneId": "ah001-015-interiors-visibility-v2",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "soft violet",
+  "visualReviewNotes": "Background and all five independently painted cutouts visually inspected. Actual image anchors selected for rooted stems, hanging details, tabletop objects and sky/water layers. Source alpha and contrasting-background review recorded separately. This is implementation review only; root review pending. Main colour measured from the visible defining surface at [560, 1320, 760, 1470], rather than inferring a different main colour from the broad hue histogram alone.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-015-interiors-visibility-v2/source/background.png",
+      "prompt": "Use case: stylized-concept. Finished portrait 4:5 illustration for a beautiful premium mobile puzzle, target1280x1600. Cozy dimensional storybook digital painting, subtly visible painterly textures, natural upper-left sunshine, beautifully shaped objects and readable local detail, not a photograph. No text, watermark, border, UI, logos or recognizable city landmarks. Fully painted attractive clean background, no holes/placeholders. A cheerful painter's studio with brushes, open paint tubes, stretched canvases with unfinished abstract landscapes and a wooden easel, gently elevated three-quarter view. Dominant soft violet #AE92C6 on walls, a large violet worktable covering lower half and muted purple cushion; warm cream accents. Large window upper-left with bare brass curtainrod and no curtain in its left half. On rear shelf upperright near x83%,y36% a small clay plantpot with short bare stem and no foliage. On table front center near x52%,y72%, one tiny empty glazed lavender budvase with open mouth. A small closed sketchbook lies lower-right at x77%,y84%, tied in plain cotton cord but no ribbon bow yet. A slim nail on the easel's left upright around x34%,y48% for later hanging fabric tie. Distinct tactile paintbrush bristles, ceramic palette, wood and canvas. Later five separate details: short ivory window curtain, leafy plant sprig, tiny cosmos flower in vase, violet bow on sketchbook, narrow fabric tie hanging from easel nail. Leave those exact five details absent, all surfaces complete.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-185a67a5-b130-4da5-bad4-6f20b0d41335.png",
+      "archiveSourceSha256": "2994c35677fd1ac6a23e49e70af4544ee6bb3861097eabccdfec88ae31772d46"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-015-interiors-visibility-v2/source/atlas.png",
+      "prompt": "Paint exactly FIVE production sprite cutouts on a TRUE TRANSPARENT alpha PNG atlas, 3columnsÃ—2rows, bottomrightcell entirely empty. No backdrop, no painted checkerboard or gridlines, no labels, numbers, letters or frames. Leave huge transparent gutters: each sprite fits within its own centered rectangle no more than70%ofcellwidth and70%ofcellheight; no particle/haze outside. Softly brushed dimensional storybook painterly style, sunlightupperleft, rich tiny details, nophotorealism. Each silhouette entirely isolated. Unique painted details for a softviolet artiststudio: TOPLEFT short narrow ivory windowcurtain softly draped vertical with straight horizontal tophem andlightviolet shadow, viewedfromslightlyright; TOPMIDDLE small ivyplant sprigwithsixdelicate leaves andlongbarebottomstem; TOPRIGHT one softpink cosmosblossom onlongslendergreen stem with2littleleaves, bottomstem exposedforavase; BOTTOMLEFT onlya violetcottonribbon tiedintoasmallbowwithtwo loopsandloose tails, obliquetopdownview, NO sketchbookorpackage orotherbase; BOTTOMMIDDLE one thin lavendercloth strip looselyknotted atupperendandhangingdown, no nail or supporting easel. Truealpha cleararoundallcutouts.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-a7db7a5d-0529-4327-a77f-65d2199678d9.png",
+      "archiveSourceSha256": "a243b2feb3247cd63979f5e9d9f9751f32c3d5e97cf6629ba82a8a33e0fc6070"
+    },
+    {
+      "name": "cutout-1",
+      "path": "ah001-015-interiors-visibility-v2/source/cutout-1.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-a7db7a5d-0529-4327-a77f-65d2199678d9.png",
+      "originalPixelRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-015\\technical-crops\\cutout-1.png",
+      "archiveSourceSha256": "6a7f52236e06dd650442170cb86078ac078e307f098073e04266d2d9eeeb212c"
+    },
+    {
+      "name": "cutout-2",
+      "path": "ah001-015-interiors-visibility-v2/source/cutout-2.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-a7db7a5d-0529-4327-a77f-65d2199678d9.png",
+      "originalPixelRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-015\\technical-crops\\cutout-2.png",
+      "archiveSourceSha256": "ffa45d0d7035abfda432a2a1ce3aeab1598e9f29df1d5ff6343881259df07c14"
+    },
+    {
+      "name": "cutout-3",
+      "path": "ah001-015-interiors-visibility-v2/source/cutout-3.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-a7db7a5d-0529-4327-a77f-65d2199678d9.png",
+      "originalPixelRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-015\\technical-crops\\cutout-3.png",
+      "archiveSourceSha256": "114ed158c932a42289e722e80eb82a1ccaa8c73feca626a1f722c397116e76f3"
+    },
+    {
+      "name": "cutout-4",
+      "path": "ah001-015-interiors-visibility-v2/source/cutout-4.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-a7db7a5d-0529-4327-a77f-65d2199678d9.png",
+      "originalPixelRect": [
+        0,
+        520,
+        570,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-015\\technical-crops\\cutout-4.png",
+      "archiveSourceSha256": "1331e094b563f3fe24caf19b1ec116da963814e836436821624aec13c6a7edcf"
+    },
+    {
+      "name": "cutout-5",
+      "path": "ah001-015-interiors-visibility-v2/source/cutout-5.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-a7db7a5d-0529-4327-a77f-65d2199678d9.png",
+      "originalPixelRect": [
+        600,
+        515,
+        1024,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-015\\technical-crops\\cutout-5.png",
+      "archiveSourceSha256": "b90b63bb4eb505aaaea9c148d9fbc6c6b77ef6df0fde3adc48fbef26d7f54797"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "studio window curtain",
+      "source": "cutout-1",
+      "maxSize": [
+        130,
+        300
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          87,
+          50
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "ivy sprig in rear shelf pot",
+      "source": "cutout-2",
+      "maxSize": [
+        55,
+        125
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1198,
+          239
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pink cosmos in bud vase",
+      "source": "cutout-3",
+      "maxSize": [
+        140,
+        225
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          697,
+          1060
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "violet sketchbook bow",
+      "source": "cutout-4",
+      "maxSize": [
+        128,
+        85
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1101,
+          1268
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "lavender easel tie",
+      "source": "cutout-5",
+      "maxSize": [
+        65,
+        170
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          478,
+          480
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColour": "#b290aa",
+  "paletteReview": {
+    "representativeSurfaceRect": [
+      560,
+      1320,
+      760,
+      1470
+    ],
+    "medianRGB": [
+      178,
+      144,
+      170
+    ],
+    "reason": "Visually reviewed large defining surface; broad chromatic buckets also count warm shadows and wood. Both evidence methods retained."
+  }
+}

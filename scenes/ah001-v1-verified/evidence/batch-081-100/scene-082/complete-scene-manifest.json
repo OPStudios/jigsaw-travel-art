@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 82,
+      "sceneId": "ah001-082-markets-shops",
+      "status": "complete",
+      "theme": "markets-shops",
+      "mainColour": "#9e6335",
+      "master": {
+        "source": "ah001-082-markets-shops/master.png",
+        "sha256": "981a5f8cd9f05da273cf2f89618e803e4d0b45f76695dd1a476f69c34e0074e0"
+      },
+      "background": {
+        "source": "ah001-082-markets-shops/background.png",
+        "sha256": "dcf72a25a27a784b09d138f03713898e29ff71a2dd21c0de508ea47490ee6322"
+      },
+      "parts": [
+        {
+          "source": "ah001-082-markets-shops/part-1.png",
+          "sha256": "f0cc5ce8d96346b14132cda4880af04dc33708c7a0c19b0935f008d348c3dfcd",
+          "rect": [
+            0.4140625,
+            0.1725,
+            0.0703125,
+            0.074375
+          ],
+          "sourcePixelRect": [
+            530,
+            276,
+            90,
+            119
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "shop pennant",
+          "authoringSource": "shop-pennant",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            27,
+            29,
+            357,
+            467
+          ],
+          "anchor": {
+            "mode": "top_left",
+            "point": [
+              530,
+              276
+            ]
+          }
+        },
+        {
+          "source": "ah001-082-markets-shops/part-2.png",
+          "sha256": "c5b34fe9401ba4cec2b85d778f66ec1c94dd90fbb35aa60c8cd181b9d81defce",
+          "rect": [
+            0.30546875,
+            0.115625,
+            0.10546875,
+            0.104375
+          ],
+          "sourcePixelRect": [
+            391,
+            185,
+            135,
+            167
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "shop ivy",
+          "authoringSource": "shop-ivy",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            22,
+            26,
+            341,
+            421
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              420,
+              350
+            ]
+          }
+        },
+        {
+          "source": "ah001-082-markets-shops/part-3.png",
+          "sha256": "1708fe7b54c7047e6ba112d09ca40413be09e3e4d418461ddaa1401d5274eddc",
+          "rect": [
+            0.7421875,
+            0.280625,
+            0.06640625,
+            0.11375
+          ],
+          "sourcePixelRect": [
+            950,
+            449,
+            85,
+            182
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "vase lavender",
+          "authoringSource": "vase-lavender",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            19,
+            25,
+            236,
+            489
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              955,
+              630
+            ]
+          }
+        },
+        {
+          "source": "ah001-082-markets-shops/part-4.png",
+          "sha256": "8f29cbea10dded7815b2bc005f81ecbfc3306874700c3863ec2881644d8b4476",
+          "rect": [
+            0.415625,
+            0.3925,
+            0.08203125,
+            0.054375
+          ],
+          "sourcePixelRect": [
+            532,
+            628,
+            105,
+            87
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "parcel bow",
+          "authoringSource": "parcel-bow",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            23,
+            26,
+            396,
+            335
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              585,
+              672
+            ]
+          }
+        },
+        {
+          "source": "ah001-082-markets-shops/part-5.png",
+          "sha256": "3519a90f10fdcc443bf3e061d85e213a98bf043ff45f92c5356647618056e678",
+          "rect": [
+            0.12109375,
+            0.619375,
+            0.10546875,
+            0.094375
+          ],
+          "sourcePixelRect": [
+            155,
+            991,
+            135,
+            151
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "planter jasmine",
+          "authoringSource": "planter-jasmine",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            22,
+            24,
+            359,
+            400
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              190,
+              1140
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\background-original.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A stationery shop with journals and blank postcards. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm terracotta (#C97A54), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a short scene-specific fabric pennant at normalised rect [0.13, 0.08, 0.22, 0.13]; a soft awning tassel at normalised rect [0.66, 0.23, 0.12, 0.18]; a small flower sprig matching the stall at normalised rect [0.74, 0.66, 0.16, 0.17]; a leafy branch entering from the left at normalised rect [0.06, 0.36, 0.17, 0.22]; a tied ribbon from one displayed package at normalised rect [0.41, 0.6, 0.16, 0.13]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 at every pixel. Cozy unbranded stationery shop seen through its open terracotta-painted doorway: weathered warm orange-red plaster and red-clay tile floor dominate. Low wooden display table with closed linen journals, beautifully arranged entirely BLANK postcards, pencils in ceramic cup, plain folded kraft parcels tied with fine string. Shelves orderly with attractive tactile paper edges. A little ivory empty bud vase sits on the table near centre-right, with clear space above for one flower. Small leafy planter lower-left. Warm coral is only a secondary accent; terracotta much deeper and earthier than pink. No words, labels, numbers, logos, recognizable landmark or person. No hovering decoration. Leave all five later foreground details absent, with full clean underlying surfaces. Warm dimensional storybook painting, not a photograph.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-7550a2b0-2c19-40aa-bf29-a36dd9dcba0d.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\background.png",
+            "sha256": "57e61a95f23676e88a631ef6174f5bbdf33af021ad3442d94c2260b3a75ac302",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\atlas-original.png",
+            "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. These five unique details belong to a warm terracotta stationery shop with stacked linen journals, kraft parcels, pencils and empty ivory bud vase, no labels. Upper-left: a small ivory-and-rust triangular cloth pennant hanging from a short top loop; upper-middle: one fresh ivy twig with four pointed green leaves and bare stem pointing down-left; upper-right: one slender lavender flower stalk with two small lavender heads and fine bare lower stem, suitable for a small vase. Lower-left: one muted copper-red narrow satin bow with two short curved tails, to tie over the kraft parcel string; lower-middle: a little jasmine twig with two white blossoms and three tiny leaves, bare base, matching the near-doorway flowering planter. Individual complete small silhouettes, no vase, parcel, awning, wall or table. Keep every object no more than300px high, strictly inside its cell.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-3361e1b7-acb1-42c8-a588-ec8c285ce0fb.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\atlas.png",
+            "sha256": "d26ef6bc1ba7e0e78905f7785e2766f181ad9522871f4368e8cb09f516d21d5a",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "shop-pennant",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\shop-pennant-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              100,
+              45,
+              485,
+              530
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\shop-pennant.png",
+            "sha256": "93386a606f0d0f5e5f2465dcf1fc5ea68b6b0511d39ba7eb62d3c203124d15a6",
+            "pixels": [
+              385,
+              485
+            ]
+          },
+          {
+            "name": "shop-ivy",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\shop-ivy-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              620,
+              70,
+              990,
+              515
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\shop-ivy.png",
+            "sha256": "900fe24272c9944581e3eb3872177211f2edb45cdeaf6e5d8b071104d29b0faa",
+            "pixels": [
+              370,
+              445
+            ]
+          },
+          {
+            "name": "vase-lavender",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\vase-lavender-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              1165,
+              45,
+              1425,
+              558
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\vase-lavender.png",
+            "sha256": "bbe34e14b5e4c1a2578972acde7ff94f0b844e8f3232387ea4166226e9421c4d",
+            "pixels": [
+              260,
+              513
+            ]
+          },
+          {
+            "name": "parcel-bow",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\parcel-bow-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              90,
+              600,
+              510,
+              960
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\parcel-bow.png",
+            "sha256": "939c2214cedb92c26e4b623f6c4e1caf00a603af153c6f043177e029bd79eb46",
+            "pixels": [
+              420,
+              360
+            ]
+          },
+          {
+            "name": "planter-jasmine",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\planter-jasmine-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              625,
+              550,
+              1010,
+              975
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-082-markets-shops\\source\\planter-jasmine.png",
+            "sha256": "00779f40cc560501113c88cab9ab9bb165efc277b8e9f30abc0bb9d4f6f09214",
+            "pixels": [
+              385,
+              425
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Pennant hangs against the doorway timber; ivy extends live foliage; lavender stem enters empty vase; bow overlaps parcel string; jasmine joins the planter. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "orange-yellow",
+        "chromaticHueFractions": {
+          "red": 0.2181,
+          "orange-yellow": 0.7765,
+          "green": 0.0047,
+          "blue": 0.0001,
+          "violet-pink": 0.0007
+        },
+        "measuredDominantColour": "#9e6335",
+        "mainColourLabel": "warm terracotta",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "0e3e779bf2697d84043931c7b849ffa86b9c91e4b57f9a70e78cb6a377e4fb6c"
+      }
+    }
+  ]
+}

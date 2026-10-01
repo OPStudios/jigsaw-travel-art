@@ -1,0 +1,153 @@
+{
+  "levelId": 6,
+  "sceneId": "ah001-006-transport",
+  "theme": "transport",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Steam ends at the real funnel lip; coreopsis and ivy join station planters/roof foliage; luggage tag hangs from suitcase edge; sparrow crosses the sky. Main colour is measured from visible subject region [470, 600, 640, 880]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-2de81e1a-f39a-4996-baea-0a45bb24a45d.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A vintage train resting beside an unnamed countryside platform. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: berry red (#B85466), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small pale cloud behind the vehicle at normalised rect [0.13, 0.1, 0.25, 0.14]; a little tied pennant or luggage ribbon at normalised rect [0.64, 0.3, 0.12, 0.16]; a roadside or shore leaf cluster at normalised rect [0.08, 0.67, 0.18, 0.22]; a scene-specific grass or flower cluster at normalised rect [0.72, 0.74, 0.2, 0.16]; a soft cloud wisp or water highlight appropriate to the setting at normalised rect [0.45, 0.17, 0.22, 0.11]. The painting must remain attractive and complete underneath those parts. The vintage steam locomotive is deep berry-red and fills the main central sixty percent of the portrait. A little unmarked country platform and luggage trunks in front, small green planters at corners, a narrow pale sky strip above. NO steam over the engine funnel yet; later painted steam attaches to the real funnel. No logos, station names, numbers or text. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-1a5c829c-dd0b-42be-ba2e-f6b533a6feee.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A vintage train resting beside an unnamed countryside platform\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a gently elevated three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a soft small charcoal-grey and ivory steam puff rising upward from a vintage train funnel, feathered alpha edges and a narrow lower spout; no train; top-middle a yellow coreopsis flower stem with two green leaves and tapered bottom base; top-right a short ivy vine extending left from a thin right-hand stem, dark green leaves in golden sunshine; bottom-left one russet and cream sparrow with spread wings, viewed from side in flight; bottom-middle an unlettered worn ivory paper luggage tag on a short loop of brown twine, hanging from narrow top attachment. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "locomotive steam",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        200,
+        265
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          905,
+          303
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "platform coreopsis",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        110,
+        180
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1166,
+          1500
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "station ivy",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        190,
+        154
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          50,
+          70
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "visibilityCorrection": "Inward-facing detail preserves actual curtain tie or ivy/wood junction and the entire painted silhouette throughout completion zoom."
+    },
+    {
+      "subject": "flying sparrow",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        76,
+        90
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          685,
+          250
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "luggage tag",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        57,
+        89
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          492,
+          1280
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "berry red",
+  "mainColour": "#6c2d24"
+}

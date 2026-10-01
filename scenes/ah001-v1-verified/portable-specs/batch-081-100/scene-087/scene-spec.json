@@ -1,0 +1,203 @@
+{
+  "levelId": 87,
+  "sceneId": "ah001-087-crafts-objects",
+  "theme": "crafts-objects",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm ivory and blonde willow",
+  "visualReviewNotes": "Loose willow curl rests on tabletop, ivy joins existing growth, fine oat stems visibly enter vase, cream bow crosses willow-bundle binding, small butterfly sits in empty upper area. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-087-crafts-objects/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A basket-making table with willow strips and woven bowls. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a curled ribbon matching the material palette at normalised rect [0.14, 0.24, 0.17, 0.16]; a light fabric corner on the table at normalised rect [0.67, 0.71, 0.23, 0.16]; a small leafy sprig in a nearby jar at normalised rect [0.75, 0.13, 0.16, 0.23]; a fine hanging thread or tassel connected to the craft at normalised rect [0.44, 0.34, 0.12, 0.17]; a small scene-specific flower blossom at normalised rect [0.12, 0.73, 0.17, 0.17]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 everywhere. Warm IVORY basket-weaving workshop close still-life: broad pale creamwashed wooden table dominates, ivory plaster wall, natural blonde willow bowls and a partly finished wicker basket, separate carefully arranged pale willow strips, blunt wooden tools and a coil of natural fibre. Quiet linen curtain at side, small empty cream bud vase at upper-left-middle with generous free wall space above. Dried grasses or flowers are absent from vase awaiting separate authored detail. Touches of muted sage only, no saturated blue/red surfaces, no people or hands, no label or lettering. All willow strips have coherent ends and weave joins. Natural soft brushwork and fine tactile shadows, attractive clear shapes for a jigsaw; portrait4:5. Clean complete underlying surfaces, no decorative transparent voids, no unpainted area.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-9848b347-76e2-4e1e-b04c-fda24a13344e.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\background-original.png",
+      "archiveSourceSha256": "1a600e10b23f7345dcb08fa934bf796abb94b569dc9b12ce973fb2cff50733a6"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-087-crafts-objects/source/atlas.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five purpose-painted natural details for an ivory basket-weaving table with blonde willow strips, cream empty vase and ivy near a linen curtain. Upper-left: one loose thin curled pale-willow shaving, a graceful open loop and short trailing end, lying flat on a table viewed three-quarter above. Upper-middle: a small fresh ivy sprig with three muted sage leaves and a bare stem angled downward-left. Upper-right: two slender golden dried oat stems with small delicate seedheads, full bare base to place in the cream vase. Lower-left: one short ivory linen ribbon tied at centre into a simple tiny bow with loose narrow ends to tie the bundle of willow rods, not a fabric rectangle. Lower-middle: a tiny cream-and-tan butterfly with subtly spotted wings, resting wings partly open. Full silhouettes, no table, vase, basket, contact shadows or background. Thin willow and stems entirely inside cell with ample gutters.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-57c16adf-c16b-4a3c-9350-a18035cb164f.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\atlas-original.png",
+      "archiveSourceSha256": "ad136971c38b60d3e708ba8cc5159905899219446620b5397c4fe2ce3df0b336"
+    },
+    {
+      "name": "willow-curl",
+      "path": "ah001-087-crafts-objects/source/willow-curl.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        50,
+        120,
+        565,
+        490
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\willow-curl-isolated.png",
+      "archiveSourceSha256": "449a1cf0ae598b56d0a0f552681c2ed9482825f4f20bf18889c1e6cc897ffdef"
+    },
+    {
+      "name": "workshop-ivy",
+      "path": "ah001-087-crafts-objects/source/workshop-ivy.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        575,
+        65,
+        1015,
+        535
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\workshop-ivy-isolated.png",
+      "archiveSourceSha256": "a190568b2687a61ceb7696e325ad2e05f50e465aff09fc8a43f9bc4f5597650b"
+    },
+    {
+      "name": "vase-oats",
+      "path": "ah001-087-crafts-objects/source/vase-oats.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1115,
+        0,
+        1515,
+        555
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\vase-oats-isolated.png",
+      "archiveSourceSha256": "f3e5f2995423c92d2ce45452bd623ba9cf7bfedcb28bf5efa0eee291ebfa533f"
+    },
+    {
+      "name": "willow-bundle-bow",
+      "path": "ah001-087-crafts-objects/source/willow-bundle-bow.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        45,
+        610,
+        480,
+        965
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\willow-bundle-bow-isolated.png",
+      "archiveSourceSha256": "e695e577b90a95e9806d396cf9f847662b2d65852b77be7be52a09eecb4e60a1"
+    },
+    {
+      "name": "cream-butterfly",
+      "path": "ah001-087-crafts-objects/source/cream-butterfly.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        575,
+        590,
+        995,
+        980
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-087\\cream-butterfly-isolated.png",
+      "archiveSourceSha256": "1e7b922b672be6949a090bd64f2fb8a8ea4b7d2d2084f7ded69bc5ba107c398a"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "willow curl",
+      "source": "willow-curl",
+      "maxSize": [
+        145,
+        90
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          730,
+          1210
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "workshop ivy",
+      "source": "workshop-ivy",
+      "maxSize": [
+        125,
+        135
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          160,
+          505
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase oats",
+      "source": "vase-oats",
+      "maxSize": [
+        110,
+        190
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          324,
+          270
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "willow bundle bow",
+      "source": "willow-bundle-bow",
+      "maxSize": [
+        100,
+        85
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          140,
+          705
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "cream butterfly",
+      "source": "cream-butterfly",
+      "maxSize": [
+        75,
+        75
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          590,
+          140
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

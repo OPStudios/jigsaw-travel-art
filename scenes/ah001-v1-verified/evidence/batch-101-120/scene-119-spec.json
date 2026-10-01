@@ -1,0 +1,153 @@
+{
+  "levelId": 119,
+  "sceneId": "ah001-119-natural-wonders",
+  "theme": "water-coast",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "berry red cabin wall and rowboat",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene115 original feather-on-book and Scene116 feather-on-stones and large splash were rejected and replaced by isolated feathers and calm ripple. Scene117 loose twine rests on clear mat away from existing paper bow. Final composite and renderer review recorded separately. Original opaque blue wave cluster rejected as too rough for this still lake; replaced by fine silver-blue arcs on alpha. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-d1f1b7a0-22e4-40b7-ba83-bcbcf40c1356.png",
+      "prompt": "Use case: illustration-story. Complete warm painterly oil/gouache portrait 4:5 game puzzle background, rich coherent natural textures and perspective, fine crisp detail. Fully opaque RGB, all canvas pixels alpha255 including edges; no transparency. No text, numbers, brands, recognizable landmark, border, UI or placeholder. Full bleed. This plate receives five small painted moving objects later; omit those specified details but retain their natural attachment surfaces. Wide intimate view from slightly above of a quiet lakeside cabin jetty with a little rowboat. BERRY RED painted cabin wall occupies broad left half and large berry-red rowboat occupies lower-right, red plaid blanket on dock; muted lake, pale sky and distant forest accents. Main color clearly berry red. Include a small empty cream bud vase on dock table, an empty wrought hook on cabin wall, a plain knot in boat rope for a small loose bow, a bare short plant stem in a small dock pot, and a clear calm water pocket beside boat. Later details flower, small hanging brass lantern, rope bow, leaf sprig, thin ripple. No identifiable destination or text."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-1b99d4f8-e1b4-4ee4-92e2-70174e1c2649.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Berry red wooden lakeside cabin and red rowboat details. Cell0: one small dusty rose cosmos flower with golden center, long slim green rootless cut stem to insert in vase. Cell1: tiny old warm brass lantern with a CLOSED upright circular hanging ring at its top, subtle lit candle, complete ring and body inside cell, no broad glow. Cell2: small rough tan rope bow with short loose ends and compact central knot, no ground; for tying onto rowboat rope. Cell3: three tiny olive leaves on one rootless short woody cut branch for a potted twig. Cell4: a small narrow blue-ivory horizontal water ripple with soft translucent edges, no rectangle, no mist; entirely bounded with transparent margins."
+    },
+    {
+      "name": "ripple-final",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-3cf7b830-14dd-4c52-a667-9917d27a8adc.png",
+      "prompt": "One isolated very subtle lake-water ripple sprite, true RGBA transparency. Landscape1536x1024. Center a small FLAT elliptical arrangement of just FOUR thin smooth pale silver-blue reflection arcs within the central500x160px area, with huge empty transparent margins. Viewed at shallow angle so ellipse is very wide and low. Calm serene nearstill lake, soft oil/gouache painted fine brushstroke edges. Arcs are disconnected delicate thin horizontal marks with entirely transparent gaps between them. No opaque water patch, no dark paint, no shadows, no wave crests, no water mound, no mist, no spray, no broad glow, no surrounding scenery or ground. This is a quiet tiny reflection accent, not a breaking wave."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "dusty rose cosmos inserted into porch vase",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        83,
+        156
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          314,
+          631
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "brass lantern hanging from iron cabin hook",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        80,
+        157
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          392,
+          140
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "small rope bow at rowboat rope knot",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        60,
+        42
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          882,
+          841
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "leaf sprig attached to potted dock twig",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        80,
+        104
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          444,
+          488
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "soft ripple on near lake surface",
+      "source": "ripple-final",
+      "maxSize": [
+        98,
+        23
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1081,
+          673
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    }
+  ],
+  "mainColour": "#892f24"
+}

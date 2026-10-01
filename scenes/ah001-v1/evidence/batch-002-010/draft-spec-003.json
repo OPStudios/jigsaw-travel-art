@@ -1,0 +1,151 @@
+{
+  "levelId": 3,
+  "sceneId": "ah001-003-nature-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Original background and five unique painted silhouettes reviewed against approved gameplay style. Details are positioned on existing physical anchors; atlas complete silhouettes extracted without repainting. Final composite review pending export.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-26530fc2-e2a8-4240-b3f0-d4716bbd6dce.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A quiet bamboo pond with a small unmarked footbridge. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: an upper-left branch of the scene-specific plant at normalised rect [0.07, 0.09, 0.23, 0.2]; an upper-right leaf cluster of a different scene plant at normalised rect [0.72, 0.14, 0.2, 0.2]; a lower-left flower or fern frond at normalised rect [0.08, 0.69, 0.21, 0.22]; a lower-right cluster of matching grass or foliage at normalised rect [0.71, 0.72, 0.22, 0.18]; a small soft cloud or reflected-water glint suited to this scene at normalised rect [0.4, 0.27, 0.2, 0.12]. The painting must remain attractive and complete underneath those parts. The real scene may be predominantly rich fresh green bamboo and pale stone rather than the provisional ivory palette; preserve natural botanical colour. A pond fills central lower half, thin bamboo stems and a small generic wood footbridge behind it. Finish all water and plant surfaces underneath the five later leaf/reflection layers. No famous garden or recognizable city landmark. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-0f14c60c-1119-466f-a60e-d6c296b114cd.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A quiet bamboo pond with a small unmarked footbridge\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a close cozy three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left one gracefully bent bamboo twig with narrow green leaves and bottom stem; top-middle a single dark green curling fern frond, upright with bottom stalk; top-right a tuft of slim yellow-green water grasses, roots excluded, taper to one bottom base; bottom-left a small white water-lily flower with subtle pink center and two flat green pads viewed from above; bottom-middle one blue-green dragonfly with fine transparent painted wings, overhead three-quarter view. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "bamboo twig",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        220,
+        220
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          261,
+          386
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pond fern",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        120,
+        230
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          170,
+          1440
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "water grass",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        180,
+        220
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1159,
+          1470
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "water lily",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        155,
+        130
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          510,
+          1300
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pond dragonfly",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        80,
+        75
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          877,
+          908
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "pond green"
+}

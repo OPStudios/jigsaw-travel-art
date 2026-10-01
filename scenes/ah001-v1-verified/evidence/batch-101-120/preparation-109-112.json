@@ -1,0 +1,566 @@
+[
+  {
+    "n": 109,
+    "theme": "natural-wonders",
+    "palette": "golden yellow mangrove canopy and reflections",
+    "extras": [
+      {
+        "key": "ah109-atlas",
+        "name": "ripple-109",
+        "rect": [
+          0,
+          0,
+          512,
+          400
+        ]
+      },
+      {
+        "key": "ah109-atlas",
+        "name": "reed-109",
+        "rect": [
+          0,
+          400,
+          512,
+          1024
+        ]
+      },
+      {
+        "key": "ah109-atlas",
+        "name": "dragonfly-109",
+        "rect": [
+          512,
+          512,
+          1100,
+          1024
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "subject": "golden ripple in calm foreground water",
+        "source": "ripple-109",
+        "cell": null,
+        "maxSize": [
+          125,
+          38
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            650,
+            1050
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "small golden floating mangrove leaf",
+        "source": "atlas",
+        "cell": [
+          1,
+          0
+        ],
+        "maxSize": [
+          64,
+          36
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            670,
+            1200
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "leaf cluster attached to upper left bare twig",
+        "source": "atlas",
+        "cell": [
+          2,
+          0
+        ],
+        "maxSize": [
+          103,
+          112
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            439,
+            216
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "golden reeds rooted in right shoreline",
+        "source": "reed-109",
+        "cell": null,
+        "maxSize": [
+          75,
+          145
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            1000,
+            823
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      },
+      {
+        "subject": "dragonfly flying over distant water",
+        "source": "dragonfly-109",
+        "cell": null,
+        "maxSize": [
+          54,
+          49
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            790,
+            459
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      }
+    ]
+  },
+  {
+    "n": 110,
+    "theme": "festivals-objects",
+    "palette": "cocoa brown harvest stall with orange pumpkins",
+    "extras": [
+      {
+        "key": "ah110-atlas",
+        "name": "oak-110",
+        "rect": [
+          0,
+          512,
+          600,
+          1024
+        ]
+      },
+      {
+        "key": "ah110-atlas",
+        "name": "pennant-110",
+        "rect": [
+          600,
+          512,
+          1024,
+          1024
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "subject": "small lantern hanging from right wall hook",
+        "source": "atlas",
+        "cell": [
+          0,
+          0
+        ],
+        "maxSize": [
+          93,
+          145
+        ],
+        "anchor": {
+          "mode": "top_left",
+          "point": [
+            919,
+            203
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "green autumn leaf attached to front pumpkin stem",
+        "source": "atlas",
+        "cell": [
+          1,
+          0
+        ],
+        "maxSize": [
+          66,
+          66
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            501,
+            843
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "acorn resting on stall counter",
+        "source": "atlas",
+        "cell": [
+          2,
+          0
+        ],
+        "maxSize": [
+          44,
+          36
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            527,
+            643
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 1
+      },
+      {
+        "subject": "russet oak leaves attached to vase twig",
+        "source": "oak-110",
+        "cell": null,
+        "maxSize": [
+          91,
+          93
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            779,
+            464
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "ochre cloth pennant attached to overhead twine",
+        "source": "pennant-110",
+        "cell": null,
+        "maxSize": [
+          62,
+          92
+        ],
+        "anchor": {
+          "mode": "top_left",
+          "point": [
+            545,
+            130
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      }
+    ]
+  },
+  {
+    "n": 111,
+    "theme": "food",
+    "palette": "terracotta espresso table and wall",
+    "extras": [],
+    "parts": [
+      {
+        "subject": "warm steam rising from espresso cup",
+        "source": "atlas",
+        "cell": [
+          0,
+          0
+        ],
+        "maxSize": [
+          45,
+          100
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            731,
+            688
+          ]
+        },
+        "axis": [
+          0,
+          -1
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "ivory pink flower rooted in right vase",
+        "source": "atlas",
+        "cell": [
+          1,
+          0
+        ],
+        "maxSize": [
+          68,
+          136
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            1057,
+            552
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      },
+      {
+        "subject": "mint shoot attached to left potted plant",
+        "source": "atlas",
+        "cell": [
+          2,
+          0
+        ],
+        "maxSize": [
+          73,
+          80
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            69,
+            447
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "twine bow on folded napkin",
+        "source": "atlas",
+        "cell": [
+          0,
+          1
+        ],
+        "maxSize": [
+          45,
+          30
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            107,
+            1001
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 1
+      },
+      {
+        "subject": "mint leaf resting on the terracotta tablecloth",
+        "source": "atlas",
+        "cell": [
+          1,
+          1
+        ],
+        "maxSize": [
+          46,
+          31
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            780,
+            1090
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 1
+      }
+    ]
+  },
+  {
+    "n": 112,
+    "theme": "markets-shops",
+    "palette": "golden wicker shop and awning",
+    "extras": [
+      {
+        "key": "ah112-atlas",
+        "name": "wicker-112",
+        "rect": [
+          0,
+          512,
+          580,
+          1024
+        ]
+      },
+      {
+        "key": "ah112-atlas",
+        "name": "butterfly-112",
+        "rect": [
+          580,
+          512,
+          1024,
+          1024
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "subject": "white flower inserted into right vase",
+        "source": "atlas",
+        "cell": [
+          0,
+          0
+        ],
+        "maxSize": [
+          62,
+          128
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            1027,
+            700
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      },
+      {
+        "subject": "ivy sprig joined to right door vine",
+        "source": "atlas",
+        "cell": [
+          1,
+          0
+        ],
+        "maxSize": [
+          73,
+          84
+        ],
+        "anchor": {
+          "mode": "bottom",
+          "point": [
+            950,
+            674
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 2
+      },
+      {
+        "subject": "gold tassel hanging beside existing cord on right hook",
+        "source": "atlas",
+        "cell": [
+          2,
+          0
+        ],
+        "maxSize": [
+          48,
+          75
+        ],
+        "anchor": {
+          "mode": "top_left",
+          "point": [
+            1015,
+            193
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      },
+      {
+        "subject": "wicker curl resting on paving",
+        "source": "wicker-112",
+        "cell": null,
+        "maxSize": [
+          66,
+          31
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            446,
+            1165
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 1
+      },
+      {
+        "subject": "small blue butterfly over left sky",
+        "source": "butterfly-112",
+        "cell": null,
+        "maxSize": [
+          44,
+          45
+        ],
+        "anchor": {
+          "mode": "center",
+          "point": [
+            148,
+            374
+          ]
+        },
+        "axis": [
+          1,
+          0
+        ],
+        "amplitude": 3
+      }
+    ]
+  }
+]

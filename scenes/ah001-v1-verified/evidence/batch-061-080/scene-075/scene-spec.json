@@ -1,0 +1,158 @@
+{
+  "levelId": 75,
+  "sceneId": "ah001-075-interiors",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final master and original details against the approved painted game style. Small steam and cornflower align to the little table cup/vase; curtain tassel meets teal tie; tag hangs from leather bag; bookmark rests at actual book edge. Actual palette sample is [945, 795, 1230, 1030] in1280x1600 source space; no landmark observed. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-51510a81-75b3-4aa6-8475-53f1c554fe30.png",
+      "prompt": "Use case: stylized-concept. Create a finished high-quality unique CLEAN BACKGROUND PLATE for portrait4:5 jigsaw puzzle illustration \"A vintage train compartment with a little folding table\". Premium cozy travel-game storybook digital painting matching approved Art Direction V2 gameplay art: tactile subtly brushed surfaces, fine hand-painted detail, believable dimensional objects, gentle upper-left sunlight, rich color separation and small discoveries. NOT flat vector, NOT photorealistic, NOT generic procedural art. A vintage train compartment with turquoise upholstered bench seats and turquoise wall panels occupying most of the frame. A little folding table, unlettered book, a cup without steam, plain curtain, tiny bud vase and travel bag. Small generic countryside view through window, no people or branding. Viewpoint: wide intimate view from slightly above. The picture must fill the entire portrait4:5 canvas, ideal1280x1600; no borders, text, UI, grid, title, logo, watermark or transparent holes. This is a complete naturally composed environment with real stable anchors for five small moving details later added as separate alpha layers. Do not add floating decorative particles or overlay patterns. Preserve coherent scale and perspective. No famous destination landmark. Keep the requested main color visible throughout the scene, not only a tiny accent."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-16574db9-0284-4fca-9929-b61bb460f30e.png",
+      "prompt": "Use case: stylized-concept. A production RGBA transparent sprite atlas of five unique painted details belonging to the scene \"A vintage train compartment with a little folding table\". Match a premium cozy illustrated puzzle: rich dimensional storybook digital painting, subtle brushed pigment, believable natural forms, fine detail, soft upper-left sun, coherent warm light and tactile materials. No flat vector, no photos, no generic geometric particles. EXACTLY five isolated objects, strict3 columns by2 rows, landscape3:2 canvas. Leave the sixth bottom-right cell perfectly empty transparent. TRUE alpha transparency, no matte, no background, no grid or cell borders, no frame, no shadow rectangle, no labels or text. Place each entire object inside the central50% of its own cell, leaving wide25% gutters on every side. FULL complete loops, stems, wings, wisps and thin strands must fit safely inside each cell; none may touch canvas or cell edges. Top row left to right: a thin soft ivory tea-steam curl with narrow bottom point, no cup; a small sky-blue cornflower sprig with two green leaves and tapered lower stem; a small dark turquoise curtain tie tassel with a complete top loop and loose soft fibers. Bottom row left to right: a warm ivory blank travel tag on a thin complete brown leather loop; a short burgundy silk bookmark ribbon curling gently over an invisible book edge; EMPTY. Preserve detailed painted alpha edges and translucent material where specified. Do not include containers, scenery or extra items. All five details are real meaningful parts of this specific scene, sharing its scale and light."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "compartment tea steam",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        55,
+        77
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          671,
+          758
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "table cornflower",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        55,
+        78
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          725,
+          715
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "turquoise curtain tassel",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        42,
+        120
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          86,
+          573
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "leather bag tag",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        45,
+        110
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1130,
+          1220
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "train book ribbon",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        35,
+        60
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          497,
+          809
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "turquoise",
+  "mainColour": "#146065",
+  "paletteSampleRegion": [
+    945,
+    795,
+    1230,
+    1030
+  ]
+}

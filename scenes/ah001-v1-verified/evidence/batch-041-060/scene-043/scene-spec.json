@@ -1,0 +1,237 @@
+{
+  "levelId": 43,
+  "sceneId": "ah001-043-nature-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "blue",
+  "mainColour": "#749fcc",
+  "paletteReview": {
+    "sourceSurfaceRect": [
+      545,
+      260,
+      900,
+      475
+    ],
+    "medianRGB": [
+      116,
+      159,
+      204
+    ],
+    "reason": "Actual visually defining surface, not different arbitrary hex codes. Full chromatic histogram retained separately."
+  },
+  "visualReviewNotes": "Original opaque background and all five authored cutouts inspected at composition scale and against cream/dark alpha backgrounds. Adapted attachments to visible branches, pots, surface contact, strings, or sky/water. Implementation art review only, not PM approval. Master/contact and actual GPU review follow export.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9810c1d6-5f52-494d-9cdd-7d29f3dd1ea3.png",
+      "prompt": "Create a COMPLETE OPAQUE full-background portrait4:5 painting, target1280x1600. Every pixel of the image fully opaque and naturally painted, including all corners. No alpha transparency anywhere. This is a finished scene, NOT a cutout or atlas. Dimensional warm storybook digital illustration, soft visible paint texture, exquisite natural details, gentle upper-left sunshine. No text, labels, logos, landmarks, people, frame, UI or watermark. Cozy lavender garden with a chipped blue enamel watering can beside an old blue gardenbench. Clear sky blue painted plasterwall occupies upper60% and bench midright alsoblue, so blue is the dominantpalette, withselect sagegreen andlavenderpurple plants. Cream pavingground with completewarmshadows. Smalltopstrip opaque pale blue sky. Thinbarebranchfromestablishedtreeleftendsaroundx25%,y23%, anotherbarerearshrubtwigendnearx79%,y30%, leaveboth tips withoutforegroundleafclusters. Lowerleftsoilpatchnearx19%,y86% andlowerrightsoilx82%,y88% provide natural rootpositions forlaterlavenderandgrass. No cloud in the little skystrip. All surroundinggardenattractivecomplete, no erasedholes. Later movingdetails omittedfromthisbackgroundare two leavesprigs, smalllavenderstem, grasstuft, littlecloud. Againfullyopaque cleanly painted skyandground, no artificialedgegrain."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9ed44ea7-9917-4493-9c64-d0ccf10cc491.png",
+      "prompt": "Use case: illustration-story. Asset type: production transparent painted animation cutout atlas for a cozy travel jigsaw. Make a TRUE transparent RGBA image, transparent space between subjects (no opaque backdrop, no paper rectangle, no glow, no grid, no checkerboard). Exactly FIVE independent watercolor/gouache cutouts arranged 3 columns by 2 rows, sixth bottom-right cell entirely empty. Every subject fully contained inside its own cell with very wide transparent gutters, nothing crosses halfway horizontal divider or any column divider. Keep each subject below 360px tall in 512x512 cell, centered. Soft hand-painted pigment and fine brushwork, warm gentle daylight from upper left, natural modest saturation; no text or UI. Subjects are detailed parts from a whole cozy illustrated scene, not stickers, no outline, no artificial rim or drop shadow. A blue plaster garden and lavender path scene. TOP LEFT: one sage leafy stem, narrow, bottom cut stem anchor. TOP MIDDLE: one rosemary branch, bottom cut stem. TOP RIGHT: one slender purple lavender flower stem. BOTTOM LEFT: small golden-green rooted grass tuft, roots at bottom. BOTTOM MIDDLE: small delicate horizontal pale white cloud, translucent soft painted edges. Keep five separate subjects distinct."
+    },
+    {
+      "name": "cutout-1",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-043\\technical-crops\\cutout-1.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9ed44ea7-9917-4493-9c64-d0ccf10cc491.png",
+      "originalPixelRect": [
+        0,
+        0,
+        445,
+        700
+      ]
+    },
+    {
+      "name": "cutout-2",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-043\\technical-crops\\cutout-2.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9ed44ea7-9917-4493-9c64-d0ccf10cc491.png",
+      "originalPixelRect": [
+        445,
+        0,
+        875,
+        700
+      ]
+    },
+    {
+      "name": "cutout-3",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-043\\technical-crops\\cutout-3.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9ed44ea7-9917-4493-9c64-d0ccf10cc491.png",
+      "originalPixelRect": [
+        875,
+        0,
+        1254,
+        700
+      ]
+    },
+    {
+      "name": "cutout-4",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-043\\technical-crops\\cutout-4.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9ed44ea7-9917-4493-9c64-d0ccf10cc491.png",
+      "originalPixelRect": [
+        0,
+        700,
+        458,
+        1254
+      ]
+    },
+    {
+      "name": "cutout-5",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-043\\technical-crops\\cutout-5.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-9ed44ea7-9917-4493-9c64-d0ccf10cc491.png",
+      "originalPixelRect": [
+        458,
+        700,
+        1000,
+        1254
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "sage on overhanging branch",
+      "source": "cutout-1",
+      "maxSize": [
+        115,
+        155
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          667.379679144385,
+          190.5848787446505
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          585,
+          167
+        ]
+      }
+    },
+    {
+      "subject": "rosemary on right branch",
+      "source": "cutout-2",
+      "maxSize": [
+        90,
+        175
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          946.8805704099822,
+          373.18116975748933
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          830,
+          327
+        ]
+      }
+    },
+    {
+      "subject": "lavender rooted by path",
+      "source": "cutout-3",
+      "maxSize": [
+        80,
+        185
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          255.54367201426024,
+          1330.6704707560627
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          224,
+          1166
+        ]
+      }
+    },
+    {
+      "subject": "grass rooted near bench",
+      "source": "cutout-4",
+      "maxSize": [
+        125,
+        175
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1151.0873440285204,
+          1460.7703281027104
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          1009,
+          1280
+        ]
+      }
+    },
+    {
+      "subject": "slender sky cloud",
+      "source": "cutout-5",
+      "maxSize": [
+        160,
+        20
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          935.4723707664884,
+          66.19115549215407
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "center",
+        "backgroundSourcePoint": [
+          820,
+          58
+        ]
+      }
+    }
+  ]
+}

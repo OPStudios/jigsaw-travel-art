@@ -1,0 +1,183 @@
+{
+  "levelId": 21,
+  "sceneId": "ah001-021-food-drink",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm olive green with lemon and wicker accents",
+  "visualReviewNotes": "Olive merges with left greenery, thyme with hamper foliage, daisy stem inserts into cream vase, butterfly hovers naturally and mint lies on peach. The provisional napkin was rejected for a pattern/seam mismatch and replaced with newly painted butterfly. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Lemonade picnic with sliced peaches and a wicker hamper. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: sage green (#8CAC71), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small leafy branch near the cool drink, with no steam at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts.\nArt-direct this scene as a lush polished painted picnic composition: the sage green woven picnic blanket and soft garden foliage dominate, with a lemonade jug and two clear glasses at left-middle, a modest peach plate near lower center, an open wicker hamper at back-right, a small plain empty bud vase at lower-left for the later flower layer, and an unpatterned ivory cloth whose lower-right corner will receive a matching separate moving fold. Bright fresh summer daylight, convincing natural glass, fruit, linen and wicker texture. Preserve complete painted surfaces; absolutely no steam from the cold lemonade. Do not include any known Roman monument or readable marks. Keep all main objects comfortably inside the canvas.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-f8a23fc7-1ff6-4da5-afce-be715a1abd93.png"
+    },
+    {
+      "name": "atlas",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"Lemonade picnic with sliced peaches and a wicker hamper\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: close cozy three-quarter view; same gentle light from upper left. Palette dominant sage green (#8CAC71) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a small leafy branch near the cool drink, with no steam; cell(2,1): a scene-matching herb sprig; cell(3,1): a tiny flower stem in the scene palette; cell(1,2): one corner of the table napkin; cell(2,2): a small leafy garnish or mint sprig. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nInput image is a style/material/perspective reference, not a background to preserve in this atlas. Output only five isolated painted objects on genuinely transparent alpha. Match the warm sage-green picnic, realistic softly brushed light and small leaf shapes. Refine subjects: top-left a slender young olive twig extending diagonally upward-right from a short woody stem; top-middle a delicate thyme sprig with tiny pale flowers; top-right one small pale pink daisy on a long thin stem to put into the empty cream bud vase; bottom-left a soft single corner/fold of the unpatterned ivory linen napkin with subtle green stitching on one edge, cream on both sides, shaped as a small triangular fold; bottom-middle a fresh three-leaf mint garnish. Bottom-right empty. No containers, complete picnic, backdrop, drop shadows or repeated generic sprite. Clean alpha with no white halos.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-0ee9e513-43a0-4aa3-83e8-63a8cbb665dc.png"
+    },
+    {
+      "name": "butterfly",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\butterfly-original.png",
+      "prompt": "Use case: stylized-concept. One single small pale sky-blue butterfly as a production moving detail for a sage-green garden picnic puzzle painting with lemonade and peaches. Delicate natural butterfly with finely painted azure wings, subtle cream edges and tiny gray-brown body, wings spread at a gentle three-quarter angle as it hovers. Warm daylight from upper left, detailed softly brushed illustrative painting, dimensional but not a photograph or flat cartoon. True transparent alpha outside its complete clean silhouette. No flowers, leaves, scene, shadow, letters, glow, dust, or other insects. Exactly one butterfly, centered, with at least20percent clear margin on every side.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-f3934048-29d9-418a-8fed-0af20c037899.png"
+    },
+    {
+      "name": "olive",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\olive-isolated.png",
+      "prompt": "Lossless isolation of the purpose-painted olive from original atlas; no repainting, no matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        45,
+        35,
+        578,
+        534
+      ]
+    },
+    {
+      "name": "thyme",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\thyme-isolated.png",
+      "prompt": "Lossless isolation of the purpose-painted thyme from original atlas; no repainting, no matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        587,
+        45,
+        1082,
+        534
+      ]
+    },
+    {
+      "name": "daisy",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\daisy-isolated.png",
+      "prompt": "Lossless isolation of the purpose-painted daisy from original atlas; no repainting, no matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1110,
+        15,
+        1510,
+        539
+      ]
+    },
+    {
+      "name": "mint",
+      "path": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-021\\mint-isolated.png",
+      "prompt": "Lossless isolation of the purpose-painted mint from original atlas; no repainting, no matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        532,
+        565,
+        1040,
+        986
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "young olive twig beside lemonade",
+      "source": "olive",
+      "maxSize": [
+        140,
+        200
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          72,
+          674
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "fresh flowering thyme at hamper",
+      "source": "thyme",
+      "maxSize": [
+        190,
+        220
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1030,
+          415
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pink daisy in small cream bud vase",
+      "source": "daisy",
+      "maxSize": [
+        130,
+        230
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          180,
+          870
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "pale blue garden butterfly",
+      "source": "butterfly",
+      "maxSize": [
+        95,
+        86
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          654,
+          479
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "mint garnish on peach plate",
+      "source": "mint",
+      "maxSize": [
+        104,
+        98
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          781,
+          1004
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

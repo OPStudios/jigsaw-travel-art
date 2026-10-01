@@ -1,0 +1,199 @@
+{
+  "levelId": 37,
+  "sceneId": "ah001-037-crafts-objects",
+  "theme": "crafts-objects",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "terracotta and chestnut leather",
+  "visualReviewNotes": "Original painting and complete transparent subjects inspected. Natural attachment points and surface contact determine positions. Lossless custom extraction rectangles where needed preserve entire silhouettes in empty alpha gutters; originals remain retained. Scene37 flat thread and leather replace the unsuitable upright atlas versions. No destination landmark. Final composite and production renderer review recorded separately. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-c53ac66a-ef88-47bd-af0a-266a79b81e54.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5 clean background painting for a jigsaw game,1280x1600. A leather-working bench with a half-finished travel bag, gently elevated three-quarter close view. Dominant warm TERRACOTTA and chestnut leather across the large bag, rolls of hide and workbench mat, ivory stitching and small brass tools, muted olive accents. Rich dimensional storybook digital painting with tactile leather grain, rounded well-used wooden tools, soft upper-left window light and beautifully separated shapes. Generic craft workshop with no destination, city, recognizable landmark, people, lettering, numbers, logos or UI border. A substantial saddle-colored travel bag in the center, spools, awl, brass buckles, a folded cloth and small pottery cup at the sides. Finished clean plate for five later independently painted moving parts: omit one dangling leather zipper pull at upper-right bag opening, one loose tied linen thread loop on the front seam, a narrow hanging paper tag on the bag handle, a small leafy herb sprig in the pottery cup and one thin loose leather strip on the bench front. Keep seams, handle, cup and complete underlying surfaces intact; no white holes or rectangular gaps. Detailed inviting hand-painted artisan scene, not photorealistic photography or a flat vector."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-b882ea58-16c2-479f-afac-b96e2d7ac407.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas for a warm, detailed hand-painted travel jigsaw. Genuine transparent RGBA background, absolutely no colored backdrop, no haze, no glow, no drop-shadow halo. Landscape 1536x1024. Invisible 3-column by 2-row grid, each cell 512x512. Five independent objects, sixth lower-right cell completely empty. Each whole object must fit inside the central 300x300 pixels of its cell with at least 100px fully transparent padding on every side. Objects MUST NOT touch cell boundaries. No drawn grid, no labels or text, no ground surfaces. Crisp painted texture, natural light upper left, thin clean alpha edges. Paint exactly these five objects, one per cell in reading order: (1) a cognac leather zipper pull on a tiny brass ring, hanging vertically; (2) a loose ivory linen sewing-thread loop with two short trailing ends, seen from above, no spool; (3) a small blank cream luggage tag on a thin tan cord loop, hanging vertically, no writing; (4) a green rosemary sprig with thin bare lower stem; (5) a short curled chestnut leather offcut strip viewed three-quarter from above. For a terracotta leatherworker's bench with travel bag. Natural textured painterly objects, no logos."
+    },
+    {
+      "name": "surface-atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-9b23be59-f24d-49f0-8ba9-d857c713f974.png",
+      "prompt": "Use case: illustration-story. Production game cutout atlas with exactly TWO small loose objects resting flat on a workbench, warm hand-painted textured style, upper-left sunlight. Transparent RGBA, no background or visible table surface. 1536x1024 canvas, invisible 3x2 grid of 512x512 cells. Only top-left and top-middle cells contain an object; all other four cells empty. Objects entirely within central 300x240 area of each cell with huge transparent margins. Top-left: a loose coil of fine ivory linen sewing thread, lying FLAT viewed at a low three-quarter tabletop angle so the loop is a horizontally wide ELLIPSE, long axis horizontal, two tiny trailing loose ends. Fine fiber texture, not thick rope. Top-middle: one short thin chestnut leather offcut strip LYING FLAT with one end only slightly curling upward, also viewed at same low three-quarter tabletop angle, horizontal shape not tall. Include subtle warm semitransparent tight CONTACT SHADOW directly beneath each object, but no table material or rectangular background and no ambient halo. Not floating; believable contact with the eventual table. No text, labels, drawn grid, borders or additional objects."
+    },
+    {
+      "name": "thread-flat",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\thread-flat.png",
+      "prompt": "Use case: illustration-story. Production game cutout atlas with exactly TWO small loose objects resting flat on a workbench, warm hand-painted textured style, upper-left sunlight. Transparent RGBA, no background or visible table surface. 1536x1024 canvas, invisible 3x2 grid of 512x512 cells. Only top-left and top-middle cells contain an object; all other four cells empty. Objects entirely within central 300x240 area of each cell with huge transparent margins. Top-left: a loose coil of fine ivory linen sewing thread, lying FLAT viewed at a low three-quarter tabletop angle so the loop is a horizontally wide ELLIPSE, long axis horizontal, two tiny trailing loose ends. Fine fiber texture, not thick rope. Top-middle: one short thin chestnut leather offcut strip LYING FLAT with one end only slightly curling upward, also viewed at same low three-quarter tabletop angle, horizontal shape not tall. Include subtle warm semitransparent tight CONTACT SHADOW directly beneath each object, but no table material or rectangular background and no ambient halo. Not floating; believable contact with the eventual table. No text, labels, drawn grid, borders or additional objects.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-9b23be59-f24d-49f0-8ba9-d857c713f974.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          0,
+          0,
+          550,
+          512
+        ],
+        "boundaryAlphaMaximum": 1,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    },
+    {
+      "name": "leather-flat",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\leather-flat.png",
+      "prompt": "Use case: illustration-story. Production game cutout atlas with exactly TWO small loose objects resting flat on a workbench, warm hand-painted textured style, upper-left sunlight. Transparent RGBA, no background or visible table surface. 1536x1024 canvas, invisible 3x2 grid of 512x512 cells. Only top-left and top-middle cells contain an object; all other four cells empty. Objects entirely within central 300x240 area of each cell with huge transparent margins. Top-left: a loose coil of fine ivory linen sewing thread, lying FLAT viewed at a low three-quarter tabletop angle so the loop is a horizontally wide ELLIPSE, long axis horizontal, two tiny trailing loose ends. Fine fiber texture, not thick rope. Top-middle: one short thin chestnut leather offcut strip LYING FLAT with one end only slightly curling upward, also viewed at same low three-quarter tabletop angle, horizontal shape not tall. Include subtle warm semitransparent tight CONTACT SHADOW directly beneath each object, but no table material or rectangular background and no ambient halo. Not floating; believable contact with the eventual table. No text, labels, drawn grid, borders or additional objects.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-9b23be59-f24d-49f0-8ba9-d857c713f974.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          550,
+          0,
+          1024,
+          512
+        ],
+        "boundaryAlphaMaximum": 0,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    },
+    {
+      "name": "visibility-plants-original",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-4b711783-abc0-466b-8ee3-69c9a515ff42.png",
+      "prompt": "Production illustrated game cutout atlas,1536x1024 RGBA with true transparent background. Three complete unique plant cutouts in top row of invisible3columns by2rows grid; lower row completely empty. Each plant contained within the central330x390 of its512x512cell with at least55transparent pixels on every side. Soft warm upper-left light, textured detailed oil/gouache brushwork, natural materials. ALL THREE PLANTS LEAN LEFT: their bare cut stem tips are at bottom-right of their own silhouette, and every flower/leaf is LEFT of that tip. Cell0: one delicate ivory COSMOS flower with subtle rosy-pink petal edges and golden center, on one graceful long green rootless stem leaning upper-left, small leaf on left side only. Cell1: one small PALE PEACH ROSE with softly layered petals, on a different graceful long rootless green stem leaning upper-left, two small leaves extending left only. Cell2: a short fresh ROSEMARY sprig, fine needle leaves mostly reaching upper-left, woody rootless cut stem at bottom-right. Single rooted cut stems, no soil, no pots, no vases, no extra objects, no typography, no labels, no broad glow, no rectangle matte. The cut stems will enter vessels near the right edge of paintings, so whole painted silhouettes MUST extend LEFT of their cut-stem anchor."
+    },
+    {
+      "name": "rosemary-left",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\visibility-037-rosemary-left.png",
+      "prompt": "Production illustrated game cutout atlas,1536x1024 RGBA with true transparent background. Three complete unique plant cutouts in top row of invisible3columns by2rows grid; lower row completely empty. Each plant contained within the central330x390 of its512x512cell with at least55transparent pixels on every side. Soft warm upper-left light, textured detailed oil/gouache brushwork, natural materials. ALL THREE PLANTS LEAN LEFT: their bare cut stem tips are at bottom-right of their own silhouette, and every flower/leaf is LEFT of that tip. Cell0: one delicate ivory COSMOS flower with subtle rosy-pink petal edges and golden center, on one graceful long green rootless stem leaning upper-left, small leaf on left side only. Cell1: one small PALE PEACH ROSE with softly layered petals, on a different graceful long rootless green stem leaning upper-left, two small leaves extending left only. Cell2: a short fresh ROSEMARY sprig, fine needle leaves mostly reaching upper-left, woody rootless cut stem at bottom-right. Single rooted cut stems, no soil, no pots, no vases, no extra objects, no typography, no labels, no broad glow, no rectangle matte. The cut stems will enter vessels near the right edge of paintings, so whole painted silhouettes MUST extend LEFT of their cut-stem anchor.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-4b711783-abc0-466b-8ee3-69c9a515ff42.png",
+        "operation": "Lossless complete-subject rectangular extraction; original atlas retained",
+        "sourceRect": [
+          1024,
+          0,
+          1536,
+          700
+        ],
+        "boundaryAlphaMaximum": 0
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "leather zipper pull attached to brass zipper slider",
+      "source": "atlas",
+      "maxSize": [
+        17,
+        58
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1067,
+          593
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "ivory sewing thread coil resting flat on workbench",
+      "source": "thread-flat",
+      "maxSize": [
+        107,
+        48
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          491,
+          1217
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "blank paper tag tied to front bag handle",
+      "source": "atlas",
+      "maxSize": [
+        54,
+        152
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          381,
+          468
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "rosemary sprig rooted in right ceramic cup",
+      "source": "rosemary-left",
+      "maxSize": [
+        73,
+        110
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1210,
+          938
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "thin leather offcut lying flat on table",
+      "source": "leather-flat",
+      "maxSize": [
+        105,
+        38
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          646,
+          1301
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    }
+  ]
+}

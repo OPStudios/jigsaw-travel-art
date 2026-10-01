@@ -1,0 +1,203 @@
+{
+  "levelId": 82,
+  "sceneId": "ah001-082-markets-shops",
+  "theme": "markets-shops",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm terracotta",
+  "visualReviewNotes": "Pennant hangs against the doorway timber; ivy extends live foliage; lavender stem enters empty vase; bow overlaps parcel string; jasmine joins the planter. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-082-markets-shops/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A stationery shop with journals and blank postcards. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm terracotta (#C97A54), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a short scene-specific fabric pennant at normalised rect [0.13, 0.08, 0.22, 0.13]; a soft awning tassel at normalised rect [0.66, 0.23, 0.12, 0.18]; a small flower sprig matching the stall at normalised rect [0.74, 0.66, 0.16, 0.17]; a leafy branch entering from the left at normalised rect [0.06, 0.36, 0.17, 0.22]; a tied ribbon from one displayed package at normalised rect [0.41, 0.6, 0.16, 0.13]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 at every pixel. Cozy unbranded stationery shop seen through its open terracotta-painted doorway: weathered warm orange-red plaster and red-clay tile floor dominate. Low wooden display table with closed linen journals, beautifully arranged entirely BLANK postcards, pencils in ceramic cup, plain folded kraft parcels tied with fine string. Shelves orderly with attractive tactile paper edges. A little ivory empty bud vase sits on the table near centre-right, with clear space above for one flower. Small leafy planter lower-left. Warm coral is only a secondary accent; terracotta much deeper and earthier than pink. No words, labels, numbers, logos, recognizable landmark or person. No hovering decoration. Leave all five later foreground details absent, with full clean underlying surfaces. Warm dimensional storybook painting, not a photograph.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-7550a2b0-2c19-40aa-bf29-a36dd9dcba0d.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\background-original.png",
+      "archiveSourceSha256": "57e61a95f23676e88a631ef6174f5bbdf33af021ad3442d94c2260b3a75ac302"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-082-markets-shops/source/atlas.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. These five unique details belong to a warm terracotta stationery shop with stacked linen journals, kraft parcels, pencils and empty ivory bud vase, no labels. Upper-left: a small ivory-and-rust triangular cloth pennant hanging from a short top loop; upper-middle: one fresh ivy twig with four pointed green leaves and bare stem pointing down-left; upper-right: one slender lavender flower stalk with two small lavender heads and fine bare lower stem, suitable for a small vase. Lower-left: one muted copper-red narrow satin bow with two short curved tails, to tie over the kraft parcel string; lower-middle: a little jasmine twig with two white blossoms and three tiny leaves, bare base, matching the near-doorway flowering planter. Individual complete small silhouettes, no vase, parcel, awning, wall or table. Keep every object no more than300px high, strictly inside its cell.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-3361e1b7-acb1-42c8-a588-ec8c285ce0fb.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\atlas-original.png",
+      "archiveSourceSha256": "d26ef6bc1ba7e0e78905f7785e2766f181ad9522871f4368e8cb09f516d21d5a"
+    },
+    {
+      "name": "shop-pennant",
+      "path": "ah001-082-markets-shops/source/shop-pennant.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        100,
+        45,
+        485,
+        530
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\shop-pennant-isolated.png",
+      "archiveSourceSha256": "93386a606f0d0f5e5f2465dcf1fc5ea68b6b0511d39ba7eb62d3c203124d15a6"
+    },
+    {
+      "name": "shop-ivy",
+      "path": "ah001-082-markets-shops/source/shop-ivy.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        620,
+        70,
+        990,
+        515
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\shop-ivy-isolated.png",
+      "archiveSourceSha256": "900fe24272c9944581e3eb3872177211f2edb45cdeaf6e5d8b071104d29b0faa"
+    },
+    {
+      "name": "vase-lavender",
+      "path": "ah001-082-markets-shops/source/vase-lavender.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1165,
+        45,
+        1425,
+        558
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\vase-lavender-isolated.png",
+      "archiveSourceSha256": "bbe34e14b5e4c1a2578972acde7ff94f0b844e8f3232387ea4166226e9421c4d"
+    },
+    {
+      "name": "parcel-bow",
+      "path": "ah001-082-markets-shops/source/parcel-bow.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        90,
+        600,
+        510,
+        960
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\parcel-bow-isolated.png",
+      "archiveSourceSha256": "939c2214cedb92c26e4b623f6c4e1caf00a603af153c6f043177e029bd79eb46"
+    },
+    {
+      "name": "planter-jasmine",
+      "path": "ah001-082-markets-shops/source/planter-jasmine.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        625,
+        550,
+        1010,
+        975
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-082\\planter-jasmine-isolated.png",
+      "archiveSourceSha256": "00779f40cc560501113c88cab9ab9bb165efc277b8e9f30abc0bb9d4f6f09214"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "shop pennant",
+      "source": "shop-pennant",
+      "maxSize": [
+        90,
+        120
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          530,
+          276
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "shop ivy",
+      "source": "shop-ivy",
+      "maxSize": [
+        135,
+        175
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          420,
+          350
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase lavender",
+      "source": "vase-lavender",
+      "maxSize": [
+        85,
+        195
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          955,
+          630
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "parcel bow",
+      "source": "parcel-bow",
+      "maxSize": [
+        105,
+        90
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          585,
+          672
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "planter jasmine",
+      "source": "planter-jasmine",
+      "maxSize": [
+        135,
+        165
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          190,
+          1140
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

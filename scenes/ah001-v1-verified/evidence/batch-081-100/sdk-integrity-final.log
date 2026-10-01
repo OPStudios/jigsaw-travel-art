@@ -1,0 +1,23 @@
+FF
+======================================================================
+FAIL: test_installed_sdk_matches_trusted_release (test_base_client_integrity.BaseClientIntegrityTests.test_installed_sdk_matches_trusted_release)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\GIT\jigsaw-travel-client\tests\dependency\test_base_client_integrity.py", line 14, in test_installed_sdk_matches_trusted_release
+    self.assertFalse(missing, "Missing trusted dependency check configuration: " + ", ".join(missing))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['BASE_CLIENT_VERIFIER', 'BASE_CLIENT_ARCHIVE', 'BASE_CLIENT_SHA256'] is not false : Missing trusted dependency check configuration: BASE_CLIENT_VERIFIER, BASE_CLIENT_ARCHIVE, BASE_CLIENT_SHA256
+
+======================================================================
+FAIL: test_rt08_fresh_git_checkout_preserves_approved_bytes (test_base_client_integrity.BaseClientIntegrityTests.test_rt08_fresh_git_checkout_preserves_approved_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\GIT\jigsaw-travel-client\tests\dependency\test_base_client_integrity.py", line 29, in test_rt08_fresh_git_checkout_preserves_approved_bytes
+    self.assertTrue(all(os.environ.get(k) for k in required),"Trusted release inputs required")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Trusted release inputs required
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.012s
+
+FAILED (failures=2)

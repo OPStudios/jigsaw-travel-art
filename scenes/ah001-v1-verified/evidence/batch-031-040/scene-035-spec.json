@@ -1,0 +1,169 @@
+{
+  "levelId": 35,
+  "sceneId": "ah001-035-interiors",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "berry-red library upholstery and shelves",
+  "visualReviewNotes": "Inspected original painting and transparent details. Vessel mouths, existing stems, ties and metal hooks determine actual attachment positions. Original atlas silhouettes are fully bounded; scene34 clipped lantern source is retained but replaced by a new complete closed-ring lantern. Final composite contact and motion review recorded separately. No identifiable destination landmark. Representative primary surface color #511713 sampled from central berry-red chair, original pixels [250, 545, 700, 1030]; global warm-light hue histogram is retained separately and is not a perceptual dominant-color classifier. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-f140fd83-5e10-4dbe-be60-b96e4d3d7349.png",
+      "prompt": "Use case: stylized-concept. Production clean background for a portrait4:5 jigsaw painting,1280x1600. Scene: an inviting warm library corner with curved wooden shelves, seen from slightly above. Dominant deep BERRY RED and rose on broad plaster walls, curved painted shelves and a large upholstered reading chair; warm ivory pages, darkgold wood trim and small green accents. Detailed dimensional hand-painted storybook illustration, tactile paper, velvet and wood, soft sunlight from the upper-left, rich small discoveries and distinct puzzle features. Generic travel interior, no recognizable city or landmark, no people, letters, numbers, words, logos, UI or border. Books have beautiful blank embossed covers. A small round side table at lower-right holds an open book, a ceramic tea cup with no steam and a plain empty bud vase. An empty small plant pot sits on a shelf at upper-left. A cushion on the reading chair has no decorative tassel. A book on the lower-left table has a short fixed ribbon end but no loose ribbon tail. Fully paint natural background surfaces beneath five later moving details: cup steam, vase flower sprig, potted leafy tip, cushion tassel, loose silk bookmark tail. Do not paint those five foreground details yet; no blank cutout rectangles. Cohesive painted depth and elegant cozy composition, not a photograph or flat vector."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-5e6d6654-bfcd-4c80-ad26-7db3129b5850.png",
+      "prompt": "Use case: illustration-story. Production game sprite atlas for a warm, detailed hand-painted travel jigsaw. Genuine transparent RGBA background, absolutely no colored backdrop, no haze, no glow, no drop-shadow halo. Landscape 1536x1024. Invisible 3-column by 2-row grid, each cell 512x512. Five independent objects, sixth lower-right cell completely empty. Each whole object must fit inside the central 300x300 pixels of its cell with at least 100px fully transparent padding on every side. Objects MUST NOT touch cell boundaries. No drawn grid, no labels or text, no ground surfaces. Crisp painted texture, natural light upper left, thin clean alpha edges. Paint exactly these five objects, one per cell in reading order: (1) narrow cream tea steam wisp tapering to a very fine bottom point, soft but no glow; (2) delicate pale peach flower with a long bare green stem ending in a pointed tip; (3) small olive-green leafy plant sprig with visible bottom stem to sit in a library terracotta pot; (4) tiny burgundy silk tassel hanging from a single short loop, golden thread accents; (5) a muted burgundy satin bookmark ribbon with V-cut lower tip, long and narrow. These will be placed into a rich berry-red library with antique gold wood, a cup, small vase, empty shelf pot, cushion corner and book."
+    },
+    {
+      "name": "visibility-plants-original",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-4b711783-abc0-466b-8ee3-69c9a515ff42.png",
+      "prompt": "Production illustrated game cutout atlas,1536x1024 RGBA with true transparent background. Three complete unique plant cutouts in top row of invisible3columns by2rows grid; lower row completely empty. Each plant contained within the central330x390 of its512x512cell with at least55transparent pixels on every side. Soft warm upper-left light, textured detailed oil/gouache brushwork, natural materials. ALL THREE PLANTS LEAN LEFT: their bare cut stem tips are at bottom-right of their own silhouette, and every flower/leaf is LEFT of that tip. Cell0: one delicate ivory COSMOS flower with subtle rosy-pink petal edges and golden center, on one graceful long green rootless stem leaning upper-left, small leaf on left side only. Cell1: one small PALE PEACH ROSE with softly layered petals, on a different graceful long rootless green stem leaning upper-left, two small leaves extending left only. Cell2: a short fresh ROSEMARY sprig, fine needle leaves mostly reaching upper-left, woody rootless cut stem at bottom-right. Single rooted cut stems, no soil, no pots, no vases, no extra objects, no typography, no labels, no broad glow, no rectangle matte. The cut stems will enter vessels near the right edge of paintings, so whole painted silhouettes MUST extend LEFT of their cut-stem anchor."
+    },
+    {
+      "name": "peach-rose-left",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\visibility-035-peach-rose-left.png",
+      "prompt": "Production illustrated game cutout atlas,1536x1024 RGBA with true transparent background. Three complete unique plant cutouts in top row of invisible3columns by2rows grid; lower row completely empty. Each plant contained within the central330x390 of its512x512cell with at least55transparent pixels on every side. Soft warm upper-left light, textured detailed oil/gouache brushwork, natural materials. ALL THREE PLANTS LEAN LEFT: their bare cut stem tips are at bottom-right of their own silhouette, and every flower/leaf is LEFT of that tip. Cell0: one delicate ivory COSMOS flower with subtle rosy-pink petal edges and golden center, on one graceful long green rootless stem leaning upper-left, small leaf on left side only. Cell1: one small PALE PEACH ROSE with softly layered petals, on a different graceful long rootless green stem leaning upper-left, two small leaves extending left only. Cell2: a short fresh ROSEMARY sprig, fine needle leaves mostly reaching upper-left, woody rootless cut stem at bottom-right. Single rooted cut stems, no soil, no pots, no vases, no extra objects, no typography, no labels, no broad glow, no rectangle matte. The cut stems will enter vessels near the right edge of paintings, so whole painted silhouettes MUST extend LEFT of their cut-stem anchor.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-4b711783-abc0-466b-8ee3-69c9a515ff42.png",
+        "operation": "Lossless complete-subject rectangular extraction; original atlas retained",
+        "sourceRect": [
+          512,
+          0,
+          1024,
+          700
+        ],
+        "boundaryAlphaMaximum": 1
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "soft steam from floral teacup",
+      "source": "atlas",
+      "maxSize": [
+        63,
+        171
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1080,
+          1000
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 3,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "pale peach flower in right vase",
+      "source": "peach-rose-left",
+      "maxSize": [
+        124,
+        185
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1214,
+          937
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "leafy stem rooted in upper shelf pot",
+      "source": "atlas",
+      "maxSize": [
+        97,
+        125
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          560,
+          163
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "burgundy tassel hanging from cushion corner",
+      "source": "atlas",
+      "maxSize": [
+        38,
+        80
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          562,
+          928
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "burgundy bookmark tail extending from foreground book",
+      "source": "atlas",
+      "maxSize": [
+        17,
+        67
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          287,
+          1299
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ],
+  "mainColour": "#511713"
+}

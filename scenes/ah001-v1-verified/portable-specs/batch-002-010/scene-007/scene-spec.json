@@ -1,0 +1,182 @@
+{
+  "levelId": 7,
+  "sceneId": "ah001-007-crafts-objects",
+  "theme": "crafts-objects",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Eucalyptus joins blue vase mouth; brush meets the actual brush jug; ceramic tag hangs at jug handle; linen tassel meets cloth edge; ivy extends existing upper-left plant. Actual palette is peach porcelain, not the provisional ivory label. Main colour is measured from visible subject region [540, 295, 825, 700]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-007-crafts-objects/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A pottery workbench with freshly painted ceramic vessels. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: coral pink (#D99B96), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a curled ribbon matching the material palette at normalised rect [0.14, 0.24, 0.17, 0.16]; a light fabric corner on the table at normalised rect [0.67, 0.71, 0.23, 0.16]; a small leafy sprig in a nearby jar at normalised rect [0.75, 0.13, 0.16, 0.23]; a fine hanging thread or tassel connected to the craft at normalised rect [0.44, 0.34, 0.12, 0.17]; a small scene-specific flower blossom at normalised rect [0.12, 0.73, 0.17, 0.17]. The painting must remain attractive and complete underneath those parts. Keep this intimate pottery workbench pale warm ivory and softly blue glazed ceramics, with finished honey wood workbench and clay objects. Soft cream/ivory surfaces are the largest tonal area; coral may remain an accent. A small ceramic jar can hold a later flower/leaf stem; blank string tags may hang from pottery. No people, writing or UI. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-8399b9e3-d52d-4be0-9216-e136a671e52b.png",
+      "archiveSourceSha256": "fdd02408f6c89acc911f1fcb8215617bb8dadab64824fc0431527a9453194189"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-007-crafts-objects/source/atlas.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A pottery workbench with freshly painted ceramic vessels\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a close cozy three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a sunlit olive-green eucalyptus sprig with rounded leaves, slim bottom stem; top-middle a fine brown wooden paintbrush, cream bristles tapered to a paint-stained blue tip, lying at a gentle diagonal; top-right one tied beige flax-fiber fringe tassel, irregular soft fibers, narrow top attachment; bottom-left a small blank cream ceramic tag with blue glazed rim and a short ochre hanging cord loop; bottom-middle a short glossy ivy branch with five distinct emerald leaves, narrow bottom stem. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-ad83133c-3888-419a-877b-3d67cac8ccd7.png",
+      "archiveSourceSha256": "1938ee572736ca78b574c4f3092785d62b60e473d3d0f98b916ce7dab157123a"
+    },
+    {
+      "name": "extraction-1",
+      "path": "ah001-007-crafts-objects/source/extraction-1.png",
+      "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+      "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-ad83133c-3888-419a-877b-3d67cac8ccd7.png",
+      "sourceAtlasSha256": "1938ee572736ca78b574c4f3092785d62b60e473d3d0f98b916ce7dab157123a",
+      "sourceAtlasRect": [
+        0,
+        0,
+        512,
+        530
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-007-part-1.png",
+      "archiveSourceSha256": "030fc0e5abda41613659f362c37e9a3e22a5c236efaf581f94d178d6a1c5630d"
+    },
+    {
+      "name": "extraction-3",
+      "path": "ah001-007-crafts-objects/source/extraction-3.png",
+      "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+      "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-ad83133c-3888-419a-877b-3d67cac8ccd7.png",
+      "sourceAtlasSha256": "1938ee572736ca78b574c4f3092785d62b60e473d3d0f98b916ce7dab157123a",
+      "sourceAtlasRect": [
+        1024,
+        0,
+        1536,
+        550
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-007-part-3.png",
+      "archiveSourceSha256": "05d3f9e34adbdead98e244063f872a01746ddbde2fb3a77c2594d5a327b3c728"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "eucalyptus in vase",
+      "source": "extraction-1",
+      "maxSize": [
+        125,
+        195
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          316,
+          320
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "studio paintbrush",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        120,
+        145
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1045,
+          508
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "linen tassel",
+      "source": "extraction-3",
+      "maxSize": [
+        60,
+        100
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1095,
+          1404
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "ceramic tag",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        62,
+        100
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          563,
+          366
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "studio ivy",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        150,
+        180
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          308,
+          212
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "peach porcelain",
+  "mainColour": "#c68b72"
+}

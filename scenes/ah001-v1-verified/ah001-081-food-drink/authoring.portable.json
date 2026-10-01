@@ -1,0 +1,358 @@
+{
+  "levelId": 81,
+  "sceneId": "ah001-081-food-drink",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-081-food-drink/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Grilled vegetable wraps and herb dip on a terrace table. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: coral pink (#D99B96), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft curling steam wisp or airy kitchen light haze appropriate to the drink at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY full-canvas OPAQUE painting, RGB or alpha255 everywhere, no transparency or transparent haze. Refine the actual scene: broad coral-pink linen tablecloth fills most of this small terrace breakfast table. A turquoise ceramic plate holds three clearly formed grilled vegetable wraps with cut ends showing peppers and courgette, a little cream bowl of herb yogurt dip, a glass of lemon water and a very small EMPTY pale-green bud vase in the left-middle (vase opening halfway down the canvas, plenty of clear air above). Warm softly brushed terracotta planters and a little leafy terrace beyond. No people, city skyline, signage, text, brands, landmarks or border. Distinct polished cozy storybook painting with natural textile grain and delicious dimensional food, not photo collage. Keep all requested separate motion details absent: no mint in lemon water, no parsley garnish on dip, no blossom in vase, no butterfly. Complete naturally painted underlying surfaces.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-90db2055-5b79-43d2-9b66-5e016775e119.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\background.png",
+        "sha256": "cfa5b943b320312c6c41b7f17d061c9854f48e66812c7972bdfd08f8f5fe3267",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\background-original.png",
+        "archiveSourceSha256": "cfa5b943b320312c6c41b7f17d061c9854f48e66812c7972bdfd08f8f5fe3267"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-081-food-drink/source/atlas.png",
+        "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. These five details belong to a coral-pink terrace table with grilled vegetable wraps, turquoise plate, creamy herb dip, lemon water, empty small green bud vase and olive planter. Upper-left: fresh small mint sprig of three serrated leaves with short curved stem to rest on lemon water. Upper-middle: delicate small flat parsley sprig with two fan-shaped leaves to top the dip. Upper-right: one white cosmos flower with a soft golden centre and slender long green stem, full stem base, gently leaning left for the bud vase. Lower-left: one tiny orange-and-cream butterfly, open wings in three-quarter view. Lower-middle: one fine olive twig with four slender sage leaves, thin stem pointing lower-left, matching terrace olive foliage. Whole silhouettes, no cups, vase, table, plate or food painted behind them.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-b86cb5e0-4d68-4ea5-8956-88c31ce64ada.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\atlas.png",
+        "sha256": "f160f512b738a0c839d7c0a63bc64d55257a396f4283e18ab8eca8d28997df83",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\atlas-original.png",
+        "archiveSourceSha256": "f160f512b738a0c839d7c0a63bc64d55257a396f4283e18ab8eca8d28997df83"
+      },
+      {
+        "name": "lemon-mint",
+        "path": "ah001-081-food-drink/source/lemon-mint.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          75,
+          65,
+          510,
+          500
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\lemon-mint.png",
+        "sha256": "45612649244449cae18cddc5529a001267e26f5315673565a019f2df0cc08f07",
+        "pixels": [
+          435,
+          435
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\lemon-mint-isolated.png",
+        "archiveSourceSha256": "45612649244449cae18cddc5529a001267e26f5315673565a019f2df0cc08f07"
+      },
+      {
+        "name": "dip-parsley",
+        "path": "ah001-081-food-drink/source/dip-parsley.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          550,
+          50,
+          1020,
+          535
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\dip-parsley.png",
+        "sha256": "cb8c63a5f3b5bdd812740508a0688bead322ef66a3d7756f7b94da57b6b416f8",
+        "pixels": [
+          470,
+          485
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\dip-parsley-isolated.png",
+        "archiveSourceSha256": "cb8c63a5f3b5bdd812740508a0688bead322ef66a3d7756f7b94da57b6b416f8"
+      },
+      {
+        "name": "vase-cosmos",
+        "path": "ah001-081-food-drink/source/vase-cosmos.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          1080,
+          0,
+          1510,
+          640
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\vase-cosmos.png",
+        "sha256": "982940d81968ed7b58a2cd22e0677161896a39ae7adfe1bc46fbfbbbf1321c75",
+        "pixels": [
+          430,
+          640
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\vase-cosmos-isolated.png",
+        "archiveSourceSha256": "982940d81968ed7b58a2cd22e0677161896a39ae7adfe1bc46fbfbbbf1321c75"
+      },
+      {
+        "name": "terrace-butterfly",
+        "path": "ah001-081-food-drink/source/terrace-butterfly.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          60,
+          540,
+          530,
+          987
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\terrace-butterfly.png",
+        "sha256": "3d32a6a81df24ffde27a51a9dbd3b72b7e9dff2498bb2766f98dbbb646d61413",
+        "pixels": [
+          470,
+          447
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\terrace-butterfly-isolated.png",
+        "archiveSourceSha256": "3d32a6a81df24ffde27a51a9dbd3b72b7e9dff2498bb2766f98dbbb646d61413"
+      },
+      {
+        "name": "olive-tip",
+        "path": "ah001-081-food-drink/source/olive-tip.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          540,
+          540,
+          1035,
+          987
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-081-food-drink\\source\\olive-tip.png",
+        "sha256": "a3df6febe5d66fd2c10d5da232dbfbddd884db133ee6471890e3ee6879c95b5f",
+        "pixels": [
+          495,
+          447
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\olive-tip-isolated.png",
+        "archiveSourceSha256": "a3df6febe5d66fd2c10d5da232dbfbddd884db133ee6471890e3ee6879c95b5f"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Mint lies on lemon water and parsley on dip; cosmos stem visibly enters vase; butterfly hovers near foliage; olive joins the terrace plant. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.4718,
+      "orange-yellow": 0.4829,
+      "green": 0.0242,
+      "blue": 0.0211,
+      "violet-pink": 0.0
+    },
+    "measuredDominantColour": "#bd8751",
+    "mainColourLabel": "coral pink with turquoise ceramics",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "f86ec5b73efe2395a032d49db14ba66abba3db1c912b450544390d196924c76e"
+  },
+  "parts": [
+    {
+      "source": "ah001-081-food-drink/part-1.png",
+      "sha256": "8265682d705b3de30e18cb8d86d6065c4aee45d1bc6c54f73869469bc9e781e7",
+      "rect": [
+        0.2984375,
+        0.275,
+        0.05859375,
+        0.046875
+      ],
+      "sourcePixelRect": [
+        382,
+        440,
+        75,
+        75
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "lemon mint",
+      "authoringSource": "lemon-mint",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        21,
+        21,
+        418,
+        416
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          419,
+          478
+        ]
+      }
+    },
+    {
+      "source": "ah001-081-food-drink/part-2.png",
+      "sha256": "9e7091af67cf7c701d4d2ce43257c81c415cdf0156f544040fb686f5fe5ce83a",
+      "rect": [
+        0.80078125,
+        0.40875,
+        0.0515625,
+        0.040625
+      ],
+      "sourcePixelRect": [
+        1025,
+        654,
+        66,
+        65
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "dip parsley",
+      "authoringSource": "dip-parsley",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        14,
+        22,
+        459,
+        462
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1058,
+          687
+        ]
+      }
+    },
+    {
+      "source": "ah001-081-food-drink/part-3.png",
+      "sha256": "4f2f4cef40128ee3eb8aa939d152312764a954e39d2b9a14fbca0ff98d03b939",
+      "rect": [
+        0.0796875,
+        0.265625,
+        0.09765625,
+        0.11875
+      ],
+      "sourcePixelRect": [
+        102,
+        425,
+        125,
+        190
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "vase cosmos",
+      "authoringSource": "vase-cosmos",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        29,
+        32,
+        415,
+        618
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          150,
+          613
+        ]
+      }
+    },
+    {
+      "source": "ah001-081-food-drink/part-4.png",
+      "sha256": "cb5bf802f4190221be35ab53fcb0b0791040e65099d896dfbc32ebb07535b997",
+      "rect": [
+        0.5296875,
+        0.25,
+        0.06484375,
+        0.046875
+      ],
+      "sourcePixelRect": [
+        678,
+        400,
+        83,
+        75
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "terrace butterfly",
+      "authoringSource": "terrace-butterfly",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        14,
+        28,
+        454,
+        424
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          719,
+          438
+        ]
+      }
+    },
+    {
+      "source": "ah001-081-food-drink/part-5.png",
+      "sha256": "27ecf0db1c438e52144500ce0cc470ee919b137baf7b78cdf496c211d55489b3",
+      "rect": [
+        0.0484375,
+        0.090625,
+        0.11328125,
+        0.079375
+      ],
+      "sourcePixelRect": [
+        62,
+        145,
+        145,
+        127
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "olive tip",
+      "authoringSource": "olive-tip",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        9,
+        18,
+        467,
+        420
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          170,
+          270
+        ]
+      }
+    }
+  ]
+}

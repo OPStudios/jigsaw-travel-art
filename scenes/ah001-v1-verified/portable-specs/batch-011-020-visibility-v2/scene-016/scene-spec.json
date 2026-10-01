@@ -1,0 +1,216 @@
+{
+  "levelId": 16,
+  "sceneId": "ah001-016-transport-visibility-v2",
+  "theme": "transport",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm ivory",
+  "visualReviewNotes": "Background and all five independently painted cutouts visually inspected. Actual image anchors selected for rooted stems, hanging details, tabletop objects and sky/water layers. Source alpha and contrasting-background review recorded separately. This is implementation review only; root review pending. Main colour measured from the visible defining surface at [715, 45, 1050, 165], rather than inferring a different main colour from the broad hue histogram alone.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-016-transport-visibility-v2/source/background.png",
+      "prompt": "Use case: stylized-concept. Finished portrait 4:5 illustration for a beautiful premium mobile puzzle, target1280x1600. Cozy dimensional storybook digital painting, subtly visible painterly textures, natural upper-left sunshine, beautifully shaped objects and readable local detail, not a photograph. No text, watermark, border, UI, logos or recognizable city landmarks. Fully painted attractive clean background, no holes/placeholders. A beautiful red step-through bicycle with a woven flower basket leaning beside a warm ivory wooden fence, cozy three-quarter view, no brand markings. Dominant warm ivory #E7D7B5 fence and creamy stone garden pavement occupy most of composition. Red bicycle frame strong but smaller focalpoint, realistic two wheels and graceful geometry. Background topquarter pale warm ivory sky with no clouds, distant softgeneric trees. Basket mounted at front near x72%,y42%, existing low wildflowers leave space for tied decorative ribbon at front. Ground lowerleft x18%,y85% naturalcreamysoil with room for one rooted sage leafsprig; lowerright x83%,y88% room for one tiny blue wildflowercluster. Later five authored details will be pale cloud upperleft, yellow basket ribbon, sage sprig in ground, blue wildflowercluster, a different thin high cloud uppermiddle-right. Do not paint those five details yet. No cityname, landmark or people.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-349cf973-0ddd-4f5d-b4a5-4ea7ff1b8eb0.png",
+      "archiveSourceSha256": "e71816ef7e09ed4c976b314c0c4f80b62b27bf03894cf099184138a23fcc73b0"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-016-transport-visibility-v2/source/atlas.png",
+      "prompt": "Paint exactly FIVE production sprite cutouts on a TRUE TRANSPARENT alpha PNG atlas, 3columnsÃ—2rows, bottomrightcell entirely empty. No backdrop, no painted checkerboard or gridlines, no labels, numbers, letters or frames. Leave huge transparent gutters: each sprite fits within its own centered rectangle no more than70%ofcellwidth and70%ofcellheight; no particle/haze outside. Softly brushed dimensional storybook painterly style, sunlightupperleft, rich tiny details, nophotorealism. Each silhouette entirely isolated. Unique subtle pieces foraredbicycle andivoryfence garden: TOPLEFT shortsoftwarmivorycloud withdelicatecoolgrayunderside, transparentfeatheredges; TOPMIDDLE smallbutteryellowribbonbow, knotattopthird andtwoloosetailspointdown, frontview, no basket; TOPRIGHT sagegreen groundplant sprigwithslenderbottomstem andsmallleaves; BOTTOMLEFT three small cornflowerbluewildflowers ongreenthinstemswithtinyrootbase, no soil; BOTTOMMIDDLE differentlongerthincreamcloud wisphorizontal, notidentical tofirst. Fullyisolated transparentcutouts, no sky,scene,background orsurface.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-ab49dd10-6fd3-4ec3-8ec4-9462cbefc40c.png",
+      "archiveSourceSha256": "c5e54b5669ded094c86340bf34689a286c7443a379fa74ba7a94309dd27ad6dc"
+    },
+    {
+      "name": "cutout-1",
+      "path": "ah001-016-transport-visibility-v2/source/cutout-1.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-ab49dd10-6fd3-4ec3-8ec4-9462cbefc40c.png",
+      "originalPixelRect": [
+        0,
+        100,
+        600,
+        500
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-016\\technical-crops\\cutout-1.png",
+      "archiveSourceSha256": "742c3a7455310e46dfa8f9c5f1d65591c5fca14c0af43d0736151c03e3ce0074"
+    },
+    {
+      "name": "cutout-2",
+      "path": "ah001-016-transport-visibility-v2/source/cutout-2.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-ab49dd10-6fd3-4ec3-8ec4-9462cbefc40c.png",
+      "originalPixelRect": [
+        600,
+        0,
+        1024,
+        520
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-016\\technical-crops\\cutout-2.png",
+      "archiveSourceSha256": "c9ce925c495442ad3ba7b93a5b3cf8f9662673bb981884193be91a9b1c4998bd"
+    },
+    {
+      "name": "cutout-3",
+      "path": "ah001-016-transport-visibility-v2/source/cutout-3.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-ab49dd10-6fd3-4ec3-8ec4-9462cbefc40c.png",
+      "originalPixelRect": [
+        1024,
+        0,
+        1536,
+        530
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-016\\technical-crops\\cutout-3.png",
+      "archiveSourceSha256": "b006ebff353e9afc5bc3b41140b5157c13810a0c43c4893740ec2410817c8c7a"
+    },
+    {
+      "name": "cutout-4",
+      "path": "ah001-016-transport-visibility-v2/source/cutout-4.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-ab49dd10-6fd3-4ec3-8ec4-9462cbefc40c.png",
+      "originalPixelRect": [
+        0,
+        530,
+        440,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-016\\technical-crops\\cutout-4.png",
+      "archiveSourceSha256": "4cce7d393f8d05837c27f8c54feff734ed7ce6b7a6dc7f560b029d7126fdd41b"
+    },
+    {
+      "name": "cutout-5",
+      "path": "ah001-016-transport-visibility-v2/source/cutout-5.png",
+      "prompt": "Technical rectangular extraction from the retained atlas, unchanged RGBA pixels. No repainting or generated content.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-ab49dd10-6fd3-4ec3-8ec4-9462cbefc40c.png",
+      "originalPixelRect": [
+        440,
+        560,
+        1160,
+        990
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-011-020-visibility-v2\\scene-016\\technical-crops\\cutout-5.png",
+      "archiveSourceSha256": "5557ddd1284a0bcba7fb5f67d7914005d9d31b046c5071ff55c6bf905f019d89"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "soft ivory near cloud",
+      "source": "cutout-1",
+      "maxSize": [
+        240,
+        95
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          715,
+          147
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "butter-yellow basket bow",
+      "source": "cutout-2",
+      "maxSize": [
+        135,
+        155
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          998,
+          720
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "rooted sage roadside sprig",
+      "source": "cutout-3",
+      "maxSize": [
+        125,
+        185
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          217,
+          1301
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "rooted blue wildflowers",
+      "source": "cutout-4",
+      "maxSize": [
+        85,
+        140
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1195,
+          1404
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "thin ivory far cloud",
+      "source": "cutout-5",
+      "maxSize": [
+        220,
+        65
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          934,
+          245
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColour": "#f3ebdc",
+  "paletteReview": {
+    "representativeSurfaceRect": [
+      715,
+      45,
+      1050,
+      165
+    ],
+    "medianRGB": [
+      243,
+      235,
+      220
+    ],
+    "reason": "Visually reviewed large defining surface; broad chromatic buckets also count warm shadows and wood. Both evidence methods retained."
+  }
+}

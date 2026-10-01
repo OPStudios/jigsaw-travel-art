@@ -1,0 +1,189 @@
+{
+  "levelId": 81,
+  "sceneId": "ah001-081-food-drink",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "coral pink with turquoise ceramics",
+  "visualReviewNotes": "Mint lies on lemon water and parsley on dip; cosmos stem visibly enters vase; butterfly hovers near foliage; olive joins the terrace plant. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Grilled vegetable wraps and herb dip on a terrace table. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: coral pink (#D99B96), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft curling steam wisp or airy kitchen light haze appropriate to the drink at normalised rect [0.16, 0.28, 0.16, 0.17]; a scene-matching herb sprig at normalised rect [0.68, 0.12, 0.2, 0.17]; a tiny flower stem in the scene palette at normalised rect [0.08, 0.62, 0.17, 0.18]; one corner of the table napkin at normalised rect [0.61, 0.74, 0.22, 0.13]; a small leafy garnish or mint sprig at normalised rect [0.43, 0.58, 0.14, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY full-canvas OPAQUE painting, RGB or alpha255 everywhere, no transparency or transparent haze. Refine the actual scene: broad coral-pink linen tablecloth fills most of this small terrace breakfast table. A turquoise ceramic plate holds three clearly formed grilled vegetable wraps with cut ends showing peppers and courgette, a little cream bowl of herb yogurt dip, a glass of lemon water and a very small EMPTY pale-green bud vase in the left-middle (vase opening halfway down the canvas, plenty of clear air above). Warm softly brushed terracotta planters and a little leafy terrace beyond. No people, city skyline, signage, text, brands, landmarks or border. Distinct polished cozy storybook painting with natural textile grain and delicious dimensional food, not photo collage. Keep all requested separate motion details absent: no mint in lemon water, no parsley garnish on dip, no blossom in vase, no butterfly. Complete naturally painted underlying surfaces.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-90db2055-5b79-43d2-9b66-5e016775e119.png"
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. These five details belong to a coral-pink terrace table with grilled vegetable wraps, turquoise plate, creamy herb dip, lemon water, empty small green bud vase and olive planter. Upper-left: fresh small mint sprig of three serrated leaves with short curved stem to rest on lemon water. Upper-middle: delicate small flat parsley sprig with two fan-shaped leaves to top the dip. Upper-right: one white cosmos flower with a soft golden centre and slender long green stem, full stem base, gently leaning left for the bud vase. Lower-left: one tiny orange-and-cream butterfly, open wings in three-quarter view. Lower-middle: one fine olive twig with four slender sage leaves, thin stem pointing lower-left, matching terrace olive foliage. Whole silhouettes, no cups, vase, table, plate or food painted behind them.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-b86cb5e0-4d68-4ea5-8956-88c31ce64ada.png"
+    },
+    {
+      "name": "lemon-mint",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\lemon-mint-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        75,
+        65,
+        510,
+        500
+      ]
+    },
+    {
+      "name": "dip-parsley",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\dip-parsley-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        550,
+        50,
+        1020,
+        535
+      ]
+    },
+    {
+      "name": "vase-cosmos",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\vase-cosmos-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1080,
+        0,
+        1510,
+        640
+      ]
+    },
+    {
+      "name": "terrace-butterfly",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\terrace-butterfly-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        60,
+        540,
+        530,
+        987
+      ]
+    },
+    {
+      "name": "olive-tip",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-081\\olive-tip-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        540,
+        540,
+        1035,
+        987
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "lemon mint",
+      "source": "lemon-mint",
+      "maxSize": [
+        75,
+        75
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          419,
+          478
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "dip parsley",
+      "source": "dip-parsley",
+      "maxSize": [
+        70,
+        65
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1058,
+          687
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase cosmos",
+      "source": "vase-cosmos",
+      "maxSize": [
+        125,
+        210
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          150,
+          613
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "terrace butterfly",
+      "source": "terrace-butterfly",
+      "maxSize": [
+        83,
+        75
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          719,
+          438
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "olive tip",
+      "source": "olive-tip",
+      "maxSize": [
+        145,
+        135
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          170,
+          270
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

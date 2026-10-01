@@ -1,0 +1,203 @@
+{
+  "levelId": 27,
+  "sceneId": "ah001-027-crafts-objects",
+  "theme": "crafts-objects",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "sky blue and parchment cream",
+  "visualReviewNotes": "Ribbon and daisy rest on the blue table, butterfly hovers nearby, fresh botanical sprig rests loose on the map, and navy tassel top loop overlaps the notebook strap. The sprig was moved from the ivy to the map after close inspection exposed a disconnected stem. Unlabelled map and compass contain no destination landmarks. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-027-crafts-objects/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: An unlabelled hand-drawn map beside a compass and notebook. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: clear sky blue (#7DBED8), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a curled ribbon matching the material palette at normalised rect [0.14, 0.24, 0.17, 0.16]; a light fabric corner on the table at normalised rect [0.67, 0.71, 0.23, 0.16]; a small leafy sprig in a nearby jar at normalised rect [0.75, 0.13, 0.16, 0.23]; a fine hanging thread or tassel connected to the craft at normalised rect [0.44, 0.34, 0.12, 0.17]; a small scene-specific flower blossom at normalised rect [0.12, 0.73, 0.17, 0.17]. The painting must remain attractive and complete underneath those parts.\nArt direction refinement: intimate overhead three-quarter travel still-life on a large CLEAR SKY BLUE painted wooden tabletop, which fills most of the frame and sets the dominant colour. Cream hand-drawn map has only delicate unlabelled coast and trail drawings, strictly no text, letters or compass rose letters. A brass compass, closed navy linen notebook, pencil and ivory empty small bud vase at upper-right. No fabric napkin (avoid separate fabric seam), no loose ribbon or flowers yet. A natural sunlit corner with softly painted textured materials and crisp readable silhouettes; objects generously spaced, no artificial spotlight or vignette. Reserve a little clear tabletop near lower-left for a loose daisy and a tiny clear spot at upper-left for a curled sky-blue ribbon.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-034ba152-5d4a-43db-a894-5a0e8baed19b.png",
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\background-original.png",
+      "archiveSourceSha256": "a1c839275a71a8834361e98a922b06d9e72c526a67f0c8f19ba9ca2d59d73f3b"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-027-crafts-objects/source/atlas.png",
+      "prompt": "Use case: stylized-concept. ONE TRANSPARENT PRODUCTION SPRITE ATLAS for the layered scene \"An unlabelled hand-drawn map beside a compass and notebook\". Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. View/perspective: eye-level intimate view; same gentle light from upper left. Palette dominant clear sky blue (#7DBED8) with natural object colours. Render exactly five independent painted foreground details on TRUE transparent alpha in a strict3-column by2-row grid, aspect3:2, target2400x1600. Each cell800x800, at least96pxtransparent gutter on every side; no overlap between cells. Bottom-right sixth cell MUST remain completely transparent. No labels, numbers, frames, sky backdrop or contact shadow. Paint only the requested detail for each cell; do not bake rectangular scenery around it. cell(1,1): a curled ribbon matching the material palette; cell(2,1): a light fabric corner on the table; cell(3,1): a small leafy sprig in a nearby jar; cell(1,2): a fine hanging thread or tassel connected to the craft; cell(2,2): a small scene-specific flower blossom. These details are actual parts of the completed painting, not generic decorative particles. Design each isolated silhouette to fit the placement and perspective of this exact scene.\nREFINE five actual details to this actual clear-sky-blue painted tabletop scene, overriding provisional fabric requirement: top-left a small curled pale blue satin ribbon with loosely curled ends, laying on a horizontal table viewed from above-three-quarter; top-middle a tiny butter-yellow butterfly in side-three-quarter view, one pair open wings; top-right a fresh sage-green leafy twig with five small leaves and a long bare lower stem to insert into the ivory bud vase, gently leaning left; bottom-left a small navy woven tassel with top loop and hanging threads, to attach to the closed notebook's elastic strap; bottom-middle one small white daisy blossom with a tiny curved short green stem, lying on the tabletop. All five exactly separately painted with soft warm sunlight from upper-left. No vase, notebook, tabletop, shadows, framing, watermarks, labels or text. Invisible 3x2 arrangement, exceptionally large transparent empty gutters, every subject complete inside its own cell, sixth cell absolutely empty, all outermost pixels alpha0.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-549e9a58-613f-4d78-a743-73b761cf4f9b.png",
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\atlas-original.png",
+      "archiveSourceSha256": "c1d1797d943bd2091d4d259a1fba6ca98a848dfb792011386df0b8b65a1fc0b6"
+    },
+    {
+      "name": "table-ribbon",
+      "path": "ah001-027-crafts-objects/source/table-ribbon.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\table-ribbon-isolated.png",
+      "archiveSourceSha256": "e7c2d89e03a91d0860fbaa7c4a0342c5ac45b6627693b86ee1de7d19182922ab"
+    },
+    {
+      "name": "yellow-butterfly",
+      "path": "ah001-027-crafts-objects/source/yellow-butterfly.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\yellow-butterfly-isolated.png",
+      "archiveSourceSha256": "52ca3e973651c92f7fcfe6e00e59211447e6e7688e030a796c7b6b3f84169ddb"
+    },
+    {
+      "name": "ivy-twig",
+      "path": "ah001-027-crafts-objects/source/ivy-twig.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\ivy-twig-isolated.png",
+      "archiveSourceSha256": "b46267587d8a7a013abc02c8197427a330b5929681e067d3e6502fa1f9f9b491"
+    },
+    {
+      "name": "notebook-tassel",
+      "path": "ah001-027-crafts-objects/source/notebook-tassel.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\notebook-tassel-isolated.png",
+      "archiveSourceSha256": "ed58f8ffe3a34f105cd0a311d9b742f6841d12e9fa29fd54d327de8edbef1126"
+    },
+    {
+      "name": "loose-daisy",
+      "path": "ah001-027-crafts-objects/source/loose-daisy.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-027\\loose-daisy-isolated.png",
+      "archiveSourceSha256": "6f99286e6e92474386975e6625bd71712971d6cba09b9813356057d4e2f049f5"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "table ribbon",
+      "source": "table-ribbon",
+      "maxSize": [
+        145,
+        110
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          350,
+          340
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "yellow butterfly",
+      "source": "yellow-butterfly",
+      "maxSize": [
+        75,
+        80
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          580,
+          185
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "fresh loose botanical sprig resting on the map",
+      "source": "ivy-twig",
+      "maxSize": [
+        100,
+        135
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          680,
+          1140
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "notebook tassel",
+      "source": "notebook-tassel",
+      "maxSize": [
+        65,
+        120
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1163,
+          411
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "loose daisy",
+      "source": "loose-daisy",
+      "maxSize": [
+        85,
+        70
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          154,
+          1390
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "levelId": 100,
+  "sceneId": "ah001-100-festivals-music",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-100-festivals-music/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A garden corner prepared for a string quartet. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small scene-specific pennant or kite tail at normalised rect [0.14, 0.1, 0.19, 0.19]; one hanging painted lantern or festival ornament at normalised rect [0.66, 0.18, 0.15, 0.19]; a curling ribbon tied to a scene prop at normalised rect [0.42, 0.43, 0.16, 0.18]; a small flower-garland section at normalised rect [0.1, 0.7, 0.21, 0.15]; a loose scene-matching fabric streamer at normalised rect [0.72, 0.64, 0.16, 0.23]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting, alpha255 at every pixel, no transparency. Actual scene refinement: An intimate garden corner prepared for a STRING QUARTET, warm IVORY canvas canopy, cream plaster garden wall and pale ivory stone paving dominate. Exactly four modest empty wooden chairs arranged in a gentle semicircle, four slim wooden music stands with plain blank cream sheets, two violin cases and one cello resting safely on its stand beside a chair. A few white flowers and muted sage plants at edges. No people, visible music notes, text, famous architecture, stage signage or logos. Coherent instruments and stands, elegant quiet daylight, softly brushed dimensional storybook art. The ivory canopy has complete static cloth, no holes; later tiny ribbons and flowers are separate. Portrait4:5, no UI or border.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-e2f2e205-8318-48eb-ac7e-9833796b339b.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\background.png",
+        "sha256": "423933880efec7bed4a640b551f06b9bc5378da1107a0c2f64033f0dc196c5fb",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\background-original.png",
+        "archiveSourceSha256": "423933880efec7bed4a640b551f06b9bc5378da1107a0c2f64033f0dc196c5fb"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-100-festivals-music/source/atlas.png",
+        "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For an ivory-canopied garden corner prepared for a string quartet: upper-left one tiny ivory silk bow tied at centre with two soft tails, for the curtain tie; upper-middle one small pale-gold thread tassel with tiny top loop, for a chair post; upper-right one short fresh jasmine garland sprig with two white flowers and sage leaves, full bare lower stem; lower-left one thin olive twig with four muted green leaves and full base; lower-middle one separate small white cosmos blossom on a short full green stalk for the near flower planter. No music notes, instrument, chair, canopy cloth patch, pot, scenery or shadows. Keep all five complete objects well inside their own cells; no intersecting silhouettes.",
+        "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-d3bbae5b-074b-4076-8d25-58d6fe78a1ad.png",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\atlas.png",
+        "sha256": "00a80c06f83fee5c3693b87cea5bac8c8bdba04bdfa08a510dbfc09dc352e0fe",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\atlas-original.png",
+        "archiveSourceSha256": "00a80c06f83fee5c3693b87cea5bac8c8bdba04bdfa08a510dbfc09dc352e0fe"
+      },
+      {
+        "name": "canopy-tie-bow",
+        "path": "ah001-100-festivals-music/source/canopy-tie-bow.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\canopy-tie-bow.png",
+        "sha256": "85e225930a6ec11463860a97ec7007c12b98685e0f647fd8fbf7affefad8f3ac",
+        "pixels": [
+          512,
+          512
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\canopy-tie-bow-isolated.png",
+        "archiveSourceSha256": "85e225930a6ec11463860a97ec7007c12b98685e0f647fd8fbf7affefad8f3ac"
+      },
+      {
+        "name": "chair-tassel",
+        "path": "ah001-100-festivals-music/source/chair-tassel.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\chair-tassel.png",
+        "sha256": "f1abeffa5d6df1a61005cb02448cb2e12c0cdc11df9c7ac25a30638a93dfaf86",
+        "pixels": [
+          512,
+          512
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\chair-tassel-isolated.png",
+        "archiveSourceSha256": "f1abeffa5d6df1a61005cb02448cb2e12c0cdc11df9c7ac25a30638a93dfaf86"
+      },
+      {
+        "name": "wall-jasmine",
+        "path": "ah001-100-festivals-music/source/wall-jasmine.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\wall-jasmine.png",
+        "sha256": "e64b4b624de39ed408f5b30f48c548c33811ba7dc37804fed5e2751b0a6c5140",
+        "pixels": [
+          512,
+          512
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\wall-jasmine-isolated.png",
+        "archiveSourceSha256": "e64b4b624de39ed408f5b30f48c548c33811ba7dc37804fed5e2751b0a6c5140"
+      },
+      {
+        "name": "garden-olive",
+        "path": "ah001-100-festivals-music/source/garden-olive.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\garden-olive.png",
+        "sha256": "ddc884605fe5f856bb4cb81c23ccf30a40961bb34525d4a410bb67a18e18477a",
+        "pixels": [
+          512,
+          512
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\garden-olive-isolated.png",
+        "archiveSourceSha256": "ddc884605fe5f856bb4cb81c23ccf30a40961bb34525d4a410bb67a18e18477a"
+      },
+      {
+        "name": "planter-cosmos",
+        "path": "ah001-100-festivals-music/source/planter-cosmos.png",
+        "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+        "derivedFrom": "atlas",
+        "sourceCropPixels": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-100-festivals-music\\source\\planter-cosmos.png",
+        "sha256": "a2df122ae8b30cad4d5f75627e96b3d437c69d6728e481eb88d59b5abfc44254",
+        "pixels": [
+          512,
+          512
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\planter-cosmos-isolated.png",
+        "archiveSourceSha256": "a2df122ae8b30cad4d5f75627e96b3d437c69d6728e481eb88d59b5abfc44254"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Ivory bow visibly matches curtain tie, gold tassel hangs from chair post, jasmine/olive/cosmos extend matching plants. Exactly four chairs and four blank music stands, coherent cello, no musical text. Boundary to101 visually reviewed: ivory quartet scene differs from blue gingham picnic food scene. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0033,
+      "orange-yellow": 0.9941,
+      "green": 0.0026,
+      "blue": 0.0,
+      "violet-pink": 0.0
+    },
+    "measuredDominantColour": "#c19b6c",
+    "mainColourLabel": "warm ivory",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "00251b6ed2e100e77edfab03e99e042f5b6c0882c768a990f653889a5116aaef"
+  },
+  "parts": [
+    {
+      "source": "ah001-100-festivals-music/part-1.png",
+      "sha256": "6332d741ec5efc43013c497065806187ee821fd5bb8c3f610f76282aa11ea987",
+      "rect": [
+        0.409375,
+        0.383125,
+        0.078125,
+        0.074375
+      ],
+      "sourcePixelRect": [
+        524,
+        613,
+        100,
+        119
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "canopy tie bow",
+      "authoringSource": "canopy-tie-bow",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        108,
+        126,
+        402,
+        475
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          524,
+          613
+        ]
+      }
+    },
+    {
+      "source": "ah001-100-festivals-music/part-2.png",
+      "sha256": "15c925d1db82a05fffc7f0698bdf3a80413d0faf3f9dd74c3cbe99c18b60a383",
+      "rect": [
+        0.1671875,
+        0.52,
+        0.04296875,
+        0.075625
+      ],
+      "sourcePixelRect": [
+        214,
+        832,
+        55,
+        121
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "chair tassel",
+      "authoringSource": "chair-tassel",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        157,
+        70,
+        342,
+        478
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          214,
+          832
+        ]
+      }
+    },
+    {
+      "source": "ah001-100-festivals-music/part-3.png",
+      "sha256": "97795a627ccb15adc9565f62dcc8da8bd5855396241634262eb57379a5e776f5",
+      "rect": [
+        0.83046875,
+        0.1875,
+        0.09375,
+        0.08875
+      ],
+      "sourcePixelRect": [
+        1063,
+        300,
+        120,
+        142
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "wall jasmine",
+      "authoringSource": "wall-jasmine",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        75,
+        75,
+        432,
+        496
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1100,
+          440
+        ]
+      }
+    },
+    {
+      "source": "ah001-100-festivals-music/part-4.png",
+      "sha256": "4bb91068de8d2b5195afd03f1220f979409df14aaa243da7ecd7c7bcf8fd2ed9",
+      "rect": [
+        0.23203125,
+        0.294375,
+        0.09375,
+        0.09625
+      ],
+      "sourcePixelRect": [
+        297,
+        471,
+        120,
+        154
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "garden olive",
+      "authoringSource": "garden-olive",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        95,
+        31,
+        422,
+        450
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          388,
+          623
+        ]
+      }
+    },
+    {
+      "source": "ah001-100-festivals-music/part-5.png",
+      "sha256": "0ca18cacf9b1b910a75fe679477c981be76f564830492fe10f6cf1a6bfbaa3a5",
+      "rect": [
+        0.125,
+        0.831875,
+        0.078125,
+        0.08125
+      ],
+      "sourcePixelRect": [
+        160,
+        1331,
+        100,
+        130
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "planter cosmos",
+      "authoringSource": "planter-cosmos",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        114,
+        62,
+        411,
+        448
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          202,
+          1460
+        ]
+      }
+    }
+  ]
+}

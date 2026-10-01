@@ -1,0 +1,203 @@
+{
+  "levelId": 25,
+  "sceneId": "ah001-025-interiors",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "golden yellow",
+  "visualReviewNotes": "Steam rises from the actual teacup opening, ficus merges into the potted plant, daisy stem enters the vase, small butterfly sits near window, and bow attaches to the teapot handle. Fabric-seam-dependent provisional details were replaced with scene-specific painted details. Full composite and all five actual alpha layers inspected on contrasting ivory/navy backgrounds. All extraction boundaries alpha<=2; no painted subject was clipped and no scenery rectangle is animated. Layer positions retain their aspect ratio and exact at-rest composition. This is internal implementation review, not Product Manager approval. Actual renderer evidence is recorded separately in the batch report.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-025-interiors/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A small tea room with patterned cushions and a low table. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: golden yellow (#DFC260), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: one softly draped curtain edge at normalised rect [0.07, 0.14, 0.18, 0.27]; an upper houseplant leaf cluster at normalised rect [0.73, 0.13, 0.2, 0.24]; a small flower in a tabletop vase at normalised rect [0.46, 0.56, 0.16, 0.17]; a soft corner of a woven blanket or cloth at normalised rect [0.62, 0.74, 0.24, 0.13]; a dangling ribbon or fabric tie appropriate to the room at normalised rect [0.28, 0.38, 0.1, 0.19]. The painting must remain attractive and complete underneath those parts.\nArt direction: a warmly inviting little tea room with golden-yellow walls, a golden woven rug and mustard-yellow patterned cushions around a low honey-wood table. Blue and white porcelain teapot and cups and a small dish of tea sweets; one small empty cream bud vase on the table awaits a separately painted flower. A pale unpatterned curtain at a side window and one simple folded cream throw provide calm textured fabric areas. Beautiful natural afternoon light, readable layered objects, a glimpse of a green potted houseplant at one edge. Yellow is clearly the dominant large color, not brown or orange. No written labels or text, no recognizable landmarks, no UI.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-722cabf3-19dc-4bcd-8d58-62bc387acb05.png",
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\background-original.png",
+      "archiveSourceSha256": "f67593466de75f5c0db0d400b8227e9b5b9c1808b06d7c6744c7e97eb4747c66"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-025-interiors/source/atlas.png",
+      "prompt": "Use case: stylized-concept. ONE transparent production atlas with exactly five unique moving details for a cozy golden-yellow tea room with blue-and-white teacups, cream fabrics and a small empty cream tabletop bud vase. Rich softly brushed natural storybook painting, afternoon sunlight from upper left. Invisible3-column by2-row grid, each subject modestly sized and entirely inside its own cell with a very wide transparent gutter. Top-left: one delicate curling warm ivory steam wisp rising upward from a fine narrow base, translucent soft alpha, for a cup of hot tea. Top-middle: a small glossy ficus twig carrying three broad dark-green leaves, full slender stem ending below. Top-right: one small white daisy flower on a long slim green stem, slight gentle left bend, for the empty bud vase. Bottom-left: one tiny pale honey-yellow butterfly viewed at a three-quarter angle with folded-open wings, a clearly different silhouette from a blue garden butterfly. Bottom-middle: one narrow tied golden fabric ribbon with two short softly curling ends, seen front-on, to attach to the teapot wicker handle. Bottom-right must be truly empty transparent. No cups, plant pots, vase, table, curtain, blanket, full room, opaque matte, labels, grid lines or ground shadow. The five details are genuine painted scene parts with complete isolated alpha silhouettes.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-f1575f49-7319-46b0-af69-dc7a4d5806b8.png",
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\atlas-original.png",
+      "archiveSourceSha256": "1e0cfab3cd139c2ed54aa8d12d5b0c5fdf9cbb763dccedd8f0864ada2d33a8d6"
+    },
+    {
+      "name": "tea-steam",
+      "path": "ah001-025-interiors/source/tea-steam.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        115,
+        0,
+        432,
+        578
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\tea-steam-isolated.png",
+      "archiveSourceSha256": "f443f982401446d2c36002592458c8e4bdd122b5de0b78c01208d84c22ceae1a"
+    },
+    {
+      "name": "ficus-leaves",
+      "path": "ah001-025-interiors/source/ficus-leaves.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        548,
+        35,
+        1018,
+        548
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\ficus-leaves-isolated.png",
+      "archiveSourceSha256": "ec0037cacb5308805c87d8214387d14cf19729dea3be48df6330727367c53269"
+    },
+    {
+      "name": "vase-daisy",
+      "path": "ah001-025-interiors/source/vase-daisy.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1125,
+        45,
+        1418,
+        544
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\vase-daisy-isolated.png",
+      "archiveSourceSha256": "f2cbe8d966917833a239ee3a58cc77f2554ba708668ad9ef99f3f8d9b5ade70c"
+    },
+    {
+      "name": "window-butterfly",
+      "path": "ah001-025-interiors/source/window-butterfly.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        125,
+        615,
+        455,
+        947
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\window-butterfly-isolated.png",
+      "archiveSourceSha256": "7f9426954593922e76f280f7c29589bc61c249c8797de6ca78612fd8c9c2db76"
+    },
+    {
+      "name": "teapot-ribbon",
+      "path": "ah001-025-interiors/source/teapot-ribbon.png",
+      "prompt": "Lossless isolation of a separately purpose-painted atlas silhouette; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        583,
+        632,
+        1020,
+        978
+      ],
+      "historicalAuthoringPath": "reports\\ah-001-2026-09-30\\scenes\\batch-021-030\\scene-025\\teapot-ribbon-isolated.png",
+      "archiveSourceSha256": "a7ce129d52aa980ee4d4ccdf27dfd27882cd2427f561f9ed4e42d093d8273642"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "tea steam",
+      "source": "tea-steam",
+      "maxSize": [
+        112,
+        190
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          393,
+          1007
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "ficus leaves",
+      "source": "ficus-leaves",
+      "maxSize": [
+        160,
+        210
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1128,
+          554
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase daisy",
+      "source": "vase-daisy",
+      "maxSize": [
+        105,
+        220
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          720,
+          830
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "window butterfly",
+      "source": "window-butterfly",
+      "maxSize": [
+        70,
+        80
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          119,
+          395
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "teapot ribbon",
+      "source": "teapot-ribbon",
+      "maxSize": [
+        100,
+        85
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          505,
+          780
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

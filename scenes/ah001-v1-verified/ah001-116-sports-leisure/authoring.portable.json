@@ -1,0 +1,319 @@
+{
+  "levelId": 116,
+  "sceneId": "ah001-116-sports-leisure",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-116-sports-leisure/source/background.png",
+        "prompt": "Use case: illustration-story. Production game puzzle clean background, full bleed portrait 4:5, detailed warm oil/gouache illustration with visible painterly texture, natural coherent light/perspective. Fully opaque RGB: every pixel alpha255, no transparent areas or edge glitches. No writing, logos, digits, identifiable famous place, frame or UI. Complete inviting scene; omit only specified tiny later animated details, leaving natural anchor surfaces. Eye-level intimate view of an IVORY kayak and cream wooden paddles resting beside a grassy river bank. Warm ivory hull fills much of foreground, ivory pale gravel shore and pale soft sky reinforce the dominant palette; muted green bank and calm gray-blue river accents. Add a canvas picnic bag with plain bare knotted handle tie, an empty short twig at the upper-left willow branch well inside canvas, a tiny bare stem in nearshore grasses, an empty calm water pocket, and an exposed smooth pale gravel patch. Later details bag ribbon bow, willow leaf cluster, grass seed head, small water ripple, loose soft feather. No people or text, believable kayak shape and cockpit.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-116-sports-leisure\\source\\background.png",
+        "sha256": "3f4993100cc5f0b131ae2e9571475e972adf18188c4ebb0385236dcd95655521",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-af61271b-159e-45d2-ab8d-660f9fe11707.png",
+        "archiveSourceSha256": "3f4993100cc5f0b131ae2e9571475e972adf18188c4ebb0385236dcd95655521"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-116-sports-leisure/source/atlas.png",
+        "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows, wisps and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Cream kayak on natural river shore details. Cell0: a small blank ivory canvas luggage tag hanging from a short CLOSED rough twine loop at its top, no writing no symbols. Cell1: a slim willow twig with THREE long sage leaves, short bare cut stem at top-left, no roots. Cell2: two slender golden grass seed heads on a single rootless cut base stem. Cell3: a narrow horizontal small river ripple in soft ivory and pale blue, feathered alpha, no water rectangle, no mist. Cell4: a small warm gray feather resting flat on gravel, viewed diagonally from above, complete quill, minimal tight contact shadow only.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-116-sports-leisure\\source\\atlas.png",
+        "sha256": "27f00dc4ed668f0a3979d77f95246fb519f45ab9738250cdc8a7b5b849bcfb9d",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-54cfc99a-eae0-420d-adbe-e68387abb163.png",
+        "archiveSourceSha256": "27f00dc4ed668f0a3979d77f95246fb519f45ab9738250cdc8a7b5b849bcfb9d"
+      },
+      {
+        "name": "replacement-atlas",
+        "path": "ah001-116-sports-leisure/source/replacement-atlas.png",
+        "prompt": "Production game-art RGBA sprite atlas, 1536x1024 pixels, transparent background. Three complete separate objects on top row only, in three invisible 512x512 cells. Bottom row empty transparent. Center each whole object within central300x300 of its own cell, surrounded on every side by wide transparent empty margins. Soft detailed oil/gouache brushwork, warm upper-left light. Cell0: ONE isolated small ivory feather, viewed diagonally from above, fine soft barbs and complete golden quill. Feather alone suspended in transparent space, no surrounding scene or support. Cell1: ONE isolated small warm-gray feather, different shorter rounded shape, fine soft barbs, full cream quill, viewed diagonally from above; feather alone in transparent space. Cell2: five very thin short pale-blue and ivory horizontal shimmering reflection strokes, forming a FLAT CALM elliptical water ripple, all strokes separated by genuine transparent gaps and feathered edges; no breaking waves, no spray, no mound, no solid water surface, no broad haze. No books, no pebbles, no floor, no scenery, no typography, no labels, no diagram lines. True empty alpha outside the three specific objects.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-116-sports-leisure\\source\\replacement-atlas.png",
+        "sha256": "57b0e122d4db6a9cb58e4174f775d7d59399f0c1ba9b9aac08df4846821ebe12",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-6c379e48-74b1-4a0b-ae36-54592692eae6.png",
+        "archiveSourceSha256": "57b0e122d4db6a9cb58e4174f775d7d59399f0c1ba9b9aac08df4846821ebe12"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene115 original feather-on-book and Scene116 feather-on-stones and large splash were rejected and replaced by isolated feathers and calm ripple. Scene117 loose twine rests on clear mat away from existing paper bow. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0016,
+      "orange-yellow": 0.9235,
+      "green": 0.0006,
+      "blue": 0.0744,
+      "violet-pink": 0.0
+    },
+    "measuredDominantColour": "#b6985f",
+    "mainColourLabel": "warm ivory kayak and gravel shoreline",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "fddd8167455d7913a0bacb2c3fdcd8b633084d67bb26306c989f07888180c6ad"
+  },
+  "parts": [
+    {
+      "source": "ah001-116-sports-leisure/part-1.png",
+      "sha256": "3b959e6dd75b4e3fad56f547d89b71955e058a60d4c1f4633b3d030bc9ddf1e5",
+      "rect": [
+        0.1078125,
+        0.526875,
+        0.03125,
+        0.0375
+      ],
+      "sourcePixelRect": [
+        138,
+        843,
+        40,
+        60
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "blank canvas tag looped around bag handle",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "atlasExtractionRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        113,
+        28,
+        418,
+        489
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          138,
+          843
+        ]
+      }
+    },
+    {
+      "source": "ah001-116-sports-leisure/part-2.png",
+      "sha256": "2e2a6d6f51016e445d24de517e568c849817b9198572c318d34f3730b74a3253",
+      "rect": [
+        0.26484375,
+        0.025625,
+        0.071875,
+        0.059375
+      ],
+      "sourcePixelRect": [
+        339,
+        41,
+        92,
+        95
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "willow leaves attached to overhead branch",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        56,
+        53,
+        460,
+        469
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          339,
+          41
+        ]
+      }
+    },
+    {
+      "source": "ah001-116-sports-leisure/part-3.png",
+      "sha256": "ed5114d82a30125af9fd92e0eada9082069fca53613b3c17c57dc40c252c992b",
+      "rect": [
+        0.72421875,
+        0.56375,
+        0.0453125,
+        0.04625
+      ],
+      "sourcePixelRect": [
+        927,
+        902,
+        58,
+        74
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "slender seed heads at shoreline grass",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        98,
+        27,
+        464,
+        491
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          930,
+          975
+        ]
+      }
+    },
+    {
+      "source": "ah001-116-sports-leisure/part-4.png",
+      "sha256": "e7f11c66c3d27e344a6638c3c276dc3331a99f77d14bfa9c6bd0c2a116e901df",
+      "rect": [
+        0.840625,
+        0.54875,
+        0.06875,
+        0.021875
+      ],
+      "sourcePixelRect": [
+        1076,
+        878,
+        88,
+        35
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "gentle ripple on calm river",
+      "authoringSource": "replacement-atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        31,
+        207,
+        449,
+        374
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1120,
+          896
+        ]
+      }
+    },
+    {
+      "source": "ah001-116-sports-leisure/part-5.png",
+      "sha256": "0b9ead1d31cf52ccd5e253e62be6e26c74de46fffb379bd1635cbb8211a86ef9",
+      "rect": [
+        0.57109375,
+        0.890625,
+        0.0375,
+        0.03
+      ],
+      "sourcePixelRect": [
+        731,
+        1425,
+        48,
+        48
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "subject": "warm gray feather resting on gravel",
+      "authoringSource": "replacement-atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        125,
+        145,
+        381,
+        399
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          755,
+          1449
+        ]
+      }
+    }
+  ]
+}

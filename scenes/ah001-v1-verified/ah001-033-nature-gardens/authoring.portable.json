@@ -1,0 +1,306 @@
+{
+  "levelId": 33,
+  "sceneId": "ah001-033-nature-gardens",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-033-nature-gardens/source/background.png",
+        "prompt": "Use case: stylized-concept. Production jigsaw clean background,portrait4:5,1280x1600. A fern-lined stream winding around smooth mossy stones, gently elevated three-quarter view. TURQUOISE water occupies the majority of the composition from upper-center to the wide foreground, contrasting emerald and sage ferns, warmgray steppingstones and small dappled sunlight patches. A detailed warm dimensional storybook digital painting, softly brushed but crisp local objects and tangible moss/stone/water textures, peaceful generic travel nature scene, no city or landmark, no lettering, UI orborder. Full canvas beautiful finished painting. Small pebbles visible under clear turquoise water. This is a clean plate for five independently painted foreground details: leave out one foreground fern tip, one right-bank reed cluster, two small drifting fallen leaves and one isolated surface glint; paint complete background water/rock behind them. Natural anchors: a low fernbase on the left bank near(15%,72%) without its frontmost frond; rightbank soil at(82%,52%) has a small reedbase; calm waterpatches at(39%,60%),(61%,78%),(49%,40%) contain no drifting leaf/glint. Keep plenty of irregular streambed detail for interesting puzzlepieces, no large featureless gradient. No photographic collage and no flat vector graphics.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-033-nature-gardens\\source\\background.png",
+        "sha256": "937c65cedfa85d094281c7ec9ce8f2c368d07e2611c42493c2211bb9dab87294",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-ec4b1212-af04-464e-838a-edeb2fc3c336.png",
+        "archiveSourceSha256": "937c65cedfa85d094281c7ec9ce8f2c368d07e2611c42493c2211bb9dab87294"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-033-nature-gardens/source/atlas.png",
+        "prompt": "Use case: stylized-concept. A transparent production sprite atlas with five uniquely painted parts for a turquoise woodland stream illustration. Canvas1536x1024, INVISIBLE arrangement of3columns2rows. Each512x512cell contains a SMALL subject in central300x300pixels only, leaving at least100pixels of genuinely empty alpha on every edge. Do not draw the layoutgrid or lines. Sixthcell bottomright entirelytransparent. Polished warm dimensional storybook painted materials, dappled natural sunlight from upperleft, clean complete anti-aliased silhouettes. Row1left: one graceful green fern frond with thin stem curving down to a complete root tip. Row1middle: a compact three-stem reed cluster with two seedheads, long stems meeting at its base. Row1right: one warm russet small maple leaf floating onwater, seen slightlyfromabove, without water orshadow. Row2left: a DIFFERENT small golden birchleaf seenfromabove, gentlycurled, withoutwater orshadow. Row2middle: one short narrow curved WHITE-TURQUOISE surface ripple/glint, delicatelypainted as a tightlybounded disconnected-light brushstroke, fades to completelytransparent wellinsideitscell, no rectangular waterpatch and no surrounding halo. TRUE ALPHA background with zeroambientglow, no checkerboard, labels, numbers, frame, branches beyondtheonefrond, scenery or otherobjects. Keep every silhouette comfortablyinsidecentral300x300.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-033-nature-gardens\\source\\atlas.png",
+        "sha256": "99cbbb1a58c529a1a4bd38f717643354695d7b8f92a8836938acea130286ccae",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-8913b99b-0152-4c89-9dea-e459a6bf5fd0.png",
+        "archiveSourceSha256": "99cbbb1a58c529a1a4bd38f717643354695d7b8f92a8836938acea130286ccae"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Original background and all five transparent parts inspected. Source alpha checked on light and dark grounds, bounded paint silhouettes verified. Real vessel mouths, cord/hook positions, vegetation roots or water surfaces determine anchors; final composites require separate inspection. Distinct actual palette from both neighboring scenes. No identifiable destination landmark. Representative primary surface color #51a389 sampled from large turquoise foreground water, original pixels [400, 760, 800, 1250]; global warm-light hue histogram is retained separately and is not a perceptual dominant-color classifier. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0022,
+      "orange-yellow": 0.4672,
+      "green": 0.2777,
+      "blue": 0.2529,
+      "violet-pink": 0.0001
+    },
+    "measuredDominantColour": "#746c2f",
+    "mainColourLabel": "turquoise running water",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "96f83f0e7440384e80640170302e60306bfac778db6a5c811ac3fc833393c84c"
+  },
+  "parts": [
+    {
+      "source": "ah001-033-nature-gardens/part-1.png",
+      "sha256": "407a5548eb91982efd7c1cb0f13999faf71f6482d5a071182423768cfee8aaf4",
+      "rect": [
+        0.0515625,
+        0.51125,
+        0.06015625,
+        0.054375
+      ],
+      "sourcePixelRect": [
+        66,
+        818,
+        77,
+        87
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "fern frond rooted beside lower-left bank",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "atlasExtractionRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        90,
+        110,
+        416,
+        480
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          125,
+          903
+        ]
+      }
+    },
+    {
+      "source": "ah001-033-nature-gardens/part-2.png",
+      "sha256": "03cb9c3aa25eda03f4685af560d29e4e0251705d20aa4b90259ee5660317e8cc",
+      "rect": [
+        0.88203125,
+        0.35375,
+        0.075,
+        0.075
+      ],
+      "sourcePixelRect": [
+        1129,
+        566,
+        96,
+        120
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "seed-tipped reeds rooted on right stream bank",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        94,
+        57,
+        432,
+        481
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1172,
+          685
+        ]
+      }
+    },
+    {
+      "source": "ah001-033-nature-gardens/part-3.png",
+      "sha256": "0ca1e3491d5a687f6966156ae42fe41f85fd8b4bf4d88fcd9fa8a19ff8399e98",
+      "rect": [
+        0.565625,
+        0.7275,
+        0.05234375,
+        0.034375
+      ],
+      "sourcePixelRect": [
+        724,
+        1164,
+        67,
+        55
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "russet maple leaf floating on calm water",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        61,
+        172,
+        381,
+        435
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          758,
+          1191
+        ]
+      }
+    },
+    {
+      "source": "ah001-033-nature-gardens/part-4.png",
+      "sha256": "fa4c08994664ed7fcba0b9d2f410479535191dc7ca82531b4ca5e2e049ef5f75",
+      "rect": [
+        0.378125,
+        0.85375,
+        0.03984375,
+        0.0325
+      ],
+      "sourcePixelRect": [
+        484,
+        1366,
+        51,
+        52
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "golden birch leaf floating in foreground water",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "atlasExtractionRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        122,
+        96,
+        412,
+        393
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          510,
+          1392
+        ]
+      }
+    },
+    {
+      "source": "ah001-033-nature-gardens/part-5.png",
+      "sha256": "94f879b79a278fb1c85f13b32db3ace70f9b1f01441642280346de589137f886",
+      "rect": [
+        0.49296875,
+        0.6675,
+        0.1046875,
+        0.04125
+      ],
+      "sourcePixelRect": [
+        631,
+        1068,
+        134,
+        66
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "subject": "thin curved glint on calm water",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "atlasExtractionRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        111,
+        169,
+        405,
+        314
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          698,
+          1101
+        ]
+      }
+    }
+  ]
+}

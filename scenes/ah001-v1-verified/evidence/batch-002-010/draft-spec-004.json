@@ -1,0 +1,151 @@
+{
+  "levelId": 4,
+  "sceneId": "ah001-004-streets-squares",
+  "theme": "streets-squares",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Original background and five unique painted silhouettes reviewed against approved gameplay style. Details are positioned on existing physical anchors; atlas complete silhouettes extracted without repainting. Final composite review pending export.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-7c9af477-2ae2-42c7-a27c-8798041baeca.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A quiet cobblestone lane with colourful unmarked doors. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: turquoise (#65B5AE), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a narrow hanging pennant appropriate to the neighborhood at normalised rect [0.17, 0.1, 0.18, 0.14]; a little flowering window-box sprig at normalised rect [0.73, 0.3, 0.18, 0.18]; a softly draped curtain corner in one window at normalised rect [0.36, 0.22, 0.13, 0.19]; a small foreground branch entering from the left at normalised rect [0.05, 0.66, 0.19, 0.23]; a soft cloud or pale reflection in this scene at normalised rect [0.49, 0.08, 0.22, 0.12]. The painting must remain attractive and complete underneath those parts. Turquoise and pale blue painted house walls are the largest shapes. Intimate unnamed cobblestone lane, flower pots, one clearly open upper window with an empty curtain rod, visible blue sky above. Provide real architectural hanging points for a small pennant and a flowerbox. No people needed and no readable shop lettering. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6c13b36d-c153-47a5-8eb6-00c962df7b00.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A quiet cobblestone lane with colourful unmarked doors\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a wide intimate view from slightly above painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a short flowering orange-jasmine vine sprig with pale ivory buds and green leaves, bottom stem; top-middle an upright rosemary sprig with subtle blue blossoms and tapered bottom stem; top-right one short cream cotton curtain tie with two draping tassels, narrow top attachment; bottom-left a small russet-and-navy swallow with spread curved wings and forked tail; bottom-middle a fine lavender stem with two narrow leaves and bottom stalk. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "jasmine sprig",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        150,
+        200
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          160,
+          1480
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "rosemary sprig",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        80,
+        160
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          980,
+          1185
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "curtain tie",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        75,
+        125
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          541,
+          255
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "courtyard swallow",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        100,
+        85
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          867,
+          311
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "lavender stem",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        75,
+        190
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1200,
+          1420
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "turquoise"
+}

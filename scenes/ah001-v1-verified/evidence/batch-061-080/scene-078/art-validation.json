@@ -1,0 +1,19 @@
+{
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "parts": 5,
+  "atRestRGBAExact": true,
+  "mainColour": "#ce6231",
+  "dominantHueBucket": "orange-yellow",
+  "chromaticHueFractions": {
+    "red": 0.2524,
+    "orange-yellow": 0.6561,
+    "green": 0.0492,
+    "blue": 0.0408,
+    "violet-pink": 0.0015
+  },
+  "runtimeReview": "passed:61 production GPU frames; all five painted parts move; zero escaped changes; offsets<=4pt, return at3000ms, zoom100to105%; frame hashes verified",
+  "gpuMotionProof": "gpu/motion-proof.json"
+}

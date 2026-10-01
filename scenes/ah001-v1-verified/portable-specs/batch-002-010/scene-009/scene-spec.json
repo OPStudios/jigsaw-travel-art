@@ -1,0 +1,156 @@
+{
+  "levelId": 9,
+  "sceneId": "ah001-009-water-coast",
+  "theme": "water-coast",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Grasses meet real coastal rock tufts; kelp rests on pool surface; caustic brush is a local water reflection, not a rectangular overlay; small crab sits on exposed foreground shore rock. Main colour is measured from visible subject region [420, 200, 970, 640]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-009-water-coast/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A sunlit rock pool filled with shells and clear water. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: golden yellow (#DFC260), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft near-water reflection patch at normalised rect [0.14, 0.62, 0.25, 0.14]; a second distinct water reflection patch at normalised rect [0.51, 0.71, 0.27, 0.12]; a shore reed or sea-grass cluster at normalised rect [0.75, 0.53, 0.17, 0.24]; a softly painted near cloud at normalised rect [0.12, 0.1, 0.24, 0.14]; a softly painted far cloud or spray wisp appropriate to the scene at normalised rect [0.58, 0.18, 0.24, 0.12]. The painting must remain attractive and complete underneath those parts. Use clear cyan-blue/turquoise WATER as the main colour, filling more than half this rock-pool view; gold rock edges and shells are accents. Slightly elevated intimate view, no horizon or sky necessary. Paint complete water behind all later thin reflective ripples and a shore sea-grass cluster. No city landmarks, man-made symbols or text. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6a8b17c2-d512-4f4b-9a1e-3035c99ed77d.png",
+      "archiveSourceSha256": "a2dc227c90f3de3d196191a0b4fad701ea653b2ecad1a2b94eb64d61972aa757"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-009-water-coast/source/atlas.png",
+      "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A sunlit rock pool filled with shells and clear water\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a eye-level intimate view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a small fan of flexible ochre-green coastal grass blades, all meet at bottom base; top-middle a short curling ribbon of deep amber seaweed floating on clear water, no water rectangle; top-right a narrow painted sunlight caustic reflection crescent on clear water, translucent warm ivory feathered brush strokes, no backdrop; bottom-left a fine tuft of bluish dune grass bending left, bottom stem base; bottom-middle a single small orange shore crab viewed from overhead, dimensional painted legs and claws, no ground shadow. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-aea2727b-ee55-4d28-a393-0489be80b8ec.png",
+      "archiveSourceSha256": "18c427f2a9c38f72115c98ac79b5b8a8525b6ad495e11f2fa47bf3b0af069be0"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "coastal grass",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        170,
+        205
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1175,
+          965
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "floating kelp",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        105,
+        116
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          779,
+          549
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "water caustic",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        177,
+        163
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          489,
+          950
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "dune grass",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        130,
+        155
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          183,
+          1180
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "shore crab",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        88,
+        83
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          402,
+          1480
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "cyan turquoise",
+  "mainColour": "#409784"
+}

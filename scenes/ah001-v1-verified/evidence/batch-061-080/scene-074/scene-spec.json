@@ -1,0 +1,227 @@
+{
+  "levelId": 74,
+  "sceneId": "ah001-074-streets-squares",
+  "theme": "streets-squares",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final master and original details against the approved painted game style. Ivy, hydrangea and fern meet real plaza plants; sparrow perches at fountain rim. Rejected exaggerated splash replaced by a subtle low horizontal painted reflection on existing water. Actual palette sample is [390, 1140, 1000, 1540] in1280x1600 source space; no landmark observed. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-c8c3fc47-9b07-4a21-9d91-81f227758710.png",
+      "prompt": "Use case: stylized-concept. Create a finished high-quality unique CLEAN BACKGROUND PLATE for portrait4:5 jigsaw puzzle illustration \"A park-bench plaza with a small round fountain\". Premium cozy travel-game storybook digital painting matching approved Art Direction V2 gameplay art: tactile subtly brushed surfaces, fine hand-painted detail, believable dimensional objects, gentle upper-left sunlight, rich color separation and small discoveries. NOT flat vector, NOT photorealistic, NOT generic procedural art. A quiet plaza with cream ivory stone paving and pale limestone fountain and benches occupying most of the frame. A small round fountain, a few warm plants, plain buildings without readable signs or landmark architecture. Ivory palette clearly dominant. No people. Complete water surfaces without later extra glint details. Viewpoint: close cozy three-quarter view. The picture must fill the entire portrait4:5 canvas, ideal1280x1600; no borders, text, UI, grid, title, logo, watermark or transparent holes. This is a complete naturally composed environment with real stable anchors for five small moving details later added as separate alpha layers. Do not add floating decorative particles or overlay patterns. Preserve coherent scale and perspective. No famous destination landmark. Keep the requested main color visible throughout the scene, not only a tiny accent."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-e4eea51c-0b38-48d0-8e65-a6edff160de4.png",
+      "prompt": "Use case: stylized-concept. A production RGBA transparent sprite atlas of five unique painted details belonging to the scene \"A park-bench plaza with a small round fountain\". Match a premium cozy illustrated puzzle: rich dimensional storybook digital painting, subtle brushed pigment, believable natural forms, fine detail, soft upper-left sun, coherent warm light and tactile materials. No flat vector, no photos, no generic geometric particles. EXACTLY five isolated objects, strict3 columns by2 rows, landscape3:2 canvas. Leave the sixth bottom-right cell perfectly empty transparent. TRUE alpha transparency, no matte, no background, no grid or cell borders, no frame, no shadow rectangle, no labels or text. Place each entire object inside the central50% of its own cell, leaving wide25% gutters on every side. FULL complete loops, stems, wings, wisps and thin strands must fit safely inside each cell; none may touch canvas or cell edges. Top row left to right: a short ivy sprig of muted olive leaves with a narrow bottom stem; a soft cream hydrangea flowering twig with pale green leaves and a tapered lower stem; a delicate green fern frond with a thin lower stalk. Bottom row left to right: one small warm-grey sparrow perched in side view, complete feet and tiny claws, no perch; a soft ivory fountain-water glint, narrow translucent painted ripple arc with feathered edges, no scenery rectangle; EMPTY. Preserve detailed painted alpha edges and translucent material where specified. Do not include containers, scenery or extra items. All five details are real meaningful parts of this specific scene, sharing its scale and light."
+    },
+    {
+      "name": "extraction-1",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-074-part-1.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-e4eea51c-0b38-48d0-8e65-a6edff160de4.png",
+      "sourceAtlasSha256": "35a0335dc331ff254486f36dc5727a46e183742bbf99f28675247f27d0780f37",
+      "sourceAtlasRect": [
+        0,
+        0,
+        512,
+        565
+      ],
+      "borderAlphaMax": 0,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "extraction-2",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-074-part-2.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-e4eea51c-0b38-48d0-8e65-a6edff160de4.png",
+      "sourceAtlasSha256": "35a0335dc331ff254486f36dc5727a46e183742bbf99f28675247f27d0780f37",
+      "sourceAtlasRect": [
+        512,
+        0,
+        1024,
+        565
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "extraction-3",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-074-part-3.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-e4eea51c-0b38-48d0-8e65-a6edff160de4.png",
+      "sourceAtlasSha256": "35a0335dc331ff254486f36dc5727a46e183742bbf99f28675247f27d0780f37",
+      "sourceAtlasRect": [
+        1024,
+        0,
+        1536,
+        575
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "extraction-4",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-074-part-4.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-e4eea51c-0b38-48d0-8e65-a6edff160de4.png",
+      "sourceAtlasSha256": "35a0335dc331ff254486f36dc5727a46e183742bbf99f28675247f27d0780f37",
+      "sourceAtlasRect": [
+        0,
+        565,
+        512,
+        1024
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "reflection",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-c4f2d790-2c09-4b7d-966c-b2e0b7b36e7b.png",
+      "prompt": "One production transparent RGBA painted water-reflection cutout for a sunlit small cream-stone courtyard fountain viewed from a slightly elevated angle. Paint a very subtle narrow HORIZONTAL patch of a few gently wavy ivory-and-pale-blue reflected sunlight strokes on calm water. Thin low-profile horizontal ripples with soft natural painted alpha fading at every side; picture ratio for the object about4:1. NOT a raised splash, NOT a crescent moon, NO upward jet, NO droplets, NO circle border, NO white opaque backdrop or rectangle. Actual watery reflections belonging to a softly painted storybook fountain, fine brushed pigment, warm upper-left light. Entire reflection fits inside central40% of canvas with at least30% empty transparent margins. No other objects, labels or shadows."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "plaza ivy",
+      "source": "extraction-1",
+      "maxSize": [
+        150,
+        200
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          375,
+          548
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "plaza hydrangea",
+      "source": "extraction-2",
+      "maxSize": [
+        155,
+        220
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          160,
+          1270
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "fountain fern",
+      "source": "extraction-3",
+      "maxSize": [
+        80,
+        205
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1135,
+          670
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "fountain sparrow",
+      "source": "extraction-4",
+      "maxSize": [
+        75,
+        55
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          530,
+          890
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "fountain ripple",
+      "source": "reflection",
+      "maxSize": [
+        125,
+        50
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          730,
+          870
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "warm ivory",
+  "mainColour": "#f4d19e",
+  "paletteSampleRegion": [
+    390,
+    1140,
+    1000,
+    1540
+  ]
+}

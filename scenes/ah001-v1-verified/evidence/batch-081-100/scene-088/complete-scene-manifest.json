@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 88,
+      "sceneId": "ah001-088-animals",
+      "status": "complete",
+      "theme": "animals",
+      "mainColour": "#589471",
+      "master": {
+        "source": "ah001-088-animals/master.png",
+        "sha256": "1fc6beb89d3b610ffc8c77a58667bdff2a44c9b5c913c5e255a7c739acdbdb08"
+      },
+      "background": {
+        "source": "ah001-088-animals/background.png",
+        "sha256": "8cd8452d5002178258f3851b3360824b2ca2002fa8ebdf4473bc7feac51c0f08"
+      },
+      "parts": [
+        {
+          "source": "ah001-088-animals/part-1.png",
+          "sha256": "5a5d1047b516aaa21bf99ea1e9e95f47d93b9ec067673f63f4809d96197aff0f",
+          "rect": [
+            0.55390625,
+            0.115,
+            0.1484375,
+            0.050625
+          ],
+          "sourcePixelRect": [
+            709,
+            184,
+            190,
+            81
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "turquoise ripples",
+          "authoringSource": "turquoise-ripples",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            20,
+            14,
+            489,
+            215
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              804,
+              224
+            ]
+          }
+        },
+        {
+          "source": "ah001-088-animals/part-2.png",
+          "sha256": "ba1a3065486ccf53794462801fadfebfab72287473d4252ea11b049c2fce9a94",
+          "rect": [
+            0.4140625,
+            0.72,
+            0.14296875,
+            0.059375
+          ],
+          "sourcePixelRect": [
+            530,
+            1152,
+            183,
+            95
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "silver ripples",
+          "authoringSource": "silver-ripples",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            19,
+            29,
+            459,
+            258
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              621,
+              1200
+            ]
+          }
+        },
+        {
+          "source": "ah001-088-animals/part-3.png",
+          "sha256": "56923c6bcc0aa7e24b0368e89253528978e619b3b8bd640302a54151f84143cf",
+          "rect": [
+            0.08359375,
+            0.64875,
+            0.09453125,
+            0.115625
+          ],
+          "sourcePixelRect": [
+            107,
+            1038,
+            121,
+            185
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "pond reed",
+          "authoringSource": "pond-reed",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            31,
+            38,
+            334,
+            501
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              150,
+              1220
+            ]
+          }
+        },
+        {
+          "source": "ah001-088-animals/part-4.png",
+          "sha256": "89492e2a30f41473bd7b2cc2d48627b46839636497b84b8b61794ca695321f25",
+          "rect": [
+            0.85546875,
+            0.58,
+            0.109375,
+            0.0575
+          ],
+          "sourcePixelRect": [
+            1095,
+            928,
+            140,
+            92
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "small lily pad",
+          "authoringSource": "small-lily-pad",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            16,
+            18,
+            391,
+            264
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              1165,
+              974
+            ]
+          }
+        },
+        {
+          "source": "ah001-088-animals/part-5.png",
+          "sha256": "a000e47af32db37f58feb43d8e5e4f177c3b973c973739ef17d6f115f96eb194",
+          "rect": [
+            0.8140625,
+            0.72375,
+            0.08515625,
+            0.053125
+          ],
+          "sourcePixelRect": [
+            1042,
+            1158,
+            109,
+            85
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "water lily flower",
+          "authoringSource": "water-lily-flower",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            24,
+            23,
+            349,
+            276
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              1096,
+              1201
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\background-original.png",
+            "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: Goldfish swimming in a shallow ornamental pond. View: wide intimate view from slightly above. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: turquoise (#65B5AE), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a pale water reflection at normalised rect [0.07, 0.09, 0.21, 0.21]; a second rippling water reflection at normalised rect [0.72, 0.12, 0.2, 0.23]; a reed stem at normalised rect [0.09, 0.69, 0.2, 0.19]; a water-lily leaf at normalised rect [0.68, 0.72, 0.23, 0.17]; a soft concentric water glint at normalised rect [0.42, 0.25, 0.18, 0.16]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 everywhere. A shallow ornamental garden pond seen from gently elevated three-quarter angle. Clear rich TURQUOISE water fills about75percent of the portrait composition; softly visible rounded pebbles below and delicate reflected light, natural stone edge with moss at upper-left and lower-left. Exactly three attractive orange-and-white goldfish swim fully in view near centre, correct fish anatomy, single tail each, clear scales and graceful fins, no duplicated heads or extra eyes. A few lily leaves near lower-right and pale pink water lilies by upper-left stone edge. No temple, statue, bridge, famous garden, building, text, people or fantasy glow. Soft warm morning light with painterly detail, not a photograph. Leave clear open water for two separate reflection patches and a separate lily leaf. Complete clean underlying surfaces.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-5c44e947-5ce3-4b42-95a8-2ba3ae8f1a3e.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\background.png",
+            "sha256": "09e43d40b13b9dcd63631100df62bd2f3d2960b5be3df9d63cb9c6c25fcc05b7",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\atlas-original.png",
+            "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five unique small painted pond details for orange-and-white ornamental fish in luminous turquoise shallow water. Upper-left: a thin horizontal patch of pale turquoise-and-ivory rippling reflections, several broken strokes with genuine transparent gaps. Upper-middle: a DIFFERENT asymmetrical narrow silver-blue ripple patch, softer cool edges. Upper-right: a small fresh reed cluster, three gracefully bending green blades and two thin stems, full root base, no soil. Lower-left: one green water-lily pad with natural notch, shallow ellipse from above-three-quarter, subtle mottling, no water shadow rectangle. Lower-middle: a single small pale-pink water-lily flower, full open blossom with yellow heart viewed above-three-quarter, no leaves under it and no water. No fish, rocks, flat geometric rings, scenery, glows, matte fields or backgrounds. Keep all silhouettes tiny and well separated inside cells.",
+            "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-edc5911f-6e8f-4d1b-b073-c37531898823.png",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\atlas.png",
+            "sha256": "1865e0845a7071656274e80e55b5a3b436ab354c756d47436567c6eee93d66ce",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "turquoise-ripples",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\turquoise-ripples-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              10,
+              185,
+              520,
+              420
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\turquoise-ripples.png",
+            "sha256": "088d196268ef97a0e0a5121c59ddb2c9f019926a726d5c582fed7c6752e563aa",
+            "pixels": [
+              510,
+              235
+            ]
+          },
+          {
+            "name": "silver-ripples",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\silver-ripples-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              540,
+              175,
+              1020,
+              455
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\silver-ripples.png",
+            "sha256": "fa3864e257c7049b13e7076bcc40b453099a379afa0965cd31a182573d7b645c",
+            "pixels": [
+              480,
+              280
+            ]
+          },
+          {
+            "name": "pond-reed",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\pond-reed-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              1120,
+              10,
+              1490,
+              535
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\pond-reed.png",
+            "sha256": "0ad1102867785f1c9994425c16abe47b2142ad52e9582a445a0287b6083a560f",
+            "pixels": [
+              370,
+              525
+            ]
+          },
+          {
+            "name": "small-lily-pad",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\small-lily-pad-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              70,
+              620,
+              480,
+              920
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\small-lily-pad.png",
+            "sha256": "43744d1eba8c1e3e00257d6e5034293ea3af7b267bb2414c136a53a1d3ddb6d6",
+            "pixels": [
+              410,
+              300
+            ]
+          },
+          {
+            "name": "water-lily-flower",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-088\\water-lily-flower-isolated.png",
+            "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+            "derivedFrom": "atlas",
+            "sourceCropPixels": [
+              585,
+              600,
+              960,
+              900
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-088-animals\\source\\water-lily-flower.png",
+            "sha256": "67ccd49eff14195637cd932cde8c9cb251ed4dc2b493e35fef356c0582e2e901",
+            "pixels": [
+              375,
+              300
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Two unique ripple clusters lie on unobstructed water, reeds attach to river edge, leaf floats at pond edge and water-lily blossom rests on a large real lily pad. Three coherent ornamental fish remain untouched. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "green",
+        "chromaticHueFractions": {
+          "red": 0.0106,
+          "orange-yellow": 0.2764,
+          "green": 0.4678,
+          "blue": 0.2452,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#589471",
+        "mainColourLabel": "turquoise water",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "0d95203940064c5ea95cd906d9d7d9b4b95d25feb66daaf4eeb2404b2d58c1ff"
+      }
+    }
+  ]
+}

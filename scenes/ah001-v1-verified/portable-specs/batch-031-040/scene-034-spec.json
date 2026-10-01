@@ -1,0 +1,158 @@
+{
+  "levelId": 34,
+  "sceneId": "ah001-034-streets-squares",
+  "theme": "streets-squares",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "olive-green shutters and amber evening light",
+  "visualReviewNotes": "Inspected original painting and transparent details. Vessel mouths, existing stems, ties and metal hooks determine actual attachment positions. Original atlas silhouettes are fully bounded; scene34 clipped lantern source is retained but replaced by a new complete closed-ring lantern. Final composite contact and motion review recorded separately. No identifiable destination landmark.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-034-streets-squares/source/background.png",
+      "prompt": "Use case: stylized-concept. Production clean background for a portrait4:5 jigsaw painting,1280x1600. A peaceful unnamed night-market corner with closed stalls, close cozy three-quarter view, early bluehour with warm lantern illumination. Dominant SAGE GREEN on closed wooden stall shutters, canvas awnings and broad neighboring plaster surfaces; warmamber lamp pools, muted slate paving and palecream accents. Rich dimensional warm storybook hand-painted digital illustration, tactile wood/cloth/cobblestone details and appealing rounded forms, no city landmark, no signs, letters, numbers, logos, people or UIborder. A narrow diagonal walkway leads from lowercenter toward upperright; closed stalls on both sides, baskets and empty small ceramic pots outside. Paint complete clean background beneath five later moving details. Include a bare short curved lantern hook on left stall front around(26%,31%), a plain rope between posts aroundupperthird with one empty pennantposition, a small emptyflowerpot on rightstall step at(82%,69%), a plain tied fabric bundle at(19%,80%) with no loosebow, and a small rooftop branch stub at(75%,18%) without its foreleaf tip. Omit the foreground lantern, single cloth pennant, smallflower sprig, loose fabricbow and leafybranch tip. Background existing light should still come from offscreen side and windows, no empty glaring areas. Detailed cohesive painted nighttime travel atmosphere, comfortable and inviting, not photographic or flatvector.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-e516a5cc-a77d-4bb4-ae7b-eadaa7b31191.png",
+      "archiveSourceSha256": "097d13d3cfcb5d1a4cdcd06a89290f8b556b92510f10687d7146b72aa77b0527"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-034-streets-squares/source/atlas.png",
+      "prompt": "Use case: stylized-concept. Transparent production sprite atlas of five unique painted moving details for an olive-sage closed market street at bluehour. Canvas1536x1024, INVISIBLE3column2row layout. Central300x300pixels of each512x512cell contains justoneSMALLcomplete subject, at least100pixels completelytransparent gutter eachside. No drawn gridlines. Bottomrightsixthcell EMPTYALPHA. Warm dimensional hand-painted storybookgame art, soft lowlight, cool ambient blueand warm lanternlit edges, aged olivecloth andbronze. Row1left: a single small hanging bronzelantern with warmcream lightbehindglass, visiblethinverticalcordandloopattop; no outerglow or illuminationcloud. Row1middle: a single small olive-sagecloth triangularpennant witha straighttopseam andtwosmallloops, softfolds, no poleorstring. Row1right: a small three-flower warmivory sprig with a longthin greenstem extendingstraightdown to placeintopot; mutednightlight. Row2left: a narrow darkolive fabric ribbon with asmallknot andtwo loosecurlingtails, to tie ontoa clothbundle; no surroundingclothbody. Row2middle: one small ivybranch with5olivegreenleaves, downwardthinwoodystem, goldenedgelight, no trunkorbackground. TRUE transparentalpha, no checkerboard, contactshadows, glow, letters, sign, scenicrectangles orborder. Allobjects entireandisolatedwithlargezeroalphagutters.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-66de4c7e-675f-4483-aed6-b2fd2cc11519.png",
+      "archiveSourceSha256": "ca90c34197ee7c2d07144ea448094077dc21a84b1f10f189b0932a555e07553e"
+    },
+    {
+      "name": "lantern",
+      "path": "ah001-034-streets-squares/source/lantern.png",
+      "prompt": "Use case: illustration-story. One isolated small antique bronze hanging lantern sprite for a hand-painted cozy olive-green night market at blue hour. Landscape or square transparent RGBA image, no background, no halo, no ground plane, no label. Fine natural brush texture, warm amber candle light confined to glass, dark bronze metal lit from upper-left. Whole lantern with a CLOSED circular suspension ring at the top; no string or cord extending beyond that ring. Entire object centered with enormous empty transparent margins, at least 25 percent image width on every side. The ring must be fully visible, not cut off. Lantern body tall oval with delicate metal framing and pointed bottom. Will hang from an existing painted brass hook. No extra objects.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-37129066-712e-4b90-a85f-3774ea435d05.png",
+      "archiveSourceSha256": "3ef52f644ad3423de4e6b0b8d73473ed6be1ad4ebbecc1895e8c066416302b37"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "bronze lantern suspended from left brass hook",
+      "source": "lantern",
+      "maxSize": [
+        64,
+        178
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          376,
+          425
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "olive pennant hanging from upper courtyard cord",
+      "source": "atlas",
+      "maxSize": [
+        103,
+        132
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          787,
+          261
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "subject": "ivory flowers rising from right pot",
+      "source": "atlas",
+      "maxSize": [
+        80,
+        183
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1157,
+          1102
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "olive cloth bow at tied bundle knot",
+      "source": "atlas",
+      "maxSize": [
+        86,
+        66
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          240,
+          1233
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "ivy sprig rooted in left stall shrub",
+      "source": "atlas",
+      "maxSize": [
+        80,
+        151
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          138,
+          859
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ]
+}

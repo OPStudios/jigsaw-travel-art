@@ -1,0 +1,189 @@
+{
+  "levelId": 100,
+  "sceneId": "ah001-100-festivals-music",
+  "theme": "festivals-music",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm ivory",
+  "visualReviewNotes": "Ivory bow visibly matches curtain tie, gold tassel hangs from chair post, jasmine/olive/cosmos extend matching plants. Exactly four chairs and four blank music stands, coherent cello, no musical text. Boundary to101 visually reviewed: ivory quartet scene differs from blue gingham picnic food scene. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A garden corner prepared for a string quartet. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm ivory (#E7D7B5), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a small scene-specific pennant or kite tail at normalised rect [0.14, 0.1, 0.19, 0.19]; one hanging painted lantern or festival ornament at normalised rect [0.66, 0.18, 0.15, 0.19]; a curling ribbon tied to a scene prop at normalised rect [0.42, 0.43, 0.16, 0.18]; a small flower-garland section at normalised rect [0.1, 0.7, 0.21, 0.15]; a loose scene-matching fabric streamer at normalised rect [0.72, 0.64, 0.16, 0.23]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting, alpha255 at every pixel, no transparency. Actual scene refinement: An intimate garden corner prepared for a STRING QUARTET, warm IVORY canvas canopy, cream plaster garden wall and pale ivory stone paving dominate. Exactly four modest empty wooden chairs arranged in a gentle semicircle, four slim wooden music stands with plain blank cream sheets, two violin cases and one cello resting safely on its stand beside a chair. A few white flowers and muted sage plants at edges. No people, visible music notes, text, famous architecture, stage signage or logos. Coherent instruments and stands, elegant quiet daylight, softly brushed dimensional storybook art. The ivory canopy has complete static cloth, no holes; later tiny ribbons and flowers are separate. Portrait4:5, no UI or border.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-e2f2e205-8318-48eb-ac7e-9833796b339b.png"
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For an ivory-canopied garden corner prepared for a string quartet: upper-left one tiny ivory silk bow tied at centre with two soft tails, for the curtain tie; upper-middle one small pale-gold thread tassel with tiny top loop, for a chair post; upper-right one short fresh jasmine garland sprig with two white flowers and sage leaves, full bare lower stem; lower-left one thin olive twig with four muted green leaves and full base; lower-middle one separate small white cosmos blossom on a short full green stalk for the near flower planter. No music notes, instrument, chair, canopy cloth patch, pot, scenery or shadows. Keep all five complete objects well inside their own cells; no intersecting silhouettes.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-d3bbae5b-074b-4076-8d25-58d6fe78a1ad.png"
+    },
+    {
+      "name": "canopy-tie-bow",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\canopy-tie-bow-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "name": "chair-tassel",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\chair-tassel-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "wall-jasmine",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\wall-jasmine-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ]
+    },
+    {
+      "name": "garden-olive",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\garden-olive-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "planter-cosmos",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-100\\planter-cosmos-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "canopy tie bow",
+      "source": "canopy-tie-bow",
+      "maxSize": [
+        100,
+        120
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          524,
+          613
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "chair tassel",
+      "source": "chair-tassel",
+      "maxSize": [
+        55,
+        125
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          214,
+          832
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "wall jasmine",
+      "source": "wall-jasmine",
+      "maxSize": [
+        120,
+        145
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1100,
+          440
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "garden olive",
+      "source": "garden-olive",
+      "maxSize": [
+        120,
+        155
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          388,
+          623
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "planter cosmos",
+      "source": "planter-cosmos",
+      "maxSize": [
+        100,
+        135
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          202,
+          1460
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

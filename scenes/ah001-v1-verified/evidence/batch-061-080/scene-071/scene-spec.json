@@ -1,0 +1,159 @@
+{
+  "levelId": 71,
+  "sceneId": "ah001-071-food-drink",
+  "theme": "food-drink",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final master and original details against the approved painted game style. Steam starts at the cup lip; daisy enters vase; fern meets window plant; blue-thread fringe joins the actual linen edge; moth occupies window air. Actual palette sample is [590, 1170, 1210, 1500] in1280x1600 source space; no landmark observed. Implementation art review only, not PM approval. Completion visibility correction: scaled near-edge natural detail around its real anchor; final conservative silhouette and real61-frame rendering must pass.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-db48e00d-8a94-4085-8449-0ff678209afe.png",
+      "prompt": "Use case: stylized-concept. Create a finished high-quality unique CLEAN BACKGROUND PLATE for portrait4:5 jigsaw puzzle illustration \"A painted teapot with almond cookies beside an open window\". Premium cozy travel-game storybook digital painting matching approved Art Direction V2 gameplay art: tactile subtly brushed surfaces, fine hand-painted detail, believable dimensional objects, gentle upper-left sunlight, rich color separation and small discoveries. NOT flat vector, NOT photorealistic, NOT generic procedural art. An intimate close view of a patterned painted teapot and almond cookies on a dark cocoa-brown wooden table beside a partly open wooden window. Brown table and wood window frame occupy most of the image. Include a tiny ceramic bud vase, a cloth and a real tea cup, no steam yet; small outdoor view, no landmark. Viewpoint: wide intimate view from slightly above. The picture must fill the entire portrait4:5 canvas, ideal1280x1600; no borders, text, UI, grid, title, logo, watermark or transparent holes. This is a complete naturally composed environment with real stable anchors for five small moving details later added as separate alpha layers. Do not add floating decorative particles or overlay patterns. Preserve coherent scale and perspective. No famous destination landmark. Keep the requested main color visible throughout the scene, not only a tiny accent."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-e7d0d1e3-8308-438c-a60c-72a5ef103ad2.png",
+      "prompt": "Use case: stylized-concept. A production RGBA transparent sprite atlas of five unique painted details belonging to the scene \"A painted teapot with almond cookies beside an open window\". Match a premium cozy illustrated puzzle: rich dimensional storybook digital painting, subtle brushed pigment, believable natural forms, fine detail, soft upper-left sun, coherent warm light and tactile materials. No flat vector, no photos, no generic geometric particles. EXACTLY five isolated objects, strict3 columns by2 rows, landscape3:2 canvas. Leave the sixth bottom-right cell perfectly empty transparent. TRUE alpha transparency, no matte, no background, no grid or cell borders, no frame, no shadow rectangle, no labels or text. Place each entire object inside the central50% of its own cell, leaving wide25% gutters on every side. FULL complete loops, stems, wings, wisps and thin strands must fit safely inside each cell; none may touch canvas or cell edges. Top row left to right: a delicate warm ivory translucent teacup steam curl, narrow lower attachment point, no cup; a single white daisy sprig with fine olive-green leaves and a tapered lower stem; a short sunlit fern tip curving right with a thin lower stalk. Bottom row left to right: a small loose natural linen fringe tassel with muted blue-thread accents, top loop intact; one small cream and gold moth, subtle natural wing markings, wings open in three-quarter view; EMPTY. Preserve detailed painted alpha edges and translucent material where specified. Do not include containers, scenery or extra items. All five details are real meaningful parts of this specific scene, sharing its scale and light."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "almond tea steam",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        100,
+        205
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1067,
+          764
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "teapot-table daisy",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        95,
+        175
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          80,
+          507
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "window fern",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        80,
+        120
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1190,
+          514
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "visibilityCorrection": "Author-reviewed anchored scale for minimum1sourcepixel clearance at105percent zoom plus declared point movement using343x428.75 logical picture. Plant roots retained, except62 pot-rim foliage and71 actual stem junction corrected from visible cleanplate."
+    },
+    {
+      "subject": "table linen tassel",
+      "source": "atlas",
+      "cell": [
+        0,
+        1
+      ],
+      "maxSize": [
+        65,
+        105
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          470,
+          1290
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "window moth",
+      "source": "atlas",
+      "cell": [
+        1,
+        1
+      ],
+      "maxSize": [
+        64,
+        70
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1080,
+          364
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "cocoa brown",
+  "mainColour": "#6a3f20",
+  "paletteSampleRegion": [
+    590,
+    1170,
+    1210,
+    1500
+  ]
+}

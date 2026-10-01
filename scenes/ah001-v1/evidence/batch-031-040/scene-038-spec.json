@@ -1,0 +1,216 @@
+{
+  "levelId": 38,
+  "sceneId": "ah001-038-animals",
+  "theme": "animals",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "golden-yellow meadow",
+  "visualReviewNotes": "Original painting and complete transparent subjects inspected. Natural attachment points and surface contact determine positions. Lossless custom extraction rectangles where needed preserve entire silhouettes in empty alpha gutters; originals remain retained. Scene37 flat thread and leather replace the unsuitable upright atlas versions. No destination landmark. Final composite and production renderer review recorded separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-b4f52980-d6e0-4681-9b34-efddca415e52.png",
+      "prompt": "Use case: illustration-story. A production-quality portrait 4:5 illustration for a warm, richly detailed travel jigsaw, painterly oil/gouache brush texture, believable materials and anatomy, no text or logos or border. Not photorealistic, no vector style, no UI. Full bleed, clear enjoyable focal point and ample varied puzzle detail. Generic imaginative place with no identifiable landmark. Clean background plate for later adding exactly five tiny painted moving details; do not draw those five listed details, but draw their anchor surfaces naturally. A little tawny rabbit sitting naturally in a sunlit golden-yellow summer meadow with seed heads, small daisies and a shallow path, elevated intimate view. Main palette honey gold and butter yellow with soft green and ivory accents; visibly different from reddish leather scene before and brown-waterfall scene after. Rabbit has correct ears and paws, complete body. Reserve subtle spaces: small bare green stalk at lower-left for a new daisy; bare branching seed stalk at mid-right for a seed head; clear air above flowers left of rabbit for a butterfly; a straw patch lower-right for a single loose leaf; a tiny bare wildflower stem beside rabbit for one bloom. Keep rabbit itself whole and natural."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0083cf25-1845-4178-b99b-7c381358ab37.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunlit golden meadow with a tawny rabbit. Paint (1) one ivory daisy on a fine green stem with bare pointed root end; (2) one tawny grass seed head on a slender golden stalk; (3) one small blue butterfly with natural correct two antennae and wings, viewed obliquely, flying, no flower under it; (4) a single ochre curled leaf lying flat viewed at three-quarter ground angle with a subtle tight transparent contact shadow; (5) one tiny butter-yellow wildflower on a fine stem. Gentle realistic scale, cheerful cottage painterly finish."
+    },
+    {
+      "name": "daisy",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\daisy.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunlit golden meadow with a tawny rabbit. Paint (1) one ivory daisy on a fine green stem with bare pointed root end; (2) one tawny grass seed head on a slender golden stalk; (3) one small blue butterfly with natural correct two antennae and wings, viewed obliquely, flying, no flower under it; (4) a single ochre curled leaf lying flat viewed at three-quarter ground angle with a subtle tight transparent contact shadow; (5) one tiny butter-yellow wildflower on a fine stem. Gentle realistic scale, cheerful cottage painterly finish.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0083cf25-1845-4178-b99b-7c381358ab37.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          0,
+          0,
+          512,
+          560
+        ],
+        "boundaryAlphaMaximum": 1,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    },
+    {
+      "name": "seed",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\seed.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunlit golden meadow with a tawny rabbit. Paint (1) one ivory daisy on a fine green stem with bare pointed root end; (2) one tawny grass seed head on a slender golden stalk; (3) one small blue butterfly with natural correct two antennae and wings, viewed obliquely, flying, no flower under it; (4) a single ochre curled leaf lying flat viewed at three-quarter ground angle with a subtle tight transparent contact shadow; (5) one tiny butter-yellow wildflower on a fine stem. Gentle realistic scale, cheerful cottage painterly finish.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0083cf25-1845-4178-b99b-7c381358ab37.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          512,
+          0,
+          1024,
+          560
+        ],
+        "boundaryAlphaMaximum": 1,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    },
+    {
+      "name": "butterfly",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\butterfly.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunlit golden meadow with a tawny rabbit. Paint (1) one ivory daisy on a fine green stem with bare pointed root end; (2) one tawny grass seed head on a slender golden stalk; (3) one small blue butterfly with natural correct two antennae and wings, viewed obliquely, flying, no flower under it; (4) a single ochre curled leaf lying flat viewed at three-quarter ground angle with a subtle tight transparent contact shadow; (5) one tiny butter-yellow wildflower on a fine stem. Gentle realistic scale, cheerful cottage painterly finish.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0083cf25-1845-4178-b99b-7c381358ab37.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "boundaryAlphaMaximum": 1,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    },
+    {
+      "name": "leaf",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\leaf.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunlit golden meadow with a tawny rabbit. Paint (1) one ivory daisy on a fine green stem with bare pointed root end; (2) one tawny grass seed head on a slender golden stalk; (3) one small blue butterfly with natural correct two antennae and wings, viewed obliquely, flying, no flower under it; (4) a single ochre curled leaf lying flat viewed at three-quarter ground angle with a subtle tight transparent contact shadow; (5) one tiny butter-yellow wildflower on a fine stem. Gentle realistic scale, cheerful cottage painterly finish.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0083cf25-1845-4178-b99b-7c381358ab37.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          0,
+          560,
+          610,
+          1024
+        ],
+        "boundaryAlphaMaximum": 0,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    },
+    {
+      "name": "buttercup",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-031-040\\extracted\\buttercup.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunlit golden meadow with a tawny rabbit. Paint (1) one ivory daisy on a fine green stem with bare pointed root end; (2) one tawny grass seed head on a slender golden stalk; (3) one small blue butterfly with natural correct two antennae and wings, viewed obliquely, flying, no flower under it; (4) a single ochre curled leaf lying flat viewed at three-quarter ground angle with a subtle tight transparent contact shadow; (5) one tiny butter-yellow wildflower on a fine stem. Gentle realistic scale, cheerful cottage painterly finish.",
+      "derivedFrom": {
+        "originalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-0083cf25-1845-4178-b99b-7c381358ab37.png",
+        "operation": "lossless rectangular sprite extraction",
+        "sourceRect": [
+          610,
+          560,
+          1024,
+          1024
+        ],
+        "boundaryAlphaMaximum": 1,
+        "review": "Complete painted subject preserved; rectangle boundaries lie in inspected empty transparent gutters."
+      }
+    }
+  ],
+  "parts": [
+    {
+      "subject": "daisy rooted in left foreground meadow",
+      "source": "daisy",
+      "maxSize": [
+        91,
+        165
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          205,
+          1312
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "golden seed head rooted in right meadow",
+      "source": "seed",
+      "maxSize": [
+        48,
+        171
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1110,
+          1051
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "blue butterfly flying to left of rabbit",
+      "source": "butterfly",
+      "maxSize": [
+        74,
+        66
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          329,
+          412
+        ]
+      },
+      "axis": [
+        0.9578262852211513,
+        -0.2873478855663454
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "ochre leaf resting on straw",
+      "source": "leaf",
+      "maxSize": [
+        74,
+        43
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1032,
+          1269
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "butter-yellow flower rooted beside rabbit",
+      "source": "buttercup",
+      "maxSize": [
+        66,
+        130
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          386,
+          1082
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    }
+  ]
+}

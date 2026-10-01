@@ -1,0 +1,152 @@
+{
+  "levelId": 40,
+  "sceneId": "ah001-040-festivals-music",
+  "theme": "festivals-music",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "clear blue sky",
+  "visualReviewNotes": "Actual sky strings attach to the crossing spars of each scaled kite; complete shapes remain in bounds. Second kite regenerated because original atlas contained an unrelated white mark outside its silhouette. Ribbon attaches at post, flower and dandelion stems root in foreground grass. All original atlases and replacement retained. No destination landmark. Final composite and renderer inspection recorded separately. Completion visibility review corrected the detail size/orientation around the real attachment to preserve its full alpha silhouette during105%zoom and peak motion; reviewed again separately.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-ab4fb6cd-d085-4b42-86a8-f894bfaf5a4b.png",
+      "prompt": "Use case: illustration-story. A production-quality portrait 4:5 illustration for a warm, richly detailed travel jigsaw, painterly oil/gouache brush texture, believable materials and anatomy, no text or logos or border. Not photorealistic, no vector style, no UI. Full bleed, clear enjoyable focal point and ample varied puzzle detail. Generic imaginative place with no identifiable landmark. Clean background plate for later adding exactly five tiny painted moving details; do not draw those five listed details, but draw their anchor surfaces naturally. An idyllic grassy hill for a kite festival under a large clear blue sky, broad clouds and soft distant hills, elevated welcoming composition. Dominant clear blue across most picture, warm colorful cloth baskets and blanket at lower edge, no people. Two bare thin kite strings visible reaching empty spots in upper-left and upper-right sky (kites will be added); a bare wooden stake near middle-right for a ribbon; small bare flower stem lower-left blanket edge; tiny clear grassy spot for a dandelion seed head. No already-existing kites in those positions. Composition should remain a complete calm painting, not a diagram."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-d896513e-d7a3-4e7d-9ecc-e51538eaabcc.png",
+      "prompt": "Use case: illustration-story. Production hand-painted game sprite atlas, genuine transparent RGBA, no backdrop, no colored glow, no labels, no visible grid. 1536x1024 landscape, invisible 3x2 grid. Exactly five unique painted objects in reading order, sixth lower-right cell empty. Each object's complete shape fits inside central 300x300 of its 512x512 cell with generous transparent gutters. Fine natural oil/gouache brush texture, warm upper-left light. No object touches cell edge. For a sunny clear-blue hilltop kite outing. Paint (1) a small scarlet and cream diamond-shaped traditional kite with very short cream ribbon tail, front face slightly angled, no long string; (2) a different golden-yellow and turquoise diamond kite with short two-bow tail, no long string; (3) a slender red cloth ribbon loosely tied in a bow around an implied vertical post, whole horizontal bow with two downward tails but no post; (4) a small lavender flower sprig with fine bare green base; (5) one white dandelion seed head on a slender green stem, intact round seed head and natural fine fibers. Entire shapes bounded, no added sky or grass."
+    },
+    {
+      "name": "kite",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-52c2f6f9-b38c-4b58-a6d9-590db1b10fcc.png",
+      "prompt": "Use case: illustration-story. Exactly ONE isolated golden-yellow and turquoise diamond kite sprite on genuine transparent RGBA. A natural hand-painted oil/gouache game illustration, detailed cloth weave and thin bamboo cross-spars, warm sunlight from upper-left. The diamond alternates golden and turquoise panels, slightly tilted clockwise; a short cream tail with two tiny matching bows trails from its lower point. No long flying string. Entire object centered with 20 percent completely empty transparent margins on every side. Only this kite and its connected tail may exist; no stray paint strokes, highlights outside object, white marks, labels, grid, background glow or ground. A fine clean silhouette, no clipping."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "scarlet kite attached to far left sky string",
+      "source": "atlas",
+      "maxSize": [
+        56,
+        72
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          45,
+          47
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "subject": "gold and turquoise kite attached to right sky string",
+      "source": "kite",
+      "maxSize": [
+        105,
+        154
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1118,
+          114
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    },
+    {
+      "subject": "red ribbon tied around wooden post",
+      "source": "atlas",
+      "maxSize": [
+        91,
+        74
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          991,
+          1031
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1,
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "subject": "lavender sprig rooted at blanket edge",
+      "source": "atlas",
+      "maxSize": [
+        80,
+        146
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          422,
+          1495
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "subject": "dandelion seed head rooted beside meadow path",
+      "source": "atlas",
+      "maxSize": [
+        74,
+        171
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          942,
+          1307
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3,
+      "cell": [
+        1,
+        1
+      ]
+    }
+  ]
+}

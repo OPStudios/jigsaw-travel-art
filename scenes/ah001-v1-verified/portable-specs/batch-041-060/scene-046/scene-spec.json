@@ -1,0 +1,251 @@
+{
+  "levelId": 46,
+  "sceneId": "ah001-046-transport",
+  "theme": "transport",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "turquoise",
+  "mainColour": "#37746b",
+  "paletteReview": {
+    "sourceSurfaceRect": [
+      400,
+      410,
+      755,
+      465
+    ],
+    "medianRGB": [
+      55,
+      116,
+      107
+    ],
+    "reason": "Actual visually defining surface, not different arbitrary hex codes. Full chromatic histogram retained separately."
+  },
+  "visualReviewNotes": "Original opaque background and all five authored cutouts inspected at composition scale and against cream/dark alpha backgrounds. Adapted attachments to visible branches, pots, surface contact, strings, or sky/water. Implementation art review only, not PM approval. Master/contact and actual GPU review follow export.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-046-transport/source/background.png",
+      "prompt": "Create a COMPLETE OPAQUE full-background portrait4:5 painting, target1280x1600. Every pixel of the image fully opaque and naturally painted, including all corners. No alpha transparency anywhere. This is a finished scene, NOT a cutout or atlas. Dimensional warm storybook digital illustration, soft visible paint texture, exquisite natural details, gentle upper-left sunshine. No text, labels, logos, landmarks, people, frame, UI or watermark. Small classic unbranded turquoise campervan at a forest campsite, gentlyelevatedthreequarterview. TURQUOISE dominatesvanbody andlargecanvasawning reaching across uppermiddle, bluegreenscenery accents. Vanparkedmiddle onwarmcompactearth, tallpineforestfarbackground, clear smallskysection top. Dooropen revealscream upholstery, outdoorwooden stool andmug, nopeople. Visibleawningcornerhookrightupperatx77%,y27% forlaterclothribbon. Foregroundleftsoilnearx17%,y83% forleafsprig and lowerrightnearx84%,y87% forwildflowers. Topclearopaqueskyhasroomfordifferentcloudsleftandmiddle. Laterdetailsomitted:two smallsoftclouds, mutedcreamribbononaawninghook, rootedfernfrond, rootedtinywildflowercluster. Charmingcoherentvehiclewithfourwheels/twowheelsvisible no logos.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-5bfb5a33-c950-4659-b3ec-fd389f10f901.png",
+      "archiveSourceSha256": "9c1ee2e92ea04c99d80fa5ff724172e5f526f4dba2c8193698561284d74eaf30"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-046-transport/source/atlas.png",
+      "prompt": "Use case: illustration-story. Asset type: production transparent painted animation cutout atlas for a cozy travel jigsaw. Make a TRUE transparent RGBA image, transparent space between subjects (no opaque backdrop, no paper rectangle, no glow, no grid, no checkerboard). Exactly FIVE independent watercolor/gouache cutouts arranged 3 columns by 2 rows, sixth bottom-right cell entirely empty. Every subject fully contained inside its own cell with very wide transparent gutters, nothing crosses halfway horizontal divider or any column divider. Keep each subject below 360px tall in 512x512 cell, centered. Soft hand-painted pigment and fine brushwork, warm gentle daylight from upper left, natural modest saturation; no text or UI. Subjects are detailed parts from a whole cozy illustrated scene, not stickers, no outline, no artificial rim or drop shadow. A turquoise camper awning beside a forest lake. TOP LEFT: a small fine horizontal ivory-white cloud wisp. TOP MIDDLE: a different small pale-white wispy cloud. TOP RIGHT: a narrow cream fabric ribbon tied in a small top knot, two hanging tails. BOTTOM LEFT: a fine deep-green rooted fern frond, bottom stem visible. BOTTOM MIDDLE: a tiny cluster of blue-white wildflowers on three short green stems sharing one bottom root. Five separate subjects, do not paint any landscape.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-7638cdd5-87c5-47b7-a943-d2daa5f286bc.png",
+      "archiveSourceSha256": "2b22c8a699e65d5ccffb8c4c1878e2b438dbb346bbb2efc73b0143dab1ec6cb3"
+    },
+    {
+      "name": "cutout-1",
+      "path": "ah001-046-transport/source/cutout-1.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-7638cdd5-87c5-47b7-a943-d2daa5f286bc.png",
+      "originalPixelRect": [
+        0,
+        0,
+        520,
+        495
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-046\\technical-crops\\cutout-1.png",
+      "archiveSourceSha256": "7f9c126edb7e98d98e932ff72fba9a78c94c8dde5fbf868b534856359d0b3d12"
+    },
+    {
+      "name": "cutout-2",
+      "path": "ah001-046-transport/source/cutout-2.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-7638cdd5-87c5-47b7-a943-d2daa5f286bc.png",
+      "originalPixelRect": [
+        520,
+        0,
+        1040,
+        495
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-046\\technical-crops\\cutout-2.png",
+      "archiveSourceSha256": "276dd8b994b065cb46fa8e99ce942376eb6154b99c21e5ae617359a18c75b3d9"
+    },
+    {
+      "name": "cutout-3",
+      "path": "ah001-046-transport/source/cutout-3.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-7638cdd5-87c5-47b7-a943-d2daa5f286bc.png",
+      "originalPixelRect": [
+        1040,
+        0,
+        1536,
+        495
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-046\\technical-crops\\cutout-3.png",
+      "archiveSourceSha256": "ffc5246054cf35e77fc840dfa2ba99ca5640538becf7b4056abfb2182cf6a3c5"
+    },
+    {
+      "name": "cutout-4",
+      "path": "ah001-046-transport/source/cutout-4.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-7638cdd5-87c5-47b7-a943-d2daa5f286bc.png",
+      "originalPixelRect": [
+        0,
+        495,
+        520,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-046\\technical-crops\\cutout-4.png",
+      "archiveSourceSha256": "09413578326fbfd3f1921700128f0dbebe00d0483109645bddcbed6812d8b452"
+    },
+    {
+      "name": "cutout-5",
+      "path": "ah001-046-transport/source/cutout-5.png",
+      "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+      "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-7638cdd5-87c5-47b7-a943-d2daa5f286bc.png",
+      "originalPixelRect": [
+        520,
+        495,
+        1040,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-046\\technical-crops\\cutout-5.png",
+      "archiveSourceSha256": "9c112abc6de2293b7d96002fbd20c2a906d0b08255135ec3de9e0620cadbe210"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "near lake cloud",
+      "source": "cutout-1",
+      "maxSize": [
+        210,
+        75
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          541.8894830659536,
+          141.51212553495006
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "center",
+        "backgroundSourcePoint": [
+          475,
+          124
+        ]
+      }
+    },
+    {
+      "subject": "far lake cloud",
+      "source": "cutout-2",
+      "maxSize": [
+        170,
+        58
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          695.9001782531194,
+          251.06990014265335
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "center",
+        "backgroundSourcePoint": [
+          610,
+          220
+        ]
+      }
+    },
+    {
+      "subject": "awning hook ribbon",
+      "source": "cutout-3",
+      "maxSize": [
+        60,
+        155
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          942.7002618911616,
+          368.7574893009986
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "top",
+        "backgroundSourcePoint": [
+          854,
+          324
+        ]
+      }
+    },
+    {
+      "subject": "rooted camper fern",
+      "source": "cutout-4",
+      "maxSize": [
+        140,
+        205
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          188.23529411764707,
+          1409.4151212553495
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          165,
+          1235
+        ]
+      }
+    },
+    {
+      "subject": "rooted blue wildflowers",
+      "source": "cutout-5",
+      "maxSize": [
+        95,
+        150
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1152.22816399287,
+          1437.9457917261057
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "reviewedAttachment": {
+        "kind": "bottom",
+        "backgroundSourcePoint": [
+          1010,
+          1260
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "levelId": 89,
+  "sceneId": "ah001-089-water-coast",
+  "theme": "water-coast",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "sage/olive green",
+  "visualReviewNotes": "Two reflection patches lie on water, willow attaches into hanging foliage, grass and daisies root in existing bank plants; no moving scenery rectangle. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\background-original.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A shallow river with rounded stepping stones. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: sage green (#8CAC71), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a soft near-water reflection patch at normalised rect [0.14, 0.62, 0.25, 0.14]; a second distinct water reflection patch at normalised rect [0.51, 0.71, 0.27, 0.12]; a shore reed or sea-grass cluster at normalised rect [0.75, 0.53, 0.17, 0.24]; a softly painted near cloud at normalised rect [0.12, 0.1, 0.24, 0.14]; a softly painted far cloud or spray wisp appropriate to the scene at normalised rect [0.58, 0.18, 0.24, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY fully OPAQUE RGB painting, alpha255 everywhere. A gentle shallow river in a quiet willow grove, soft SAGE GREEN dominates both calm reflective water and pale willow foliage, contrasting round warm-grey stepping stones cross diagonally through the centre. Clear water with visible smooth pebbles, small realistic ripples wrapping the stones, no waterfall. Low grassy banks and tiny white wildflowers at the edges. Intimate view near riverbank, no buildings, bridges, famous peaks, people, animals, labels or text. Pale sky through a small upper clearing but almost all composition is cool muted green water and foliage, distinctly greener and less blue than turquoise fishpond. Warm softly brushed storybook painting with natural depth, not photo collage. Keep open water patches for two independent transparent ripple layers and complete banks for separately painted grass/leaf tips.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-493c45db-458e-4b62-a634-ed3b74bde865.png"
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\atlas-original.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five unique painted small details for a muted sage-green shallow river with rounded stepping stones and willow banks. Upper-left: a low thin silver-sage water reflection patch, broken horizontal strokes with transparent gaps, warm light. Upper-middle: a DIFFERENT slightly curved pale-ivory river ripple highlight cluster, asymmetrical and not a geometric ring. Upper-right: one narrow hanging willow twig with six fine sage leaves, full top stem for attachment into overhead willow. Lower-left: a small green river-grass tuft with three long blades and two fine brown seedheads, complete base. Lower-middle: two tiny white meadow daisies on slender green stems with little leaves for the riverbank, complete bare base. No rocks, water rectangle, soil, sky, shadows or scenery painted behind them.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-68aa0b6c-a225-4805-ba94-22f9c5c2537b.png"
+    },
+    {
+      "name": "sage-river-reflection",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\sage-river-reflection-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        45,
+        175,
+        510,
+        450
+      ]
+    },
+    {
+      "name": "river-highlight",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\river-highlight-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        590,
+        165,
+        1005,
+        450
+      ]
+    },
+    {
+      "name": "hanging-willow",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\hanging-willow-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1115,
+        20,
+        1460,
+        530
+      ]
+    },
+    {
+      "name": "bank-grass",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\bank-grass-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        30,
+        520,
+        515,
+        995
+      ]
+    },
+    {
+      "name": "bank-daisies",
+      "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-089\\bank-daisies-isolated.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        670,
+        595,
+        925,
+        989
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "subject": "sage river reflection",
+      "source": "sage-river-reflection",
+      "maxSize": [
+        190,
+        100
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          392,
+          1090
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "river highlight",
+      "source": "river-highlight",
+      "maxSize": [
+        190,
+        115
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          915,
+          739
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "hanging willow",
+      "source": "hanging-willow",
+      "maxSize": [
+        110,
+        200
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          270,
+          110
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "bank grass",
+      "source": "bank-grass",
+      "maxSize": [
+        155,
+        175
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1150,
+          1225
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "bank daisies",
+      "source": "bank-daisies",
+      "maxSize": [
+        85,
+        160
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          110,
+          1220
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "levelId": 65,
+  "sceneId": "ah001-065-interiors",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "visualReviewNotes": "Reviewed final master and original details against the approved painted game style. Geranium and shelf vine meet existing plants; curtain tassel, book ribbon and instrument tag attach to actual room objects. Actual palette sample is [580, 150, 890, 580] in1280x1600 source space; no landmark observed. Implementation art review only, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-065-interiors/source/background.png",
+      "prompt": "Use case: stylized-concept. Create a finished high-quality unique CLEAN BACKGROUND PLATE for portrait4:5 jigsaw puzzle illustration \"A quiet music workshop with a guitar and violin\". Premium cozy travel-game storybook digital painting matching approved Art Direction V2 gameplay art: tactile subtly brushed surfaces, fine hand-painted detail, believable dimensional objects, gentle upper-left sunlight, rich color separation and small discoveries. NOT flat vector, NOT photorealistic, NOT generic procedural art. A coral-pink music workshop with large coral wall surfaces, guitar and violin on a wooden workbench. Unlettered music books, potted plant, tiny flower vase, curtain and small tools. Soft rich coral is dominant, wood a restrained accent. Do not show any hands or people. Viewpoint: close cozy three-quarter view. The picture must fill the entire portrait4:5 canvas, ideal1280x1600; no borders, text, UI, grid, title, logo, watermark or transparent holes. This is a complete naturally composed environment with real stable anchors for five small moving details later added as separate alpha layers. Do not add floating decorative particles or overlay patterns. Preserve coherent scale and perspective. No famous destination landmark. Keep the requested main color visible throughout the scene, not only a tiny accent.",
+      "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-cbb59b30-1d8b-442d-84de-fc59d1a84d21.png",
+      "archiveSourceSha256": "c3c818c1c8cf6e34d7fb19296d30db63c5cd928b8f47fde9d766dfcb0c543ecb"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-065-interiors/source/atlas.png",
+      "prompt": "Use case: stylized-concept. A production RGBA transparent sprite atlas of five unique painted details belonging to the scene \"A quiet music workshop with a guitar and violin\". Match a premium cozy illustrated puzzle: rich dimensional storybook digital painting, subtle brushed pigment, believable natural forms, fine detail, soft upper-left sun, coherent warm light and tactile materials. No flat vector, no photos, no generic geometric particles. EXACTLY five isolated objects, strict3 columns by2 rows, landscape3:2 canvas. Leave the sixth bottom-right cell perfectly empty transparent. TRUE alpha transparency, no matte, no background, no grid or cell borders, no frame, no shadow rectangle, no labels or text. Place each entire object inside the central50% of its own cell, leaving wide25% gutters on every side. FULL complete loops, stems, wings, wisps and thin strands must fit safely inside each cell; none may touch canvas or cell edges. Top row left to right: a soft coral geranium flower sprig with leaves and tapered bottom stem; a short emerald heartleaf vine curling down from a thin upper attachment stem; a small golden cream curtain tassel with complete upper loop. Bottom row left to right: a deep burgundy velvet ribbon bow with short hanging ends; one small unlettered cream paper instrument tag on a thin brown twine loop, complete top loop; EMPTY. Preserve detailed painted alpha edges and translucent material where specified. Do not include containers, scenery or extra items. All five details are real meaningful parts of this specific scene, sharing its scale and light.",
+      "historicalAuthoringPath": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-59cc4060-5259-4d22-bcd6-8bee5866944e.png",
+      "archiveSourceSha256": "3853e069f07cfc8c7798fa8d53c7cebef6efd7ed1a3dfa4fb443b28ec0d8f643"
+    },
+    {
+      "name": "extraction-1",
+      "path": "ah001-065-interiors/source/extraction-1.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-59cc4060-5259-4d22-bcd6-8bee5866944e.png",
+      "sourceAtlasSha256": "3853e069f07cfc8c7798fa8d53c7cebef6efd7ed1a3dfa4fb443b28ec0d8f643",
+      "sourceAtlasRect": [
+        0,
+        0,
+        512,
+        565
+      ],
+      "borderAlphaMax": 0,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-065-part-1.png",
+      "archiveSourceSha256": "f012e1352a8dcdf3d8f9b4fe2aec669c098803cd5dc2817e6f7a87bd654e9a96"
+    },
+    {
+      "name": "extraction-2",
+      "path": "ah001-065-interiors/source/extraction-2.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-59cc4060-5259-4d22-bcd6-8bee5866944e.png",
+      "sourceAtlasSha256": "3853e069f07cfc8c7798fa8d53c7cebef6efd7ed1a3dfa4fb443b28ec0d8f643",
+      "sourceAtlasRect": [
+        512,
+        0,
+        1024,
+        565
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-065-part-2.png",
+      "archiveSourceSha256": "97a6660a9b8eb329f2c73851dffb42b1d07c1ea73bd58c06b105265ff6c9b938"
+    },
+    {
+      "name": "extraction-3",
+      "path": "ah001-065-interiors/source/extraction-3.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-59cc4060-5259-4d22-bcd6-8bee5866944e.png",
+      "sourceAtlasSha256": "3853e069f07cfc8c7798fa8d53c7cebef6efd7ed1a3dfa4fb443b28ec0d8f643",
+      "sourceAtlasRect": [
+        1024,
+        0,
+        1536,
+        565
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-065-part-3.png",
+      "archiveSourceSha256": "2665455b32c467bb7cf808f9faa3dc51823007fba0c9aa06302540208005509d"
+    },
+    {
+      "name": "extraction-4",
+      "path": "ah001-065-interiors/source/extraction-4.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-59cc4060-5259-4d22-bcd6-8bee5866944e.png",
+      "sourceAtlasSha256": "3853e069f07cfc8c7798fa8d53c7cebef6efd7ed1a3dfa4fb443b28ec0d8f643",
+      "sourceAtlasRect": [
+        0,
+        565,
+        512,
+        1024
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-065-part-4.png",
+      "archiveSourceSha256": "a562f882a2dce719fb5a12e509285e48ed0979f5c9d7c805c9f7d471374f3833"
+    },
+    {
+      "name": "extraction-5",
+      "path": "ah001-065-interiors/source/extraction-5.png",
+      "prompt": "Mechanical unchanged RGBA extraction of complete original painted subject. No retouching.",
+      "sourceAtlas": "C:/Users/Oron/.codex/generated_images/01a0e891-63e7-73d3-aca4-a7dd7f5ef19e/exec-59cc4060-5259-4d22-bcd6-8bee5866944e.png",
+      "sourceAtlasSha256": "3853e069f07cfc8c7798fa8d53c7cebef6efd7ed1a3dfa4fb443b28ec0d8f643",
+      "sourceAtlasRect": [
+        512,
+        565,
+        1024,
+        1024
+      ],
+      "borderAlphaMax": 1,
+      "borderAbove8": 0,
+      "edgeCounts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-061-080\\source-extractions\\scene-065-part-5.png",
+      "archiveSourceSha256": "0c10b463cb2d99827671369097896441d8aae90cfb4d79db37835ae849b22378"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "music room geranium",
+      "source": "extraction-1",
+      "maxSize": [
+        110,
+        160
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          181,
+          738
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "music shelf vine",
+      "source": "extraction-2",
+      "maxSize": [
+        130,
+        210
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          1070,
+          278
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "music curtain tassel",
+      "source": "extraction-3",
+      "maxSize": [
+        45,
+        125
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          270,
+          566
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "velvet book ribbon",
+      "source": "extraction-4",
+      "maxSize": [
+        65,
+        55
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          170,
+          1000
+        ]
+      },
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "instrument tag",
+      "source": "extraction-5",
+      "maxSize": [
+        47,
+        86
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          463,
+          370
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ],
+  "mainColourLabel": "coral pink",
+  "mainColour": "#dc7459",
+  "paletteSampleRegion": [
+    580,
+    150,
+    890,
+    580
+  ]
+}

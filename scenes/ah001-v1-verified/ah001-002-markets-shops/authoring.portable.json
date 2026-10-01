@@ -1,0 +1,371 @@
+{
+  "levelId": 2,
+  "sceneId": "ah001-002-markets-shops",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-002-markets-shops/source/background.png",
+        "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A neighborhood flower stall overflowing with wrapped bouquets. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: soft violet (#AE92C6), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a short scene-specific fabric pennant at normalised rect [0.13, 0.08, 0.22, 0.13]; a soft awning tassel at normalised rect [0.66, 0.23, 0.12, 0.18]; a small flower sprig matching the stall at normalised rect [0.74, 0.66, 0.16, 0.17]; a leafy branch entering from the left at normalised rect [0.06, 0.36, 0.17, 0.22]; a tied ribbon from one displayed package at normalised rect [0.41, 0.6, 0.16, 0.13]. The painting must remain attractive and complete underneath those parts. Make a lavender-purple cloth awning and violet flower wraps dominate this intimate flower stall. Finished wooden counter occupies lower half. Provide real hanging cords under the awning, flowerpots at the lower edge, and a tall leafy plant at left. Leave the intended foreground ribbon/tassel/flower details out, but paint complete pot and counter surfaces behind them. No lettering on signs. Use portrait4:5 composition. This is polished warm PAINTED GAME ART, with softly brushed edges and coherent illustrated detail matching the approved gameplay board, not a flat vector drawing.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\background.png",
+        "sha256": "24788c88ee447d8fe90f894f14bae67481f0e7ae2f11907b9c915d1b2c1bb0d0",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-8662e45b-a22e-478c-8b30-997bbeb6551c.png",
+        "archiveSourceSha256": "24788c88ee447d8fe90f894f14bae67481f0e7ae2f11907b9c915d1b2c1bb0d0"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-002-markets-shops/source/atlas.png",
+        "prompt": "Use case: stylized-concept. Create one production transparent RGBA sprite atlas for the unique scene \"A neighborhood flower stall overflowing with wrapped bouquets\". Match a premium cozy storybook painted mobile puzzle: rich dimensional gouache-like digital painting, delicate brushed pigment, believable natural details, softly warm upper-left sunlight, tactile materials and clean silhouettes. No vector simplification, no photographic collage, no geometric filler. The finished background is a gently elevated three-quarter view painted composition. All objects share that light and perspective. This is an asset sheet, not a scene: true transparent alpha, no RGB colored matte, NO frame or grid lines, NO cell border or rectangular shadow. Strict 3 columns by 2 rows, 3:2 landscape image. Each of the five objects must be isolated INSIDE the central 60% of its own cell, leaving at least 20% empty transparent gutter on ALL FOUR SIDES. Nothing may touch or cross any cell boundary; steam and fine strands must also stay inside those gutters. Bottom-right sixth cell must be perfectly empty transparent, including no faint artifacts. Five cells read left to right: top-left a short ivory-and-lavender tasseled cord hanging vertically, top attachment narrow, bottom soft fan; top-middle one pink sweet-pea flower sprig with green leaves and a long tapered bottom stem, seen upright; top-right a curving ivy branch with small warm sunlit leaves and a narrow bottom stem; bottom-left one small loosely tied deep violet silk bow with two soft dangling tails; bottom-middle a tiny pale yellow cabbage butterfly in three-quarter view. Paint exactly these five separate details; no labels, typography, scenery, containers, confetti, or extra objects. Preserve detailed natural alpha edges and translucent painted material where specified.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\atlas.png",
+        "sha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+        "archiveSourceSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4"
+      },
+      {
+        "name": "extraction-1",
+        "path": "ah001-002-markets-shops/source/extraction-1.png",
+        "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+        "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+        "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+        "sourceAtlasRect": [
+          0,
+          0,
+          512,
+          600
+        ],
+        "borderAlphaMax": 1,
+        "borderAbove8": 0,
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-1.png",
+        "sha256": "40bf55bfcd57a82b469fd32ec0cfafa82de8653545208cdd26828f0dfd677c18",
+        "pixels": [
+          512,
+          600
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-1.png",
+        "archiveSourceSha256": "40bf55bfcd57a82b469fd32ec0cfafa82de8653545208cdd26828f0dfd677c18"
+      },
+      {
+        "name": "extraction-2",
+        "path": "ah001-002-markets-shops/source/extraction-2.png",
+        "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+        "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+        "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+        "sourceAtlasRect": [
+          512,
+          0,
+          1024,
+          610
+        ],
+        "borderAlphaMax": 1,
+        "borderAbove8": 0,
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-2.png",
+        "sha256": "8a7d0410a3591e6ede1ddc75b731b36a6590017ea02a6d77479f903d30f5f213",
+        "pixels": [
+          512,
+          610
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-2.png",
+        "archiveSourceSha256": "8a7d0410a3591e6ede1ddc75b731b36a6590017ea02a6d77479f903d30f5f213"
+      },
+      {
+        "name": "extraction-3",
+        "path": "ah001-002-markets-shops/source/extraction-3.png",
+        "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+        "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+        "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+        "sourceAtlasRect": [
+          1024,
+          0,
+          1536,
+          650
+        ],
+        "borderAlphaMax": 1,
+        "borderAbove8": 0,
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-3.png",
+        "sha256": "181f819241966ff937633c61afaa24b7af71973c0ed01cad82e52358b8b6d8fd",
+        "pixels": [
+          512,
+          650
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-3.png",
+        "archiveSourceSha256": "181f819241966ff937633c61afaa24b7af71973c0ed01cad82e52358b8b6d8fd"
+      },
+      {
+        "name": "extraction-4",
+        "path": "ah001-002-markets-shops/source/extraction-4.png",
+        "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+        "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+        "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+        "sourceAtlasRect": [
+          0,
+          600,
+          512,
+          1024
+        ],
+        "borderAlphaMax": 1,
+        "borderAbove8": 0,
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-4.png",
+        "sha256": "aac2e6a50c044fdb7a344ae7eca3736e2513dffb8f30c034875111b2f85fc992",
+        "pixels": [
+          512,
+          424
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-4.png",
+        "archiveSourceSha256": "aac2e6a50c044fdb7a344ae7eca3736e2513dffb8f30c034875111b2f85fc992"
+      },
+      {
+        "name": "extraction-5",
+        "path": "ah001-002-markets-shops/source/extraction-5.png",
+        "prompt": "Mechanical unchanged RGBA extraction of an entire painted subject from original atlas. No retouching.",
+        "sourceAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-6ce3ae93-b5fc-4880-83e6-b3fc808a663b.png",
+        "sourceAtlasSha256": "fbdb5fce62e7e5249d83f221a2ca67eddd12ae875ad24ff2f1084c5d9217f9d4",
+        "sourceAtlasRect": [
+          512,
+          610,
+          1024,
+          1024
+        ],
+        "borderAlphaMax": 1,
+        "borderAbove8": 0,
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-002-markets-shops\\source\\extraction-5.png",
+        "sha256": "58fe9b75b229acf191ecfa37562fe0f0c3b0d53f70f015a54d2d135e37b61513",
+        "pixels": [
+          512,
+          414
+        ],
+        "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-002-010\\source-extractions\\scene-002-part-5.png",
+        "archiveSourceSha256": "58fe9b75b229acf191ecfa37562fe0f0c3b0d53f70f015a54d2d135e37b61513"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Reviewed final composite against the approved painted style, on the actual complete scene. Tassel attaches to awning; flower and bow belong to a bouquet; ivy stems into floor planter; butterfly occupies open air. Original atlas unequal row heights retained via exact crop source overrides. Main colour is measured from visible subject region [210, 40, 1080, 320]; broad global warm-light hue statistics remain separately recorded. Implementation art review only, not PM approval.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "orange-yellow",
+    "chromaticHueFractions": {
+      "red": 0.0987,
+      "orange-yellow": 0.5805,
+      "green": 0.0222,
+      "blue": 0.0042,
+      "violet-pink": 0.2944
+    },
+    "measuredDominantColour": "#86673e",
+    "mainColourLabel": "lavender violet",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "d0d7930d1d29158751666f4e51a4df79a4c250b55b2e1124bebcb2932229d8b7"
+  },
+  "parts": [
+    {
+      "source": "ah001-002-markets-shops/part-1.png",
+      "sha256": "df31a5d80387f6bf035c60256da0edf3072fc5e719f4eec8665628a8799534c5",
+      "rect": [
+        0.58046875,
+        0.1525,
+        0.059375,
+        0.110625
+      ],
+      "sourcePixelRect": [
+        743,
+        244,
+        76,
+        177
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "awning tassel",
+      "authoringSource": "extraction-1",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        160,
+        54,
+        380,
+        566
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          743,
+          244
+        ]
+      }
+    },
+    {
+      "source": "ah001-002-markets-shops/part-2.png",
+      "sha256": "8f61a69b88488fc85a9501de10e85354a9e6a88d089b9edc78e129527bf8098b",
+      "rect": [
+        0.4796875,
+        0.420625,
+        0.09609375,
+        0.14375
+      ],
+      "sourcePixelRect": [
+        614,
+        673,
+        123,
+        230
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "pink sweet-pea sprig",
+      "authoringSource": "extraction-2",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        105,
+        40,
+        408,
+        606
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          674,
+          901
+        ]
+      }
+    },
+    {
+      "source": "ah001-002-markets-shops/part-3.png",
+      "sha256": "5e2fac4428294982e10de75e26592fad3caa4464b9103a910076ed3ab7d68383",
+      "rect": [
+        0.12578125,
+        0.63625,
+        0.12109375,
+        0.165
+      ],
+      "sourcePixelRect": [
+        161,
+        1018,
+        155,
+        264
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "flower-stall ivy",
+      "authoringSource": "extraction-3",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        99,
+        48,
+        419,
+        594
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          176,
+          1280
+        ]
+      }
+    },
+    {
+      "source": "ah001-002-markets-shops/part-4.png",
+      "sha256": "40251468010d2fa18353b9986962a4311a264221075d171406493d492a780b45",
+      "rect": [
+        0.4703125,
+        0.5175,
+        0.08984375,
+        0.074375
+      ],
+      "sourcePixelRect": [
+        602,
+        828,
+        115,
+        119
+      ],
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4,
+      "subject": "bouquet ribbon",
+      "authoringSource": "extraction-4",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        83,
+        16,
+        448,
+        395
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          660,
+          888
+        ]
+      }
+    },
+    {
+      "source": "ah001-002-markets-shops/part-5.png",
+      "sha256": "df74f2e510a63509fc5bd33de2d326f5f8512a3d032e51f928433fd1801c0d19",
+      "rect": [
+        0.2453125,
+        0.361875,
+        0.05078125,
+        0.03875
+      ],
+      "sourcePixelRect": [
+        314,
+        579,
+        65,
+        62
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "cabbage butterfly",
+      "authoringSource": "extraction-5",
+      "atlasCellRect": null,
+      "atlasExtractionRect": null,
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        111,
+        52,
+        429,
+        357
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          347,
+          610
+        ]
+      }
+    }
+  ]
+}

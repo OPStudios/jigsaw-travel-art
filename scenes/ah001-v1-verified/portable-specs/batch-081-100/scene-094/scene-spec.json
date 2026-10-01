@@ -1,0 +1,203 @@
+{
+  "levelId": 94,
+  "sceneId": "ah001-094-streets-squares",
+  "theme": "streets-squares",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "soft coral pink",
+  "visualReviewNotes": "Coral blossom extends window flowers, jasmine joins wall vine, olive grows from tree foliage, two clouds stay within open sky. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-094-streets-squares/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A neighborhood square decorated with little pennants. View: eye-level intimate view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: coral pink (#D99B96), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: a narrow hanging pennant appropriate to the neighborhood at normalised rect [0.17, 0.1, 0.18, 0.14]; a little flowering window-box sprig at normalised rect [0.73, 0.3, 0.18, 0.18]; a softly draped curtain corner in one window at normalised rect [0.36, 0.22, 0.13, 0.19]; a small foreground branch entering from the left at normalised rect [0.05, 0.66, 0.19, 0.23]; a soft cloud or pale reflection in this scene at normalised rect [0.49, 0.08, 0.22, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting with alpha255 everywhere; no transparent regions or translucent painted background. Refinement: Small cosy neighbourhood square with CORAL PINK plaster house walls around a modest cobblestone clearing, coral flowering window boxes and a few cream-and-coral pennants overhead. Warm cream paving with coral wall reflections. No fountain monument, statue, tower, destination landmark, signs, shop names, text, people, vehicles or famous architecture. Small planters, quiet bench, pastel morning light. Predominantly soft coral pink, much lighter than deep berry roses. No UI, border, logo or lettering. This is a fully finished clean plate, portrait4:5.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-704d113f-2b8a-46c8-b6f8-cd833b54ec3f.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\background-original.png",
+      "archiveSourceSha256": "2f73f6a7ff1e28303af61a3d516b4d6d8e09da900e6026fdcdf288896ddf4047"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-094-streets-squares/source/atlas.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For a coral-pink neighbourhood square with little pennants and flowering windows: upper-left one short coral-pink geranium flower cluster with a small green stem; upper-middle one fine jasmine branch with two ivory blooms and leaves; upper-right one small olive twig with four narrow muted sage leaves, bare lower-left stem; lower-left a small pale-cream rounded cloud; lower-middle a DIFFERENT thin pale-peach cloud wisp. No buildings, window box, wall, sky rectangle, background greenery or shadows. Fully separate complete shapes. Do not paint any object touching image or cell boundaries.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-ff2fb0b0-5b7c-49e4-a19f-5450c4bf56a3.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\atlas-original.png",
+      "archiveSourceSha256": "a8c4645a5c216a9415c38080b3a3d92c27b555c59d3b72a0bf3b2db695afaf20"
+    },
+    {
+      "name": "window-geranium",
+      "path": "ah001-094-streets-squares/source/window-geranium.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\window-geranium-isolated.png",
+      "archiveSourceSha256": "8b5b6f58164c4e2a8c961f9981e137f54d6e5f641c98659cad90d1beafe517c2"
+    },
+    {
+      "name": "wall-jasmine",
+      "path": "ah001-094-streets-squares/source/wall-jasmine.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\wall-jasmine-isolated.png",
+      "archiveSourceSha256": "8e7d0ee1ecba3149595d5dec7c532569e2af7daa42db70761fe7b8da146cd2f4"
+    },
+    {
+      "name": "courtyard-olive",
+      "path": "ah001-094-streets-squares/source/courtyard-olive.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\courtyard-olive-isolated.png",
+      "archiveSourceSha256": "c0cb45405490a9885f1062e6a164e18f4885d0e5f7a7c3c039a96ba548853e69"
+    },
+    {
+      "name": "square-cloud",
+      "path": "ah001-094-streets-squares/source/square-cloud.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\square-cloud-isolated.png",
+      "archiveSourceSha256": "5e651d3484b5592bd42642cf94a7089662bf9413ce76cc5761e6e3184ea69be1"
+    },
+    {
+      "name": "square-cloud-wisp",
+      "path": "ah001-094-streets-squares/source/square-cloud-wisp.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-094\\square-cloud-wisp-isolated.png",
+      "archiveSourceSha256": "277c2897d50e835f75d9de5195e9421175c889a9320e03e1c521cab367918c1c"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "window geranium",
+      "source": "window-geranium",
+      "maxSize": [
+        105,
+        100
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1120,
+          913
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "wall jasmine",
+      "source": "wall-jasmine",
+      "maxSize": [
+        130,
+        120
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          839,
+          621
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "courtyard olive",
+      "source": "courtyard-olive",
+      "maxSize": [
+        110,
+        125
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          765,
+          909
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "square cloud",
+      "source": "square-cloud",
+      "maxSize": [
+        120,
+        75
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          549,
+          111
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "square cloud wisp",
+      "source": "square-cloud-wisp",
+      "maxSize": [
+        160,
+        70
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          662,
+          237
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

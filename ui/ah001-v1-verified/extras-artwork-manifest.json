@@ -1,0 +1,253 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "assets": [
+    {
+      "name": "action_sort",
+      "points": [
+        28,
+        28
+      ],
+      "pixels": [
+        84,
+        84
+      ],
+      "aliases": [
+        "action-sort"
+      ],
+      "source_repository": "assets/ui/ah001/source/action_sort.png",
+      "source_sha256": "802d39326162737863720b28bb5713405a551606e25912aa836313ef20f9b1f8",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. Icon of three neatly stacked irregular cream paper puzzle fragments, slightly offset so all three layered sheets are visible. The top fragment is a rounded polygon with a little curved jigsaw-style recess, warm ivory face, tan paper edges and soft brown shadow between layers. A 3/4 gentle elevated angle, compact nearly square silhouette. No letters, arrow, disc or coins.",
+      "crop": [
+        80,
+        75,
+        1214,
+        1197
+      ],
+      "export_sha256": "38c1b06f11604d1020d741918be3636564022f8553d36678b7d6e34ca00877c7",
+      "color_offset": [
+        0,
+        0,
+        0
+      ],
+      "variants": []
+    },
+    {
+      "name": "action_hint",
+      "points": [
+        24,
+        28
+      ],
+      "pixels": [
+        72,
+        84
+      ],
+      "aliases": [
+        "action-hint"
+      ],
+      "source_repository": "assets/ui/ah001/source/action_hint.png",
+      "source_sha256": "a7ce7dc4ed3e6e4c786b12dd886defd1a49b55c6d3a1ba315b4332969df7b25d",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. One warm golden light bulb icon, round softly glowing amber glass bulb with pale cream core and gentle painted highlight, small honey-brown screw base with two subtle ridges. Front-on, taller than wide, thick readable shape. No floating rays, no sparkle stars, no surrounding disc, no letters. Clean cream-gold hint symbol designed28pthigh.",
+      "crop": [
+        43,
+        141,
+        905,
+        1532
+      ],
+      "export_sha256": "549bb60461deb0ef95ca25d5884dcc1ded4d541e73ba3f535dcfa8c1f58218dd",
+      "color_offset": [
+        0,
+        0,
+        0
+      ],
+      "variants": []
+    },
+    {
+      "name": "booster_capsule",
+      "points": [
+        102,
+        34
+      ],
+      "pixels": [
+        306,
+        102
+      ],
+      "aliases": [
+        "cream-pill-pm"
+      ],
+      "source_repository": "assets/ui/ah001/source/booster_capsule.png",
+      "source_sha256": "8ff2c03e3ad6801916c675e1e8c69b4c6729f9b3e85271f721f698d7462c2bfb",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. A single wide horizontal PALE CREAM button capsule skin, exactly102wide by34high relative size. Full rounded semicircular ends, front-facing, lightly textured ivory paper face #FDF4E1, subtle creamy top highlight, a narrow warm tan soft bevel/outline. Fine painterly paper brushwork. No wood frame, no icons, no text, no decorative leaves. It fills the canvas tightly and remains a pale cream tactile button, not flat vector.",
+      "crop": [
+        21,
+        57,
+        2153,
+        663
+      ],
+      "export_sha256": "f4fbb8fa04322302a1a205163628fce246b9d02041d97532decc565ecfd4f7f5",
+      "color_offset": [
+        3,
+        7,
+        13
+      ],
+      "variants": [
+        {
+          "state": "pressed",
+          "file": "booster_capsule_pressed.png",
+          "sha256": "017776c0d08e880160c410ffda470976897d8320899a1fb37e41efde16e86b04"
+        }
+      ],
+      "slices": [
+        17,
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "switch_on",
+      "points": [
+        56,
+        30
+      ],
+      "pixels": [
+        168,
+        90
+      ],
+      "aliases": [
+        "switch-on"
+      ],
+      "source_repository": "assets/ui/ah001/source/switch_on.png",
+      "source_sha256": "0133d8c5388824dd7b774c9e3966990944b0ab0f2bf0dc8c2221aada8d4f4da3",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. A single horizontal SETTINGS TOGGLE SWITCH, on state. Size56wide by30high proportion. Rounded green capsule track #4E9A3E with narrow warm-brown painted rim, softly recessed texture. One large creamy ivory rounded circular thumb at the RIGHT end, about24diameter, dimensional gentle top highlight and warm tan edge. No symbols or words. Circle knob must be circular, on right. Track alwaysvisibleleft ofknob.",
+      "crop": [
+        131,
+        170,
+        1589,
+        715
+      ],
+      "export_sha256": "752d120058a2c74ff2fff7d392088418079e76cfd963de1b7baec53652d18de1",
+      "color_offset": [
+        0,
+        0,
+        0
+      ],
+      "variants": [],
+      "reflow": "Preserve full round thumb and opposite semicircular cap while reflowing centre track to exact56x30pt; no oval knob distortion."
+    },
+    {
+      "name": "switch_off",
+      "points": [
+        56,
+        30
+      ],
+      "pixels": [
+        168,
+        90
+      ],
+      "aliases": [
+        "switch-off"
+      ],
+      "source_repository": "assets/ui/ah001/source/switch_off.png",
+      "source_sha256": "87e359ce51dc0568b1c2676ad293a6986f69b261d22d3a98a43f681c67c67f51",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. A single horizontal SETTINGS TOGGLE SWITCH, off state. Size56wide by30high proportion. Rounded muted warm tan capsule track #B99A72 with narrow warm-brown painted rim, softly recessed texture. One large creamy ivory rounded circular thumb at the LEFT end, about24diameter, dimensional gentle top highlight and warm tan edge. No symbols or words. Circle knob must be circular, on left. Track alwaysvisibleright ofknob.",
+      "crop": [
+        100,
+        114,
+        1614,
+        774
+      ],
+      "export_sha256": "0420734f0b67a15c7529cf38fc3e0fdd9d85b60d867a6710c7b799153f2771cd",
+      "color_offset": [
+        0,
+        0,
+        0
+      ],
+      "variants": [],
+      "reflow": "Preserve full round thumb and opposite semicircular cap while reflowing centre track to exact56x30pt; no oval knob distortion."
+    },
+    {
+      "name": "stamp_arrived",
+      "points": [
+        120,
+        48
+      ],
+      "pixels": [
+        360,
+        144
+      ],
+      "aliases": [],
+      "source_repository": "assets/ui/ah001/source/stamp_arrived.png",
+      "source_sha256": "0594bfa0becfc420d233febf9b228917fb60af7d534a4dcad1324eef761f7a2b",
+      "prompt": "Use case: stylized-concept. One authentic painted rubber ink stamp imprint. Wide oval with exactly two fine concentric oval dark green outlines, slightly worn edges and tiny ink gaps. Exact bold readable uppercase text \"ARRIVED\" centered across the oval. Ink colour #075C1A. Aspect120:48. True transparent alpha everywhere except green ink, no cream/white backing or shadow. Straight horizontal orientation; renderer rotates later. No city name, no plane, no extra words. Finished travel scrapbook game art.",
+      "crop": [
+        37,
+        91,
+        1946,
+        699
+      ],
+      "export_sha256": "0557bc55ecad3850acdc34e5d3081cee32b3ce343db63594b77efbe873cd80ce",
+      "color_offset": [
+        5,
+        22,
+        12
+      ],
+      "variants": []
+    },
+    {
+      "name": "settings_chevron",
+      "points": [
+        12,
+        18
+      ],
+      "pixels": [
+        36,
+        54
+      ],
+      "aliases": [],
+      "source_repository": "assets/ui/ah001/source/settings_chevron.png",
+      "source_sha256": "1d11578e4dab134a1db1fbc70633dc7463c5f1bdd199380d46f5e0d55d63ceed",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. One small simple chunky right-pointing CHEVRON arrow, formed by two warm brown softly beveled strokes joined at center-right. Front view, narrow aspect12:18, rounded tips, no enclosing circle or plaque. Dark brown face #6B3518, soft honey top-left painted highlight, tiny subtle lower shadow intrinsicto strokes. No other objects, no text.",
+      "crop": [
+        250,
+        240,
+        864,
+        1284
+      ],
+      "export_sha256": "4c618acbee2d0781c6f92acca96cfa1cfef0fcffcdbb4868b16a264dbd669fe4",
+      "color_offset": [
+        0,
+        0,
+        0
+      ],
+      "variants": []
+    },
+    {
+      "name": "spinner",
+      "points": [
+        24,
+        24
+      ],
+      "pixels": [
+        72,
+        72
+      ],
+      "aliases": [],
+      "source_repository": "assets/ui/ah001/source/spinner.png",
+      "source_sha256": "1e67ad3f163246349d20c0ea1d31dbf40e8ded9e00a1cd2ccec7bf626d020536",
+      "prompt": "Use case: stylized-concept. Production cozy mobile travel-puzzle game artwork, warm soft hand-painted digital storybook style with finely brushed texture, substantial softly rounded shading, polished readable silhouette at small UI size. True transparent alpha, tight framing, no background, no text unless explicitly requested. A small clockwise loading spinner sprite: one broken almost-full green circular brushstroke ring, about270degrees of a circle, rounded soft ends, green #4E9A3E with a gentle ivory highlight at its leading end, painted grain and soft dimensional shading. Thick readable ring aboutone sixthdiameter. True transparent center and background. One gap on upper-right quadrant. No arrowhead, dots, letters, wood rim or symbol inside. Square composition, circle not an ellipse, animation is handled by rotation in the game.",
+      "crop": [
+        85,
+        89,
+        1167,
+        1173
+      ],
+      "export_sha256": "b12cbb3de2fe6b25a4f8993c6ccb1d6297c56cdd6a3003fe500798f347d7cc92",
+      "color_offset": [
+        0,
+        0,
+        0
+      ],
+      "variants": []
+    }
+  ]
+}

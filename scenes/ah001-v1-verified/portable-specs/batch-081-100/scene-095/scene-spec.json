@@ -1,0 +1,203 @@
+{
+  "levelId": 95,
+  "sceneId": "ah001-095-interiors",
+  "theme": "interiors",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "deep warm terracotta",
+  "visualReviewNotes": "Steam rises from tea surface, flame base overlaps the burning log area, ivy/ficus attach into existing greenery and fine dried blossom stems enter the actual vase. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval. Ficus detail reduced about its original stem anchor for independent worst-case completion movement and zoom.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-095-interiors/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A cottage fireplace room with soft woven blankets. View: gently elevated three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: warm terracotta (#C97A54), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: one softly draped curtain edge at normalised rect [0.07, 0.14, 0.18, 0.27]; an upper houseplant leaf cluster at normalised rect [0.73, 0.13, 0.2, 0.24]; a small flower in a tabletop vase at normalised rect [0.46, 0.56, 0.16, 0.17]; a soft corner of a woven blanket or cloth at normalised rect [0.62, 0.74, 0.24, 0.13]; a dangling ribbon or fabric tie appropriate to the room at normalised rect [0.28, 0.38, 0.1, 0.19]. The painting must remain attractive and complete underneath those parts.\nMANDATORY FULLY OPAQUE RGB painting with alpha255 everywhere; no transparent regions or translucent painted background. Refinement: Warm terracotta cottage fireplace room, glowing orange-red clay plaster walls and red-clay tile floor dominate. A small stone fireplace with a LOW quiet flame and simple unlabelled mantel, empty cosy armchair with cream woven blanket, wood basket, terracotta teapot and a cup on a little side table, small empty ceramic bud vase with clear space above. No person, writing, screens or recognisable location. Cozy painted detail and coherent perspective; deep earthy terracotta, distinct from pastel pink square. No steam painted in cup. No UI, border, logo or lettering. This is a fully finished clean plate, portrait4:5.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-1f22be61-910a-4409-8bbf-363b220062fc.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\background-original.png",
+      "archiveSourceSha256": "b04ef1d01bee97ca110990ae7d958b1249c05068587162c1a2b8e9d7fe7fd7d7"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-095-interiors/source/atlas.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. For a warm terracotta fireplace room with tea, ivy and dried flowers: upper-left one fine translucent ivory tea-steam curl with narrow bottom tip; upper-middle one small natural orange-gold candlelike flame tongue with subtle translucent edge and full tapered base to blend into an existing fireplace flame, no logs or smoke; upper-right one short hanging ivy tip, three green heart-shaped leaves and full upper attachment stem; lower-left one small glossy green ficus leaf with short visible stalk; lower-middle one fine beige baby's-breath twig with tiny ivory dried blossoms and a full delicate bare lower stem. No pot, fireplace, cup, wall or opaque effect backdrop. Fully separate complete shapes. Do not paint any object touching image or cell boundaries.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-01eb44f1-0347-4ad1-bba3-ab92bf6c1bd2.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\atlas-original.png",
+      "archiveSourceSha256": "e1a5f7ed7b0d222331bbb2bba4fd16efa93260ee84da4a7b352da648a4ca85fe"
+    },
+    {
+      "name": "tea-steam",
+      "path": "ah001-095-interiors/source/tea-steam.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\tea-steam-isolated.png",
+      "archiveSourceSha256": "90ee21ef2db1025983488f6150f3760d0b0a35412f57039101e675eebdffd11c"
+    },
+    {
+      "name": "hearth-flame",
+      "path": "ah001-095-interiors/source/hearth-flame.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\hearth-flame-isolated.png",
+      "archiveSourceSha256": "936944e7bb21cc4f6f28e26348ec120e8d884a2402eccaea612948ea2af6a896"
+    },
+    {
+      "name": "mantel-ivy",
+      "path": "ah001-095-interiors/source/mantel-ivy.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\mantel-ivy-isolated.png",
+      "archiveSourceSha256": "e2474a85f470cffd1f191c01bbfa1f4042ab37e3b14c400b0b5cda720abb59b1"
+    },
+    {
+      "name": "ficus-leaf",
+      "path": "ah001-095-interiors/source/ficus-leaf.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\ficus-leaf-isolated.png",
+      "archiveSourceSha256": "19a1fd18db3e4dbf6a3de4ba1c187ca02fd303f4e9222bb72cd305dbdab92765"
+    },
+    {
+      "name": "vase-dried-blossom",
+      "path": "ah001-095-interiors/source/vase-dried-blossom.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-095\\vase-dried-blossom-isolated.png",
+      "archiveSourceSha256": "eb481055e7410cef7ee9974cfc0cb725006c4da8c18cc7eb90d7f612adf55d94"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "tea steam",
+      "source": "tea-steam",
+      "maxSize": [
+        70,
+        170
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          629,
+          1019
+        ]
+      },
+      "axis": [
+        0,
+        -1
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "hearth flame",
+      "source": "hearth-flame",
+      "maxSize": [
+        50,
+        150
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          761,
+          647
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "mantel ivy",
+      "source": "mantel-ivy",
+      "maxSize": [
+        100,
+        145
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          454,
+          373
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "ficus leaf",
+      "source": "ficus-leaf",
+      "maxSize": [
+        100,
+        122
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1130,
+          221
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "vase dried blossom",
+      "source": "vase-dried-blossom",
+      "maxSize": [
+        110,
+        160
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          573,
+          905
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

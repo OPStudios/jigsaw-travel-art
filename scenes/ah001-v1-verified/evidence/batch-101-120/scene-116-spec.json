@@ -1,0 +1,157 @@
+{
+  "levelId": 116,
+  "sceneId": "ah001-116-sports-leisure",
+  "theme": "transport",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "atlasGrid": [
+    3,
+    2
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "warm ivory kayak and gravel shoreline",
+  "visualReviewNotes": "Original opaque background and complete transparent subjects inspected. Real mouths, hooks, handles, vegetation and ground establish attachments. Custom extraction preserves complete silhouettes and uses empty alpha gutters. Scene115 original feather-on-book and Scene116 feather-on-stones and large splash were rejected and replaced by isolated feathers and calm ripple. Scene117 loose twine rests on clear mat away from existing paper bow. Final composite and renderer review recorded separately. Palette uses median RGB from the specified large colored material; whole-image warm-light hue histogram remains separately recorded.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-af61271b-159e-45d2-ab8d-660f9fe11707.png",
+      "prompt": "Use case: illustration-story. Production game puzzle clean background, full bleed portrait 4:5, detailed warm oil/gouache illustration with visible painterly texture, natural coherent light/perspective. Fully opaque RGB: every pixel alpha255, no transparent areas or edge glitches. No writing, logos, digits, identifiable famous place, frame or UI. Complete inviting scene; omit only specified tiny later animated details, leaving natural anchor surfaces. Eye-level intimate view of an IVORY kayak and cream wooden paddles resting beside a grassy river bank. Warm ivory hull fills much of foreground, ivory pale gravel shore and pale soft sky reinforce the dominant palette; muted green bank and calm gray-blue river accents. Add a canvas picnic bag with plain bare knotted handle tie, an empty short twig at the upper-left willow branch well inside canvas, a tiny bare stem in nearshore grasses, an empty calm water pocket, and an exposed smooth pale gravel patch. Later details bag ribbon bow, willow leaf cluster, grass seed head, small water ripple, loose soft feather. No people or text, believable kayak shape and cockpit."
+    },
+    {
+      "name": "atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-54cfc99a-eae0-420d-adbe-e68387abb163.png",
+      "prompt": "Create one professional game-art sprite atlas, transparent RGBA background. Canvas 1536x1024 divided invisibly into 3 columns and 2 rows, five separate complete objects centered in cells 0,1,2,3,4 (row major); cell5 entirely empty. Each object must remain entirely INSIDE its own 512x512 cell with at least 55 pixels EMPTY TRANSPARENT margin on all four sides, including stems, shadows, wisps and strings. No outlines, no text, no labels, no ground, no boards, no broad glowing fog; genuine transparency outside the object. High quality softly painted gouache/oil storybook realism, detailed textured brushwork, warm sunlight from upper left, natural colors, no flat vector art. Details will be scaled small and placed into a matching painted puzzle scene. Cream kayak on natural river shore details. Cell0: a small blank ivory canvas luggage tag hanging from a short CLOSED rough twine loop at its top, no writing no symbols. Cell1: a slim willow twig with THREE long sage leaves, short bare cut stem at top-left, no roots. Cell2: two slender golden grass seed heads on a single rootless cut base stem. Cell3: a narrow horizontal small river ripple in soft ivory and pale blue, feathered alpha, no water rectangle, no mist. Cell4: a small warm gray feather resting flat on gravel, viewed diagonally from above, complete quill, minimal tight contact shadow only."
+    },
+    {
+      "name": "replacement-atlas",
+      "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0d863-8deb-7df3-b4a0-0311ad9084fd\\exec-6c379e48-74b1-4a0b-ae36-54592692eae6.png",
+      "prompt": "Production game-art RGBA sprite atlas, 1536x1024 pixels, transparent background. Three complete separate objects on top row only, in three invisible 512x512 cells. Bottom row empty transparent. Center each whole object within central300x300 of its own cell, surrounded on every side by wide transparent empty margins. Soft detailed oil/gouache brushwork, warm upper-left light. Cell0: ONE isolated small ivory feather, viewed diagonally from above, fine soft barbs and complete golden quill. Feather alone suspended in transparent space, no surrounding scene or support. Cell1: ONE isolated small warm-gray feather, different shorter rounded shape, fine soft barbs, full cream quill, viewed diagonally from above; feather alone in transparent space. Cell2: five very thin short pale-blue and ivory horizontal shimmering reflection strokes, forming a FLAT CALM elliptical water ripple, all strokes separated by genuine transparent gaps and feathered edges; no breaking waves, no spray, no mound, no solid water surface, no broad haze. No books, no pebbles, no floor, no scenery, no typography, no labels, no diagram lines. True empty alpha outside the three specific objects."
+    }
+  ],
+  "parts": [
+    {
+      "subject": "blank canvas tag looped around bag handle",
+      "source": "atlas",
+      "cell": [
+        0,
+        0
+      ],
+      "maxSize": [
+        40,
+        68
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          138,
+          843
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "willow leaves attached to overhead branch",
+      "source": "atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        92,
+        100
+      ],
+      "anchor": {
+        "mode": "top_left",
+        "point": [
+          339,
+          41
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "slender seed heads at shoreline grass",
+      "source": "atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        58,
+        143
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          930,
+          975
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 3
+    },
+    {
+      "subject": "gentle ripple on calm river",
+      "source": "replacement-atlas",
+      "cell": [
+        2,
+        0
+      ],
+      "maxSize": [
+        111,
+        35
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          1120,
+          896
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2
+    },
+    {
+      "subject": "warm gray feather resting on gravel",
+      "source": "replacement-atlas",
+      "cell": [
+        1,
+        0
+      ],
+      "maxSize": [
+        52,
+        48
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          755,
+          1449
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 1
+    }
+  ],
+  "mainColour": "#e6cfb1"
+}

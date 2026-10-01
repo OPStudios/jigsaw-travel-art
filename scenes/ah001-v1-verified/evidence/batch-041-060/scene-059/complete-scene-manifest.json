@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "contentContract": 1,
+  "geometryRevision": 2,
+  "artRevision": "ah001-v1",
+  "scenes": [
+    {
+      "levelId": 59,
+      "sceneId": "ah001-059-water-coast",
+      "status": "complete",
+      "theme": "water-coast",
+      "mainColour": "#07a8ca",
+      "master": {
+        "source": "ah001-059-water-coast/master.png",
+        "sha256": "5aa10b2210116cc1843168ec0924d335eeb9ca6aac6fe73df54248d597034952"
+      },
+      "background": {
+        "source": "ah001-059-water-coast/background.png",
+        "sha256": "cb23d585364e2b1960742282c265af65a4410d16588036a3100023f87bac8750"
+      },
+      "parts": [
+        {
+          "source": "ah001-059-water-coast/part-1.png",
+          "sha256": "0e7ed307dd4813eb876d46727fd30d8adf859e73a359c1b70603aa5f6f4ba2b5",
+          "rect": [
+            0.4640625,
+            0.410625,
+            0.140625,
+            0.035
+          ],
+          "sourcePixelRect": [
+            594,
+            657,
+            180,
+            56
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "small near sea ripple",
+          "authoringSource": "cutout-1",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            24,
+            214,
+            524,
+            370
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              684.4919786096257,
+              684.7360912981455
+            ]
+          }
+        },
+        {
+          "source": "ah001-059-water-coast/part-2.png",
+          "sha256": "3b73fa5eab23dcdb55be43761ea83c9253187e6a2f8fa0fa72326d2a3de0e161",
+          "rect": [
+            0.6546875,
+            0.5175,
+            0.11640625,
+            0.034375
+          ],
+          "sourcePixelRect": [
+            838,
+            828,
+            149,
+            55
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "small far sea ripple",
+          "authoringSource": "cutout-2",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            9,
+            196,
+            524,
+            386
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              912.6559714795009,
+              855.9201141226819
+            ]
+          }
+        },
+        {
+          "source": "ah001-059-water-coast/part-3.png",
+          "sha256": "382fd613f5db3d5fc13ea0f9fb795d4095e454623c4b58805877b82aaf4619f4",
+          "rect": [
+            0.86484375,
+            0.704375,
+            0.08984375,
+            0.08125
+          ],
+          "sourcePixelRect": [
+            1107,
+            1127,
+            115,
+            130
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "rooted beach grass",
+          "authoringSource": "cutout-3",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            4,
+            28,
+            416,
+            494
+          ],
+          "anchor": {
+            "mode": "bottom",
+            "point": [
+              1161.3547237076648,
+              1255.3495007132667
+            ]
+          }
+        },
+        {
+          "source": "ah001-059-water-coast/part-4.png",
+          "sha256": "20829aba75417943f556c02648c7a4302ccb7f6da22a2bffc71c3f14ed2bddda",
+          "rect": [
+            0.2296875,
+            0.10875,
+            0.1640625,
+            0.03875
+          ],
+          "sourcePixelRect": [
+            294,
+            174,
+            210,
+            62
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "left seaside cloud",
+          "authoringSource": "cutout-4",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            25,
+            142,
+            529,
+            292
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              399.28698752228166,
+              205.42082738944364
+            ]
+          }
+        },
+        {
+          "source": "ah001-059-water-coast/part-5.png",
+          "sha256": "f205f03ca8dde9d83d275a43328ce32fc89c9f5b2b40f8bbd02b120820c46b45",
+          "rect": [
+            0.6484375,
+            0.054375,
+            0.12890625,
+            0.034375
+          ],
+          "sourcePixelRect": [
+            830,
+            87,
+            165,
+            55
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "amplitude": 4,
+          "subject": "right seaside cloud",
+          "authoringSource": "cutout-5",
+          "atlasCellRect": null,
+          "atlasExtractionRect": null,
+          "cellInset": 0,
+          "cellInsetReview": "",
+          "alphaCrop": [
+            25,
+            138,
+            499,
+            296
+          ],
+          "anchor": {
+            "mode": "center",
+            "point": [
+              912.6559714795009,
+              114.12268188302426
+            ]
+          }
+        }
+      ],
+      "authoring": {
+        "sources": [
+          {
+            "name": "background",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-d27d8cc8-9d83-4c82-8c31-dfb1a804bf63.png",
+            "prompt": "FULLY OPAQUE finished portrait4:5 storybook scene, target1280x1600. All pixels opaque, including corners, no alpha transparency. Beautiful dimensional softly brushed digital illustration, rich natural textures, gentle upperleftsunlight. No text, logos, people,citylandmarks,UI,border,watermark. A lovelybeachcorner withturquoiseandcream stripedumbrellas andwovenpicnicbasket, gentlyelevatedthreequarterview. TURQUOISE dominatesclearcalmsea occupyingmidandupperhalf andumbrella canvases, warmivorysand below. Basketwithplainivorytowel restsleftforeground, smallshellsandweathereddriftwood, no brands. Opaque clearskyupperquarter. Wateropenpatchesleftmidx28%,y52% andrightmidx65%,y62% availableforlater subtlewater ripples. Rightforegroundsandnearx83%,y84% hasnaturalrootspotforbeachgrass. Topskyopenleftx25%,y15% andrightx73%,y18% forlaterclouds. Five laterpartsomitted:twodelicate lowcontrastturquoisewaterglints, narrowrootedbeachgrass, twodifferentsoftwarmcreamclouds. Fullycompletepainting, no cutouts.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\background.png",
+            "sha256": "b9b02312b7fdb9a058721947d464f1b86d3c3299b8d3021817af09e65f33c120",
+            "pixels": [
+              1122,
+              1402
+            ]
+          },
+          {
+            "name": "atlas",
+            "path": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-bd7e0d8b-ffd0-4428-ba52-d49f5b05f2db.png",
+            "prompt": "Use case: illustration-story. Production sprite atlas for cozy painterly travel jigsaw. Five independently painted watercolor/gouache cutouts on TRUE transparent RGBA, no backdrop, halo, rectangle, checkerboard, grid or text. 1536x1024 landscape 3columns2rows, six generous cells; bottom-right entirely empty. Complete subjects with transparent gutters, no crossing cell boundaries. Natural textured pigment, delicate brushwork, gentle upper-left daylight, soft painted edges, no sticker outline. For turquoise seaside umbrellas: TOP LEFT a very subtle delicate SHORT horizontal broken teal seawater ripple with only faint ivory highlights, translucent and no bright central glow; TOP MIDDLE a different subtle turquoise broken horizontal ripple, sparse scattered pale highlights, not a sun; TOP RIGHT little beach grass tuft with a bottom root; BOTTOM LEFT narrow delicate pale-white cloud; BOTTOM MIDDLE another small pale-white cloud wisp. No sand, sea rectangle or scenery.",
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\atlas.png",
+            "sha256": "671d1dd2efa2c66be10e1e9bda2c16c13598bf391cfe1e312587a81b60beb88e",
+            "pixels": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "name": "cutout-1",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-059\\technical-crops\\cutout-1.png",
+            "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-bd7e0d8b-ffd0-4428-ba52-d49f5b05f2db.png",
+            "originalPixelRect": [
+              0,
+              0,
+              535,
+              540
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\cutout-1.png",
+            "sha256": "46abe4f376955ae0566a388cce897ab68630e84b20a3a4b5fa5a7a294c616640",
+            "pixels": [
+              535,
+              540
+            ]
+          },
+          {
+            "name": "cutout-2",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-059\\technical-crops\\cutout-2.png",
+            "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-bd7e0d8b-ffd0-4428-ba52-d49f5b05f2db.png",
+            "originalPixelRect": [
+              535,
+              0,
+              1080,
+              540
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\cutout-2.png",
+            "sha256": "19360ea5785990015d2b17f62db8dd65a036d0c99c7be8c83b4a8af9fd6d3977",
+            "pixels": [
+              545,
+              540
+            ]
+          },
+          {
+            "name": "cutout-3",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-059\\technical-crops\\cutout-3.png",
+            "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-bd7e0d8b-ffd0-4428-ba52-d49f5b05f2db.png",
+            "originalPixelRect": [
+              1080,
+              0,
+              1536,
+              540
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\cutout-3.png",
+            "sha256": "ab5fe0ef511e8b59224c870f1d153c757bbf84b8feeabb43a5b2c15c76440899",
+            "pixels": [
+              456,
+              540
+            ]
+          },
+          {
+            "name": "cutout-4",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-059\\technical-crops\\cutout-4.png",
+            "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-bd7e0d8b-ffd0-4428-ba52-d49f5b05f2db.png",
+            "originalPixelRect": [
+              0,
+              540,
+              535,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\cutout-4.png",
+            "sha256": "253959be00a36c9d86b0e1b841f6025410d7e8639094063bbd55f22b253eec1e",
+            "pixels": [
+              535,
+              484
+            ]
+          },
+          {
+            "name": "cutout-5",
+            "path": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-041-060\\scene-059\\technical-crops\\cutout-5.png",
+            "prompt": "Unchanged rectangular extraction of the reviewed complete painted subject. No repainted or synthesized pixels.",
+            "originalAtlas": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-2103-7921-88b8-97d572b45fe3\\exec-bd7e0d8b-ffd0-4428-ba52-d49f5b05f2db.png",
+            "originalPixelRect": [
+              535,
+              540,
+              1080,
+              1024
+            ],
+            "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-059-water-coast\\source\\cutout-5.png",
+            "sha256": "a2ef1dd4f05259b76ca97c172cb91d4ee3e116d169969721f7f4cb07aa50c212",
+            "pixels": [
+              545,
+              484
+            ]
+          }
+        ],
+        "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+        "visualReviewNotes": "Original opaque background and all five authored cutouts inspected at composition scale and against cream/dark alpha backgrounds. Adapted attachments to visible branches, pots, surface contact, strings, or sky/water. Implementation art review only, not PM approval. Master/contact and actual GPU review follow export.",
+        "reviewMeaning": "Implementation art review only, not PM approval",
+        "dominantHueBucket": "blue",
+        "chromaticHueFractions": {
+          "red": 0.0061,
+          "orange-yellow": 0.3962,
+          "green": 0.0469,
+          "blue": 0.5508,
+          "violet-pink": 0.0
+        },
+        "measuredDominantColour": "#44aed3",
+        "mainColourLabel": "turquoise",
+        "masterPixels": [
+          1280,
+          1600
+        ],
+        "noDestinationLandmark": true,
+        "sourceSpecSha256": "ff9fba6a286abeb9cb1a1a2ea1ea1c1834ea4db37452334b3370d8bdba58751f"
+      }
+    }
+  ]
+}

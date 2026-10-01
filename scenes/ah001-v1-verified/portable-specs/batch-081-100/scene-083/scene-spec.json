@@ -1,0 +1,203 @@
+{
+  "levelId": 83,
+  "sceneId": "ah001-083-nature-gardens",
+  "theme": "nature-gardens",
+  "masterPixels": [
+    1280,
+    1600
+  ],
+  "visualReviewed": true,
+  "noDestinationLandmark": true,
+  "mainColourLabel": "golden yellow-green",
+  "visualReviewNotes": "Fern and broad leaf attach into planted banks, orchid sits among existing tree orchids, cloud stays in the sky opening, dragonfly hovers near the stream. Complete composite and all five unique purpose-painted alpha parts inspected on ivory and navy backgrounds. Full original backgrounds are opaque RGB; source crops retain every subject with boundary alpha<=2. Actual renderer proof follows separately. This is internal implementation review, not PM approval.",
+  "sources": [
+    {
+      "name": "background",
+      "path": "ah001-083-nature-gardens/source/background.png",
+      "prompt": "Use case: stylized-concept. Production portrait4:5travel puzzle PAINTED CLEAN BACKGROUND. Scene: A rainforest path beside a small wooden rope bridge. View: close cozy three-quarter view. Polished warm storybook digital painting matching the approved Art Direction V2 game boards: tactile softly brushed surfaces, gentle sunlight, dimensional illustrated objects, clean local colour separation and rich small discoveries. No flat vector art, no photographic collage, no generic geometric filler. Dominant main colour: golden yellow (#DFC260), clearly occupying the largest coherent surfaces, with balanced contrasting details. Composition is generic travel subject matter; NO recognizable destination landmarks, city names, signs, letters or logos. No UI or border. This is a finished clean plate for five separately painted motion details. Paint complete underlying surfaces at all five declared positions; do not draw the five named foreground details, leave no transparent hole or blank placeholder. Portrait master1280x1600. Part placements for later composition: an upper-left branch of the scene-specific plant at normalised rect [0.07, 0.09, 0.23, 0.2]; an upper-right leaf cluster of a different scene plant at normalised rect [0.72, 0.14, 0.2, 0.2]; a lower-left flower or fern frond at normalised rect [0.08, 0.69, 0.21, 0.22]; a lower-right cluster of matching grass or foliage at normalised rect [0.71, 0.72, 0.22, 0.18]; a small soft cloud or reflected-water glint suited to this scene at normalised rect [0.4, 0.27, 0.2, 0.12]. The painting must remain attractive and complete underneath those parts.\nMANDATORY full-canvas OPAQUE RGB painting, alpha255 everywhere. A secluded rainforest trail bends toward a short modest wooden rope footbridge crossing a narrow stream. The composition is predominantly GOLDEN YELLOW from abundant sunlit bamboo, warm ochre path and glowing yellow-green leaves, secondary deep green shade. Authentic tropical lush planting: broad leaves, ferns, a small white orchid clump on an old tree at left. Bridge has coherent connected slats and tensioned rope handrails, no broken perspective, no grand famous bridge. No people, animals, architecture, signs, text, landmarks, UI or border. A small opening to pale morning sky upper centre. Keep clear complete underlying foliage where separately animated leaf tips will be placed; no transparency. Rich softly brushed storybook painting with natural light, no artificial rays or fantasy glow.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-4997ed61-700a-4413-bfef-22fafee599d1.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\background-original.png",
+      "archiveSourceSha256": "2c2a077ccd1d0950a307f19a8ef945df0f1cd4f9cf20a87a3b0dd048c0c78bdf"
+    },
+    {
+      "name": "atlas",
+      "path": "ah001-083-nature-gardens/source/atlas.png",
+      "prompt": "Use case: stylized-concept. One TRUE TRANSPARENT RGBA production sprite atlas, 1536x1024, invisible 3-column by2-row layout. Exactly five distinct purpose-painted full objects, one centered inside each of the first five 512x512 cells; last bottom-right cell totally empty. Every object SMALL, maximum280x300pixels, huge alpha gutters, nothing crosses x512,x1024,y512, no visible grid. All background pixels alpha0, genuine holes between leaves/threads, no glow, haze, contact-shadow field, backdrop, labels or scenery. Detailed dimensional warm storybook digital painting matching approved Art Direction V2 game painting: natural tactile materials, soft brushwork, gentle light from upper-left; no flat vector clipart. Five unique foreground details for a golden sunlit rainforest path with a little wooden rope footbridge, yellow-green bamboo and white orchids. Upper-left: one delicate yellow-green fern frond, leaning right, full slender stem descending lower-left. Upper-middle: one small broad tropical leaf, warm green with gold-lit rim and visible short stalk at bottom, no broken silhouette. Upper-right: one white orchid blossom with golden centre and a small thin curved green attachment stem. Lower-left: one modest ivory cloud puff with pale-blue shadow for the visible high sky opening. Lower-middle: a tiny emerald-and-blue dragonfly with four fine translucent wings and full thin abdomen, hovering diagonally. Keep complete subjects small and fully isolated, no tree, bridge, water, sky rectangle, ground or extraneous flowers.",
+      "generatorOriginalPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e88f-f1d7-7cd1-9633-16a11b279846\\exec-ce66204f-401a-4b0e-98ec-462f8d994e41.png",
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\atlas-original.png",
+      "archiveSourceSha256": "a7d0a30715347ab63d12f79b3a87ffd699aaeaceb8abddf0b843092980d424e3"
+    },
+    {
+      "name": "forest-fern",
+      "path": "ah001-083-nature-gardens/source/forest-fern.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        25,
+        60,
+        530,
+        525
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\forest-fern-isolated.png",
+      "archiveSourceSha256": "8d8deed9ae0cd78bdbc220626ccf30190235057a6066bd78b2c6e3c7f96dcbd1"
+    },
+    {
+      "name": "tropical-leaf",
+      "path": "ah001-083-nature-gardens/source/tropical-leaf.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        645,
+        65,
+        1002,
+        515
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\tropical-leaf-isolated.png",
+      "archiveSourceSha256": "fa7aee820ed57b415bf37e43fbc6c0aa3207def385f5c5308411b9021f582686"
+    },
+    {
+      "name": "tree-orchid",
+      "path": "ah001-083-nature-gardens/source/tree-orchid.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        1090,
+        70,
+        1510,
+        500
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\tree-orchid-isolated.png",
+      "archiveSourceSha256": "61e927ff4f14b5e3a134d07450e7bbcf764bbec5774f86eef0410474f0f87f4e"
+    },
+    {
+      "name": "forest-cloud",
+      "path": "ah001-083-nature-gardens/source/forest-cloud.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        20,
+        580,
+        565,
+        960
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\forest-cloud-isolated.png",
+      "archiveSourceSha256": "9c100ec4db8375ad540e13aa5924cdfae183292920c17605dcd3bccaff309d17"
+    },
+    {
+      "name": "stream-dragonfly",
+      "path": "ah001-083-nature-gardens/source/stream-dragonfly.png",
+      "prompt": "Lossless complete-silhouette extraction from independently purpose-painted atlas; no repainting or matte removal.",
+      "derivedFrom": "atlas",
+      "sourceCropPixels": [
+        600,
+        550,
+        1040,
+        920
+      ],
+      "historicalAuthoringPath": "C:\\GIT\\jigsaw-travel-client\\reports\\ah-001-2026-09-30\\scenes\\batch-081-100\\scene-083\\stream-dragonfly-isolated.png",
+      "archiveSourceSha256": "9a7796035bda80eed9fd80311d2bcc6b20ffb65eb88d1a555d866a1ff5726842"
+    }
+  ],
+  "parts": [
+    {
+      "subject": "forest fern",
+      "source": "forest-fern",
+      "maxSize": [
+        160,
+        165
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          253,
+          1360
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "tropical leaf",
+      "source": "tropical-leaf",
+      "maxSize": [
+        145,
+        195
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1080,
+          1377
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "tree orchid",
+      "source": "tree-orchid",
+      "maxSize": [
+        100,
+        105
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          173,
+          297
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "forest cloud",
+      "source": "forest-cloud",
+      "maxSize": [
+        125,
+        85
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          648,
+          150
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    },
+    {
+      "subject": "stream dragonfly",
+      "source": "stream-dragonfly",
+      "maxSize": [
+        85,
+        80
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          639,
+          1080
+        ]
+      },
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4
+    }
+  ]
+}

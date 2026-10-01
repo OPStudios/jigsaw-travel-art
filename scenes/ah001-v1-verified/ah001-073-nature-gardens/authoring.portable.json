@@ -1,0 +1,306 @@
+{
+  "levelId": 73,
+  "sceneId": "ah001-073-nature-gardens",
+  "pathRoot": "archive root",
+  "authoring": {
+    "sources": [
+      {
+        "name": "background",
+        "path": "ah001-073-nature-gardens/source/background.png",
+        "prompt": "Use case: stylized-concept. Create a finished high-quality unique CLEAN BACKGROUND PLATE for portrait4:5 jigsaw puzzle illustration \"A rolling hillside carpeted in colorful flowers\". Premium cozy travel-game storybook digital painting matching approved Art Direction V2 gameplay art: tactile subtly brushed surfaces, fine hand-painted detail, believable dimensional objects, gentle upper-left sunlight, rich color separation and small discoveries. NOT flat vector, NOT photorealistic, NOT generic procedural art. A rolling hillside carpeted in flowering lavender and lilac asters, close enough that violet flowers cover most of the picture. Winding small footpath, a distant tree, little sky and no buildings. Soft violet truly dominant, natural layered plant forms, no insects yet. Viewpoint: gently elevated three-quarter view. The picture must fill the entire portrait4:5 canvas, ideal1280x1600; no borders, text, UI, grid, title, logo, watermark or transparent holes. This is a complete naturally composed environment with real stable anchors for five small moving details later added as separate alpha layers. Do not add floating decorative particles or overlay patterns. Preserve coherent scale and perspective. No famous destination landmark. Keep the requested main color visible throughout the scene, not only a tiny accent.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-073-nature-gardens\\source\\background.png",
+        "sha256": "267451f01ca9a8336afab45d6ba79e6b4a9f1a7082d0d2f25d54e853233d5f73",
+        "pixels": [
+          1122,
+          1402
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-4b27ec1d-6cf6-4340-82f9-1d8b2eea5043.png",
+        "archiveSourceSha256": "267451f01ca9a8336afab45d6ba79e6b4a9f1a7082d0d2f25d54e853233d5f73"
+      },
+      {
+        "name": "atlas",
+        "path": "ah001-073-nature-gardens/source/atlas.png",
+        "prompt": "Use case: stylized-concept. A production RGBA transparent sprite atlas of five unique painted details belonging to the scene \"A rolling hillside carpeted in colorful flowers\". Match a premium cozy illustrated puzzle: rich dimensional storybook digital painting, subtle brushed pigment, believable natural forms, fine detail, soft upper-left sun, coherent warm light and tactile materials. No flat vector, no photos, no generic geometric particles. EXACTLY five isolated objects, strict3 columns by2 rows, landscape3:2 canvas. Leave the sixth bottom-right cell perfectly empty transparent. TRUE alpha transparency, no matte, no background, no grid or cell borders, no frame, no shadow rectangle, no labels or text. Place each entire object inside the central50% of its own cell, leaving wide25% gutters on every side. FULL complete loops, stems, wings, wisps and thin strands must fit safely inside each cell; none may touch canvas or cell edges. Top row left to right: a rich violet lavender spire on a slim green stem with two small leaves; a mauve aster flower on a long narrow lower stalk, detailed petals and golden center; a short cluster of pale purple field scabious flowers and light green leaves, tapered bottom stem. Bottom row left to right: one small deep-purple and ivory butterfly with delicate natural wing veins; one tiny orange-brown bumblebee with subtle golden fuzzy hairs and translucent wings; EMPTY. Preserve detailed painted alpha edges and translucent material where specified. Do not include containers, scenery or extra items. All five details are real meaningful parts of this specific scene, sharing its scale and light.",
+        "retainedSource": "C:\\GIT\\jigsaw-travel-client\\assets\\art\\ah001-scenes\\ah001-073-nature-gardens\\source\\atlas.png",
+        "sha256": "a72395a8a3efafa9131b1f25fe89092ee6691ad5d23a35f4828190c29d1aeb8d",
+        "pixels": [
+          1536,
+          1024
+        ],
+        "historicalAuthoringPath": "C:\\Users\\Oron\\.codex\\generated_images\\01a0e891-63e7-73d3-aca4-a7dd7f5ef19e\\exec-61fd701f-0659-4e82-ab9c-1d37aeac1319.png",
+        "archiveSourceSha256": "a72395a8a3efafa9131b1f25fe89092ee6691ad5d23a35f4828190c29d1aeb8d"
+      }
+    ],
+    "styleReference": "docs/mockups/art-direction-v2/02-gameplay.png",
+    "visualReviewNotes": "Reviewed final master and original details against the approved painted game style. Three distinct flowers grow from the actual hillside plants; butterfly and bee occupy open spaces above blooms. Actual palette sample is [30, 400, 720, 1480] in1280x1600 source space; no landmark observed. Implementation art review only, not PM approval. Completion visibility correction: scaled near-edge natural detail around its real anchor; final conservative silhouette and real61-frame rendering must pass.",
+    "reviewMeaning": "Implementation art review only, not PM approval",
+    "dominantHueBucket": "violet-pink",
+    "chromaticHueFractions": {
+      "red": 0.0496,
+      "orange-yellow": 0.2988,
+      "green": 0.0344,
+      "blue": 0.1349,
+      "violet-pink": 0.4823
+    },
+    "measuredDominantColour": "#8354a2",
+    "mainColourLabel": "soft violet",
+    "masterPixels": [
+      1280,
+      1600
+    ],
+    "noDestinationLandmark": true,
+    "sourceSpecSha256": "2fd7e9d143583d4e96df21d900178aa6f2e13b1b05ec2c32a39c5573eeec22d1"
+  },
+  "parts": [
+    {
+      "source": "ah001-073-nature-gardens/part-1.png",
+      "sha256": "ff5c7710dee7950093c5c4fbb50e43a812df2999cb68a83a5e295ab14cad06a1",
+      "rect": [
+        0.240625,
+        0.75125,
+        0.07109375,
+        0.178125
+      ],
+      "sourcePixelRect": [
+        308,
+        1202,
+        91,
+        285
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "hillside lavender",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "atlasExtractionRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        197,
+        32,
+        350,
+        512
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          365,
+          1485
+        ]
+      }
+    },
+    {
+      "source": "ah001-073-nature-gardens/part-2.png",
+      "sha256": "7d24983aafa409444a97bd1ae39222174043342143da6be74bd3c50cb6f27a51",
+      "rect": [
+        0.06328125,
+        0.69375,
+        0.109375,
+        0.12
+      ],
+      "sourcePixelRect": [
+        81,
+        1110,
+        140,
+        192
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "field aster",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "atlasExtractionRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        92,
+        67,
+        416,
+        512
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          159,
+          1300
+        ]
+      }
+    },
+    {
+      "source": "ah001-073-nature-gardens/part-3.png",
+      "sha256": "a82c4f8835eeba7f598665c1e0a48ba966e1d8a93c1c0c66e6a2228d160e3c98",
+      "rect": [
+        0.86171875,
+        0.825,
+        0.10625,
+        0.08875
+      ],
+      "sourcePixelRect": [
+        1103,
+        1320,
+        136,
+        142
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 2,
+      "subject": "field scabious",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "atlasExtractionRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        60,
+        95,
+        447,
+        498
+      ],
+      "anchor": {
+        "mode": "bottom",
+        "point": [
+          1170,
+          1460
+        ]
+      }
+    },
+    {
+      "source": "ah001-073-nature-gardens/part-4.png",
+      "sha256": "9697310aacea4b6438463b701565c4d7b5808dd2cd72e022df823c38e0b52c21",
+      "rect": [
+        0.62734375,
+        0.478125,
+        0.065625,
+        0.05
+      ],
+      "sourcePixelRect": [
+        803,
+        765,
+        84,
+        80
+      ],
+      "axis": [
+        0,
+        1
+      ],
+      "amplitude": 4,
+      "subject": "violet butterfly",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "atlasExtractionRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        93,
+        40,
+        511,
+        438
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          845,
+          805
+        ]
+      }
+    },
+    {
+      "source": "ah001-073-nature-gardens/part-5.png",
+      "sha256": "40052c06c90988f187c3eb44e89a1d4208f7c1d232f5c19f70c269e2f94bd1ec",
+      "rect": [
+        0.359375,
+        0.60375,
+        0.0375,
+        0.025
+      ],
+      "sourcePixelRect": [
+        460,
+        966,
+        48,
+        40
+      ],
+      "axis": [
+        1,
+        0
+      ],
+      "amplitude": 4,
+      "subject": "hillside bumblebee",
+      "authoringSource": "atlas",
+      "atlasCellRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "atlasExtractionRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "cellInset": 0,
+      "cellInsetReview": "",
+      "alphaCrop": [
+        76,
+        98,
+        448,
+        408
+      ],
+      "anchor": {
+        "mode": "center",
+        "point": [
+          484,
+          986
+        ]
+      }
+    }
+  ]
+}
