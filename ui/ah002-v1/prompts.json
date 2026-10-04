@@ -1,0 +1,19 @@
+{
+  "check_green.png": {
+    "tool": "built-in image_gen.imagegen",
+    "prompt": "Use case: precise-object-edit. Edit target: the provided green painted check. Preserve the bold tick shape and hand painted texture. Change only the cream outline thickness: make cream #FBF3E1 edge much thicker, 7.5% of the entire icon height uniformly around the green check (cream 4.5 pixels when entire mark is60 pixels). Previous edge is too thin. Green center stays #2D9E37 RGB45,158,55, with minimal texture. True transparent outsidecream outline, no shadow, no background, no otherobjects or text. Entire icon tightlyfittedto squarecanvas with2%transparentmargin.",
+    "reference": "AH-002/images/ref-check-icon.png; prior generated check variant",
+    "sha256": "3581f442b006b3f06915b9bb117c1c51c9640e6edc419095f3542f61c6927a8f"
+  },
+  "heart_red.png": {
+    "tool": "built-in image_gen.imagegen",
+    "prompt": "Use case: stylized-concept. Asset type: one tiny painted heart confetti sprite for Jigsaw Travel, a cozy storybook travel puzzle game. Primary request: one bold red heart cut from softly painted red paper, symmetrical rounded lobes, softpoint, slightly irregularhand-painted edge. Colour dominant #C8402F with subtle paint fiber and warm shading within3RGBvalues. Square frontal orthographic composition, the heartfills85%canvas, centered. Intended export42x42pixels, remain instantlyreadable at6\u201314points. Transparent alpha outside heart, nooutline, no drop shadow, no circle, no background, no words or labels. Not a photoreal object or flat vector; visible restrainedgouache texture.",
+    "sha256": "64ca1b3ec77855c2a5dde54b6d6cb7d6d1c1773147aff13aa1844381793586ad"
+  },
+  "badge_ad_green.png": {
+    "tool": "built-in image_gen.imagegen",
+    "sha256": "560caac7158143509593344c26f06f6be4927a2114c802ae160bf0bba1943897",
+    "reference": "assets/ui/ah001/booster_badge.png",
+    "prompt": "Use case: precise-object-edit. Production Jigsaw Travel painted UI icon. Edit this circular badge to match exact PM spec: single round disk filled green #2D9E37 RGB45,158,55 with a cream #FBF3E1 RGB251,243,225 edge. Cream ring is1pt wide in an18pt badge, so exactly about5.6% of entire badge diameter. Preserve a restrained hand-painted paper texture, round silhouette and small softbrush details, but REMOVE gloss, shiny highlights, black rim and drop shadow. Greenface remains nearly uniform targetgreen, variation no more4RGB. Cream ring uniform enough to be readable. No text (Ad text will be rendered inapp), no symbols, no decorations. Disk centered with1% transparentmargin, outside ring genuine transparentalpha. Squarecanvas intendeddownsample54x54pixels."
+  }
+}
