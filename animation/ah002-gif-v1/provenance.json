@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "sourceCatalogueSha256": "abd71aee7d39fa611a2ca0f27178b8fd24301b4df871d510e3cbd2db1af846f5",
+  "sourceImagePolicy": "composed-v1",
+  "sourceDeliveryContract": 2,
+  "outputPolicy": "completion-gif-v1",
+  "maximumGifBytes": 5000000,
+  "frameCount": 75,
+  "frameDelayMs": 40,
+  "durationMs": 3000,
+  "paletteColors": 255,
+  "widthCandidates": [
+    376,
+    352,
+    320
+  ],
+  "additionalLossyCandidates": [
+    0,
+    10,
+    20
+  ],
+  "originalPaintedArtworkChanged": false,
+  "realGifPixelsContainAnimation": true,
+  "userDirection": "Actual GIF files; maximum 5,000,000 bytes each; richer colors and physically meaningful scene actions. All 120 scenes authorized for local generation and review.",
+  "visualReviewMeaning": "Sampled implementation QA of exact GIF identities, not PM approval or a claim that all visuals are defect-free. Level43 remains an explicit source-art release blocker.",
+  "tools": [
+    {
+      "clientTool": "tools/prototypes/completion_gif/encode_sample.py",
+      "archive": "encoder-source/encode_sample.py",
+      "sha256": "1dedca7c51fa9d5cac14d7dced5303869bfc6fc112c23ef2bb608658e5ee928c"
+    },
+    {
+      "clientTool": "tools/prototypes/completion_gif/encode_scene.py",
+      "archive": "encoder-source/encode_scene.py",
+      "sha256": "402c46d1a2388c31218aedfad702d1baa7eecf76625b9d0e51cefa7a0dc0b464"
+    },
+    {
+      "clientTool": "tools/prototypes/completion_gif/motions.py",
+      "archive": "encoder-source/motions.py",
+      "sha256": "c1b0b2282b328b1ab877fb12526b7d5f3116637b7626be757dbd7a227b9557da"
+    },
+    {
+      "clientTool": "tools/prototypes/completion_gif/author_profiles.py",
+      "archive": "encoder-source/author_profiles.py",
+      "sha256": "abb56ca18e9dca3e228e80b385995428d12b3dbcede401ddec246d3353063e81"
+    },
+    {
+      "clientTool": "tools/prototypes/completion_gif/encode_batch.py",
+      "archive": "encoder-source/encode_batch.py",
+      "sha256": "9cb8031f749ac7f3fbd32747488060265f23cf7784a8e3882dd581581c75da7d"
+    },
+    {
+      "clientTool": "tools/prototypes/completion_gif/review_batch.py",
+      "archive": "encoder-source/review_batch.py",
+      "sha256": "2e2fd0200fdedf6d46edc71d994ae3d20201ed618175c646192d945680e57302"
+    },
+    {
+      "clientTool": "tools/prototypes/completion_gif/ENCODING.md",
+      "archive": "encoder-source/ENCODING.md",
+      "sha256": "847ab67b108eb4ce1938022fb0227cbaf5ce127eb10958e25fe726f1c38381a8"
+    }
+  ],
+  "publicationStatus": "held-until-user-reviews-all-120-and-level43-source-art-defect-is-repaired-and-revalidated",
+  "sourceMotionReview": "Original placement anchors retained; physical hinges and anatomy reviewed across all 600 painted parts, with inspected overrides.",
+  "authoringRegression": {
+    "clientTest": "tests/test_completion_gif_authoring.py",
+    "sha256": "be2a303a6d0d5387e70db3683bf74acfab03a4d08025a1e8d472399bd15d705d",
+    "result": "5 tests passed; stale source/profile and invalid camera coordinates rejected"
+  },
+  "gitBytePreservation": {
+    "encoderSource": "-text: retain exact archived bytes",
+    "sourceAuthoringMetadata": "text eol=crlf: all120 current raw source bytes verified against Git blobs with CRLF checkout normalization",
+    "paintedArtworkChanged": false,
+    "proof": "source-line-ending-proof.json"
+  },
+  "finalReviewSet": "final-review-set.json",
+  "localIndexSha256": "da2df6c5cbe9d0342f8a0bb6f6c975e20f655311cddbdc914459ad5ad00d432e",
+  "finalGifCount": 120,
+  "finalTotalBytes": 567106739,
+  "finalProfileSemanticSha256": "dd6a288e0412ab1abea3b9c1f09ecb928cc42383ded5d4083f7ff6f60843b418",
+  "openVisualDefects": [
+    {
+      "levelId": 43,
+      "gifSha256": "7688bfc1761252337c0921be7427d2875aade04ca0cc954868e630bb3c5d2051",
+      "status": "open",
+      "classification": "pre-existing-source-art",
+      "description": "The rosemary sprig (painted part2) has a visible gap between its lower stem and the supporting bare branch. The gap exists in the original source master and remains in the final GIF; it was not introduced by the animation or corrected zoom pivot.",
+      "requiresRepairBeforePublication": true,
+      "requiredAction": "Repair the source-art attachment or composition, regenerate the affected GIF and source binding, validate the replacement, and review its new identity before publication.",
+      "evidence": "jigsaw-travel-client/reports/gif-completion-final/independent-qa/level-043-stem-diagnostic.png"
+    }
+  ]
+}

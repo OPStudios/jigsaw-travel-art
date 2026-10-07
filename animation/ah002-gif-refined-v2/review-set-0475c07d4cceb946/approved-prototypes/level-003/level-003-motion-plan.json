@@ -1,0 +1,647 @@
+{
+  "levelId": 3,
+  "recipe": "isolated-natural-actions-v2",
+  "status": "prototype-awaiting-normal-speed-review",
+  "sourceCatalogueSha256": "abd71aee7d39fa611a2ca0f27178b8fd24301b4df871d510e3cbd2db1af846f5",
+  "sourceImageSha256": "ee2de1cf8b3096b704639886f6475ae1a8359170c4a8ccaeab14549d9ebe716a",
+  "sourceAuthoringSha256": "a2825c448258f6420165edc97ca0e3421090262572535c03d564da9f57415457",
+  "frameCount": 75,
+  "frameDelayMs": 40,
+  "durationMs": 3000,
+  "finalZoom": 1.05,
+  "parts": [
+    {
+      "part": 1,
+      "subject": "bamboo twig",
+      "source": "ah001-003-nature-gardens/part-1.png",
+      "sourceSha256": "446fcc7dc4c3cc92423846ea69a00e83a804fad3b092cb59651e65b0409b44d4",
+      "action": "rigid foliage rotates subtly at its actual root with delayed directional breeze",
+      "anchorPx": [
+        61.163636363636364,
+        179.74489795918367
+      ],
+      "degrees": 0.45,
+      "delaySeconds": 0.5,
+      "rigidComponentScale": 1,
+      "anchorReview": "Manual source[24,166] is the cut stem. Historical metadata points to a lower-right leaf tip and is not used as the v2 hinge."
+    },
+    {
+      "part": 2,
+      "subject": "pond fern",
+      "source": "ah001-003-nature-gardens/part-2.png",
+      "sourceSha256": "b3c6ffbe28267b9875d2908069ac6242ddf0343714849c86182714346999f314",
+      "action": "rigid foliage rotates subtly at its actual root with delayed directional breeze",
+      "anchorPx": [
+        77.058805,
+        232.312976
+      ],
+      "degrees": 0.65,
+      "delaySeconds": 0.85,
+      "rigidComponentScale": 1
+    },
+    {
+      "part": 3,
+      "subject": "water grass",
+      "source": "ah001-003-nature-gardens/part-3.png",
+      "sourceSha256": "84250a543218b902fd95823fcd0f64f92d0c05234baad2597eecbfa2716a4d4d",
+      "action": "rigid foliage rotates subtly at its actual root with delayed directional breeze",
+      "anchorPx": [
+        138.050053,
+        188.31459999999998
+      ],
+      "degrees": 1.05,
+      "delaySeconds": 1.0,
+      "rigidComponentScale": 1
+    },
+    {
+      "part": 4,
+      "subject": "water lily",
+      "source": "ah001-003-nature-gardens/part-4.png",
+      "sourceSha256": "e2d8d50e2d9c51d9642e3180b06a106822482986d3136ad132584292cdf8f24b",
+      "action": "lily remains a rigid floating group; slow subpixel drift without changing silhouette",
+      "maximumTranslationSourcePx": 1.8,
+      "maximumRotationDegrees": 0.22,
+      "rigidComponentScale": 1
+    },
+    {
+      "part": 5,
+      "subject": "pond dragonfly",
+      "source": "ah001-003-nature-gardens/part-5.png",
+      "sourceSha256": "97de95c78bdf3265f43263c17281a4e8ca1eb80b951cf7effdb4975df6245258",
+      "action": "rigid head, thorax and complete curved abdomen; two coherent coupled wing-pair planes with exposure integration",
+      "thoraxJointPx": [
+        75.875,
+        67.17808219178082
+      ],
+      "bodyAxis": [
+        -23.625,
+        -39.917808219178085
+      ],
+      "bodyExtraPolygon": [
+        [
+          64.5,
+          52.73972602739726
+        ],
+        [
+          74.125,
+          52.73972602739726
+        ],
+        [
+          76.75,
+          56.986301369863014
+        ],
+        [
+          76.75,
+          60.38356164383562
+        ],
+        [
+          79.375,
+          62.082191780821915
+        ],
+        [
+          82.0,
+          66.32876712328768
+        ],
+        [
+          82.0,
+          70.57534246575342
+        ],
+        [
+          84.625,
+          73.97260273972603
+        ],
+        [
+          86.375,
+          76.52054794520548
+        ],
+        [
+          88.125,
+          79.91780821917808
+        ],
+        [
+          91.625,
+          83.31506849315068
+        ],
+        [
+          93.375,
+          86.7123287671233
+        ],
+        [
+          95.125,
+          90.95890410958904
+        ],
+        [
+          96.0,
+          94.35616438356163
+        ],
+        [
+          98.625,
+          97.75342465753425
+        ],
+        [
+          99.5,
+          102.0
+        ],
+        [
+          96.0,
+          102.0
+        ],
+        [
+          93.375,
+          97.75342465753425
+        ],
+        [
+          91.625,
+          94.35616438356163
+        ],
+        [
+          89.875,
+          90.95890410958904
+        ],
+        [
+          87.25,
+          87.56164383561644
+        ],
+        [
+          85.5,
+          85.01369863013699
+        ],
+        [
+          83.75,
+          83.31506849315068
+        ],
+        [
+          82.875,
+          79.91780821917808
+        ],
+        [
+          81.125,
+          77.36986301369862
+        ],
+        [
+          80.25,
+          75.67123287671234
+        ],
+        [
+          77.625,
+          73.97260273972603
+        ],
+        [
+          74.125,
+          71.42465753424658
+        ],
+        [
+          72.375,
+          68.02739726027397
+        ],
+        [
+          71.5,
+          64.63013698630137
+        ],
+        [
+          68.875,
+          63.78082191780822
+        ],
+        [
+          65.375,
+          63.78082191780822
+        ],
+        [
+          62.75,
+          60.38356164383562
+        ],
+        [
+          61.875,
+          56.13698630136986
+        ],
+        [
+          65.375,
+          56.13698630136986
+        ],
+        [
+          67.125,
+          59.534246575342465
+        ],
+        [
+          65.375,
+          56.986301369863014
+        ]
+      ],
+      "wingPolygons": [
+        [
+          [
+            36.5,
+            56.986301369863014
+          ],
+          [
+            69.75,
+            58.68493150684931
+          ],
+          [
+            78.5,
+            63.78082191780822
+          ],
+          [
+            84.625,
+            75.67123287671234
+          ],
+          [
+            87.25,
+            85.86301369863014
+          ],
+          [
+            70.625,
+            96.9041095890411
+          ],
+          [
+            36.5,
+            99.45205479452055
+          ]
+        ],
+        [
+          [
+            69.75,
+            59.534246575342465
+          ],
+          [
+            80.25,
+            46.794520547945204
+          ],
+          [
+            91.625,
+            36.602739726027394
+          ],
+          [
+            113.5,
+            36.602739726027394
+          ],
+          [
+            113.5,
+            79.91780821917808
+          ],
+          [
+            95.125,
+            81.61643835616438
+          ],
+          [
+            81.125,
+            75.67123287671234
+          ],
+          [
+            75.0,
+            69.72602739726028
+          ]
+        ]
+      ],
+      "bodyScale": 1,
+      "bodyMaskMethod": "complete traced silhouette; no straight stripe",
+      "wingMaskMethod": "coupled side pairs; ambiguous painted fore/hind overlap is not cut",
+      "sourceLimitation": "A single80x73 painted pose cannot provide new views or occluded anatomy.",
+      "wingHinges": [
+        [
+          74.85635263271148,
+          65.45693212827207
+        ],
+        [
+          74.85635263271148,
+          65.45693212827207
+        ]
+      ]
+    }
+  ],
+  "maskPolicy": "Hand-traced selections of original painted pixels only; no synthetic replacement art.",
+  "uploadApproved": false,
+  "v1OutputsChanged": false,
+  "noMandatoryAllPartsMotion": true,
+  "noForcedReturnToFirstPose": true,
+  "waterMasks": {
+    "referencePixels": [
+      1280,
+      1600
+    ],
+    "surface": [
+      [
+        452,
+        753
+      ],
+      [
+        810,
+        749
+      ],
+      [
+        1020,
+        793
+      ],
+      [
+        1020,
+        884
+      ],
+      [
+        1052,
+        914
+      ],
+      [
+        1045,
+        955
+      ],
+      [
+        1010,
+        1000
+      ],
+      [
+        1035,
+        1050
+      ],
+      [
+        1020,
+        1095
+      ],
+      [
+        906,
+        1120
+      ],
+      [
+        888,
+        1230
+      ],
+      [
+        804,
+        1270
+      ],
+      [
+        789,
+        1410
+      ],
+      [
+        760,
+        1510
+      ],
+      [
+        720,
+        1530
+      ],
+      [
+        650,
+        1470
+      ],
+      [
+        515,
+        1430
+      ],
+      [
+        477,
+        1350
+      ],
+      [
+        425,
+        1260
+      ],
+      [
+        405,
+        1155
+      ],
+      [
+        371,
+        1090
+      ],
+      [
+        380,
+        1045
+      ],
+      [
+        560,
+        1020
+      ],
+      [
+        590,
+        980
+      ],
+      [
+        590,
+        913
+      ],
+      [
+        550,
+        880
+      ],
+      [
+        432,
+        856
+      ]
+    ],
+    "exclusions": [
+      [
+        [
+          457,
+          1380
+        ],
+        [
+          644,
+          1388
+        ],
+        [
+          772,
+          1430
+        ],
+        [
+          790,
+          1528
+        ],
+        [
+          685,
+          1560
+        ],
+        [
+          516,
+          1510
+        ]
+      ],
+      [
+        [
+          601,
+          990
+        ],
+        [
+          808,
+          981
+        ],
+        [
+          818,
+          1048
+        ],
+        [
+          704,
+          1080
+        ],
+        [
+          609,
+          1061
+        ]
+      ],
+      [
+        [
+          796,
+          1047
+        ],
+        [
+          959,
+          1018
+        ],
+        [
+          1001,
+          1054
+        ],
+        [
+          919,
+          1105
+        ],
+        [
+          811,
+          1120
+        ]
+      ],
+      [
+        [
+          302,
+          1100
+        ],
+        [
+          531,
+          1091
+        ],
+        [
+          590,
+          1124
+        ],
+        [
+          606,
+          1167
+        ],
+        [
+          506,
+          1192
+        ],
+        [
+          331,
+          1180
+        ]
+      ],
+      [
+        [
+          360,
+          1229
+        ],
+        [
+          565,
+          1225
+        ],
+        [
+          689,
+          1249
+        ],
+        [
+          709,
+          1300
+        ],
+        [
+          621,
+          1354
+        ],
+        [
+          436,
+          1347
+        ]
+      ]
+    ],
+    "waterfalls": [
+      [
+        [
+          523,
+          566
+        ],
+        [
+          561,
+          566
+        ],
+        [
+          586,
+          610
+        ],
+        [
+          574,
+          625
+        ],
+        [
+          539,
+          616
+        ]
+      ],
+      [
+        [
+          515,
+          619
+        ],
+        [
+          583,
+          619
+        ],
+        [
+          605,
+          704
+        ],
+        [
+          547,
+          717
+        ],
+        [
+          522,
+          697
+        ]
+      ]
+    ],
+    "backgroundFixedOutsideMasks": true
+  },
+  "maskFiles": [
+    {
+      "path": "level-003-masks/part-1-source.png",
+      "sha256": "d6aaa38255606be3f75e4ecbdb4f4c91f2e16e7b491e570c67d647ed7a6989ca"
+    },
+    {
+      "path": "level-003-masks/part-2-source.png",
+      "sha256": "6b6a5578a512cb49263b1cdf7806f3ef1cd736311d121e35e358f5a2c4574851"
+    },
+    {
+      "path": "level-003-masks/part-3-source.png",
+      "sha256": "99011e13347b03c37891c8c53a751b0d6acb5cd306d65efe8d3d084c200b9ca3"
+    },
+    {
+      "path": "level-003-masks/part-4-source.png",
+      "sha256": "8fc2ca4db1b108e7e7a980e72e122094577d6d185e29995f0d57f93a73f05950"
+    },
+    {
+      "path": "level-003-masks/part-5-rigid-body.png",
+      "sha256": "b9dcfe1d30b1909fd02e69a75c0bd6066260923274bc1215d3883ca36373efc1"
+    },
+    {
+      "path": "level-003-masks/part-5-source.png",
+      "sha256": "738d8017af3605fc9f960e5cffba167f571eed9a8f5af72f716e7ef0aa1e3d65"
+    },
+    {
+      "path": "level-003-masks/part-5-wing-1.png",
+      "sha256": "823a791efc7e4b725116c718ad2aeca8242ae9189b0963bc90e92db570a247b5"
+    },
+    {
+      "path": "level-003-masks/part-5-wing-2.png",
+      "sha256": "c2e6955b6f330b2735cdd819e6822f9853df6bd524460e3a881bb79f848c10f7"
+    },
+    {
+      "path": "level-003-masks/pond-water-mask.png",
+      "sha256": "b424ea2efb66a0fa59391eb134bcefe91e549bdaff58ceadabde32694bdb6b98"
+    },
+    {
+      "path": "level-003-masks/waterfall-mask.png",
+      "sha256": "c4864516d425236e9579d5dcf2ed6f0274838b85b1a500e602699b0f83d2fd7f"
+    }
+  ],
+  "antialiasFringePolicy": "Any unassigned source pixel must have alpha <=20 and is preserved on its nearest substantial painted component; no visible body or wing omission is repaired by this rule."
+}

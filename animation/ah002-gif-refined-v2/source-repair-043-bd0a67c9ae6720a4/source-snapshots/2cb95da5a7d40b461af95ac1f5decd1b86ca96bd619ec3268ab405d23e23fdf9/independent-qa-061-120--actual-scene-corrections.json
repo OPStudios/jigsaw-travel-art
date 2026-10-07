@@ -1,0 +1,50 @@
+{
+  "scope": "Separate actual-scene corrections; frozen initial decisions unchanged",
+  "overrides": {
+    "67.5": {
+      "action": "fixed_solid",
+      "anchorNormalized": [
+        0.507692,
+        0.5
+      ],
+      "reason": "Original master shows legs/body resting on driftwood; preserve that contact. Whole-body upward glide would detach a perched butterfly. Wing anatomy has not been reviewed for this perched source.",
+      "subject": "seaside butterfly",
+      "source": "ah001-067-crafts-objects/part-5.png",
+      "sourceSha256": "92f6ea9ffc03dccbf7ab23a6bd443a1c9d10481531f0e78258cfe1a95331d2ae",
+      "velocity": [
+        0,
+        -1.2
+      ]
+    },
+    "73.5": {
+      "action": "fixed_solid",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "reason": "Bee is in source contact with the aster flower center; preserve this feeding/perched contact. Independent author review confirms fixed solid is appropriate.",
+      "subject": "hillside bumblebee",
+      "source": "ah001-073-nature-gardens/part-5.png",
+      "sourceSha256": "40052c06c90988f187c3eb44e89a1d4208f7c1d232f5c19f70c269e2f94bd1ec",
+      "velocity": [
+        0,
+        -1.2
+      ]
+    },
+    "87.5": {
+      "action": "fixed_solid",
+      "anchorNormalized": [
+        0.506667,
+        0.5
+      ],
+      "reason": "Cream butterfly has a wall-perched pose on plaster; preserve its body/contact plane instead of translating the entire insect. Independent author review confirms conservative fixed solid.",
+      "subject": "cream butterfly",
+      "source": "ah001-087-crafts-objects/part-5.png",
+      "sourceSha256": "5bab7b46fcd7d1495cab54648a9968755808aa89c0d931a396043011dd2ce8ed",
+      "velocity": [
+        0,
+        -1.2
+      ]
+    }
+  }
+}

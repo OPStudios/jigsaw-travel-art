@@ -1,0 +1,52 @@
+{
+  "scope": "78 timing addendum only; frozen geometry and source pixels unchanged.",
+  "velocityUnits": "1128x1350 reference pixels per second",
+  "overrides": {
+    "78.1": {
+      "wingFrequencyHz": 2.83,
+      "wingDelaySeconds": 0,
+      "velocity": [
+        2.6,
+        -1.6
+      ]
+    },
+    "78.2": {
+      "wingFrequencyHz": 3.37,
+      "wingDelaySeconds": 0.11,
+      "velocity": [
+        -1.8,
+        -0.8
+      ]
+    },
+    "78.3": {
+      "wingFrequencyHz": 2.61,
+      "wingDelaySeconds": 0.23,
+      "velocity": [
+        0.3,
+        -2.1
+      ]
+    },
+    "78.4": {
+      "wingFrequencyHz": 3.13,
+      "wingDelaySeconds": 0.07,
+      "velocity": [
+        1.4,
+        -1.6
+      ]
+    },
+    "78.5": {
+      "wingFrequencyHz": 3.71,
+      "wingDelaySeconds": 0.17,
+      "velocity": [
+        2.0,
+        -1.1
+      ]
+    }
+  },
+  "requirements": [
+    "Exact original frame0.",
+    "Nonnegative local time after delay with smooth one-way wing entry.",
+    "No forced end reset; preserve source-specific complete body and antenna masks.",
+    "No shared clock across the five butterflies."
+  ]
+}

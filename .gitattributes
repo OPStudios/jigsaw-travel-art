@@ -1,0 +1,12 @@
+# Preserve the byte-hashed offline authoring source archive exactly.
+animation/ah002-gif-v1/encoder-source/** -text
+
+# Existing portable authoring receipts were verified as CRLF bytes. Make that
+# checkout representation explicit on every platform without changing JSON data.
+scenes/ah001-v1-verified/**/authoring.portable.json text eol=crlf
+
+# Preserve raw-byte-hashed refined authoring capsules and reviewed JSON exactly.
+animation/ah002-gif-refined-v2/** -text
+
+# Preserve exact-byte-hashed coordinated source repair revisions.
+scenes/ah002-contact-repairs/** -text

@@ -1,0 +1,243 @@
+{
+  "levelId": 1,
+  "recipe": "isolated-natural-actions-v2",
+  "status": "prototype-awaiting-normal-speed-review",
+  "sourceCatalogueSha256": "abd71aee7d39fa611a2ca0f27178b8fd24301b4df871d510e3cbd2db1af846f5",
+  "sourceImageSha256": "03cd4e4154b0ed90236b2ec43ca68026d16f0629a9b919cc4215cce282b4f457",
+  "sourceAuthoringSha256": "ef54b5768ee0768beaf170b9d65b2df29dc61865617c9d96cd50ab2a6f42931f",
+  "frameCount": 75,
+  "frameDelayMs": 40,
+  "durationMs": 3000,
+  "finalZoom": 1.05,
+  "parts": [
+    {
+      "part": 1,
+      "subject": "tea-steam",
+      "source": "ah001-001-food-drink/part-1-tea-steam.png",
+      "sourceSha256": "b5e0531b01a0647df635a0798af46246824081c15ec4554525740b46e7f1dd9c",
+      "action": "continuous upward steam advection with steady cup emission",
+      "upwardSpeedSourcePxPerSecond": 36,
+      "noPlumeReset": true
+    },
+    {
+      "part": 2,
+      "subject": "lemon-thyme-branch",
+      "source": "ah001-001-food-drink/part-2-lemon-thyme-branch.png",
+      "sourceSha256": "af5da418b5688be081d25cbb1a19eac869e5dc8cc3c38483d8d549b653778904",
+      "action": "rigid stem and foliage group responds at its actual root to a delayed directional gust",
+      "anchorPx": [
+        117.70210999999999,
+        219.316338
+      ],
+      "degrees": 0.8,
+      "delaySeconds": 0.35,
+      "rigidComponentScale": 1,
+      "leafBladesSplit": false
+    },
+    {
+      "part": 3,
+      "subject": "daisy-stem",
+      "source": "ah001-001-food-drink/part-3-daisy-stem.png",
+      "sourceSha256": "e0315649756a4109d4deba2c9337504714a9fa467c8f4c2e89667412a39d9b28",
+      "action": "rigid stem and foliage group responds at its actual root to a delayed directional gust",
+      "anchorPx": [
+        78.971464,
+        199.314169
+      ],
+      "degrees": 1.15,
+      "delaySeconds": 0.62,
+      "rigidComponentScale": 1,
+      "leafBladesSplit": false
+    },
+    {
+      "part": 4,
+      "subject": "garden-butterfly",
+      "source": "ah001-001-food-drink/part-4-garden-butterfly.png",
+      "sourceSha256": "0462059f464e066c5e324dcbd4e34eba4fae3bc67942cd123847d1fa2bf35c89",
+      "action": "two coherent coupled wing-pair planes and short directional hover; rigid body and complete antennae",
+      "thoraxJointPx": [
+        87.43925233644859,
+        89.92307692307692
+      ],
+      "bodyAxis": [
+        15.813084112149532,
+        -24.53846153846154
+      ],
+      "bodyExtraPolygons": [
+        [
+          [
+            86.56074766355141,
+            83.15384615384616
+          ],
+          [
+            96.22429906542055,
+            85.6923076923077
+          ],
+          [
+            99.73831775700936,
+            78.07692307692308
+          ],
+          [
+            97.98130841121495,
+            52.69230769230769
+          ],
+          [
+            88.3177570093458,
+            52.69230769230769
+          ],
+          [
+            88.3177570093458,
+            77.23076923076923
+          ]
+        ],
+        [
+          [
+            87.43925233644859,
+            79.76923076923077
+          ],
+          [
+            92.71028037383178,
+            86.53846153846155
+          ],
+          [
+            119.94392523364486,
+            68.76923076923077
+          ],
+          [
+            118.18691588785046,
+            62.0
+          ],
+          [
+            108.5233644859813,
+            64.53846153846155
+          ]
+        ]
+      ],
+      "wingPairPolygons": [
+        [
+          [
+            40.0,
+            40.0
+          ],
+          [
+            88.3177570093458,
+            40.0
+          ],
+          [
+            88.3177570093458,
+            76.38461538461539
+          ],
+          [
+            88.3177570093458,
+            87.38461538461539
+          ],
+          [
+            81.28971962616822,
+            98.38461538461539
+          ],
+          [
+            74.26168224299064,
+            111.07692307692308
+          ],
+          [
+            74.26168224299064,
+            120.38461538461539
+          ],
+          [
+            40.0,
+            120.38461538461539
+          ]
+        ],
+        [
+          [
+            83.04672897196261,
+            82.3076923076923
+          ],
+          [
+            106.76635514018692,
+            75.53846153846155
+          ],
+          [
+            134.0,
+            77.23076923076923
+          ],
+          [
+            134.0,
+            128.0
+          ],
+          [
+            68.11214953271028,
+            128.0
+          ],
+          [
+            68.11214953271028,
+            109.38461538461539
+          ],
+          [
+            76.01869158878505,
+            95.0
+          ]
+        ]
+      ],
+      "bodyScale": 1,
+      "sourceLimitation": "No underside, turning pose or full3D flight is available from the single painting.",
+      "wingHinges": [
+        [
+          87.38540772002,
+          87.50906955338345
+        ],
+        [
+          89.65984506023588,
+          88.97476327310889
+        ]
+      ]
+    },
+    {
+      "part": 5,
+      "subject": "mint-garnish",
+      "source": "ah001-001-food-drink/part-5-mint-garnish.png",
+      "sourceSha256": "a04ea911794d64457ea81fe45a2667c302ceaaca367eb71897d5eeac92deb1f6",
+      "action": "mint garnish remains completely stationary on the pastry"
+    }
+  ],
+  "maskPolicy": "Hand-traced selections of original painted pixels only; no synthetic replacement art.",
+  "uploadApproved": false,
+  "v1OutputsChanged": false,
+  "noMandatoryAllPartsMotion": true,
+  "noForcedReturnToFirstPose": true,
+  "maskFiles": [
+    {
+      "path": "level-001-masks/part-1-source.png",
+      "sha256": "69c2e70f36cdce6f8f31ede710633b300c48e4b292f29a6441bb0d647ab1df25"
+    },
+    {
+      "path": "level-001-masks/part-2-source.png",
+      "sha256": "bbb8d6f0a5a95a00b4ae26d870dd80b9ae4170abeee0c831309263b58f9e6376"
+    },
+    {
+      "path": "level-001-masks/part-3-source.png",
+      "sha256": "76786322bd6dbfdb872c6f5045d44bea3169f7647f60c2a9fbbbadc7db854470"
+    },
+    {
+      "path": "level-001-masks/part-4-rigid-body.png",
+      "sha256": "4e9c244965817a0ae8f289f5bc1173ec596cc74f9cf1178f8b23f9d61293917b"
+    },
+    {
+      "path": "level-001-masks/part-4-source.png",
+      "sha256": "c9a591369b1c5b165593a33ff0d760f79ffe98a83cc64075d9ede334155dd9c9"
+    },
+    {
+      "path": "level-001-masks/part-4-wing-1.png",
+      "sha256": "5402531b5cf66c2604a33516d780b263ccf3897429e89eb4b6ca915962f88dc1"
+    },
+    {
+      "path": "level-001-masks/part-4-wing-2.png",
+      "sha256": "dcf040922b91e848fde8939f0a4773467d1655db895e56dee73b31032d5c3e69"
+    },
+    {
+      "path": "level-001-masks/part-5-source.png",
+      "sha256": "36e4bb09e9f91bd415ba6a0809f2a3410b42d7934d350f9211ca8cfa0baa2d94"
+    }
+  ],
+  "antialiasFringePolicy": "Any unassigned source pixel must have alpha <=20 and is preserved on its nearest substantial painted component; no visible body or wing omission is repaired by this rule."
+}

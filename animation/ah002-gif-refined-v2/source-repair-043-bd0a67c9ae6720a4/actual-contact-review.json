@@ -1,0 +1,37 @@
+{
+  "levelId": 43,
+  "gifSha256": "8d470f2d2d42deb02852319e567aa03006d86397ce8e544151bbf8fe29f89e99",
+  "sourceImageSha256": "c9f27d4c37fd94d25f75d0e17d13c210bd339dfe898d69f3ef4dab0338ed3ac1",
+  "status": "source-gap-resolved-no-new-defect-in-sampled-actual-frames",
+  "authorReviewFrames": [
+    0,
+    19,
+    32,
+    37,
+    55,
+    74
+  ],
+  "nativeFirstMiddleEndInspected": [
+    0,
+    37,
+    74
+  ],
+  "comparison": "Repaired delivered still, unquantized opening and actual encoded opening inspected side by side. Native first/middle/end frames and six enlarged contact crops inspected.",
+  "findings": [
+    "The rosemary cut stem remains visibly connected to the existing branch stub.",
+    "Opening placement matches the repaired still; no separate GIF-only relocation occurs.",
+    "Original painted shape, background and solid objects remain coherent; no new erase hole or detached fragment observed."
+  ],
+  "limitations": [
+    "Sampled visual inspection is distinct from all-frame native decoder parity.",
+    "Indexed GIF color quantization and resampling remain measured differences from the PNG still."
+  ],
+  "independentReviewer": "ah002_gameplay",
+  "independentReviewResult": "The stem remains connected at0/19/32/37/55/74; no opening jump or new background change; no further43 correction requested.",
+  "evidence": {
+    "openingComparisonSha256": "84a6a986d06ced6c6d3aa49cb6b7f85b7ddd3fd51aa09f3c5b72f7b3b7fb880b",
+    "independentContactSheetSha256": "c012755e45fbd148c3dd4754284b41e0668d750a00822804f3b163cb5d03a499",
+    "repairedDeliveredStillFileSha256": "1020e2c1382c0b3bf6c9397b3a3948bb899071e12cef28102451a394f5f243ae"
+  },
+  "openVisualDefects": []
+}

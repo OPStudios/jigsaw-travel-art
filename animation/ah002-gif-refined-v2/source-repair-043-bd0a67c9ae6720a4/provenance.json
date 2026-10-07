@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "levelId": 43,
+  "sourceCatalogueSha256": "530d004c8f8cc3677973eb41faa73aec03e52d76831104931101cde5059158c7",
+  "completionIndexSha256": "bd0a67c9ae6720a403367445adab089bba93d1e1ff8688524adc4fa39396ac15",
+  "gif": {
+    "levelId": 43,
+    "path": "level-043.gif",
+    "gifSha256": "8d470f2d2d42deb02852319e567aa03006d86397ce8e544151bbf8fe29f89e99",
+    "sourceImageSha256": "c9f27d4c37fd94d25f75d0e17d13c210bd339dfe898d69f3ef4dab0338ed3ac1"
+  },
+  "previousReviewSet": "../review-set-0475c07d4cceb946",
+  "priorReviewSetUnchanged": true,
+  "sourceArtRevision": "../../../scenes/ah002-contact-repairs/level-043-v1",
+  "reusedOtherGifCount": 119,
+  "repair": {
+    "levelId": 43,
+    "part": 2,
+    "translationMasterPx": [
+      -15,
+      7
+    ],
+    "originalMasterSha256": "a0355901bfae6852e1b60b5bce7c5c7cfa2a2c84147454794fb431c3d6155539",
+    "repairedMasterSha256": "56c7455345f25c25029bcf498ba83e483555401fc46e3cc3d66eba428ed786f8",
+    "originalAuthoringSha256": "24b45a9b5d0eca626723b1420f58524b28452e88266e744473594f418fc5b89d",
+    "oldRect": [
+      0.7078125,
+      0.124375,
+      0.0671875,
+      0.109375
+    ],
+    "newRect": [
+      0.69609375,
+      0.12875,
+      0.0671875,
+      0.109375
+    ],
+    "targetContactMasterPx": [
+      932,
+      380
+    ],
+    "method": "Translate unchanged painted cutout onto the existing branch; coordinated still and GIF.",
+    "sourcePixelsRepainted": false,
+    "geometryVerticesUnchanged": true
+  },
+  "implementationAuthorized": true,
+  "publicationPerformedByThisTool": false,
+  "knownSourceGapResolved": true,
+  "reproduction": "Recreate only43 with the frozen refined encoder and repaired profiles/catalogue, then run the preserved rebind tool against the original119 GIFs. Do not rerender or silently relabel prior approval evidence."
+}
